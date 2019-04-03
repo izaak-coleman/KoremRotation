@@ -1,0 +1,26 @@
+Plan:
+1. Test for enrichment of copy number lethal genes around Ter. 
+
+   Checking out PanDaTox, the database has eight E. coli strains, each with ~100
+   genes registered as unclonable when transformed back into E. coli.
+   I need to read the PanDaTox paper to determine how they conclude a gene
+   is unclonable. But so far, I think the best approach will be: 
+   - From the growth dynamics paper, acquire the list of E. coli genomes
+     (representative genomes) used to align the 583 metagenomic datasets and
+     compute the E.coli PTRs. 
+   - Blast the unclonable genes from the eight strains on PanDaTox against the
+     representative genomes to get the position of the unclonable genes in 
+     the representative genomes. 
+   - Determine location of Ori in the representative genomes. 
+   - Compute the location offsets.
+   - Perform enrichment analysis. 
+
+2. Read structural variation paper. 
+
+   - Just to be sure, you mean the following https://www.nature.com/articles/s41586-019-1065-y.pdf? 
+
+3. Pre-process E. coli metagenomics data into HMM emission string. 
+
+   - Acquire this data from yourself. 
+   - Convert all reads aligned to E. coli in each sample to binarised string of
+     HMM emission states at each nucleotide (Read starts, read does not start).
