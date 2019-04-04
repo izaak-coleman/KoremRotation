@@ -1,0 +1,87 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+EcSMS35_0099 	CDS 	NC_010498 	110615 	111877 	+ 	1263 	cell division protein FtsA 	YP_001742216 	unclonable 	2.43315e-09 	normal 	0.662552 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0100 	CDS 	NC_010498 	111939 	113090 	+ 	1152 	cell division protein FtsZ 	YP_001742217 	unclonable 	2.45858e-09 	normal 	0.622573 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0375 	CDS 	NC_010498 	387449 	390523 	- 	3075 	beta-D-galactosidase 	YP_001742478 	unclonable 	1.67859e-06 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0479 	CDS 	NC_010498 	483435 	484733 	+ 	1299 	trigger factor 	YP_001742580 	unclonable 	7.13029e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0482 	CDS 	NC_010498 	487190 	489544 	+ 	2355 	DNA-binding ATP-dependent protease La 	YP_001742583 	unclonable 	1.67472e-07 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0652 	CDS 	NC_010498 	663355 	664566 	- 	1212 	D-alanyl-D-alanine carboxypeptidase fraction A 	YP_001742748 	unclonable 	3.71199e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0656 	CDS 	NC_010498 	668852 	669319 	- 	468 	rRNA large subunit methyltransferase 	YP_001742752 	unclonable 	1.08281e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0657 	CDS 	NC_010498 	669323 	669640 	- 	318 	hypothetical protein 	YP_001742753 	unclonable 	7.77395e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0658 	CDS 	NC_010498 	669900 	670511 	- 	612 	alpha-ribazole phosphatase 	YP_001742754 	unclonable 	3.7528e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0692 	tRNA 	NC_010498 	696575 	696653 	- 	79 	tRNA-Met 	 	unclonable 	5.20696e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0693 	CDS 	NC_010498 	697033 	698697 	- 	1665 	asparagine synthetase B 	YP_001742782 	unclonable 	8.80701e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0706 	CDS 	NC_010498 	710180 	710710 	- 	531 	flavodoxin FldA 	YP_001742795 	unclonable 	7.89352e-10 	normal 	0.640878 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0707 	CDS 	NC_010498 	710850 	711143 	- 	294 	LexA regulated protein 	YP_001742796 	unclonable 	3.00993e-10 	normal 	0.498469 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0708 	CDS 	NC_010498 	711283 	712047 	- 	765 	hypothetical protein 	YP_001742797 	unclonable 	1.35641e-09 	normal 	0.38067 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0765 	CDS 	NC_010498 	772196 	772987 	+ 	792 	tol-pal system protein YbgF 	YP_001742853 	unclonable 	1.35641e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0766 	tRNA 	NC_010498 	773151 	773228 	+ 	78 	tRNA-Lys 	 	unclonable 	1.07183e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0767 	tRNA 	NC_010498 	773263 	773338 	+ 	76 	tRNA-Val 	 	unclonable 	9.89037e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0768 	tRNA 	NC_010498 	773341 	773416 	+ 	76 	tRNA-Lys 	 	unclonable 	9.59618e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0769 	tRNA 	NC_010498 	773468 	773543 	+ 	76 	tRNA-Val 	 	unclonable 	7.6951e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_0770 	tRNA 	NC_010498 	773547 	773622 	+ 	76 	tRNA-Lys 	 	unclonable 	7.39048e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1139 	CDS 	NC_010498 	1157310 	1158764 	+ 	1455 	hypothetical protein 	YP_001743207 	unclonable 	2.3845e-09 	hitchhiker 	3.34983e-05 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1147 	tRNA 	NC_010498 	1172341 	1172418 	- 	78 	tRNA-Asn 	 	unclonable 	4.75787e-11 	hitchhiker 	1.60242e-14 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1152 	CDS 	NC_010498 	1174838 	1177279 	- 	2442 	exonuclease family protein 	YP_001743217 	unclonable 	1.92952e-07 	hitchhiker 	2.23987e-16 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1153 	CDS 	NC_010498 	1177373 	1177564 	- 	192 	hypothetical protein 	YP_001743218 	unclonable 	1.65058e-10 	hitchhiker 	1.09594e-18 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1154 	CDS 	NC_010498 	1177561 	1177749 	- 	189 	division inhibition protein DicB 	YP_001743219 	unclonable 	1.53869e-10 	hitchhiker 	1.03441e-18 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1155 	CDS 	NC_010498 	1177766 	1177888 	+ 	123 	hypothetical protein 	YP_001743220 	unclonable 	1.31016e-10 	hitchhiker 	1.01455e-18 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1156 	CDS 	NC_010498 	1178317 	1178535 	- 	219 	hypothetical protein 	YP_001743221 	unclonable 	1.97649e-10 	hitchhiker 	5.06613e-20 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1231 	CDS 	NC_010498 	1234156 	1234383 	- 	228 	hypothetical protein 	YP_001743292 	unclonable 	1.37788e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1271 	CDS 	NC_010498 	1266699 	1267247 	+ 	549 	phosphatidylglycerophosphate synthetase 	YP_001743332 	unclonable 	1.01936e-10 	hitchhiker 	0.00068056 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1272 	tRNA 	NC_010498 	1267399 	1267474 	+ 	76 	tRNA-Gly 	 	unclonable 	3.31558e-11 	hitchhiker 	0.00050925 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1273 	tRNA 	NC_010498 	1267529 	1267602 	+ 	74 	tRNA-Cys 	 	unclonable 	3.24929e-11 	hitchhiker 	0.000536522 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1274 	tRNA 	NC_010498 	1267615 	1267701 	+ 	87 	tRNA-Leu 	 	unclonable 	3.52128e-11 	hitchhiker 	0.000541618 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1275 	CDS 	NC_010498 	1267897 	1268562 	+ 	666 	hypothetical protein 	YP_001743333 	unclonable 	3.1022e-10 	hitchhiker 	0.000229612 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1519 	CDS 	NC_010498 	1505207 	1505443 	- 	237 	major outer membrane lipoprotein 	YP_001743577 	unclonable 	1.33689e-10 	decreased coverage 	9.78616e-10 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1625 	CDS 	NC_010498 	1614322 	1615008 	- 	687 	GntR family transcriptional regulator 	YP_001743679 	unclonable 	8.99292e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1741 	CDS 	NC_010498 	1746052 	1747380 	- 	1329 	IS4 transposase 	YP_001743796 	hitchhiker 	1.50228e-07 	unclonable 	2.9888e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1743 	CDS 	NC_010498 	1747487 	1747765 	+ 	279 	benzoate membrane transport protein 	YP_001743797 	unclonable 	3.16549e-10 	unclonable 	7.90007e-22 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1744 	CDS 	NC_010498 	1747800 	1748468 	- 	669 	putative lipoprotein 	YP_001743798 	unclonable 	1.16724e-09 	unclonable 	1.13256e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1849 	CDS 	NC_010498 	1871236 	1872405 	- 	1170 	tetratricopeptide repeat protein 	YP_001743903 	unclonable 	2.45858e-09 	unclonable 	5.61509e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1850 	CDS 	NC_010498 	1872412 	1872720 	- 	309 	hypothetical protein 	YP_001743904 	hitchhiker 	4.37894e-07 	unclonable 	2.67694e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1851 	CDS 	NC_010498 	1872869 	1873633 	- 	765 	phosphatidylglycerophosphatase B 	YP_001743905 	hitchhiker 	1.8502e-06 	unclonable 	4.59635e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1852 	CDS 	NC_010498 	1873803 	1874393 	+ 	591 	GTP cyclohydrolase II 	YP_001743906 	hitchhiker 	0.000364314 	unclonable 	3.76243e-21 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1853 	CDS 	NC_010498 	1874457 	1877132 	- 	2676 	aconitate hydratase 	YP_001743907 	normal 	0.0328579 	unclonable 	4.58717e-20 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1932 	CDS 	NC_010498 	1952125 	1953381 	- 	1257 	glutamyl-tRNA reductase 	YP_001743984 	unclonable 	4.31786e-09 	normal 	0.0964629 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1933 	CDS 	NC_010498 	1953595 	1954218 	+ 	624 	outer membrane lipoprotein LolB 	YP_001743985 	unclonable 	6.07555e-10 	normal 	0.239463 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_1934 	CDS 	NC_010498 	1954218 	1955069 	+ 	852 	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase 	YP_001743986 	unclonable 	1.09905e-09 	normal 	0.323322 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2026 	CDS 	NC_010498 	2047225 	2048658 	- 	1434 	PTS system glucose-specific transporter subunits IIBC 	YP_001744078 	unclonable 	8.29082e-09 	hitchhiker 	1.05555e-06 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2033 	CDS 	NC_010498 	2054676 	2054912 	- 	237 	acyl carrier protein 	YP_001744085 	unclonable 	1.23338e-10 	hitchhiker 	2.56014e-06 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2034 	CDS 	NC_010498 	2055123 	2055857 	- 	735 	3-ketoacyl-(acyl-carrier-protein) reductase 	YP_001744086 	unclonable 	7.73418e-10 	decreased coverage 	5.61813e-07 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2035 	CDS 	NC_010498 	2055870 	2056799 	- 	930 	malonyl CoA-acyl carrier protein transacylase 	YP_001744087 	unclonable 	1.42679e-09 	decreased coverage 	6.51036e-07 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2036 	CDS 	NC_010498 	2056815 	2057768 	- 	954 	3-oxoacyl-(acyl carrier protein) synthase III 	YP_001744088 	unclonable 	9.55089e-10 	decreased coverage 	6.34537e-07 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2037 	CDS 	NC_010498 	2057836 	2058906 	- 	1071 	putative glycerol-3-phosphate acyltransferase PlsX 	YP_001744089 	unclonable 	1.0879e-09 	decreased coverage 	2.25509e-07 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2038 	CDS 	NC_010498 	2058987 	2059160 	- 	174 	50S ribosomal protein L32 	YP_001744090 	unclonable 	3.93303e-11 	hitchhiker 	2.54001e-05 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2039 	CDS 	NC_010498 	2059212 	2059733 	- 	522 	hypothetical protein 	YP_001744091 	unclonable 	1.23338e-10 	hitchhiker 	3.03245e-05 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2040 	CDS 	NC_010498 	2059893 	2060516 	+ 	624 	Maf-like protein 	YP_001744092 	unclonable 	2.22937e-10 	hitchhiker 	0.000140944 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2041 	CDS 	NC_010498 	2060627 	2061586 	- 	960 	23S rRNA pseudouridylate synthase C 	YP_001744093 	unclonable 	7.73418e-10 	hitchhiker 	0.000351853 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2166 	CDS 	NC_010498 	2171124 	2171642 	+ 	519 	3-hydroxydecanoyl-(acyl carrier protein) dehydratase 	YP_001744216 	unclonable 	1.42011e-10 	normal 	0.309332 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2172 	CDS 	NC_010498 	2180954 	2181496 	- 	543 	hypothetical protein 	YP_001744223 	unclonable 	7.20846e-10 	normal 	0.548871 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2230 	CDS 	NC_010498 	2250012 	2254121 	- 	4110 	DNA translocase FtsK 	YP_001744280 	unclonable 	1.23505e-05 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2281 	CDS 	NC_010498 	2306613 	2308559 	- 	1947 	macrolide transporter ATP-binding /permease protein 	YP_001744328 	unclonable 	2.97537e-08 	normal 	0.0300629 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2282 	CDS 	NC_010498 	2308556 	2309671 	- 	1116 	macrolide transporter subunit MacA 	YP_001744329 	unclonable 	3.39116e-09 	normal 	0.0134871 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2455 	CDS 	NC_010498 	2505509 	2506051 	- 	543 	NUDIX family hydrolase 	YP_001744499 	unclonable 	6.26304e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2489 	CDS 	NC_010498 	2536010 	2537368 	+ 	1359 	SMC domain-containing protein 	YP_001744533 	unclonable 	8.89729e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2490 	CDS 	NC_010498 	2537352 	2538011 	+ 	660 	hypothetical protein 	YP_001744534 	unclonable 	6.26304e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2555 	tRNA 	NC_010498 	2612181 	2612258 	+ 	78 	tRNA-Val 	 	unclonable 	3.93303e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2556 	tRNA 	NC_010498 	2612303 	2612380 	+ 	78 	tRNA-Val 	 	unclonable 	3.89314e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2557 	tRNA 	NC_010498 	2612384 	2612459 	+ 	76 	tRNA-Lys 	 	unclonable 	3.73976e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2558 	CDS 	NC_010498 	2612570 	2613454 	- 	885 	DNA-binding transcriptional activator XapR 	YP_001744594 	unclonable 	6.32847e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2658 	CDS 	NC_010498 	2718529 	2719896 	+ 	1368 	exodeoxyribonuclease VII large subunit 	YP_001744694 	unclonable 	4.23152e-09 	normal 	0.673985 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2766 	CDS 	NC_010498 	2845682 	2846272 	- 	591 	heat shock protein GrpE 	YP_001744797 	unclonable 	5.06874e-10 	normal 	0.0900785 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2910 	CDS 	NC_010498 	2984001 	2984672 	- 	672 	hypothetical protein 	YP_001744934 	unclonable 	8.63859e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2922 	CDS 	NC_010498 	2994669 	2996903 	- 	2235 	GDP/GTP pyrophosphokinase 	YP_001744946 	unclonable 	1.6084e-07 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2948 	CDS 	NC_010498 	3024535 	3024930 	- 	396 	hypothetical protein 	YP_001744972 	unclonable 	8.25789e-11 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_2949 	CDS 	NC_010498 	3024949 	3025866 	- 	918 	DNA-binding transcriptional activator GcvA 	YP_001744973 	unclonable 	5.49414e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3359 	CDS 	NC_010498 	3436625 	3438370 	+ 	1746 	DNA primase 	YP_001745338 	unclonable 	4.92318e-09 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3474 	CDS 	NC_010498 	3551757 	3553700 	- 	1944 	ATP-dependent metalloprotease 	YP_001745450 	unclonable 	8.79508e-08 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3482 	CDS 	NC_010498 	3559752 	3560063 	- 	312 	50S ribosomal protein L21 	YP_001745458 	unclonable 	2.16305e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3546 	CDS 	NC_010498 	3626689 	3627732 	- 	1044 	rod shape-determining protein MreB 	YP_001745522 	unclonable 	6.01391e-10 	normal 	1 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3574 	rRNA 	NC_010498 	3654457 	3655998 	- 	1542 	16S ribosomal RNA 	 	unclonable 	2.22235e-08 	normal 	0.32573 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3666 	CDS 	NC_010498 	3725332 	3726009 	- 	678 	shikimate kinase I 	YP_001745633 	unclonable 	5.38429e-10 	normal 	0.0827574 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_3667 	CDS 	NC_010498 	3726254 	3727492 	- 	1239 	outer membrane porin HofQ 	YP_001745634 	unclonable 	4.5876e-09 	normal 	0.0733814 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_4426 	tRNA 	NC_010498 	4521245 	4521319 	+ 	75 	tRNA-Gly 	 	unclonable 	7.39048e-11 	hitchhiker 	4.76038e-05 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_4427 	tRNA 	NC_010498 	4521325 	4521402 	+ 	78 	tRNA-Thr 	 	unclonable 	7.93255e-11 	hitchhiker 	4.58064e-05 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_4428 	CDS 	NC_010498 	4521516 	4522700 	+ 	1185 	elongation factor Tu 	YP_001746364 	unclonable 	3.75004e-09 	hitchhiker 	9.74336e-06 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_4637 	CDS 	NC_010498 	4737710 	4738849 	- 	1140 	iron-sulfur cluster binding protein 	YP_001746561 	unclonable 	1.71021e-09 	normal 	0.0426509 	Escherichia coli SMS-3-5 	Bacteria
+EcSMS35_4742 	CDS 	NC_010498 	4841167 	4842267 	+ 	1101 	putative permease 	YP_001746665 	unclonable 	2.134e-09 	normal 	0.891327 	Escherichia coli SMS-3-5 	Bacteria

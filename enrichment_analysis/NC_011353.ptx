@@ -1,0 +1,113 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+ECH74115_0026 	CDS 	NC_011353 	25221 	25484 	- 	264 	30S ribosomal protein S20 	YP_002268630 	unclonable 	1.3085e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0109 	CDS 	NC_011353 	116326 	117069 	- 	744 	hypothetical protein 	YP_002268709 	unclonable 	1.14544e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0125 	CDS 	NC_011353 	135815 	138565 	+ 	2751 	bifunctional aconitate hydratase 2/2-methylisocitrate dehydratase 	YP_002268725 	unclonable 	1.6622e-06 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0126 	CDS 	NC_011353 	138741 	139103 	+ 	363 	hypothetical protein 	YP_002268726 	unclonable 	8.8286e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0211 	CDS 	NC_011353 	226144 	226719 	+ 	576 	D,D-heptose 1,7-bisphosphate phosphatase 	YP_002268809 	unclonable 	5.02724e-09 	normal 	0.531992 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0417 	CDS 	NC_011353 	423606 	426680 	- 	3075 	beta-D-galactosidase 	YP_002268983 	unclonable 	2.41482e-06 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0418 	CDS 	NC_011353 	426803 	427885 	- 	1083 	lac repressor 	YP_002268984 	unclonable 	8.22114e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0521 	CDS 	NC_011353 	524437 	524625 	+ 	189 	hypothetical protein 	YP_002269083 	unclonable 	9.28432e-10 	normal 	0.502726 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0522 	CDS 	NC_011353 	524772 	526070 	+ 	1299 	trigger factor 	YP_002269084 	unclonable 	2.33962e-08 	normal 	0.478364 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0718 	CDS 	NC_011353 	746269 	746910 	- 	642 	lipoate-protein ligase B 	YP_002269265 	unclonable 	1.05703e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0719 	CDS 	NC_011353 	747011 	747274 	- 	264 	hypothetical protein 	YP_002269266 	unclonable 	3.10353e-09 	normal 	0.764617 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0720 	CDS 	NC_011353 	747384 	748595 	- 	1212 	D-alanyl-D-alanine carboxypeptidase fraction A 	YP_002269267 	unclonable 	4.8334e-08 	normal 	0.685518 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0727 	CDS 	NC_011353 	753929 	754540 	- 	612 	alpha-ribazole phosphatase 	YP_002269274 	unclonable 	4.87704e-09 	normal 	0.192993 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0779 	CDS 	NC_011353 	794234 	794764 	- 	531 	flavodoxin FldA 	YP_002269312 	unclonable 	1.85932e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0780 	CDS 	NC_011353 	794904 	795266 	- 	363 	LexA regulated protein 	YP_002269313 	unclonable 	1.2319e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0781 	CDS 	NC_011353 	795337 	796101 	- 	765 	hypothetical protein 	YP_002269314 	unclonable 	4.54581e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0846 	tRNA 	NC_011353 	868339 	868416 	+ 	78 	tRNA-Lys 	 	unclonable 	7.74084e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0847 	tRNA 	NC_011353 	868451 	868526 	+ 	76 	tRNA-Val 	 	unclonable 	8.06074e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_0926 	CDS 	NC_011353 	938001 	938678 	+ 	678 	dithiobiotin synthetase 	YP_002269447 	unclonable 	4.15248e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1052 	CDS 	NC_011353 	1067657 	1071685 	+ 	4029 	DNA translocase FtsK 	YP_002269563 	unclonable 	4.65717e-05 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1118 	CDS 	NC_011353 	1148779 	1149297 	- 	519 	3-hydroxydecanoyl-(acyl carrier protein) dehydratase 	YP_002269622 	unclonable 	1.8972e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1119 	CDS 	NC_011353 	1149366 	1151126 	- 	1761 	peptidase, S16 (lon protease) family 	YP_002269623 	unclonable 	4.03379e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1466 	ncRNA 	NC_011353 	1449270 	1449438 	+ 	169 	SraB RNA 	 	unclonable 	1.06954e-09 	hitchhiker 	1.4141e-11 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1467 	 	NC_011353 	1449475 	1449975 	+ 	501 	 	 	unclonable 	2.66812e-09 	hitchhiker 	1.80859e-11 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1468 	CDS 	NC_011353 	1450047 	1450220 	+ 	174 	50S ribosomal protein L32 	YP_002269933 	unclonable 	9.475e-10 	hitchhiker 	1.13971e-11 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1469 	CDS 	NC_011353 	1450301 	1451371 	+ 	1071 	putative glycerol-3-phosphate acyltransferase PlsX 	YP_002269934 	unclonable 	1.50327e-08 	hitchhiker 	7.17792e-12 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1470 	CDS 	NC_011353 	1451439 	1452392 	+ 	954 	3-oxoacyl-(acyl carrier protein) synthase III 	YP_002269935 	unclonable 	9.46289e-09 	hitchhiker 	1.27697e-12 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1471 	CDS 	NC_011353 	1452408 	1453337 	+ 	930 	malonyl CoA-acyl carrier protein transacylase 	YP_002269936 	unclonable 	8.39002e-09 	hitchhiker 	7.28673e-15 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1472 	CDS 	NC_011353 	1453350 	1454084 	+ 	735 	3-ketoacyl-(acyl-carrier-protein) reductase 	YP_002269937 	unclonable 	3.46671e-09 	hitchhiker 	5.08287e-15 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1473 	CDS 	NC_011353 	1454295 	1454531 	+ 	237 	acyl carrier protein 	YP_002269938 	unclonable 	8.39248e-10 	hitchhiker 	2.62365e-15 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1474 	CDS 	NC_011353 	1454619 	1455860 	+ 	1242 	3-oxoacyl-(acyl carrier protein) synthase II 	YP_002269939 	unclonable 	1.89486e-08 	decreased coverage 	1.74171e-16 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1655 	CDS 	NC_011353 	1599300 	1599884 	+ 	585 	helix-turn-helix domain protein 	YP_002270109 	unclonable 	6.52652e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1689 	CDS 	NC_011353 	1629404 	1630255 	- 	852 	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase 	YP_002270142 	unclonable 	8.47576e-09 	normal 	0.968423 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1690 	CDS 	NC_011353 	1630255 	1630878 	- 	624 	outer membrane lipoprotein LolB 	YP_002270143 	unclonable 	3.07213e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1691 	CDS 	NC_011353 	1631092 	1632348 	+ 	1257 	glutamyl-tRNA reductase 	YP_002270144 	unclonable 	2.77643e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1740 	CDS 	NC_011353 	1676189 	1676587 	- 	399 	acyl-CoA thioester hydrolase 	YP_002270185 	unclonable 	2.69584e-09 	hitchhiker 	0.00394303 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1741 	CDS 	NC_011353 	1676692 	1677231 	- 	540 	intracellular septation protein A 	YP_002270186 	unclonable 	4.11048e-09 	hitchhiker 	0.00414437 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1752 	CDS 	NC_011353 	1684897 	1685196 	- 	300 	hypothetical protein 	YP_002270196 	unclonable 	1.33516e-09 	hitchhiker 	0.000189328 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1911 	CDS 	NC_011353 	1806291 	1806881 	- 	591 	GTP cyclohydrolase II 	YP_002270333 	hitchhiker 	0.000361362 	unclonable 	2.54095e-24 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1912 	CDS 	NC_011353 	1807051 	1807815 	+ 	765 	phosphatidylglycerophosphatase B 	YP_002270334 	hitchhiker 	6.77496e-06 	unclonable 	3.29597e-24 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1913 	CDS 	NC_011353 	1807964 	1808272 	+ 	309 	hypothetical protein 	YP_002270335 	hitchhiker 	2.66847e-07 	unclonable 	1.58783e-24 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_1914 	CDS 	NC_011353 	1808279 	1809448 	+ 	1170 	tetratricopeptide repeat protein 	YP_002270336 	unclonable 	1.56513e-08 	hitchhiker 	3.47203e-22 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2036 	CDS 	NC_011353 	1934558 	1935226 	+ 	669 	putative lipoprotein 	YP_002270439 	unclonable 	4.23707e-09 	unclonable 	9.72589e-25 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2037 	 	NC_011353 	1935261 	1935539 	- 	279 	 	 	unclonable 	1.33516e-09 	unclonable 	6.07771e-25 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2197 	CDS 	NC_011353 	2099109 	2099663 	- 	555 	putative ante-terminator protein 	YP_002270576 	unclonable 	2.66812e-09 	hitchhiker 	2.61708e-09 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2198 	 	NC_011353 	2099726 	2100031 	- 	306 	 	 	unclonable 	1.2071e-09 	hitchhiker 	7.09993e-10 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2199 	CDS 	NC_011353 	2100044 	2101093 	- 	1050 	hypothetical protein 	YP_002270577 	unclonable 	6.39622e-09 	hitchhiker 	1.28788e-10 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2371 	CDS 	NC_011353 	2244872 	2245804 	- 	933 	putative DNA-binding transcriptional regulator 	YP_002270729 	unclonable 	1.54931e-08 	normal 	0.139857 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2372 	CDS 	NC_011353 	2243850 	2244875 	+ 	1026 	DNA-binding transcriptional repressor PurR 	YP_002270728 	unclonable 	2.203e-08 	normal 	0.181026 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2391 	CDS 	NC_011353 	2263428 	2263664 	+ 	237 	major outer membrane lipoprotein 	YP_002270746 	unclonable 	9.96739e-10 	decreased coverage 	2.5912e-06 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2564 	CDS 	NC_011353 	2422960 	2423658 	- 	699 	putative solute/DNA competence effector 	YP_002270913 	unclonable 	5.84376e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2681 	tRNA 	NC_011353 	2521697 	2521783 	- 	87 	tRNA-Leu 	 	unclonable 	1.36258e-09 	normal 	0.046213 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2682 	tRNA 	NC_011353 	2521796 	2521869 	- 	74 	tRNA-Cys 	 	unclonable 	1.2319e-09 	normal 	0.0455137 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2683 	tRNA 	NC_011353 	2521923 	2521998 	- 	76 	tRNA-Gly 	 	unclonable 	1.2071e-09 	normal 	0.045375 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2684 	CDS 	NC_011353 	2522150 	2522698 	- 	549 	phosphatidylglycerophosphate synthetase 	YP_002271024 	unclonable 	4.82771e-09 	normal 	0.0397863 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2685 	CDS 	NC_011353 	2522755 	2524587 	- 	1833 	excinuclease ABC subunit C 	YP_002271025 	unclonable 	1.30785e-07 	normal 	0.0663039 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2728 	CDS 	NC_011353 	2556125 	2556748 	+ 	624 	colanic acid capsular biosynthesis activation protein A 	YP_002271068 	unclonable 	8.30515e-09 	normal 	0.480733 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2729 	CDS 	NC_011353 	2556792 	2556980 	- 	189 	hypothetical protein 	YP_002271069 	unclonable 	1.73334e-09 	normal 	0.499311 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2730 	CDS 	NC_011353 	2557143 	2557370 	+ 	228 	hypothetical protein 	YP_002271070 	unclonable 	1.8972e-09 	normal 	0.616408 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2731 	ncRNA 	NC_011353 	2557384 	2557470 	- 	87 	DsrA RNA 	 	unclonable 	1.13606e-09 	normal 	0.576104 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2819 	CDS 	NC_011353 	2619845 	2620642 	+ 	798 	Mlc titration factor MtfA 	YP_002271144 	unclonable 	7.14473e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2820 	tRNA 	NC_011353 	2620742 	2620819 	+ 	78 	tRNA-Asn 	 	unclonable 	8.47823e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2826 	CDS 	NC_011353 	2634764 	2634886 	- 	123 	hypothetical protein 	YP_002271150 	unclonable 	1.08047e-09 	normal 	0.63405 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2827 	CDS 	NC_011353 	2634967 	2635083 	+ 	117 	hypothetical protein 	YP_002271151 	unclonable 	1.01704e-09 	normal 	0.635199 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2828 	tRNA 	NC_011353 	2635122 	2635199 	- 	78 	tRNA-Asn 	 	unclonable 	9.475e-10 	normal 	0.641143 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2829 	CDS 	NC_011353 	2635299 	2636753 	- 	1455 	hypothetical protein 	YP_002271152 	unclonable 	3.99298e-08 	normal 	0.437543 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2830 	tRNA 	NC_011353 	2636946 	2637023 	+ 	78 	tRNA-Asn 	 	unclonable 	7.81993e-10 	normal 	0.665303 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2831 	CDS 	NC_011353 	2637060 	2638010 	- 	951 	transcriptional regulator Cbl 	YP_002271153 	unclonable 	1.01541e-08 	normal 	0.682702 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2832 	CDS 	NC_011353 	2638112 	2639029 	- 	918 	nitrogen assimilation transcriptional regulator 	YP_002271154 	unclonable 	5.72709e-09 	normal 	0.465707 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_2833 	CDS 	NC_011353 	2639217 	2639333 	+ 	117 	hypothetical protein 	YP_002271155 	unclonable 	6.14731e-10 	normal 	0.668347 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3305 	CDS 	NC_011353 	3038656 	3039786 	- 	1131 	bifunctional PTS system fructose-specific transporter subunit IIA/HPr protein 	YP_002271581 	unclonable 	1.7486e-08 	normal 	0.0105453 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3439 	CDS 	NC_011353 	3186166 	3186708 	- 	543 	hydrolase, NUDIX family protein 	YP_002271708 	unclonable 	2.27212e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3440 	CDS 	NC_011353 	3186766 	3187317 	- 	552 	phosphodiesterase 	YP_002271709 	unclonable 	3.10353e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3634 	tRNA 	NC_011353 	3353577 	3353652 	+ 	76 	tRNA-Val 	 	unclonable 	6.79496e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3734 	CDS 	NC_011353 	3454491 	3455861 	+ 	1371 	exodeoxyribonuclease VII large subunit 	YP_002271979 	unclonable 	3.26312e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_3942 	CDS 	NC_011353 	3647125 	3647310 	- 	186 	carbon storage regulator 	YP_002272158 	unclonable 	1.7158e-09 	normal 	0.528243 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4044 	CDS 	NC_011353 	3738213 	3740447 	- 	2235 	GDP/GTP pyrophosphokinase 	YP_002272249 	unclonable 	4.09177e-07 	normal 	0.332873 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4071 	CDS 	NC_011353 	3768033 	3768428 	- 	396 	hypothetical protein 	YP_002272273 	unclonable 	2.89179e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4072 	CDS 	NC_011353 	3768447 	3769364 	- 	918 	DNA-binding transcriptional activator GcvA 	YP_002272274 	unclonable 	1.56513e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4097 	CDS 	NC_011353 	3796219 	3796380 	+ 	162 	hypothetical protein 	YP_002272294 	unclonable 	1.41843e-09 	hitchhiker 	0.00280009 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4098 	CDS 	NC_011353 	3796459 	3797148 	+ 	690 	DNA mismatch repair protein 	YP_002272295 	unclonable 	7.07245e-09 	hitchhiker 	0.00136585 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4506 	CDS 	NC_011353 	4175889 	4176854 	- 	966 	putative transporter 	YP_002272654 	unclonable 	4.36684e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4507 	CDS 	NC_011353 	4176981 	4177238 	- 	258 	50S ribosomal protein L27 	YP_002272655 	unclonable 	6.0246e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4508 	CDS 	NC_011353 	4177259 	4177570 	- 	312 	50S ribosomal protein L21 	YP_002272656 	unclonable 	7.66256e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4601 	rRNA 	NC_011353 	4265314 	4266855 	- 	1542 	16S ribosomal RNA 	 	unclonable 	2.89022e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4646 	CDS 	NC_011353 	4291741 	4292208 	+ 	468 	peptidase, A24 (type IV prepilin peptidase) family 	YP_002272778 	unclonable 	4.9764e-09 	normal 	0.0336249 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4649 	CDS 	NC_011353 	4294386 	4296500 	- 	2115 	elongation factor G 	YP_002272782 	unclonable 	3.44499e-07 	normal 	0.01673 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4650 	CDS 	NC_011353 	4296597 	4297067 	- 	471 	30S ribosomal protein S7 	YP_002272783 	unclonable 	3.26428e-09 	normal 	0.0163007 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4651 	CDS 	NC_011353 	4297164 	4297538 	- 	375 	30S ribosomal protein S12 	YP_002272784 	unclonable 	2.89179e-09 	normal 	0.0331168 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4652 	CDS 	NC_011353 	4297664 	4297951 	- 	288 	sulfur transfer complex subunit TusB 	YP_002272785 	unclonable 	2.3417e-09 	normal 	0.021154 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4653 	CDS 	NC_011353 	4297959 	4298318 	- 	360 	sulfur relay protein TusC 	YP_002272786 	unclonable 	2.51233e-09 	decreased coverage 	0.00984076 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_4694 	CDS 	NC_011353 	4333819 	4334496 	- 	678 	shikimate kinase I 	YP_002272824 	unclonable 	5.28588e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5009 	CDS 	NC_011353 	4659622 	4660914 	+ 	1293 	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase 	YP_002273117 	unclonable 	3.87301e-08 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5231 	tRNA 	NC_011353 	4879011 	4879088 	+ 	78 	tRNA-His 	 	unclonable 	8.73931e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5232 	tRNA 	NC_011353 	4879107 	4879195 	+ 	89 	tRNA-Leu 	 	unclonable 	8.56484e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5233 	tRNA 	NC_011353 	4879237 	4879312 	+ 	76 	tRNA-Pro 	 	unclonable 	8.06074e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5234 	tRNA 	NC_011353 	4879333 	4879421 	+ 	89 	tRNA-Leu 	 	unclonable 	9.00844e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5235 	tRNA 	NC_011353 	4879462 	4879540 	+ 	79 	tRNA-Pro 	 	unclonable 	7.89982e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5440 	CDS 	NC_011353 	5087139 	5087333 	+ 	195 	hypothetical protein 	YP_002273495 	unclonable 	1.58362e-09 	hitchhiker 	0.000812227 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5441 	tRNA 	NC_011353 	5087517 	5087594 	+ 	78 	tRNA-Thr 	 	unclonable 	1.04819e-09 	hitchhiker 	0.00042936 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5442 	tRNA 	NC_011353 	5087602 	5087686 	+ 	85 	tRNA-Tyr 	 	unclonable 	1.18281e-09 	hitchhiker 	0.000431346 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5443 	tRNA 	NC_011353 	5087803 	5087877 	+ 	75 	tRNA-Gly 	 	unclonable 	1.14766e-09 	hitchhiker 	0.00132893 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5444 	tRNA 	NC_011353 	5087883 	5087960 	+ 	78 	tRNA-Thr 	 	unclonable 	1.19489e-09 	hitchhiker 	0.00131782 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5445 	CDS 	NC_011353 	5088074 	5089258 	+ 	1185 	elongation factor Tu 	YP_002273496 	unclonable 	3.164e-08 	hitchhiker 	0.00264412 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5446 	CDS 	NC_011353 	5089488 	5089871 	+ 	384 	preprotein translocase subunit SecE 	YP_002273497 	unclonable 	3.83194e-09 	hitchhiker 	0.0067856 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5447 	CDS 	NC_011353 	5089873 	5090418 	+ 	546 	transcription antitermination protein NusG 	YP_002273498 	unclonable 	6.1444e-09 	hitchhiker 	0.00794731 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5677 	CDS 	NC_011353 	5319382 	5320434 	- 	1053 	ribosome-associated GTPase 	YP_002273706 	unclonable 	1.00514e-08 	normal 	0.953433 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5678 	CDS 	NC_011353 	5320529 	5321074 	+ 	546 	oligoribonuclease 	YP_002273707 	unclonable 	2.95119e-09 	normal 	0.99134 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5679 	tRNA 	NC_011353 	5321285 	5321360 	+ 	76 	tRNA-Gly 	 	unclonable 	9.76841e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5680 	tRNA 	NC_011353 	5321396 	5321473 	+ 	78 	tRNA-Gly 	 	unclonable 	9.28432e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5681 	tRNA 	NC_011353 	5321507 	5321584 	+ 	78 	tRNA-Gly 	 	unclonable 	9.66961e-10 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria
+ECH74115_5723 	CDS 	NC_011353 	5358753 	5359391 	- 	639 	opacity-associated family protein 	YP_002273749 	unclonable 	3.13576e-09 	normal 	1 	Escherichia coli O157:H7 str. EC4115 	Bacteria

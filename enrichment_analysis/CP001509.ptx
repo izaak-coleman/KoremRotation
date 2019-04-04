@@ -1,0 +1,142 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+ECD_00027 	CDS 	CP001509 	24887 	25150 	- 	264 	30S ribosomal protein S20 	ACT41929 	unclonable 	4.13778e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00028 	CDS 	CP001509 	25253 	25471 	+ 	219 	hypothetical protein 	ACT41930 	unclonable 	4.13778e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00029 	CDS 	CP001509 	25479 	26420 	+ 	942 	putative regulator 	ACT41931 	unclonable 	1.73781e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00058 	CDS 	CP001509 	58951 	61305 	- 	2355 	organic solvent tolerance protein precursor 	ACT41959 	unclonable 	1.14767e-05 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00059 	CDS 	CP001509 	61560 	62375 	+ 	816 	Dna-J like membrane chaperone protein 	ACT41960 	unclonable 	4.86823e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00176 	CDS 	CP001509 	203325 	203810 	+ 	486 	periplasmic chaperone 	ACT42077 	unclonable 	2.32591e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00177 	CDS 	CP001509 	203814 	204839 	+ 	1026 	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase 	ACT42078 	unclonable 	6.14586e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00178 	CDS 	CP001509 	204944 	205399 	+ 	456 	(3R)-hydroxymyristoyl ACP dehydratase 	ACT42079 	unclonable 	2.81915e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00298 	CDS 	CP001509 	332766 	335840 	- 	3075 	beta-D-galactosidase 	ACT42197 	unclonable 	2.6518e-05 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00383 	CDS 	CP001509 	418345 	419292 	- 	948 	cytochrome o ubiquinol oxidase subunit II 	ACT42282 	unclonable 	6.8734e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00384 	CDS 	CP001509 	419754 	421229 	- 	1476 	muropeptide transporter 	ACT42283 	unclonable 	2.02049e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00385 	CDS 	CP001509 	421273 	421851 	- 	579 	predicted lipoprotein 	ACT42284 	unclonable 	4.6254e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00386 	CDS 	CP001509 	422156 	422473 	+ 	318 	regulator of penicillin binding proteins and beta lactamase transcription (morphogene) 	ACT42285 	unclonable 	3.27919e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00550 	CDS 	CP001509 	570740 	572980 	- 	2241 	iron-enterobactin outer membrane transporter 	ACT42429 	unclonable 	1.04738e-05 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00631 	CDS 	CP001509 	657387 	659051 	- 	1665 	asparagine synthetase B 	ACT42507 	unclonable 	2.78776e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00644 	CDS 	CP001509 	672861 	673406 	+ 	546 	regulatory protein for replication initiation 	ACT42520 	unclonable 	3.70073e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00702 	CDS 	CP001509 	738259 	739050 	+ 	792 	hypothetical protein 	ACT42577 	unclonable 	4.22433e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00745 	CDS 	CP001509 	796263 	796940 	+ 	678 	dethiobiotin synthetase 	ACT42646 	unclonable 	4.76961e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00950 	CDS 	CP001509 	1011041 	1011583 	+ 	543 	hypothetical protein 	ACT42845 	unclonable 	4.81867e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00955 	CDS 	CP001509 	1018348 	1019988 	+ 	1641 	paraquat-inducible protein B 	ACT42850 	unclonable 	2.62354e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00956 	CDS 	CP001509 	1020000 	1020548 	+ 	549 	hypothetical protein 	ACT42851 	unclonable 	2.76204e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00957 	CDS 	CP001509 	1020804 	1020971 	+ 	168 	ribosome modulation factor 	ACT42852 	unclonable 	1.13718e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00958 	CDS 	CP001509 	1021041 	1021559 	- 	519 	3-hydroxydecanoyl-ACP dehydratase 	ACT42853 	unclonable 	2.42251e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00959 	CDS 	CP001509 	1021628 	1023388 	- 	1761 	predicted peptidase 	ACT42854 	unclonable 	2.59682e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00960 	CDS 	CP001509 	1023574 	1024026 	+ 	453 	hypothetical protein 	ACT42855 	unclonable 	1.90076e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_00961 	CDS 	CP001509 	1024102 	1025142 	- 	1041 	outer membrane protein A (3a;II*;G;d) 	ACT42856 	unclonable 	5.0212e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01084 	CDS 	CP001509 	1149361 	1149882 	+ 	522 	hypothetical protein 	ACT42979 	unclonable 	2.18944e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01085 	CDS 	CP001509 	1149934 	1150107 	+ 	174 	50S ribosomal protein L32 	ACT42980 	unclonable 	1.24601e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01086 	CDS 	CP001509 	1150188 	1151258 	+ 	1071 	fatty acid/phospholipid synthesis protein 	ACT42981 	unclonable 	6.39968e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01087 	CDS 	CP001509 	1151326 	1152279 	+ 	954 	3-oxoacyl-(acyl carrier protein) synthase 	ACT42982 	unclonable 	5.78388e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01088 	CDS 	CP001509 	1152295 	1153224 	+ 	930 	acyl carrier protein S-malonyltransferase 	ACT42983 	unclonable 	7.37698e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01089 	CDS 	CP001509 	1153237 	1153971 	+ 	735 	3-oxoacyl-[acyl-carrier-protein] reductase 	ACT42984 	unclonable 	4.6254e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01090 	CDS 	CP001509 	1154182 	1154418 	+ 	237 	acyl carrier protein 	ACT42985 	unclonable 	1.66866e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01159 	CDS 	CP001509 	1219334 	1220602 	+ 	1269 	DNA polymerase V subunit UmuC 	ACT43051 	unclonable 	2.2565e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01160 	CDS 	CP001509 	1220648 	1221178 	- 	531 	disulfide bond formation protein B 	ACT43052 	unclonable 	6.59923e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01161 	CDS 	CP001509 	1221324 	1222865 	- 	1542 	sodium/proton antiporter 	ACT43053 	unclonable 	3.92786e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01162 	CDS 	CP001509 	1223086 	1223805 	+ 	720 	fatty acid metabolism regulator 	ACT43054 	unclonable 	7.99515e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01163 	CDS 	CP001509 	1223857 	1225389 	- 	1533 	hypothetical protein 	ACT43055 	unclonable 	4.3482e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01257 	CDS 	CP001509 	1326928 	1328097 	+ 	1170 	hypothetical protein 	ACT43145 	unclonable 	1.60117e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01499 	CDS 	CP001509 	1577648 	1578334 	+ 	687 	predicted DNA-binding transcriptional regulator 	ACT43376 	unclonable 	4.22433e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01646 	CDS 	CP001509 	1702690 	1702926 	+ 	237 	murein lipoprotein 	ACT43504 	unclonable 	2.90635e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01647 	CDS 	CP001509 	1702990 	1703994 	- 	1005 	hypothetical protein 	ACT43505 	unclonable 	1.43336e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01877 	CDS 	CP001509 	1937410 	1937958 	- 	549 	phosphatidylglycerophosphate synthetase 	ACT43731 	unclonable 	6.94411e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01878 	CDS 	CP001509 	1938015 	1939781 	- 	1767 	excinuclease ABC subunit C 	ACT43732 	unclonable 	5.83054e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01879 	CDS 	CP001509 	1939844 	1940353 	- 	510 	response regulator 	ACT43733 	unclonable 	6.14586e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01880 	CDS 	CP001509 	1940475 	1940750 	+ 	276 	IS1 protein InsA 	ACT43734 	unclonable 	4.13778e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01881 	CDS 	CP001509 	1940669 	1941172 	+ 	504 	IS1 protein InsB 	ACT43735 	unclonable 	6.53204e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01882 	CDS 	CP001509 	1941174 	1941833 	+ 	660 	chaperone protein HchA 	ACT43736 	unclonable 	9.39788e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01883 	CDS 	CP001509 	1941941 	1943299 	- 	1359 	predicted sensory kinase in two-component regulatory system with YedW 	ACT43737 	unclonable 	2.73191e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01884 	CDS 	CP001509 	1943299 	1943970 	- 	672 	predicted DNA-binding response regulator in two-component system with YedV 	ACT43738 	unclonable 	5.33293e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01885 	CDS 	CP001509 	1944103 	1944516 	+ 	414 	hypothetical protein 	ACT43739 	unclonable 	3.11781e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_01886 	CDS 	CP001509 	1944625 	1945629 	+ 	1005 	hypothetical protein 	ACT43740 	unclonable 	1.17188e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02224 	CDS 	CP001509 	2305887 	2306429 	- 	543 	predicted NUDIX hydrolase 	ACT44046 	unclonable 	2.12424e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02306 	CDS 	CP001509 	2395794 	2397209 	- 	1416 	glutamyl-tRNA synthetase 	ACT44127 	unclonable 	1.63468e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02307 	CDS 	CP001509 	2397985 	2398326 	+ 	342 	conserved hypothetical protein 	ACT44128 	unclonable 	2.54731e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02308 	CDS 	CP001509 	2398317 	2399243 	- 	927 	predicted DNA-binding transcriptional regulator 	ACT44129 	unclonable 	8.41101e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02309 	CDS 	CP001509 	2399333 	2400331 	+ 	999 	predicted inner membrane protein 	ACT44130 	unclonable 	8.32535e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02310 	CDS 	CP001509 	2400328 	2400546 	- 	219 	hypothetical protein 	ACT44131 	unclonable 	1.90076e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02311 	CDS 	CP001509 	2400548 	2402563 	- 	2016 	NAD-dependent DNA ligase LigA 	ACT44132 	unclonable 	5.71235e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02312 	CDS 	CP001509 	2402634 	2403620 	- 	987 	cell division protein ZipA 	ACT44133 	unclonable 	9.11583e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02313 	CDS 	CP001509 	2403850 	2404611 	+ 	762 	putative sulfate transport protein CysZ 	ACT44134 	unclonable 	6.59923e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02314 	CDS 	CP001509 	2404796 	2405767 	+ 	972 	cysteine synthase A, O-acetylserine sulfhydrolase A subunit 	ACT44135 	unclonable 	1.13698e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02315 	CDS 	CP001509 	2406151 	2406408 	+ 	258 	phosphohistidinoprotein-hexose phosphotransferase component of PTS system (Hpr) 	ACT44136 	unclonable 	2.54731e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02316 	CDS 	CP001509 	2406453 	2408180 	+ 	1728 	PEP-protein phosphotransferase of PTS system (enzyme I) 	ACT44137 	unclonable 	5.89054e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02401 	CDS 	CP001509 	2498712 	2500082 	+ 	1371 	exodeoxyribonuclease VII large subunit 	ACT44221 	unclonable 	1.49221e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02482 	CDS 	CP001509 	2598115 	2600688 	- 	2574 	protein disaggregation chaperone 	ACT44301 	unclonable 	3.28184e-05 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02621 	CDS 	CP001509 	2736170 	2737018 	+ 	849 	conserved hypothetical protein 	ACT44438 	unclonable 	6.59923e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02622 	CDS 	CP001509 	2737336 	2738007 	- 	672 	hypothetical protein 	ACT44439 	unclonable 	4.86823e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02629 	CDS 	CP001509 	2744006 	2746240 	- 	2235 	(p)ppGpp synthetase I/GTP pyrophosphokinase 	ACT44446 	unclonable 	8.29976e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02740 	CDS 	CP001509 	2884373 	2885698 	- 	1326 	proline aminopeptidase P II 	ACT44557 	unclonable 	9.20962e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02741 	CDS 	CP001509 	2885724 	2886302 	- 	579 	hypothetical protein 	ACT44558 	unclonable 	2.79044e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02742 	CDS 	CP001509 	2886470 	2886799 	+ 	330 	cytokinetic ring-localizing protein 	ACT44559 	unclonable 	1.49347e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02797 	CDS 	CP001509 	2941476 	2942360 	+ 	885 	integrase 	ACT44614 	unclonable 	5.96142e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02798 	CDS 	CP001509 	2942440 	2943342 	+ 	903 	conserved hypothetical protein 	ACT44615 	unclonable 	6.46552e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02811 	CDS 	CP001509 	2943807 	2944376 	+ 	570 	conserved hypothetical protein 	ACT44616 	unclonable 	3.31292e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02812 	CDS 	CP001509 	2944614 	2944907 	- 	294 	conserved hypothetical protein 	ACT44617 	unclonable 	1.94006e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02813 	CDS 	CP001509 	2945481 	2945636 	+ 	156 	hypothetical protein 	ACT44618 	unclonable 	2.04e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02814 	CDS 	CP001509 	2945664 	2946683 	+ 	1020 	conserved hypothetical protein 	ACT44619 	unclonable 	9.39788e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02815 	CDS 	CP001509 	2946767 	2947903 	+ 	1137 	Capsule polysaccharide export inner-membrane protein kpsE 	ACT44620 	unclonable 	1.39035e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02816 	CDS 	CP001509 	2947927 	2949603 	+ 	1677 	KpsD protein 	ACT44621 	unclonable 	4.3482e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02817 	CDS 	CP001509 	2949613 	2950353 	+ 	741 	KpsU protein 	ACT44622 	unclonable 	7.15728e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02818 	CDS 	CP001509 	2950350 	2952377 	+ 	2028 	Capsule polysaccharide export protein KpsC 	ACT44623 	unclonable 	8.1315e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02819 	CDS 	CP001509 	2952412 	2953644 	+ 	1233 	KpsS protein 	ACT44624 	unclonable 	1.40465e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02820 	CDS 	CP001509 	2953898 	2954830 	- 	933 	hypothetical protein 	ACT44625 	unclonable 	8.07741e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02821 	CDS 	CP001509 	2954892 	2956031 	- 	1140 	hypothetical protein 	ACT44626 	unclonable 	1.36217e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02822 	CDS 	CP001509 	2956605 	2957069 	- 	465 	bifunctional Ribulose 5-phosphate reductase/CDP-ribitol pyrophosphorylase 	ACT44627 	unclonable 	3.70073e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02823 	CDS 	CP001509 	2957307 	2957810 	- 	504 	IS1 protein InsB 	ACT44628 	unclonable 	3.74053e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02824 	CDS 	CP001509 	2957729 	2958004 	- 	276 	IS1 protein InsA 	ACT44629 	unclonable 	2.23419e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02825 	CDS 	CP001509 	2958033 	2958755 	- 	723 	Pyrophosphorylase 	ACT44630 	unclonable 	5.96142e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02826 	CDS 	CP001509 	2958773 	2960149 	- 	1377 	hypothetical protein 	ACT44631 	unclonable 	1.63468e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02827 	CDS 	CP001509 	2960358 	2961017 	- 	660 	Polysialic acid transport ATP-binding KpsT 	ACT44632 	unclonable 	4.22433e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02828 	CDS 	CP001509 	2961032 	2961808 	- 	777 	Polysialic acid transport protein kpsM 	ACT44633 	unclonable 	4.86823e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02829 	CDS 	CP001509 	2962869 	2963405 	- 	537 	predicted secretion pathway M-type protein, membrane anchored 	ACT44634 	unclonable 	3.4154e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02830 	 	CP001509 	2963407 	2964267 	- 	861 	 	 	unclonable 	5.72498e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02831 	CDS 	CP001509 	2964582 	2965517 	- 	936 	hypothetical type II secretion protein GspK 	ACT44635 	unclonable 	9.02301e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02832 	CDS 	CP001509 	2965556 	2966119 	- 	564 	hypothetical type II secretion protein GspJ 	ACT44636 	unclonable 	5.3878e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02833 	CDS 	CP001509 	2966158 	2966529 	- 	372 	hypothetical type II secretion protein 	ACT44637 	unclonable 	3.11781e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02834 	CDS 	CP001509 	2966526 	2967089 	- 	564 	GspH, hypothetical type II secretion protein 	ACT44638 	unclonable 	4.72105e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02835 	CDS 	CP001509 	2967093 	2967548 	- 	456 	hypothetical type II secretion protein GspG 	ACT44639 	unclonable 	3.70073e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02836 	CDS 	CP001509 	2967565 	2968788 	- 	1224 	hypothetical type II secretion protein GspF 	ACT44640 	unclonable 	1.56909e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02837 	CDS 	CP001509 	2968788 	2970281 	- 	1494 	hypothetical type II secretion protein GspE 	ACT44641 	unclonable 	2.37275e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02838 	CDS 	CP001509 	2970281 	2972341 	- 	2061 	GspD, hypothetical type II secretion protein 	ACT44642 	unclonable 	6.64316e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02839 	CDS 	CP001509 	2972371 	2973201 	- 	831 	predicted secretion pathway protein, C-type protein 	ACT44643 	unclonable 	5.49793e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02840 	CDS 	CP001509 	2973348 	2973758 	- 	411 	hypothetical protein 	ACT44644 	unclonable 	2.81915e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02850 	CDS 	CP001509 	2989282 	2990424 	- 	1143 	predicted DNA-binding transcriptional regulator 	ACT44654 	unclonable 	1.61764e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02851 	CDS 	CP001509 	2990792 	2992522 	+ 	1731 	putative saframycin Mx1 synthetase B 	ACT44655 	unclonable 	6.92091e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02852 	CDS 	CP001509 	2992519 	2993433 	+ 	915 	conserved hypothetical protein 	ACT44656 	unclonable 	1.37618e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02853 	CDS 	CP001509 	2993465 	2993713 	+ 	249 	conserved hypothetical protein 	ACT44657 	unclonable 	3.31292e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02854 	CDS 	CP001509 	2993713 	2994885 	+ 	1173 	conserved hypothetical protein 	ACT44658 	unclonable 	1.61764e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02855 	CDS 	CP001509 	2994920 	2996080 	- 	1161 	conserved hypothetical protein 	ACT44659 	unclonable 	1.66888e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02856 	CDS 	CP001509 	2995996 	2997066 	- 	1071 	conserved hypothetical protein 	ACT44660 	unclonable 	1.21999e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02857 	CDS 	CP001509 	2997097 	2997657 	- 	561 	conserved hypothetical protein 	ACT44661 	unclonable 	3.97461e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02858 	CDS 	CP001509 	2997669 	2998493 	- 	825 	conserved hypothetical protein 	ACT44662 	unclonable 	5.61031e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02859 	CDS 	CP001509 	2998493 	2999842 	- 	1350 	predicted inner membrane protein 	ACT44663 	unclonable 	1.63468e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_02925 	CDS 	CP001509 	3067306 	3067926 	+ 	621 	predicted signal transduction protein (SH3 domain) 	ACT44729 	unclonable 	4.97007e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03043 	CDS 	CP001509 	3193500 	3195434 	- 	1935 	protease, ATP-dependent zinc-metallo 	ACT44847 	unclonable 	5.37455e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03192 	CDS 	CP001509 	3333212 	3333682 	- 	471 	30S ribosomal protein S7 	ACT44996 	unclonable 	2.37344e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03193 	CDS 	CP001509 	3333779 	3334153 	- 	375 	30S ribosomal protein S12 	ACT44997 	unclonable 	1.63524e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03194 	CDS 	CP001509 	3334279 	3334566 	- 	288 	predicted intracellular sulfur oxidation protein 	ACT44998 	unclonable 	1.36461e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03195 	CDS 	CP001509 	3334574 	3334933 	- 	360 	hypothetical protein 	ACT44999 	unclonable 	1.6186e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03196 	CDS 	CP001509 	3334933 	3335319 	- 	387 	hypothetical protein 	ACT45000 	unclonable 	2.10262e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03197 	CDS 	CP001509 	3335319 	3336041 	- 	723 	predicted DNA-binding transcriptional regulator 	ACT45001 	unclonable 	3.85535e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03267 	CDS 	CP001509 	3406921 	3408237 	+ 	1317 	gluconate transporter, high-affinity GNT I system 	ACT45070 	unclonable 	2.62354e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03282 	CDS 	CP001509 	3431183 	3432499 	- 	1317 	glucose-1-phosphate adenylyltransferase 	ACT45084 	unclonable 	7.60343e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03623 	CDS 	CP001509 	3810861 	3811241 	- 	381 	F0F1 ATP synthase subunit I 	ACT45418 	unclonable 	2.73392e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_03661 	CDS 	CP001509 	3856657 	3857916 	+ 	1260 	transcription termination factor Rho 	ACT45454 	unclonable 	3.24277e-06 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_04200 	CDS 	CP001509 	4470209 	4470763 	+ 	555 	RNA 2'-phosphotransferase-like protein 	ACT45981 	unclonable 	3.93415e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_10001 	 	CP001509 	748484 	754003 	- 	5520 	 	 	unclonable 	0.00381116 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00008 	tRNA 	CP001509 	656304 	656378 	- 	75 	tRNA-Gln 	 	unclonable 	1.12561e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00009 	tRNA 	CP001509 	656416 	656490 	- 	75 	tRNA-Gln 	 	unclonable 	1.16069e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00010 	tRNA 	CP001509 	656538 	656614 	- 	77 	tRNA-Met 	 	unclonable 	1.07047e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00011 	tRNA 	CP001509 	656630 	656704 	- 	75 	tRNA-Gln 	 	unclonable 	1.14888e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00012 	tRNA 	CP001509 	656739 	656813 	- 	75 	tRNA-Gln 	 	unclonable 	1.24601e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00013 	tRNA 	CP001509 	656837 	656921 	- 	85 	tRNA-Leu 	 	unclonable 	1.22077e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00014 	tRNA 	CP001509 	656930 	657006 	- 	77 	tRNA-Met 	 	unclonable 	1.32366e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00041 	tRNA 	CP001509 	2397468 	2397543 	+ 	76 	tRNA-Val 	 	unclonable 	1.20834e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00042 	tRNA 	CP001509 	2397588 	2397663 	+ 	76 	tRNA-Val 	 	unclonable 	1.23332e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00043 	tRNA 	CP001509 	2397710 	2397785 	+ 	76 	tRNA-Val 	 	unclonable 	1.35072e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00044 	tRNA 	CP001509 	2397790 	2397865 	+ 	76 	tRNA-Lys 	 	unclonable 	1.50882e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00081 	tRNA 	CP001509 	4298992 	4299067 	+ 	76 	tRNA-Gly 	 	unclonable 	2.57411e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria
+ECD_t00082 	tRNA 	CP001509 	4299103 	4299178 	+ 	76 	tRNA-Gly 	 	unclonable 	2.39785e-07 	n/a 	 	Escherichia coli BL21(DE3) 	Bacteria

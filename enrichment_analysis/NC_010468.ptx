@@ -1,0 +1,131 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+EcolC_0069 	CDS 	NC_010468 	76007 	76648 	+ 	642 	orotate phosphoribosyltransferase 	YP_001723082 	hitchhiker 	1.70079e-05 	unclonable 	9.43905e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0070 	CDS 	NC_010468 	76685 	77281 	- 	597 	nucleoid occlusion protein 	YP_001723083 	hitchhiker 	1.94925e-05 	unclonable 	9.43905e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0071 	CDS 	NC_010468 	77388 	77846 	- 	459 	deoxyuridine 5'-triphosphate nucleotidohydrolase 	YP_001723084 	hitchhiker 	0.000237298 	unclonable 	8.70938e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0072 	CDS 	NC_010468 	77824 	79044 	- 	1221 	bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate synthase 	YP_001723085 	hitchhiker 	0.000604517 	unclonable 	1.14271e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0282 	CDS 	NC_010468 	322830 	324125 	+ 	1296 	glucose-1-phosphate adenylyltransferase 	YP_001723287 	unclonable 	2.42921e-07 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0298 	CDS 	NC_010468 	347070 	348386 	- 	1317 	gluconate transporter 	YP_001723303 	unclonable 	1.71105e-07 	normal 	0.0267385 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0371 	CDS 	NC_010468 	420378 	420752 	+ 	375 	30S ribosomal protein S12 	YP_001723376 	unclonable 	8.5622e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0372 	CDS 	NC_010468 	420849 	421319 	+ 	471 	30S ribosomal protein S7 	YP_001723377 	unclonable 	1.27849e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0373 	CDS 	NC_010468 	421416 	423530 	+ 	2115 	elongation factor G 	YP_001723378 	unclonable 	4.19107e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0413 	CDS 	NC_010468 	450833 	452164 	+ 	1332 	preprotein translocase subunit SecY 	YP_001723418 	hitchhiker 	1.27015e-05 	unclonable 	2.11657e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0414 	CDS 	NC_010468 	452196 	452312 	+ 	117 	50S ribosomal protein L36 	YP_001723419 	hitchhiker 	5.52081e-05 	unclonable 	1.17832e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0415 	CDS 	NC_010468 	452459 	452815 	+ 	357 	30S ribosomal protein S13 	YP_001723420 	hitchhiker 	0.000337677 	unclonable 	1.3853e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0416 	CDS 	NC_010468 	452832 	453221 	+ 	390 	30S ribosomal protein S11 	YP_001723421 	hitchhiker 	0.00339967 	unclonable 	1.42813e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0434 	CDS 	NC_010468 	465140 	465694 	- 	555 	putative transferase 	YP_001723439 	unclonable 	6.08739e-09 	normal 	0.0186988 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0474 	CDS 	NC_010468 	515700 	516827 	+ 	1128 	AFG1 family ATPase 	YP_001723478 	unclonable 	6.25697e-08 	normal 	0.126668 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0521 	CDS 	NC_010468 	560696 	561325 	+ 	630 	23S rRNA methyltransferase J 	YP_001723525 	unclonable 	2.03032e-08 	hitchhiker 	0.00139149 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0522 	CDS 	NC_010468 	561425 	563359 	+ 	1935 	ATP-dependent metalloprotease 	YP_001723526 	unclonable 	1.77959e-06 	hitchhiker 	0.00179189 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0633 	CDS 	NC_010468 	683057 	684802 	- 	1746 	DNA primase 	YP_001723636 	unclonable 	1.4553e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0634 	CDS 	NC_010468 	684913 	685128 	- 	216 	30S ribosomal protein S21 	YP_001723637 	unclonable 	6.14997e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0635 	CDS 	NC_010468 	685365 	686378 	+ 	1014 	putative DNA-binding/iron metalloprotein/AP endonuclease 	YP_001723638 	unclonable 	1.17915e-07 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0769 	CDS 	NC_010468 	821678 	822385 	- 	708 	deoxyribonuclease I 	YP_001723768 	unclonable 	5.16595e-08 	unclonable 	1.97257e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0799 	CDS 	NC_010468 	856803 	857132 	- 	330 	Z-ring-associated protein 	YP_001723798 	unclonable 	5.67069e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0928 	CDS 	NC_010468 	1007055 	1009289 	+ 	2235 	GDP/GTP pyrophosphokinase 	YP_001723924 	unclonable 	3.82583e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0935 	CDS 	NC_010468 	1015289 	1015960 	+ 	672 	hypothetical protein 	YP_001723931 	unclonable 	2.74693e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1010 	CDS 	NC_010468 	1097668 	1098231 	- 	564 	PTS system, glucitol/sorbitol-specific, IIC subunit 	YP_001724006 	normal 	1 	unclonable 	2.38916e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1011 	CDS 	NC_010468 	1098487 	1099572 	+ 	1086 	murein hydrolase B 	YP_001724007 	normal 	1 	unclonable 	2.89241e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1012 	CDS 	NC_010468 	1099717 	1100214 	+ 	498 	competence damage-inducible protein A 	YP_001724008 	normal 	1 	unclonable 	2.18203e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1013 	CDS 	NC_010468 	1100294 	1101355 	+ 	1062 	recombinase A 	YP_001724009 	normal 	0.580458 	unclonable 	3.01114e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1089 	CDS 	NC_010468 	1178739 	1181312 	+ 	2574 	protein disaggregation chaperone 	YP_001724083 	unclonable 	8.60565e-06 	decreased coverage 	6.35783e-07 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1264 	CDS 	NC_010468 	1381855 	1382826 	- 	972 	cysteine synthase A 	YP_001724257 	unclonable 	4.22758e-08 	decreased coverage 	2.5009e-05 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1265 	CDS 	NC_010468 	1383011 	1383772 	- 	762 	putative sulfate transport protein CysZ 	YP_001724258 	unclonable 	1.98921e-08 	decreased coverage 	2.25757e-05 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1266 	CDS 	NC_010468 	1384002 	1384988 	+ 	987 	cell division protein ZipA 	YP_001724259 	unclonable 	8.46548e-08 	decreased coverage 	2.25757e-05 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1269 	CDS 	NC_010468 	1387291 	1388289 	- 	999 	bile acid:sodium symporter 	YP_001724262 	unclonable 	9.08139e-08 	hitchhiker 	0.000128844 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1270 	CDS 	NC_010468 	1388379 	1389305 	+ 	927 	LysR family transcriptional regulator 	YP_001724263 	unclonable 	1.0142e-07 	hitchhiker 	0.000508597 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1271 	CDS 	NC_010468 	1389296 	1389637 	- 	342 	hypothetical protein 	YP_001724264 	unclonable 	1.74632e-08 	hitchhiker 	0.00144194 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1272 	CDS 	NC_010468 	1390413 	1391828 	+ 	1416 	glutamyl-tRNA synthetase 	YP_001724265 	unclonable 	3.52174e-07 	hitchhiker 	0.00569831 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1480 	CDS 	NC_010468 	1632809 	1633747 	+ 	939 	1-phosphofructokinase 	YP_001724470 	hitchhiker 	0.00345053 	unclonable 	1.4871e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1481 	CDS 	NC_010468 	1633764 	1635455 	+ 	1692 	PTS system fructose-specific transporter subunits IIBC 	YP_001724471 	hitchhiker 	0.00261776 	unclonable 	2.36485e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1658 	CDS 	NC_010468 	1847427 	1848377 	+ 	951 	transcriptional regulator Cbl 	YP_001724641 	unclonable 	7.65107e-08 	normal 	0.0208007 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1659 	CDS 	NC_010468 	1848651 	1850138 	+ 	1488 	hypothetical protein 	YP_001724642 	unclonable 	4.39345e-07 	normal 	0.0451104 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1726 	CDS 	NC_010468 	1921985 	1923817 	+ 	1833 	excinuclease ABC subunit C 	YP_001724703 	unclonable 	1.00265e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1727 	CDS 	NC_010468 	1923874 	1924422 	+ 	549 	phosphatidylglycerophosphate synthetase 	YP_001724704 	unclonable 	1.37151e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1951 	CDS 	NC_010468 	2156168 	2157388 	+ 	1221 	bifunctional cysteine desulfurase/selenocysteine lyase 	YP_001724924 	hitchhiker 	0.00128399 	unclonable 	1.07568e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1952 	CDS 	NC_010468 	2157401 	2157817 	+ 	417 	cysteine desufuration protein SufE 	YP_001724925 	hitchhiker 	0.000146804 	unclonable 	8.19474e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1953 	CDS 	NC_010468 	2157966 	2158970 	+ 	1005 	ErfK/YbiS/YcfS/YnhG family protein 	YP_001724926 	hitchhiker 	8.19451e-06 	unclonable 	1.26491e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1954 	CDS 	NC_010468 	2159034 	2159270 	- 	237 	LPP repeat-containing protein 	YP_001724927 	unclonable 	3.68464e-09 	unclonable 	8.44814e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1955 	CDS 	NC_010468 	2159581 	2160993 	- 	1413 	pyruvate kinase 	YP_001724928 	hitchhiker 	4.01811e-06 	unclonable 	1.4136e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_1956 	CDS 	NC_010468 	2161550 	2161759 	+ 	210 	hypothetical protein 	YP_001724929 	hitchhiker 	0.000108793 	unclonable 	8.11136e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2118 	CDS 	NC_010468 	2314830 	2315516 	- 	687 	GntR family transcriptional regulator 	YP_001725085 	unclonable 	1.51748e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2119 	CDS 	NC_010468 	2315605 	2316351 	- 	747 	3-hydroxy acid dehydrogenase 	YP_001725086 	unclonable 	1.42813e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2304 	CDS 	NC_010468 	2541116 	2542513 	- 	1398 	protein of unknown function DUF463 YcjX family protein 	YP_001725266 	unclonable 	4.76158e-07 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2344 	CDS 	NC_010468 	2583644 	2583970 	- 	327 	translation initiation factor Sui1 	YP_001725306 	hitchhiker 	0.000454927 	unclonable 	1.5805e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2345 	CDS 	NC_010468 	2583970 	2584707 	- 	738 	orotidine 5'-phosphate decarboxylase 	YP_001725307 	hitchhiker 	0.000492739 	unclonable 	1.81967e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2346 	CDS 	NC_010468 	2584900 	2586069 	- 	1170 	tetratricopeptide repeat protein 	YP_001725308 	unclonable 	1.29079e-07 	unclonable 	2.38916e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2347 	CDS 	NC_010468 	2586076 	2586384 	- 	309 	hypothetical protein 	YP_001725309 	decreased coverage 	1.0556e-06 	unclonable 	1.629e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2348 	CDS 	NC_010468 	2586533 	2587297 	- 	765 	phosphatidylglycerophosphatase B 	YP_001725310 	decreased coverage 	4.63864e-06 	unclonable 	1.83837e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2349 	CDS 	NC_010468 	2587467 	2588057 	+ 	591 	GTP cyclohydrolase II 	YP_001725311 	hitchhiker 	2.87804e-06 	unclonable 	1.679e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2350 	CDS 	NC_010468 	2588121 	2590796 	- 	2676 	aconitate hydratase 	YP_001725312 	hitchhiker 	0.00337928 	unclonable 	4.23243e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2351 	CDS 	NC_010468 	2591169 	2591336 	- 	168 	hypothetical protein 	YP_001725313 	hitchhiker 	6.80242e-06 	unclonable 	1.53344e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2352 	CDS 	NC_010468 	2591339 	2591467 	- 	129 	hypothetical protein 	YP_001725314 	hitchhiker 	5.87342e-06 	unclonable 	1.47196e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2353 	CDS 	NC_010468 	2591798 	2592772 	- 	975 	transcriptional regulator CysB 	YP_001725315 	hitchhiker 	0.0011024 	unclonable 	2.2716e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2354 	CDS 	NC_010468 	2592982 	2595579 	- 	2598 	DNA topoisomerase I 	YP_001725316 	normal 	0.01053 	unclonable 	4.72675e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2440 	CDS 	NC_010468 	2692577 	2693107 	+ 	531 	disulfide bond formation protein B 	YP_001725401 	unclonable 	1.39954e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2499 	CDS 	NC_010468 	2748356 	2750545 	+ 	2190 	ferric-rhodotorulic acid outer membrane transporter 	YP_001725457 	normal 	0.318087 	unclonable 	2.83448e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2500 	CDS 	NC_010468 	2750605 	2752038 	- 	1434 	PTS system glucose-specific transporter subunits IIBC 	YP_001725458 	normal 	0.139043 	unclonable 	1.87594e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2501 	CDS 	NC_010468 	2752333 	2753130 	- 	798 	putative metallodependent hydrolase 	YP_001725459 	normal 	0.0673622 	unclonable 	1.27791e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2502 	CDS 	NC_010468 	2753141 	2754145 	- 	1005 	DNA polymerase III subunit delta' 	YP_001725460 	normal 	0.0601626 	unclonable 	1.33067e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2503 	CDS 	NC_010468 	2754142 	2754783 	- 	642 	thymidylate kinase 	YP_001725461 	hitchhiker 	0.00403809 	unclonable 	1.13108e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2504 	CDS 	NC_010468 	2754773 	2755795 	- 	1023 	hypothetical protein 	YP_001725462 	hitchhiker 	6.70285e-05 	unclonable 	1.17832e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2505 	CDS 	NC_010468 	2755798 	2756607 	- 	810 	4-amino-4-deoxychorismate lyase 	YP_001725463 	hitchhiker 	0.0018668 	unclonable 	1.05414e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2508 	CDS 	NC_010468 	2758503 	2759237 	- 	735 	3-ketoacyl-(acyl-carrier-protein) reductase 	YP_001725466 	unclonable 	3.39194e-08 	hitchhiker 	1.90522e-06 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2516 	CDS 	NC_010468 	2765540 	2768725 	+ 	3186 	ribonuclease E 	YP_001725474 	unclonable 	1.96842e-05 	hitchhiker 	0.0002174 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2638 	CDS 	NC_010468 	2889441 	2889950 	+ 	510 	SOS cell division inhibitor 	YP_001725595 	hitchhiker 	2.42491e-06 	unclonable 	2.5128e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2639 	CDS 	NC_010468 	2890250 	2891347 	+ 	1098 	outer membrane protein A 	YP_001725596 	unclonable 	6.98773e-08 	unclonable 	2.77772e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2640 	CDS 	NC_010468 	2891423 	2891875 	- 	453 	hypothetical protein 	YP_001725597 	unclonable 	8.30726e-09 	hitchhiker 	3.41922e-07 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2641 	CDS 	NC_010468 	2892061 	2893821 	+ 	1761 	peptidase S16 lon domain-containing protein 	YP_001725598 	unclonable 	7.12327e-07 	hitchhiker 	6.06295e-07 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2642 	CDS 	NC_010468 	2893890 	2894408 	+ 	519 	3-hydroxydecanoyl-(acyl carrier protein) dehydratase 	YP_001725599 	unclonable 	7.00694e-09 	hitchhiker 	3.25958e-07 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2643 	CDS 	NC_010468 	2894478 	2894645 	- 	168 	ribosome modulation factor 	YP_001725600 	unclonable 	2.92691e-09 	hitchhiker 	2.7638e-07 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2650 	CDS 	NC_010468 	2903866 	2904408 	- 	543 	hypothetical protein 	YP_001725607 	unclonable 	2.22204e-08 	hitchhiker 	0.00136169 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2666 	CDS 	NC_010468 	2921374 	2922774 	+ 	1401 	asparaginyl-tRNA synthetase 	YP_001725622 	unclonable 	3.63068e-07 	normal 	0.0518169 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2686 	CDS 	NC_010468 	2948474 	2949157 	- 	684 	cytidylate kinase 	YP_001725642 	unclonable 	2.00966e-08 	normal 	0.762789 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2864 	CDS 	NC_010468 	3130854 	3132875 	- 	2022 	excinuclease ABC subunit B 	YP_001725819 	unclonable 	1.93006e-06 	normal 	0.0188114 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2865 	CDS 	NC_010468 	3133454 	3134131 	- 	678 	dithiobiotin synthetase 	YP_001725820 	unclonable 	2.43352e-08 	normal 	0.051363 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2913 	CDS 	NC_010468 	3174925 	3175716 	- 	792 	tol-pal system protein YbgF 	YP_001725867 	unclonable 	3.29093e-08 	normal 	0.329929 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2914 	CDS 	NC_010468 	3175726 	3176247 	- 	522 	peptidoglycan-associated outer membrane lipoprotein 	YP_001725868 	unclonable 	1.21586e-08 	normal 	0.464909 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2969 	CDS 	NC_010468 	3242773 	3243318 	- 	546 	replication initiation regulator SeqA 	YP_001725921 	unclonable 	1.42813e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2970 	CDS 	NC_010468 	3243503 	3244267 	+ 	765 	hypothetical protein 	YP_001725922 	unclonable 	3.12971e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_2982 	CDS 	NC_010468 	3257193 	3258857 	+ 	1665 	asparagine synthetase B 	YP_001725934 	unclonable 	2.71293e-07 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3007 	CDS 	NC_010468 	3287327 	3287938 	+ 	612 	alpha-ribazole phosphatase 	YP_001725959 	unclonable 	1.50204e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3133 	CDS 	NC_010468 	3433001 	3433396 	- 	396 	XRE family plasmid maintenance system antidote protein 	YP_001726083 	normal 	0.0484556 	unclonable 	1.22724e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3134 	CDS 	NC_010468 	3433480 	3434274 	+ 	795 	GumN family protein 	YP_001726084 	normal 	0.0811672 	unclonable 	1.51783e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3135 	CDS 	NC_010468 	3434478 	3434957 	+ 	480 	hypothetical protein 	YP_001726085 	normal 	0.215151 	unclonable 	1.16633e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3136 	CDS 	NC_010468 	3434994 	3436646 	- 	1653 	bifunctional UDP-sugar hydrolase/5'-nucleotidase periplasmic precursor 	YP_001726086 	normal 	0.161033 	unclonable 	2.15982e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3193 	CDS 	NC_010468 	3498403 	3500757 	- 	2355 	DNA-binding ATP-dependent protease La 	YP_001726142 	unclonable 	7.24307e-06 	hitchhiker 	0.000504746 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3231 	CDS 	NC_010468 	3537287 	3538660 	- 	1374 	putative proline-specific permease 	YP_001726180 	normal 	1 	unclonable 	9.34301e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3232 	CDS 	NC_010468 	3538736 	3540055 	- 	1320 	branched-chain amino acid transport system II carrier protein 	YP_001726181 	normal 	0.686325 	unclonable 	1.17832e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3233 	CDS 	NC_010468 	3540462 	3541757 	- 	1296 	phosphate regulon sensor protein 	YP_001726182 	normal 	0.62554 	unclonable 	1.15446e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3234 	CDS 	NC_010468 	3541815 	3542504 	- 	690 	transcriptional regulator PhoB 	YP_001726183 	normal 	0.456974 	unclonable 	8.19474e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3280 	CDS 	NC_010468 	3589520 	3590611 	+ 	1092 	lac repressor 	YP_001726229 	unclonable 	8.20962e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3281 	CDS 	NC_010468 	3590734 	3593808 	+ 	3075 	beta-D-galactosidase 	YP_001726230 	unclonable 	2.45928e-05 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3459 	CDS 	NC_010468 	3776414 	3776986 	- 	573 	D,D-heptose 1,7-bisphosphate phosphatase 	YP_001726400 	unclonable 	1.53309e-08 	normal 	0.611944 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3460 	CDS 	NC_010468 	3777174 	3778205 	+ 	1032 	DL-methionine transporter ATP-binding subunit 	YP_001726401 	unclonable 	6.25697e-08 	normal 	0.693626 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3480 	CDS 	NC_010468 	3797237 	3797692 	- 	456 	(3R)-hydroxymyristoyl-ACP dehydratase 	YP_001726421 	unclonable 	9.9524e-09 	normal 	0.030316 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3481 	CDS 	NC_010468 	3797797 	3798822 	- 	1026 	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase 	YP_001726422 	unclonable 	7.5732e-08 	normal 	0.0380128 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3561 	CDS 	NC_010468 	3892107 	3893024 	- 	918 	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase 	YP_001726502 	unclonable 	7.96515e-08 	hitchhiker 	0.00518684 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3594 	CDS 	NC_010468 	3929533 	3931233 	+ 	1701 	ribulokinase 	YP_001726535 	normal 	0.560965 	unclonable 	2.07418e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3595 	CDS 	NC_010468 	3931244 	3932746 	+ 	1503 	L-arabinose isomerase 	YP_001726536 	normal 	1 	unclonable 	1.76548e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3596 	CDS 	NC_010468 	3933031 	3933726 	+ 	696 	L-ribulose-5-phosphate 4-epimerase 	YP_001726537 	normal 	1 	unclonable 	1.29105e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3597 	CDS 	NC_010468 	3933801 	3936152 	+ 	2352 	DNA polymerase II 	YP_001726538 	normal 	1 	unclonable 	3.26268e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3598 	CDS 	NC_010468 	3936317 	3939223 	+ 	2907 	ATP-dependent helicase HepA 	YP_001726539 	normal 	0.517032 	unclonable 	4.67864e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3599 	CDS 	NC_010468 	3939235 	3939894 	+ 	660 	23S rRNA/tRNA pseudouridine synthase A 	YP_001726540 	normal 	0.0199705 	unclonable 	1.50238e-08 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3600 	CDS 	NC_010468 	3940011 	3940826 	- 	816 	Dna-J like membrane chaperone protein 	YP_001726541 	unclonable 	2.71898e-08 	hitchhiker 	3.23028e-06 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3601 	CDS 	NC_010468 	3941081 	3943435 	+ 	2355 	organic solvent tolerance protein 	YP_001726542 	unclonable 	7.24307e-06 	hitchhiker 	5.64634e-06 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3751 	CDS 	NC_010468 	4103364 	4104464 	- 	1101 	permease YjgP/YjgQ family protein 	YP_001726685 	unclonable 	8.20962e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3799 	CDS 	NC_010468 	4159163 	4159783 	- 	621 	peptidyl-prolyl cis-trans isomerase 	YP_001726731 	unclonable 	2.38479e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3800 	CDS 	NC_010468 	4160002 	4160640 	+ 	639 	opacity-associated protein A 	YP_001726732 	unclonable 	3.03652e-08 	normal 	0.850161 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3841 	CDS 	NC_010468 	4196480 	4196788 	- 	309 	RNA-binding protein Hfq 	YP_001726772 	normal 	0.0120982 	unclonable 	8.53498e-09 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_3847 	CDS 	NC_010468 	4203009 	4204148 	+ 	1140 	iron-sulfur cluster binding protein 	YP_001726778 	unclonable 	1.33072e-07 	hitchhiker 	2.62117e-06 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_4152 	CDS 	NC_010468 	4582275 	4585061 	- 	2787 	DNA polymerase I 	YP_001727076 	unclonable 	2.13441e-05 	hitchhiker 	0.000146367 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0036 	tRNA 	NC_010468 	1389757 	1389832 	- 	76 	tRNA-Lys 	 	unclonable 	5.84737e-09 	hitchhiker 	0.00132337 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0037 	tRNA 	NC_010468 	1389837 	1389912 	- 	76 	tRNA-Val 	 	unclonable 	5.78787e-09 	hitchhiker 	0.00129397 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0038 	tRNA 	NC_010468 	1389959 	1390034 	- 	76 	tRNA-Val 	 	unclonable 	6.27564e-09 	hitchhiker 	0.00122334 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0039 	tRNA 	NC_010468 	1390079 	1390154 	- 	76 	tRNA-Val 	 	unclonable 	5.67069e-09 	hitchhiker 	0.00359795 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0045 	tRNA 	NC_010468 	1848415 	1848490 	- 	76 	tRNA-Asn 	 	unclonable 	3.79772e-09 	normal 	0.0321214 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0049 	tRNA 	NC_010468 	1924574 	1924649 	+ 	76 	tRNA-Gly 	 	unclonable 	2.46877e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0074 	tRNA 	NC_010468 	3259238 	3259314 	+ 	77 	tRNA-Met 	 	unclonable 	1.08683e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0075 	tRNA 	NC_010468 	3259323 	3259407 	+ 	85 	tRNA-Leu 	 	unclonable 	1.16589e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0098 	tRNA 	NC_010468 	4204418 	4204493 	- 	76 	tRNA-Gly 	 	unclonable 	5.12871e-09 	hitchhiker 	1.1037e-05 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0099 	tRNA 	NC_010468 	4204529 	4204604 	- 	76 	tRNA-Gly 	 	unclonable 	5.02602e-09 	hitchhiker 	1.12339e-05 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_R0100 	tRNA 	NC_010468 	4204641 	4204716 	- 	76 	tRNA-Gly 	 	unclonable 	5.50184e-09 	hitchhiker 	1.1037e-05 	Escherichia coli ATCC 8739 	Bacteria

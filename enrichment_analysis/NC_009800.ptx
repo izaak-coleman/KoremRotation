@@ -1,0 +1,60 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+EcHS_A0684 	 	NC_009800 	698836 	700047 	- 	1212 	 	 	unclonable 	8.74491e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4517 	CDS 	NC_009800 	4522377 	4523477 	+ 	1101 	putative permease 	YP_001461054 	unclonable 	4.24635e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A2660 	CDS 	NC_009800 	2671872 	2673242 	+ 	1371 	exodeoxyribonuclease VII large subunit 	YP_001459302 	unclonable 	1.87444e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A2537 	CDS 	NC_009800 	2550659 	2552074 	- 	1416 	glutamyl-tRNA synthetase 	YP_001459189 	unclonable 	1.81823e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A2108 	CDS 	NC_009800 	2096806 	2098446 	- 	1641 	hypothetical protein 	YP_001458788 	unclonable 	6.24671e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A2010 	CDS 	NC_009800 	2011896 	2012444 	- 	549 	phosphatidylglycerophosphate synthetase 	YP_001458701 	unclonable 	1.8608e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1758 	CDS 	NC_009800 	1779445 	1779681 	+ 	237 	major outer membrane lipoprotein 	YP_001458460 	unclonable 	2.20557e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1739 	CDS 	NC_009800 	1760890 	1761822 	- 	933 	putative DNA-binding transcriptional regulator 	YP_001458443 	unclonable 	9.07553e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1631 	CDS 	NC_009800 	1652241 	1652513 	- 	273 	hypothetical protein 	YP_001458335 	unclonable 	3.90088e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1630 	CDS 	NC_009800 	1651420 	1652106 	+ 	687 	GntR family transcriptional regulator 	YP_001458334 	unclonable 	3.79226e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1629 	CDS 	NC_009800 	1650585 	1651331 	+ 	747 	3-hydroxy acid dehydrogenase 	YP_001458333 	unclonable 	5.55142e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A2952 	CDS 	NC_009800 	2959859 	2960776 	- 	918 	DNA-binding transcriptional activator GcvA 	YP_001459580 	unclonable 	2.32585e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A3245 	CDS 	NC_009800 	3254226 	3254441 	+ 	216 	30S ribosomal protein S21 	YP_001459859 	unclonable 	1.3627e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A3378 	CDS 	NC_009800 	3383788 	3384045 	- 	258 	50S ribosomal protein L27 	YP_001459987 	unclonable 	1.4045e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4409 	CDS 	NC_009800 	4417664 	4418803 	- 	1140 	iron-sulfur cluster binding protein 	YP_001460947 	unclonable 	7.44865e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4217 	CDS 	NC_009800 	4208461 	4209165 	+ 	705 	50S ribosomal protein L1 	YP_001460770 	unclonable 	6.26604e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4216 	CDS 	NC_009800 	4208029 	4208457 	+ 	429 	50S ribosomal protein L11 	YP_001460769 	unclonable 	7.86564e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4215 	CDS 	NC_009800 	4207325 	4207870 	+ 	546 	transcription antitermination protein NusG 	YP_001460768 	unclonable 	1.37761e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4214 	CDS 	NC_009800 	4206940 	4207323 	+ 	384 	preprotein translocase subunit SecE 	YP_001460767 	unclonable 	6.05954e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4213 	CDS 	NC_009800 	4205526 	4206710 	+ 	1185 	elongation factor Tu 	YP_001460766 	unclonable 	7.91099e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4208 	CDS 	NC_009800 	4203658 	4204608 	- 	951 	pantothenate kinase 	YP_001460765 	unclonable 	2.87125e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A3380 	CDS 	NC_009800 	3384636 	3385607 	+ 	972 	octaprenyl diphosphate synthase 	YP_001459989 	unclonable 	1.39544e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A3379 	CDS 	NC_009800 	3384066 	3384377 	- 	312 	50S ribosomal protein L21 	YP_001459988 	unclonable 	2.03555e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1391 	CDS 	NC_009800 	1388121 	1389290 	+ 	1170 	tetratricopeptide repeat protein 	YP_001458105 	unclonable 	4.93572e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1315 	CDS 	NC_009800 	1312153 	1313409 	+ 	1257 	glutamyl-tRNA reductase 	YP_001458033 	unclonable 	2.01079e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1063 	CDS 	NC_009800 	1077566 	1078084 	- 	519 	3-hydroxydecanoyl-(acyl carrier protein) dehydratase 	YP_001457793 	unclonable 	6.76561e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0995 	CDS 	NC_009800 	993572 	997561 	+ 	3990 	DNA translocase FtsK 	YP_001457731 	unclonable 	2.12407e-12 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0796 	CDS 	NC_009800 	806452 	807243 	+ 	792 	tol-pal system protein YbgF 	YP_001457542 	unclonable 	5.27837e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0733 	CDS 	NC_009800 	742392 	743156 	- 	765 	hypothetical protein 	YP_001457484 	unclonable 	5.44031e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0732 	CDS 	NC_009800 	741959 	742252 	- 	294 	LexA regulated protein 	YP_001457483 	unclonable 	1.95489e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0731 	CDS 	NC_009800 	741289 	741936 	- 	648 	flavodoxin FldA 	YP_001457482 	unclonable 	1.8988e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0513 	CDS 	NC_009800 	521198 	522496 	+ 	1299 	trigger factor 	YP_001457281 	unclonable 	2.68965e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0409 	CDS 	NC_009800 	430934 	432025 	- 	1092 	lac repressor 	YP_001457179 	unclonable 	3.9973e-20 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0408 	CDS 	NC_009800 	427737 	430811 	- 	3075 	beta-D-galactosidase 	YP_001457178 	unclonable 	1.44327e-14 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A0146 	CDS 	NC_009800 	156777 	158141 	- 	1365 	poly(A) polymerase I 	YP_001456927 	unclonable 	4.26812e-19 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1064 	CDS 	NC_009800 	1078153 	1079913 	- 	1761 	S16 family peptidase 	YP_001457794 	unclonable 	1.20941e-18 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1065 	CDS 	NC_009800 	1080099 	1080551 	+ 	453 	hypothetical protein 	YP_001457795 	unclonable 	1.95489e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1216 	CDS 	NC_009800 	1215295 	1215531 	+ 	237 	acyl carrier protein 	YP_001457938 	unclonable 	3.59624e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1215 	CDS 	NC_009800 	1214350 	1215084 	+ 	735 	3-ketoacyl-(acyl-carrier-protein) reductase 	YP_001457937 	unclonable 	7.4804e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1214 	CDS 	NC_009800 	1213408 	1214337 	+ 	930 	malonyl CoA-acyl carrier protein transacylase 	YP_001457936 	unclonable 	1.78744e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1213 	CDS 	NC_009800 	1212439 	1213392 	+ 	954 	3-oxoacyl-(acyl carrier protein) synthase III 	YP_001457935 	unclonable 	2.16382e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1212 	CDS 	NC_009800 	1211301 	1212371 	+ 	1071 	putative glycerol-3-phosphate acyltransferase PlsX 	YP_001457934 	unclonable 	5.7805e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1211 	CDS 	NC_009800 	1211047 	1211220 	+ 	174 	50S ribosomal protein L32 	YP_001457933 	unclonable 	2.31511e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1210 	CDS 	NC_009800 	1210474 	1210995 	+ 	522 	hypothetical protein 	YP_001457932 	unclonable 	3.98054e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1209 	CDS 	NC_009800 	1209691 	1210314 	- 	624 	Maf-like protein 	YP_001457931 	unclonable 	7.40436e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1208 	CDS 	NC_009800 	1208620 	1209579 	+ 	960 	23S rRNA pseudouridylate synthase C 	YP_001457930 	unclonable 	5.72174e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A1066 	CDS 	NC_009800 	1080627 	1081667 	- 	1041 	outer membrane protein A 	YP_001457796 	unclonable 	6.14063e-21 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4740 	misc_RNA 	NC_009800 	1210269 	1210437 	+ 	169 	sraB RNA 	 	unclonable 	3.70656e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4719 	tRNA 	NC_009800 	4205255 	4205329 	+ 	75 	tRNA-Gly 	 	unclonable 	1.20782e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4720 	tRNA 	NC_009800 	4205335 	4205412 	+ 	78 	tRNA-Thr 	 	unclonable 	1.2703e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4724 	tRNA 	NC_009800 	4417212 	4417289 	+ 	78 	tRNA-Gly 	 	unclonable 	1.56815e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4725 	tRNA 	NC_009800 	4417323 	4417400 	+ 	78 	tRNA-Gly 	 	unclonable 	1.64891e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4718 	tRNA 	NC_009800 	4205054 	4205138 	+ 	85 	tRNA-Tyr 	 	unclonable 	1.22023e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4717 	tRNA 	NC_009800 	4204969 	4205046 	+ 	78 	tRNA-Thr 	 	unclonable 	1.16021e-22 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4682 	tRNA 	NC_009800 	2552452 	2552529 	+ 	78 	tRNA-Val 	 	unclonable 	4.80923e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4681 	tRNA 	NC_009800 	2552333 	2552408 	+ 	76 	tRNA-Val 	 	unclonable 	4.95676e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4655 	tRNA 	NC_009800 	807407 	807484 	+ 	78 	tRNA-Lys 	 	unclonable 	8.59319e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4654 	tRNA 	NC_009800 	726065 	726143 	- 	79 	tRNA-Met 	 	unclonable 	2.94372e-23 	n/a 	 	Escherichia coli HS 	Bacteria
+EcHS_A4683 	tRNA 	NC_009800 	2552574 	2552651 	+ 	78 	tRNA-Val 	 	unclonable 	4.66609e-23 	n/a 	 	Escherichia coli HS 	Bacteria

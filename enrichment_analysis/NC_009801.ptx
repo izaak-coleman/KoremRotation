@@ -1,0 +1,97 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+EcE24377A_0058 	CDS 	NC_009801 	57952 	60306 	- 	2355 	organic solvent tolerance protein 	YP_001461226 	unclonable 	8.25468e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0059 	CDS 	NC_009801 	60561 	61376 	+ 	816 	Dna-J like membrane chaperone protein 	YP_001461227 	unclonable 	6.13097e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0096 	CDS 	NC_009801 	105672 	106934 	+ 	1263 	cell division protein FtsA 	YP_001461264 	unclonable 	4.50452e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0098 	CDS 	NC_009801 	108247 	109164 	+ 	918 	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase 	YP_001461266 	unclonable 	7.41814e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0181 	CDS 	NC_009801 	198558 	200990 	+ 	2433 	outer membrane protein assembly factor YaeT 	YP_001461346 	unclonable 	1.94171e-10 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0182 	CDS 	NC_009801 	201112 	201597 	+ 	486 	periplasmic chaperone 	YP_001461347 	unclonable 	2.31614e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0183 	CDS 	NC_009801 	201601 	202626 	+ 	1026 	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase 	YP_001461348 	unclonable 	2.31464e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0368 	CDS 	NC_009801 	397825 	400899 	- 	3075 	beta-D-galactosidase 	YP_001461520 	unclonable 	2.19694e-09 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0369 	CDS 	NC_009801 	401022 	402113 	- 	1092 	lac repressor 	YP_001461521 	unclonable 	3.75664e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0472 	CDS 	NC_009801 	490281 	491579 	+ 	1299 	trigger factor 	YP_001461623 	unclonable 	2.31464e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0663 	CDS 	NC_009801 	691395 	691712 	- 	318 	hypothetical protein 	YP_001461805 	unclonable 	9.19857e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0712 	CDS 	NC_009801 	734045 	734692 	- 	648 	flavodoxin FldA 	YP_001461848 	unclonable 	8.98248e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0713 	CDS 	NC_009801 	734715 	735008 	- 	294 	LexA regulated protein 	YP_001461849 	unclonable 	2.36338e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0714 	CDS 	NC_009801 	735148 	735912 	- 	765 	hypothetical protein 	YP_001461850 	unclonable 	1.45499e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0715 	CDS 	NC_009801 	736097 	736642 	+ 	546 	replication initiation regulator SeqA 	YP_001461851 	unclonable 	6.19377e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0716 	CDS 	NC_009801 	736668 	738308 	+ 	1641 	phosphoglucomutase 	YP_001461852 	unclonable 	2.2067e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0771 	CDS 	NC_009801 	799492 	800283 	+ 	792 	tol-pal system protein YbgF 	YP_001461903 	unclonable 	9.73622e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_0965 	CDS 	NC_009801 	982634 	986740 	+ 	4107 	DNA translocase FtsK 	YP_001462088 	unclonable 	3.42338e-08 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1007 	CDS 	NC_009801 	1027115 	1027798 	+ 	684 	cytidylate kinase 	YP_001462128 	unclonable 	8.20305e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1008 	CDS 	NC_009801 	1027909 	1029582 	+ 	1674 	30S ribosomal protein S1 	YP_001462129 	unclonable 	3.83759e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1061 	CDS 	NC_009801 	1085141 	1086250 	- 	1110 	MOSC domain-containing protein 	YP_001462180 	unclonable 	1.42563e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1063 	CDS 	NC_009801 	1086494 	1088602 	+ 	2109 	23S rRNA m(2)G2445 methyltransferase 	YP_001462181 	unclonable 	3.72198e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1064 	CDS 	NC_009801 	1088614 	1090521 	+ 	1908 	ABC transporter ATPase component 	YP_001462182 	unclonable 	1.87784e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1066 	CDS 	NC_009801 	1091909 	1093549 	+ 	1641 	paraquat-inducible protein B 	YP_001462184 	unclonable 	8.23988e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1067 	CDS 	NC_009801 	1093546 	1094109 	+ 	564 	hypothetical protein 	YP_001462185 	unclonable 	1.85697e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1068 	CDS 	NC_009801 	1094602 	1095120 	- 	519 	3-hydroxydecanoyl-(acyl carrier protein) dehydratase 	YP_001462186 	unclonable 	3.1001e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1069 	CDS 	NC_009801 	1095189 	1096949 	- 	1761 	S16 family peptidase 	YP_001462187 	unclonable 	2.6445e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1071 	CDS 	NC_009801 	1097662 	1098714 	- 	1053 	outer membrane protein A 	YP_001462189 	unclonable 	3.3965e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1072 	CDS 	NC_009801 	1099071 	1099580 	- 	510 	SOS cell division inhibitor 	YP_001462191 	unclonable 	3.94327e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1073 	CDS 	NC_009801 	1098869 	1099087 	+ 	219 	hypothetical protein 	YP_001462190 	unclonable 	1.36121e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1075 	CDS 	NC_009801 	1099799 	1100428 	+ 	630 	TfoX family protein 	YP_001462192 	unclonable 	5.5454e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1215 	CDS 	NC_009801 	1229046 	1229282 	+ 	237 	acyl carrier protein 	YP_001462326 	unclonable 	1.03813e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1216 	CDS 	NC_009801 	1229370 	1230611 	+ 	1242 	3-oxoacyl-(acyl carrier protein) synthase II 	YP_001462327 	unclonable 	3.22772e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1218 	CDS 	NC_009801 	1231543 	1232565 	+ 	1023 	hypothetical protein 	YP_001462329 	unclonable 	1.09839e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1219 	CDS 	NC_009801 	1232555 	1233196 	+ 	642 	thymidylate kinase 	YP_001462330 	unclonable 	2.91901e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1419 	CDS 	NC_009801 	1422274 	1423128 	- 	855 	Rha family phage regulatory protein 	YP_001462521 	unclonable 	1.00347e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1482 	CDS 	NC_009801 	1472287 	1473456 	+ 	1170 	tetratricopeptide repeat protein 	YP_001462579 	unclonable 	4.55068e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1749 	CDS 	NC_009801 	1749064 	1749750 	+ 	687 	GntR family transcriptional regulator 	YP_001462832 	unclonable 	2.22448e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1872 	CDS 	NC_009801 	1864684 	1865616 	- 	933 	putative DNA-binding transcriptional regulator 	YP_001462954 	unclonable 	1.44024e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1873 	CDS 	NC_009801 	1863662 	1864687 	+ 	1026 	DNA-binding transcriptional repressor PurR 	YP_001462953 	unclonable 	3.26079e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_1893 	CDS 	NC_009801 	1883240 	1883476 	+ 	237 	major outer membrane lipoprotein 	YP_001462971 	unclonable 	1.01718e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2022 	CDS 	NC_009801 	2005107 	2006315 	- 	1209 	IS605 family transposase OrfB 	YP_001463096 	unclonable 	2.53507e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2060 	CDS 	NC_009801 	2042433 	2043131 	- 	699 	putative solute/DNA competence effector 	YP_001463133 	unclonable 	8.98248e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2145 	CDS 	NC_009801 	2119090 	2119638 	- 	549 	phosphatidylglycerophosphate synthetase 	YP_001463215 	unclonable 	7.41814e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2186 	CDS 	NC_009801 	2154570 	2154797 	+ 	228 	hypothetical protein 	YP_001463255 	unclonable 	9.48052e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2250 	CDS 	NC_009801 	2214852 	2215076 	- 	225 	hypothetical protein 	YP_001463316 	unclonable 	1.61375e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2251 	CDS 	NC_009801 	2215116 	2215592 	- 	477 	hypothetical protein 	YP_001463317 	unclonable 	3.46124e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2252 	CDS 	NC_009801 	2215936 	2216331 	+ 	396 	transcriptional repressor DicA 	YP_001463318 	unclonable 	2.18001e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2257 	CDS 	NC_009801 	2220180 	2221208 	+ 	1029 	phage integrase family site specific recombinase 	YP_001463323 	unclonable 	2.31464e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2259 	CDS 	NC_009801 	2221477 	2222274 	+ 	798 	hypothetical protein 	YP_001463324 	unclonable 	1.06573e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2267 	CDS 	NC_009801 	2236030 	2237670 	- 	1641 	hypothetical protein 	YP_001463330 	unclonable 	1.0697e-11 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2269 	CDS 	NC_009801 	2237791 	2238741 	- 	951 	transcriptional regulator Cbl 	YP_001463331 	unclonable 	8.89139e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2593 	CDS 	NC_009801 	2589076 	2589618 	- 	543 	NUDIX family hydrolase 	YP_001463643 	unclonable 	5.83084e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2689 	CDS 	NC_009801 	2681413 	2682828 	- 	1416 	glutamyl-tRNA synthetase 	YP_001463736 	unclonable 	5.85345e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2694 	CDS 	NC_009801 	2683937 	2684863 	- 	927 	LysR family transcriptional regulator 	YP_001463738 	unclonable 	2.01069e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2695 	CDS 	NC_009801 	2683605 	2683946 	+ 	342 	hypothetical protein 	YP_001463737 	unclonable 	2.11518e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2697 	CDS 	NC_009801 	2684953 	2685951 	+ 	999 	bile acid/Na+ symporter family protein 	YP_001463739 	unclonable 	2.09356e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2794 	 	NC_009801 	2784631 	2786001 	+ 	1371 	 	 	unclonable 	9.77059e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_2898 	CDS 	NC_009801 	2900451 	2901041 	- 	591 	heat shock protein GrpE 	YP_001463933 	unclonable 	5.38048e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3088 	CDS 	NC_009801 	3091494 	3093728 	- 	2235 	GDP/GTP pyrophosphokinase 	YP_001464106 	unclonable 	2.21392e-10 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3112 	CDS 	NC_009801 	3120220 	3121320 	- 	1101 	putative RNA 2'-O-ribose methyltransferase 	YP_001464130 	unclonable 	1.30243e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3113 	CDS 	NC_009801 	3121313 	3121708 	- 	396 	hypothetical protein 	YP_001464131 	unclonable 	1.03813e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3114 	CDS 	NC_009801 	3121727 	3122644 	- 	918 	DNA-binding transcriptional activator GcvA 	YP_001464132 	unclonable 	6.98481e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3150 	CDS 	NC_009801 	3165139 	3165669 	- 	531 	dinucleoside polyphosphate hydrolase 	YP_001464165 	unclonable 	2.88941e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3151 	CDS 	NC_009801 	3166354 	3167043 	+ 	690 	DNA mismatch repair protein 	YP_001464166 	unclonable 	4.14624e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3238 	CDS 	NC_009801 	3258952 	3259281 	+ 	330 	Z-ring-associated protein 	YP_001464249 	unclonable 	2.74743e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3504 	CDS 	NC_009801 	3513573 	3514346 	+ 	774 	zinc transporter ZupT 	YP_001464501 	unclonable 	2.24726e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3670 	CDS 	NC_009801 	3670020 	3670277 	- 	258 	50S ribosomal protein L27 	YP_001464660 	unclonable 	9.67389e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3671 	CDS 	NC_009801 	3670298 	3670609 	- 	312 	50S ribosomal protein L21 	YP_001464662 	unclonable 	1.25607e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_3672 	CDS 	NC_009801 	3670271 	3670816 	+ 	546 	hypothetical protein 	YP_001464661 	unclonable 	2.48551e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4136 	CDS 	NC_009801 	4126279 	4127088 	- 	810 	formamidopyrimidine-DNA glycosylase 	YP_001465115 	unclonable 	8.71365e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4382 	CDS 	NC_009801 	4372179 	4374965 	+ 	2787 	DNA polymerase I 	YP_001465344 	unclonable 	1.70331e-10 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4519 	CDS 	NC_009801 	4512970 	4514154 	+ 	1185 	elongation factor Tu 	YP_001465471 	unclonable 	3.4313e-12 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4520 	CDS 	NC_009801 	4514384 	4514767 	+ 	384 	preprotein translocase subunit SecE 	YP_001465472 	unclonable 	1.32073e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4521 	CDS 	NC_009801 	4514769 	4515314 	+ 	546 	transcription antitermination protein NusG 	YP_001465473 	unclonable 	2.38759e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4522 	CDS 	NC_009801 	4515419 	4516420 	- 	1002 	hypothetical protein 	YP_001465474 	unclonable 	9.2596e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4719 	CDS 	NC_009801 	4723729 	4724274 	+ 	546 	oligoribonuclease 	YP_001465662 	unclonable 	3.75023e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4774 	 	NC_009801 	4768565 	4769194 	- 	630 	 	 	unclonable 	2.86011e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_4956 	CDS 	NC_009801 	4940967 	4941440 	- 	474 	hypothetical protein 	YP_001465882 	unclonable 	1.76607e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5018 	tRNA 	NC_009801 	720343 	720427 	- 	85 	tRNA-Leu 	 	unclonable 	5.85411e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5019 	tRNA 	NC_009801 	720436 	720512 	- 	77 	tRNA-Met 	 	unclonable 	5.40299e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5020 	tRNA 	NC_009801 	800448 	800523 	+ 	76 	tRNA-Lys 	 	unclonable 	7.9938e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5021 	tRNA 	NC_009801 	800659 	800734 	+ 	76 	tRNA-Val 	 	unclonable 	7.9938e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5039 	tRNA 	NC_009801 	2118863 	2118938 	- 	76 	tRNA-Gly 	 	unclonable 	1.0276e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5040 	tRNA 	NC_009801 	2221294 	2221383 	- 	90 	tRNA-Ser 	 	unclonable 	6.8764e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5041 	tRNA 	NC_009801 	2222375 	2222450 	+ 	76 	tRNA-Asn 	 	unclonable 	1.17093e-13 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5042 	tRNA 	NC_009801 	2235854 	2235929 	- 	76 	tRNA-Asn 	 	unclonable 	4.64951e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5043 	tRNA 	NC_009801 	2237678 	2237753 	+ 	76 	tRNA-Asn 	 	unclonable 	3.44379e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5049 	tRNA 	NC_009801 	2683087 	2683162 	+ 	76 	tRNA-Val 	 	unclonable 	6.03353e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5050 	tRNA 	NC_009801 	2683207 	2683282 	+ 	76 	tRNA-Val 	 	unclonable 	6.8764e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5051 	tRNA 	NC_009801 	2683329 	2683404 	+ 	76 	tRNA-Val 	 	unclonable 	6.73895e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5052 	tRNA 	NC_009801 	2683409 	2683484 	+ 	76 	tRNA-Lys 	 	unclonable 	7.15976e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5062 	tRNA 	NC_009801 	2978967 	2979043 	- 	77 	tRNA-Arg 	 	unclonable 	1.87047e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5063 	tRNA 	NC_009801 	2979047 	2979139 	- 	93 	tRNA-Ser 	 	unclonable 	1.88963e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5102 	tRNA 	NC_009801 	4512699 	4512773 	+ 	75 	tRNA-Gly 	 	unclonable 	6.1566e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria
+EcE24377A_5103 	tRNA 	NC_009801 	4512780 	4512855 	+ 	76 	tRNA-Thr 	 	unclonable 	6.47348e-14 	n/a 	 	Escherichia coli E24377A 	Bacteria

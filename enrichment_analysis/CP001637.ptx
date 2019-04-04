@@ -1,0 +1,67 @@
+Locus tag	Gene type	Replicon accession	From	To	Strand	Gene Length	Product	Protein accession	Plasmid clonability	Plasmid unclonability p-value	Fosmid clonability	Fosmid unclonability p-value	Organism name	Kingdom	Coverage Plot	PanDaTox homologs	Experimental validation
+EcDH1_0298 	CDS 	CP001637 	335889 	337205 	- 	1317 	gluconate transporter 	ACX37988 	unclonable 	2.70945e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0371 	CDS 	CP001637 	409212 	409586 	+ 	375 	ribosomal protein S12 	ACX38061 	unclonable 	1.72822e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0634 	CDS 	CP001637 	670912 	672657 	- 	1746 	DNA primase 	ACX38321 	unclonable 	2.61356e-13 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0635 	CDS 	CP001637 	672768 	672983 	- 	216 	ribosomal protein S21 	ACX38322 	unclonable 	4.12914e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0645 	CDS 	CP001637 	681936 	682556 	- 	621 	SH3 domain protein 	ACX38331 	unclonable 	2.8262e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0782 	CDS 	CP001637 	827822 	828151 	- 	330 	protein of unknown function DUF710 	ACX38466 	unclonable 	5.86222e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0801 	CDS 	CP001637 	847481 	848579 	+ 	1099 	hypothetical protein 	ACX38485 	unclonable 	6.91536e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_0904 	CDS 	CP001637 	970112 	972346 	+ 	2235 	(p)ppGpp synthetase I, SpoT/RelA 	ACX38587 	unclonable 	6.60798e-12 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1080 	CDS 	CP001637 	1149589 	1152162 	+ 	2574 	ATP-dependent chaperone ClpB 	ACX38754 	unclonable 	1.45981e-11 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1247 	CDS 	CP001637 	1343592 	1344563 	- 	972 	cysteine synthase A 	ACX38921 	unclonable 	4.02338e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1248 	CDS 	CP001637 	1344748 	1345509 	- 	762 	protein of unknown function DUF540 	ACX38922 	unclonable 	1.24469e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1249 	CDS 	CP001637 	1345739 	1346725 	+ 	987 	cell division protein ZipA 	ACX38923 	unclonable 	4.96931e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1357 	CDS 	CP001637 	1457796 	1458338 	+ 	543 	NUDIX hydrolase 	ACX39029 	unclonable 	2.43085e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1734 	CDS 	CP001637 	1885238 	1885786 	+ 	549 	CDP-diacylglycerol/glycerol-3-phosphate 3-phosphatidyltransferase 	ACX39393 	unclonable 	1.72822e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_1992 	CDS 	CP001637 	2152558 	2152797 	+ 	240 	protein of unknown function DUF1289 	ACX39649 	unclonable 	3.11931e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2103 	CDS 	CP001637 	2247565 	2249025 	+ 	1461 	Mannitol dehydrogenase domain protein 	ACX39758 	unclonable 	1.35615e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2104 	CDS 	CP001637 	2249060 	2249263 	- 	204 	selenium-binding protein YdfZ 	ACX39759 	unclonable 	7.75874e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2105 	CDS 	CP001637 	2249440 	2250126 	- 	687 	transcriptional regulator, GntR family 	ACX39760 	unclonable 	1.45704e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2367 	CDS 	CP001637 	2537950 	2539119 	- 	1170 	Tetratricopeptide domain protein 	ACX40010 	unclonable 	6.51113e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2368 	CDS 	CP001637 	2539126 	2539434 	- 	309 	protein of unknown function DUF1049 	ACX40011 	unclonable 	6.48025e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2463 	CDS 	CP001637 	2645448 	2645978 	+ 	531 	Disulphide bond formation protein DsbB 	ACX40103 	unclonable 	2.15548e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2554 	CDS 	CP001637 	2728335 	2729069 	- 	735 	3-oxoacyl-(acyl-carrier-protein) reductase 	ACX40190 	unclonable 	9.3114e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2555 	CDS 	CP001637 	2729082 	2730011 	- 	930 	malonyl CoA-acyl carrier protein transacylase 	ACX40191 	unclonable 	2.13836e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2556 	CDS 	CP001637 	2730027 	2730980 	- 	954 	3-oxoacyl-(acyl-carrier-protein) synthase III 	ACX40192 	unclonable 	2.31699e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2557 	CDS 	CP001637 	2731048 	2732088 	- 	1041 	fatty acid/phospholipid synthesis protein PlsX 	ACX40193 	unclonable 	3.9428e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2558 	CDS 	CP001637 	2732199 	2732372 	- 	174 	ribosomal protein L32 	ACX40194 	unclonable 	3.21504e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2559 	CDS 	CP001637 	2732424 	2732945 	- 	522 	protein of unknown function DUF177 	ACX40195 	unclonable 	1.87302e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2686 	CDS 	CP001637 	2861066 	2862106 	+ 	1041 	OmpA domain protein transmembrane region-containing protein 	ACX40319 	unclonable 	9.93272e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2687 	CDS 	CP001637 	2862182 	2862634 	- 	453 	protein of unknown function DUF1047 	ACX40320 	unclonable 	2.43085e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2688 	CDS 	CP001637 	2862820 	2864580 	+ 	1761 	putative ATP-dependent protease 	ACX40321 	unclonable 	2.56121e-13 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2689 	CDS 	CP001637 	2864541 	2865167 	+ 	627 	beta-hydroxyacyl-(acyl-carrier-protein) dehydratase FabA 	ACX40322 	unclonable 	3.00166e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2713 	CDS 	CP001637 	2892134 	2893534 	+ 	1401 	asparaginyl-tRNA synthetase 	ACX40346 	unclonable 	7.15906e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2877 	CDS 	CP001637 	3083507 	3084565 	- 	1059 	molybdate ABC transporter, ATPase subunit 	ACX40510 	unclonable 	2.07468e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2893 	CDS 	CP001637 	3100730 	3101521 	- 	792 	tol-pal system protein YbgF 	ACX40526 	unclonable 	7.77215e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2894 	CDS 	CP001637 	3101531 	3102052 	- 	522 	peptidoglycan-associated lipoprotein 	ACX40527 	unclonable 	1.67676e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2895 	CDS 	CP001637 	3102087 	3103379 	- 	1293 	Tol-Pal system beta propeller repeat protein TolB 	ACX40528 	unclonable 	2.3315e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2950 	CDS 	CP001637 	3167587 	3168132 	- 	546 	SeqA family protein 	ACX40579 	unclonable 	2.58236e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2951 	CDS 	CP001637 	3168317 	3169081 	+ 	765 	alpha/beta hydrolase fold protein 	ACX40580 	unclonable 	1.61502e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_2989 	CDS 	CP001637 	3212083 	3212400 	+ 	318 	iojap-like protein 	ACX40618 	unclonable 	4.79848e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3171 	CDS 	CP001637 	3412255 	3413529 	- 	1275 	ATP-dependent Clp protease, ATP-binding subunit ClpX 	ACX40797 	unclonable 	1.03405e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3172 	CDS 	CP001637 	3413655 	3414278 	- 	624 	ATP-dependent Clp protease, proteolytic subunit ClpP 	ACX40798 	unclonable 	1.64318e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3173 	CDS 	CP001637 	3414524 	3415822 	- 	1299 	trigger factor 	ACX40799 	unclonable 	6.98649e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3262 	CDS 	CP001637 	3504650 	3507724 	+ 	3075 	glycoside hydrolase family 2 TIM barrel 	ACX40886 	unclonable 	8.77394e-10 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3423 	 	CP001637 	3668822 	3669276 	- 	455 	 	 	unclonable 	1.87302e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3424 	CDS 	CP001637 	3669381 	3670406 	- 	1026 	UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase 	ACX41039 	unclonable 	3.86383e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3504 	CDS 	CP001637 	3763903 	3764820 	- 	918 	UDP-3-0-acyl N-acetylglucosamine deacetylase 	ACX41119 	unclonable 	1.99287e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3505 	CDS 	CP001637 	3764921 	3766072 	- 	1152 	cell division protein FtsZ 	ACX41120 	unclonable 	9.63693e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3544 	CDS 	CP001637 	3813198 	3814013 	- 	816 	heat shock protein DnaJ domain protein 	ACX41158 	unclonable 	3.15628e-16 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_3545 	CDS 	CP001637 	3814268 	3816622 	+ 	2355 	Organic solvent tolerance protein 	ACX41159 	unclonable 	2.67581e-12 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_4015 	CDS 	CP001637 	4337342 	4338526 	- 	1185 	translation elongation factor Tu 	ACX41615 	unclonable 	7.05833e-15 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_4180 	CDS 	CP001637 	4532198 	4533583 	- 	1386 	amino acid permease-associated region 	ACX41780 	unclonable 	1.15482e-14 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0020 	tRNA 	CP001637 	1065118 	1065210 	+ 	93 	tRNA-Ser 	 	unclonable 	2.35698e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0044 	tRNA 	CP001637 	1885938 	1886013 	+ 	76 	tRNA-Gly 	 	unclonable 	1.35893e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0060 	tRNA 	CP001637 	3100490 	3100565 	- 	76 	tRNA-Lys 	 	unclonable 	1.42893e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0061 	tRNA 	CP001637 	3183986 	3184062 	+ 	77 	tRNA-Met 	 	unclonable 	4.99234e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0062 	tRNA 	CP001637 	3184072 	3184156 	+ 	85 	tRNA-Leu 	 	unclonable 	4.89236e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0063 	tRNA 	CP001637 	3184180 	3184254 	+ 	75 	tRNA-Gln 	 	unclonable 	4.51209e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0064 	tRNA 	CP001637 	3184289 	3184363 	+ 	75 	tRNA-Gln 	 	unclonable 	4.7933e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0065 	tRNA 	CP001637 	3184379 	3184455 	+ 	77 	tRNA-Met 	 	unclonable 	4.7933e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0066 	tRNA 	CP001637 	3184503 	3184577 	+ 	75 	tRNA-Gln 	 	unclonable 	4.69731e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0083 	tRNA 	CP001637 	4121923 	4121998 	- 	76 	tRNA-Gly 	 	unclonable 	7.37865e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0084 	tRNA 	CP001637 	4122034 	4122109 	- 	76 	tRNA-Gly 	 	unclonable 	6.41323e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0085 	tRNA 	CP001637 	4122146 	4122221 	- 	76 	tRNA-Gly 	 	unclonable 	5.68672e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0091 	tRNA 	CP001637 	4338641 	4338716 	- 	76 	tRNA-Thr 	 	unclonable 	2.13219e-17 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0107 	tRNA 	CP001637 	4532019 	4532095 	- 	77 	tRNA-Arg 	 	unclonable 	9.38441e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
+EcDH1_R0114 	tRNA 	CP001637 	3184614 	3184689 	+ 	76 	tRNA-Gln 	 	unclonable 	4.1228e-18 	n/a 	 	Escherichia coli DH1 	Bacteria
