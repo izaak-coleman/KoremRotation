@@ -1,6 +1,4 @@
-3814435
-4558953
-CP001509.3	Genbank	region	1	4558953	.	+	.	ID=CP001509.3:1..4558953;Dbxref=taxon:469008;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;old-name=Escherichia coli;strain=BL21(DE3)	FALSE	744519
+CP001509.3	Genbank	region	1	4558953	.	+	.	ID=CP001509.3:1..4558953;Dbxref=taxon:469008;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic_DNA;old-name=Escherichia_coli;strain=BL21(DE3)	FALSE	744519
 CP001509.3	Genbank	gene	190	255	.	+	.	ID=gene-ECD_00001;Name=thrL;gbkey=Gene;gene=thrL;gene_biotype=protein_coding;locus_tag=ECD_00001	FALSE	744708
 CP001509.3	Genbank	gene	336	2798	.	+	.	ID=gene-ECD_00002;Name=thrA;gbkey=Gene;gene=thrA;gene_biotype=protein_coding;locus_tag=ECD_00002	FALSE	744854
 CP001509.3	Genbank	gene	2800	3732	.	+	.	ID=gene-ECD_00003;Name=thrB;gbkey=Gene;gene=thrB;gene_biotype=protein_coding;locus_tag=ECD_00003	FALSE	747318
@@ -16,7 +14,7 @@ CP001509.3	Genbank	gene	10828	11313	.	+	.	ID=gene-ECD_00012;Name=htgA;gbkey=Gene
 CP001509.3	Genbank	gene	11380	11784	.	-	.	ID=gene-ECD_00013;Name=yaaI;gbkey=Gene;gene=yaaI;gene_biotype=protein_coding;locus_tag=ECD_00013	FALSE	755898
 CP001509.3	Genbank	gene	12161	14077	.	+	.	ID=gene-ECD_00014;Name=dnaK;gbkey=Gene;gene=dnaK;gene_biotype=protein_coding;locus_tag=ECD_00014	FALSE	756679
 CP001509.3	Genbank	gene	14166	15296	.	+	.	ID=gene-ECD_00015;Name=dnaJ;gbkey=Gene;gene=dnaJ;gene_biotype=protein_coding;locus_tag=ECD_00015	FALSE	758684
-CP001509.3	Genbank	mobile_genetic_element	15386	16728	.	+	.	ID=id-CP001509.3:15386..16728;gbkey=mobile_element;mobile_element_type=insertion sequence:IS186	FALSE	759904
+CP001509.3	Genbank	mobile_genetic_element	15386	16728	.	+	.	ID=id-CP001509.3:15386..16728;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS186	FALSE	759904
 CP001509.3	Genbank	gene	15443	16555	.	+	.	ID=gene-ECD_00016;Name=insL-1;gbkey=Gene;gene=insL-1;gene_biotype=protein_coding;locus_tag=ECD_00016	FALSE	759961
 CP001509.3	Genbank	gene	16749	16958	.	-	.	ID=gene-ECD_00017;Name=mokC;gbkey=Gene;gene=mokC;gene_biotype=protein_coding;locus_tag=ECD_00017	FALSE	761267
 CP001509.3	Genbank	gene	16899	17051	.	-	.	ID=gene-ECD_n04291;Name=sokC;gbkey=Gene;gene=sokC;gene_biotype=ncRNA;locus_tag=ECD_n04291	FALSE	761417
@@ -25,7 +23,7 @@ CP001509.3	Genbank	gene	18714	19619	.	+	.	ID=gene-ECD_00019;Name=nhaR;gbkey=Gene
 CP001509.3	Genbank	gene	19658	20617	.	-	.	ID=gene-ECD_00020;Name=ECD_00020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00020	FALSE	764176
 CP001509.3	Genbank	gene	20630	21775	.	-	.	ID=gene-ECD_00021;Name=ECD_00021;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00021	FALSE	765148
 CP001509.3	Genbank	gene	22208	22912	.	-	.	ID=gene-ECD_00022;Name=ECD_00022;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00022	FALSE	766726
-CP001509.3	Genbank	mobile_genetic_element	23291	24058	.	+	.	ID=id-CP001509.3:23291..24058;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	767809
+CP001509.3	Genbank	mobile_genetic_element	23291	24058	.	+	.	ID=id-CP001509.3:23291..24058;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	767809
 CP001509.3	Genbank	gene	23346	23621	.	+	.	ID=gene-ECD_00023;Name=insA-1;gbkey=Gene;gene=insA-1;gene_biotype=protein_coding;locus_tag=ECD_00023	FALSE	767864
 CP001509.3	Genbank	gene	23540	24043	.	+	.	ID=gene-ECD_00024;Name=insB-1;gbkey=Gene;gene=insB-1;gene_biotype=protein_coding;locus_tag=ECD_00024	FALSE	768058
 CP001509.3	Genbank	gene	24054	24404	.	-	.	ID=gene-ECD_00025;Name=ECD_00025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00025	FALSE	768572
@@ -42,7 +40,7 @@ CP001509.3	Genbank	gene	38372	38767	.	+	.	ID=gene-ECD_00038;Name=caiF;gbkey=Gene
 CP001509.3	Genbank	gene	38976	39566	.	-	.	ID=gene-ECD_00039;Name=caiE;gbkey=Gene;gene=caiE;gene_biotype=protein_coding;locus_tag=ECD_00039	FALSE	783494
 CP001509.3	Genbank	gene	39572	40465	.	-	.	ID=gene-ECD_00040;Name=caiD;gbkey=Gene;gene=caiD;gene_biotype=protein_coding;locus_tag=ECD_00040	FALSE	784090
 CP001509.3	Genbank	gene	40466	42019	.	-	.	ID=gene-ECD_00041;Name=caiC;gbkey=Gene;gene=caiC;gene_biotype=protein_coding;locus_tag=ECD_00041	FALSE	784984
-CP001509.3	Genbank	pseudogene	42093	43309	.	-	.	ID=gene-ECD_00042;Name=caiB;Note=frameshift%3B crotonobetainyl-CoA:carnitineCoA-transferase%3B similar to b0038;gbkey=Gene;gene=caiB;gene_biotype=pseudogene;locus_tag=ECD_00042;pseudo=true	FALSE	786611
+CP001509.3	Genbank	pseudogene	42093	43309	.	-	.	ID=gene-ECD_00042;Name=caiB;Note=frameshift%3B_crotonobetainyl-CoA:carnitineCoA-transferase%3B_similar_to_b0038;gbkey=Gene;gene=caiB;gene_biotype=pseudogene;locus_tag=ECD_00042;pseudo=true	FALSE	786611
 CP001509.3	Genbank	gene	43438	44580	.	-	.	ID=gene-ECD_00043;Name=caiA;gbkey=Gene;gene=caiA;gene_biotype=protein_coding;locus_tag=ECD_00043	FALSE	787956
 CP001509.3	Genbank	gene	44611	46125	.	-	.	ID=gene-ECD_00044;Name=caiT;gbkey=Gene;gene=caiT;gene_biotype=protein_coding;locus_tag=ECD_00044	FALSE	789129
 CP001509.3	Genbank	gene	46599	47369	.	+	.	ID=gene-ECD_00045;Name=fixA;gbkey=Gene;gene=fixA;gene_biotype=protein_coding;locus_tag=ECD_00045	FALSE	791117
@@ -215,7 +213,7 @@ CP001509.3	Genbank	gene	238462	238929	.	-	.	ID=gene-ECD_00207;Name=rnhA;gbkey=Ge
 CP001509.3	Genbank	gene	238994	239725	.	+	.	ID=gene-ECD_00208;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding;locus_tag=ECD_00208	FALSE	983512
 CP001509.3	Genbank	gene	239858	239934	.	+	.	ID=gene-ECD_t00004;Name=aspV;gbkey=Gene;gene=aspV;gene_biotype=tRNA;locus_tag=ECD_t00004	FALSE	984376
 CP001509.3	Genbank	gene	240264	241049	.	+	.	ID=gene-ECD_00209;Name=yafT;gbkey=Gene;gene=yafT;gene_biotype=protein_coding;locus_tag=ECD_00209	FALSE	984782
-CP001509.3	Genbank	mobile_genetic_element	241260	242027	.	+	.	ID=id-CP001509.3:241260..242027;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	985778
+CP001509.3	Genbank	mobile_genetic_element	241260	242027	.	+	.	ID=id-CP001509.3:241260..242027;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	985778
 CP001509.3	Genbank	gene	241315	241590	.	+	.	ID=gene-ECD_00210;Name=insA-2;gbkey=Gene;gene=insA-2;gene_biotype=protein_coding;locus_tag=ECD_00210	FALSE	985833
 CP001509.3	Genbank	gene	241509	242012	.	+	.	ID=gene-ECD_00211;Name=insB-2;gbkey=Gene;gene=insB-2;gene_biotype=protein_coding;locus_tag=ECD_00211	FALSE	986027
 CP001509.3	Genbank	gene	242014	242385	.	+	.	ID=gene-ECD_00212;Name=ECD_00212;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00212	FALSE	986532
@@ -230,8 +228,8 @@ CP001509.3	Genbank	gene	250535	250813	.	-	.	ID=gene-ECD_00220;Name=yafQ;gbkey=Ge
 CP001509.3	Genbank	gene	250816	251076	.	-	.	ID=gene-ECD_00221;Name=dinJ;gbkey=Gene;gene=dinJ;gene_biotype=protein_coding;locus_tag=ECD_00221	FALSE	995334
 CP001509.3	Genbank	gene	251286	252035	.	+	.	ID=gene-ECD_00222;Name=yafL;gbkey=Gene;gene=yafL;gene_biotype=protein_coding;locus_tag=ECD_00222	FALSE	995804
 CP001509.3	Genbank	gene	252211	252708	.	+	.	ID=gene-ECD_00223;Name=rayT;gbkey=Gene;gene=rayT;gene_biotype=protein_coding;locus_tag=ECD_00223	FALSE	996729
-CP001509.3	Genbank	pseudogene	252924	254633	.	-	.	ID=gene-ECD_00224;Name=fhiA;Note=similar to b0229%3B flagellar system protein%3B promoterless fragment%3B also pseudo in K-12 MG1655;gbkey=Gene;gene=fhiA;gene_biotype=pseudogene;locus_tag=ECD_00224;pseudo=true	FALSE	997442
-CP001509.3	Genbank	pseudogene	254623	255393	.	+	.	ID=gene-ECD_00225;Name=mbhA;Note=similar to b0230%3B flagellar motor protein%3B promoterless fragment%3B also pseudo in K-12 MG1655;gbkey=Gene;gene=mbhA;gene_biotype=pseudogene;locus_tag=ECD_00225;pseudo=true	FALSE	999141
+CP001509.3	Genbank	pseudogene	252924	254633	.	-	.	ID=gene-ECD_00224;Name=fhiA;Note=similar_to_b0229%3B_flagellar_system_protein%3B_promoterless_fragment%3B_also_pseudo_in_K-12_MG1655;gbkey=Gene;gene=fhiA;gene_biotype=pseudogene;locus_tag=ECD_00224;pseudo=true	FALSE	997442
+CP001509.3	Genbank	pseudogene	254623	255393	.	+	.	ID=gene-ECD_00225;Name=mbhA;Note=similar_to_b0230%3B_flagellar_motor_protein%3B_promoterless_fragment%3B_also_pseudo_in_K-12_MG1655;gbkey=Gene;gene=mbhA;gene_biotype=pseudogene;locus_tag=ECD_00225;pseudo=true	FALSE	999141
 CP001509.3	Genbank	gene	255464	256519	.	+	.	ID=gene-ECD_00226;Name=dinB;gbkey=Gene;gene=dinB;gene_biotype=protein_coding;locus_tag=ECD_00226	FALSE	999982
 CP001509.3	Genbank	gene	256571	256864	.	+	.	ID=gene-ECD_00227;Name=yafN;gbkey=Gene;gene=yafN;gene_biotype=protein_coding;locus_tag=ECD_00227	FALSE	1001089
 CP001509.3	Genbank	gene	256867	257265	.	+	.	ID=gene-ECD_00228;Name=yafO;gbkey=Gene;gene=yafO;gene_biotype=protein_coding;locus_tag=ECD_00228	FALSE	1001385
@@ -242,7 +240,7 @@ CP001509.3	Genbank	gene	258753	260210	.	-	.	ID=gene-ECD_00232;Name=pepD;gbkey=Ge
 CP001509.3	Genbank	gene	260471	260929	.	+	.	ID=gene-ECD_00233;Name=gpt;gbkey=Gene;gene=gpt;gene_biotype=protein_coding;locus_tag=ECD_00233	FALSE	1004989
 CP001509.3	Genbank	gene	261021	262265	.	+	.	ID=gene-ECD_00234;Name=frsA;gbkey=Gene;gene=frsA;gene_biotype=protein_coding;locus_tag=ECD_00234	FALSE	1005539
 CP001509.3	Genbank	gene	262323	262724	.	+	.	ID=gene-ECD_00235;Name=crl;gbkey=Gene;gene=crl;gene_biotype=protein_coding;locus_tag=ECD_00235	FALSE	1006841
-CP001509.3	Genbank	mobile_genetic_element	262795	263562	.	+	.	ID=id-CP001509.3:262795..263562;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1007313
+CP001509.3	Genbank	mobile_genetic_element	262795	263562	.	+	.	ID=id-CP001509.3:262795..263562;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1007313
 CP001509.3	Genbank	gene	262850	263125	.	+	.	ID=gene-ECD_00236;Name=insA-3;gbkey=Gene;gene=insA-3;gene_biotype=protein_coding;locus_tag=ECD_00236	FALSE	1007368
 CP001509.3	Genbank	gene	263044	263547	.	+	.	ID=gene-ECD_00237;Name=insB-3;gbkey=Gene;gene=insB-3;gene_biotype=protein_coding;locus_tag=ECD_00237	FALSE	1007562
 CP001509.3	Genbank	gene	263558	264595	.	-	.	ID=gene-ECD_00238;Name=phoE;gbkey=Gene;gene=phoE;gene_biotype=protein_coding;locus_tag=ECD_00238	FALSE	1008076
@@ -320,7 +318,7 @@ CP001509.3	Genbank	gene	346872	347705	.	-	.	ID=gene-ECD_00309;Name=frmB;gbkey=Ge
 CP001509.3	Genbank	gene	347798	348907	.	-	.	ID=gene-ECD_00310;Name=frmA;gbkey=Gene;gene=frmA;gene_biotype=protein_coding;locus_tag=ECD_00310	FALSE	1092316
 CP001509.3	Genbank	gene	348942	349217	.	-	.	ID=gene-ECD_00311;Name=frmR;gbkey=Gene;gene=frmR;gene_biotype=protein_coding;locus_tag=ECD_00311	FALSE	1093460
 CP001509.3	Genbank	gene	349403	350176	.	-	.	ID=gene-ECD_00312;Name=yaiO;gbkey=Gene;gene=yaiO;gene_biotype=protein_coding;locus_tag=ECD_00312	FALSE	1093921
-CP001509.3	Genbank	mobile_genetic_element	350243	351010	.	-	.	ID=id-CP001509.3:350243..351010;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1094761
+CP001509.3	Genbank	mobile_genetic_element	350243	351010	.	-	.	ID=id-CP001509.3:350243..351010;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1094761
 CP001509.3	Genbank	gene	350258	350761	.	-	.	ID=gene-ECD_00313;Name=insB-4;gbkey=Gene;gene=insB-4;gene_biotype=protein_coding;locus_tag=ECD_00313	FALSE	1094776
 CP001509.3	Genbank	gene	350680	350955	.	-	.	ID=gene-ECD_00314;Name=insA-4;gbkey=Gene;gene=insA-4;gene_biotype=protein_coding;locus_tag=ECD_00314	FALSE	1095198
 CP001509.3	Genbank	gene	351119	352081	.	+	.	ID=gene-ECD_00315;Name=tauA;gbkey=Gene;gene=tauA;gene_biotype=protein_coding;locus_tag=ECD_00315	FALSE	1095637
@@ -329,7 +327,7 @@ CP001509.3	Genbank	gene	352858	353685	.	+	.	ID=gene-ECD_00317;Name=tauC;gbkey=Ge
 CP001509.3	Genbank	gene	353682	354533	.	+	.	ID=gene-ECD_00318;Name=tauD;gbkey=Gene;gene=tauD;gene_biotype=protein_coding;locus_tag=ECD_00318	FALSE	1098200
 CP001509.3	Genbank	gene	354640	355614	.	-	.	ID=gene-ECD_00319;Name=hemB;gbkey=Gene;gene=hemB;gene_biotype=protein_coding;locus_tag=ECD_00319	FALSE	1099158
 CP001509.3	Genbank	gene	355804	356001	.	-	.	ID=gene-ECD_00320;Name=ECD_00320;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00320	FALSE	1100322
-CP001509.3	Genbank	gene	356137	359043	.	+	.	ID=gene-ECD_00321;Name=yaiT;Note=interrupted by IS3 in K-12 MG1655%3B synonym:yaiU;gbkey=Gene;gene=yaiT;gene_biotype=protein_coding;locus_tag=ECD_00321	FALSE	1100655
+CP001509.3	Genbank	gene	356137	359043	.	+	.	ID=gene-ECD_00321;Name=yaiT;Note=interrupted_by_IS3_in_K-12_MG1655%3B_synonym:yaiU;gbkey=Gene;gene=yaiT;gene_biotype=protein_coding;locus_tag=ECD_00321	FALSE	1100655
 CP001509.3	Genbank	gene	359131	359754	.	+	.	ID=gene-ECD_00322;Name=yaiV;gbkey=Gene;gene=yaiV;gene_biotype=protein_coding;locus_tag=ECD_00322	FALSE	1103649
 CP001509.3	Genbank	gene	359755	360912	.	-	.	ID=gene-ECD_00323;Name=ampH;gbkey=Gene;gene=ampH;gene_biotype=protein_coding;locus_tag=ECD_00323	FALSE	1104273
 CP001509.3	Genbank	gene	361264	362484	.	+	.	ID=gene-ECD_00324;Name=sbmA;gbkey=Gene;gene=sbmA;gene_biotype=protein_coding;locus_tag=ECD_00324	FALSE	1105782
@@ -348,7 +346,7 @@ CP001509.3	Genbank	gene	371604	371795	.	+	.	ID=gene-ECD_00336;Name=yaiA;gbkey=Ge
 CP001509.3	Genbank	gene	372053	372730	.	+	.	ID=gene-ECD_00337;Name=aroM;gbkey=Gene;gene=aroM;gene_biotype=protein_coding;locus_tag=ECD_00337	FALSE	1116571
 CP001509.3	Genbank	gene	372802	373086	.	+	.	ID=gene-ECD_00338;Name=yaiE;gbkey=Gene;gene=yaiE;gene_biotype=protein_coding;locus_tag=ECD_00338	FALSE	1117320
 CP001509.3	Genbank	gene	373294	373575	.	+	.	ID=gene-ECD_00339;Name=ykiA;gbkey=Gene;gene=ykiA;gene_biotype=protein_coding;locus_tag=ECD_00339	FALSE	1117812
-CP001509.3	Genbank	mobile_genetic_element	373728	374495	.	-	.	ID=id-CP001509.3:373728..374495;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1118246
+CP001509.3	Genbank	mobile_genetic_element	373728	374495	.	-	.	ID=id-CP001509.3:373728..374495;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1118246
 CP001509.3	Genbank	gene	373743	374246	.	-	.	ID=gene-ECD_00340;Name=insB-5;gbkey=Gene;gene=insB-5;gene_biotype=protein_coding;locus_tag=ECD_00340	FALSE	1118261
 CP001509.3	Genbank	gene	374165	374440	.	-	.	ID=gene-ECD_00341;Name=insA-5;gbkey=Gene;gene=insA-5;gene_biotype=protein_coding;locus_tag=ECD_00341	FALSE	1118683
 CP001509.3	Genbank	gene	374510	375421	.	-	.	ID=gene-ECD_00342;Name=rdgC;gbkey=Gene;gene=rdgC;gene_biotype=protein_coding;locus_tag=ECD_00342	FALSE	1119028
@@ -395,7 +393,7 @@ CP001509.3	Genbank	gene	416332	418323	.	-	.	ID=gene-ECD_00382;Name=cyoB;gbkey=Ge
 CP001509.3	Genbank	gene	422817	424115	.	+	.	ID=gene-ECD_00387;Name=tig;gbkey=Gene;gene=tig;gene_biotype=protein_coding;locus_tag=ECD_00387	FALSE	1167335
 CP001509.3	Genbank	gene	424361	424984	.	+	.	ID=gene-ECD_00388;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=ECD_00388	FALSE	1168879
 CP001509.3	Genbank	gene	425110	426384	.	+	.	ID=gene-ECD_00389;Name=clpX;gbkey=Gene;gene=clpX;gene_biotype=protein_coding;locus_tag=ECD_00389	FALSE	1169628
-CP001509.3	Genbank	mobile_genetic_element	426481	427823	.	-	.	ID=id-CP001509.3:426481..427823;gbkey=mobile_element;mobile_element_type=insertion sequence:IS186	FALSE	1170999
+CP001509.3	Genbank	mobile_genetic_element	426481	427823	.	-	.	ID=id-CP001509.3:426481..427823;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS186	FALSE	1170999
 CP001509.3	Genbank	gene	426654	427766	.	-	.	ID=gene-ECD_00390;Name=insL-2;gbkey=Gene;gene=insL-2;gene_biotype=protein_coding;locus_tag=ECD_00390	FALSE	1171172
 CP001509.3	Genbank	gene	427922	430276	.	+	.	ID=gene-ECD_00391;Name=lon;gbkey=Gene;gene=lon;gene_biotype=protein_coding;locus_tag=ECD_00391	FALSE	1172440
 CP001509.3	Genbank	gene	430485	430757	.	+	.	ID=gene-ECD_00392;Name=hupB;gbkey=Gene;gene=hupB;gene_biotype=protein_coding;locus_tag=ECD_00392	FALSE	1175003
@@ -495,13 +493,13 @@ CP001509.3	Genbank	gene	531435	532412	.	+	.	ID=gene-ECD_00483;Name=sfmH;gbkey=Ge
 CP001509.3	Genbank	gene	532423	532938	.	+	.	ID=gene-ECD_00484;Name=sfmF;gbkey=Gene;gene=sfmF;gene_biotype=protein_coding;locus_tag=ECD_00484	FALSE	1276941
 CP001509.3	Genbank	gene	532941	533573	.	-	.	ID=gene-ECD_00485;Name=sfmZ;gbkey=Gene;gene=sfmZ;gene_biotype=protein_coding;locus_tag=ECD_00485	FALSE	1277459
 CP001509.3	Genbank	gene	533816	533892	.	+	.	ID=gene-ECD_t00007;Name=argU;gbkey=Gene;gene=argU;gene_biotype=tRNA;locus_tag=ECD_t00007	FALSE	1278334
-CP001509.3	Genbank	sequence_feature	533895	550997	.	+	.	ID=id-CP001509.3:533895..550997;Note=cryptic prophage%2C DLP12-like (qsr');gbkey=misc_feature	FALSE	1278413
+CP001509.3	Genbank	sequence_feature	533895	550997	.	+	.	ID=id-CP001509.3:533895..550997;Note=cryptic_prophage%2C_DLP12-like_(qsr');gbkey=misc_feature	FALSE	1278413
 CP001509.3	Genbank	gene	533908	535071	.	-	.	ID=gene-ECD_00486;Name=intD;gbkey=Gene;gene=intD;gene_biotype=protein_coding;locus_tag=ECD_00486	FALSE	1278426
 CP001509.3	Genbank	gene	534927	535328	.	-	.	ID=gene-ECD_00487;Name=ECD_00487;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00487	FALSE	1279445
 CP001509.3	Genbank	gene	535596	535814	.	-	.	ID=gene-ECD_00488;Name=ECD_00488;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00488	FALSE	1280114
 CP001509.3	Genbank	gene	535913	536227	.	-	.	ID=gene-ECD_00489;Name=ECD_00489;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00489	FALSE	1280431
 CP001509.3	Genbank	gene	536205	536570	.	-	.	ID=gene-ECD_00490;Name=ECD_00490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00490	FALSE	1280723
-CP001509.3	Genbank	pseudogene	536581	536655	.	+	.	ID=gene-ECD_00491;Name=ybcD;Note=similar to b4508%3B predicted replication protein fragment;gbkey=Gene;gene=ybcD;gene_biotype=pseudogene;locus_tag=ECD_00491;pseudo=true	FALSE	1281099
+CP001509.3	Genbank	pseudogene	536581	536655	.	+	.	ID=gene-ECD_00491;Name=ybcD;Note=similar_to_b4508%3B_predicted_replication_protein_fragment;gbkey=Gene;gene=ybcD;gene_biotype=pseudogene;locus_tag=ECD_00491;pseudo=true	FALSE	1281099
 CP001509.3	Genbank	gene	536657	536842	.	+	.	ID=gene-ECD_00492;Name=renD;gbkey=Gene;gene=renD;gene_biotype=protein_coding;locus_tag=ECD_00492	FALSE	1281175
 CP001509.3	Genbank	gene	536910	537242	.	+	.	ID=gene-ECD_00493;Name=emrE;gbkey=Gene;gene=emrE;gene_biotype=protein_coding;locus_tag=ECD_00493	FALSE	1281428
 CP001509.3	Genbank	gene	537497	539023	.	+	.	ID=gene-ECD_00494;Name=ybcK;gbkey=Gene;gene=ybcK;gene_biotype=protein_coding;locus_tag=ECD_00494	FALSE	1282015
@@ -513,8 +511,8 @@ CP001509.3	Genbank	gene	541679	541969	.	+	.	ID=gene-ECD_00499;Name=ybcO;gbkey=Ge
 CP001509.3	Genbank	gene	541966	542328	.	+	.	ID=gene-ECD_00500;Name=rusA;gbkey=Gene;gene=rusA;gene_biotype=protein_coding;locus_tag=ECD_00500	FALSE	1286484
 CP001509.3	Genbank	gene	542325	542465	.	+	.	ID=gene-ECD_00501;Name=ylcG;gbkey=Gene;gene=ylcG;gene_biotype=protein_coding;locus_tag=ECD_00501	FALSE	1286843
 CP001509.3	Genbank	gene	542551	542934	.	+	.	ID=gene-ECD_00502;Name=quuD;gbkey=Gene;gene=quuD;gene_biotype=protein_coding;locus_tag=ECD_00502	FALSE	1287069
-CP001509.3	Genbank	pseudogene	543124	544983	.	-	.	ID=gene-ECD_00503;Name=nmpC;Note=interrupted by IS1%3B outer membrane porin%2C at locus of qsr prophage%3B similar to b0553;gbkey=Gene;gene=nmpC;gene_biotype=pseudogene;locus_tag=ECD_00503;pseudo=true	FALSE	1287642
-CP001509.3	Genbank	mobile_genetic_element	543637	544404	.	-	.	ID=id-ECD_00503;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1288155
+CP001509.3	Genbank	pseudogene	543124	544983	.	-	.	ID=gene-ECD_00503;Name=nmpC;Note=interrupted_by_IS1%3B_outer_membrane_porin%2C_at_locus_of_qsr_prophage%3B_similar_to_b0553;gbkey=Gene;gene=nmpC;gene_biotype=pseudogene;locus_tag=ECD_00503;pseudo=true	FALSE	1287642
+CP001509.3	Genbank	mobile_genetic_element	543637	544404	.	-	.	ID=id-ECD_00503;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1288155
 CP001509.3	Genbank	gene	543652	544155	.	-	.	ID=gene-ECD_00504;Name=insB-6;gbkey=Gene;gene=insB-6;gene_biotype=protein_coding;locus_tag=ECD_00504	FALSE	1288170
 CP001509.3	Genbank	gene	544074	544349	.	-	.	ID=gene-ECD_00505;Name=insA-6;gbkey=Gene;gene=insA-6;gene_biotype=protein_coding;locus_tag=ECD_00505	FALSE	1288592
 CP001509.3	Genbank	gene	545572	545787	.	+	.	ID=gene-ECD_00506;Name=essD;gbkey=Gene;gene=essD;gene_biotype=protein_coding;locus_tag=ECD_00506	FALSE	1290090
@@ -523,7 +521,7 @@ CP001509.3	Genbank	gene	546281	546742	.	+	.	ID=gene-ECD_00508;Name=rzpD;gbkey=Ge
 CP001509.3	Genbank	gene	546774	547067	.	-	.	ID=gene-ECD_00509;Name=borD;gbkey=Gene;gene=borD;gene_biotype=protein_coding;locus_tag=ECD_00509	FALSE	1291292
 CP001509.3	Genbank	gene	547428	547622	.	-	.	ID=gene-ECD_00510;Name=ECD_00510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00510	FALSE	1291946
 CP001509.3	Genbank	gene	548011	548586	.	+	.	ID=gene-ECD_00511;Name=nohD;gbkey=Gene;gene=nohD;gene_biotype=protein_coding;locus_tag=ECD_00511	FALSE	1292529
-CP001509.3	Genbank	pseudogene	548707	550491	.	+	.	ID=gene-ECD_00512;Name=ECD_00512;Note=putative tail component of prophage;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_00512;pseudo=true	FALSE	1293225
+CP001509.3	Genbank	pseudogene	548707	550491	.	+	.	ID=gene-ECD_00512;Name=ECD_00512;Note=putative_tail_component_of_prophage;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_00512;pseudo=true	FALSE	1293225
 CP001509.3	Genbank	gene	550550	551146	.	+	.	ID=gene-ECD_00513;Name=ECD_00513;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00513	FALSE	1295068
 CP001509.3	Genbank	gene	550995	551267	.	-	.	ID=gene-ECD_00530;Name=ECD_00530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00530	FALSE	1295513
 CP001509.3	Genbank	gene	552004	553452	.	-	.	ID=gene-ECD_00531;Name=cusS;gbkey=Gene;gene=cusS;gene_biotype=protein_coding;locus_tag=ECD_00531	FALSE	1296522
@@ -538,14 +536,14 @@ CP001509.3	Genbank	gene	563440	564093	.	-	.	ID=gene-ECD_00539;Name=nfsB;gbkey=Ge
 CP001509.3	Genbank	gene	564187	564555	.	-	.	ID=gene-ECD_00540;Name=ybdF;gbkey=Gene;gene=ybdF;gene_biotype=protein_coding;locus_tag=ECD_00540	FALSE	1308705
 CP001509.3	Genbank	gene	564620	564868	.	-	.	ID=gene-ECD_00541;Name=ybdJ;gbkey=Gene;gene=ybdJ;gene_biotype=protein_coding;locus_tag=ECD_00541	FALSE	1309138
 CP001509.3	Genbank	gene	564934	566052	.	-	.	ID=gene-ECD_00542;Name=ybdK;gbkey=Gene;gene=ybdK;gene_biotype=protein_coding;locus_tag=ECD_00542	FALSE	1309452
-CP001509.3	Genbank	mobile_genetic_element	566274	568224	.	+	.	ID=id-CP001509.3:566274..568224;gbkey=mobile_element;mobile_element_type=insertion sequence:IS150	FALSE	1310792
+CP001509.3	Genbank	mobile_genetic_element	566274	568224	.	+	.	ID=id-CP001509.3:566274..568224;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS150	FALSE	1310792
 CP001509.3	Genbank	gene	566321	566842	.	+	.	ID=gene-ECD_00543;Name=insJ-1;gbkey=Gene;gene=insJ-1;gene_biotype=protein_coding;locus_tag=ECD_00543	FALSE	1310839
-CP001509.3	Genbank	pseudogene	566839	568224	.	+	.	ID=gene-ECD_00544;Name=insK-1;Note=interrupted by IS1%3B IS150 putative transposase%3B similar to b3558;gbkey=Gene;gene=insK-1;gene_biotype=pseudogene;locus_tag=ECD_00544;pseudo=true	FALSE	1311357
-CP001509.3	Genbank	mobile_genetic_element	567334	568101	.	-	.	ID=id-CP001509.3:567334..568101;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1311852
+CP001509.3	Genbank	pseudogene	566839	568224	.	+	.	ID=gene-ECD_00544;Name=insK-1;Note=interrupted_by_IS1%3B_IS150_putative_transposase%3B_similar_to_b3558;gbkey=Gene;gene=insK-1;gene_biotype=pseudogene;locus_tag=ECD_00544;pseudo=true	FALSE	1311357
+CP001509.3	Genbank	mobile_genetic_element	567334	568101	.	-	.	ID=id-CP001509.3:567334..568101;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1311852
 CP001509.3	Genbank	gene	567349	567852	.	-	.	ID=gene-ECD_00545;Name=insB-7;gbkey=Gene;gene=insB-7;gene_biotype=protein_coding;locus_tag=ECD_00545	FALSE	1311867
 CP001509.3	Genbank	gene	567771	568046	.	-	.	ID=gene-ECD_00546;Name=insA-7;gbkey=Gene;gene=insA-7;gene_biotype=protein_coding;locus_tag=ECD_00546	FALSE	1312289
 CP001509.3	Genbank	gene	568322	568474	.	+	.	ID=gene-ECD_00547;Name=hokE;gbkey=Gene;gene=hokE;gene_biotype=protein_coding;locus_tag=ECD_00547	FALSE	1312840
-CP001509.3	Genbank	mobile_genetic_element	568494	569836	.	+	.	ID=id-CP001509.3:568494..569836;gbkey=mobile_element;mobile_element_type=insertion sequence:IS186	FALSE	1313012
+CP001509.3	Genbank	mobile_genetic_element	568494	569836	.	+	.	ID=id-CP001509.3:568494..569836;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS186	FALSE	1313012
 CP001509.3	Genbank	gene	568551	569663	.	+	.	ID=gene-ECD_00548;Name=insL-3;gbkey=Gene;gene=insL-3;gene_biotype=protein_coding;locus_tag=ECD_00548	FALSE	1313069
 CP001509.3	Genbank	gene	569945	570574	.	-	.	ID=gene-ECD_00549;Name=entD;gbkey=Gene;gene=entD;gene_biotype=protein_coding;locus_tag=ECD_00549	FALSE	1314463
 CP001509.3	Genbank	gene	573224	574426	.	+	.	ID=gene-ECD_00551;Name=fes;gbkey=Gene;gene=fes;gene_biotype=protein_coding;locus_tag=ECD_00551	FALSE	1317742
@@ -562,13 +560,13 @@ CP001509.3	Genbank	gene	586557	588167	.	+	.	ID=gene-ECD_00561;Name=entE;gbkey=Ge
 CP001509.3	Genbank	gene	588181	589038	.	+	.	ID=gene-ECD_00562;Name=entB;gbkey=Gene;gene=entB;gene_biotype=protein_coding;locus_tag=ECD_00562	FALSE	1332699
 CP001509.3	Genbank	gene	589038	589784	.	+	.	ID=gene-ECD_00563;Name=entA;gbkey=Gene;gene=entA;gene_biotype=protein_coding;locus_tag=ECD_00563	FALSE	1333556
 CP001509.3	Genbank	gene	589787	590200	.	+	.	ID=gene-ECD_00564;Name=entH;gbkey=Gene;gene=entH;gene_biotype=protein_coding;locus_tag=ECD_00564	TRUE	1334305
-CP001509.3	Genbank	pseudogene	590381	592476	.	+	.	ID=gene-ECD_00565;Name=cstA;Note=frameshift%3B carbon starvation protein%3B similar to b0598;gbkey=Gene;gene=cstA;gene_biotype=pseudogene;locus_tag=ECD_00565;pseudo=true	FALSE	1334899
+CP001509.3	Genbank	pseudogene	590381	592476	.	+	.	ID=gene-ECD_00565;Name=cstA;Note=frameshift%3B_carbon_starvation_protein%3B_similar_to_b0598;gbkey=Gene;gene=cstA;gene_biotype=pseudogene;locus_tag=ECD_00565;pseudo=true	FALSE	1334899
 CP001509.3	Genbank	gene	592658	592855	.	+	.	ID=gene-ECD_00566;Name=ybdD;gbkey=Gene;gene=ybdD;gene_biotype=protein_coding;locus_tag=ECD_00566	FALSE	1337176
 CP001509.3	Genbank	gene	592865	593953	.	-	.	ID=gene-ECD_00567;Name=ybdH;gbkey=Gene;gene=ybdH;gene_biotype=protein_coding;locus_tag=ECD_00567	FALSE	1337383
 CP001509.3	Genbank	gene	594062	595222	.	+	.	ID=gene-ECD_00568;Name=ybdL;gbkey=Gene;gene=ybdL;gene_biotype=protein_coding;locus_tag=ECD_00568	FALSE	1338580
 CP001509.3	Genbank	gene	595223	595852	.	-	.	ID=gene-ECD_00569;Name=ybdM;gbkey=Gene;gene=ybdM;gene_biotype=protein_coding;locus_tag=ECD_00569	FALSE	1339741
 CP001509.3	Genbank	gene	595825	596886	.	-	.	ID=gene-ECD_00570;Name=ybdN;gbkey=Gene;gene=ybdN;gene_biotype=protein_coding;locus_tag=ECD_00570	FALSE	1340343
-CP001509.3	Genbank	mobile_genetic_element	596896	597663	.	-	.	ID=id-CP001509.3:596896..597663;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1341414
+CP001509.3	Genbank	mobile_genetic_element	596896	597663	.	-	.	ID=id-CP001509.3:596896..597663;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1341414
 CP001509.3	Genbank	gene	596911	597414	.	-	.	ID=gene-ECD_00571;Name=insB-8;gbkey=Gene;gene=insB-8;gene_biotype=protein_coding;locus_tag=ECD_00571	FALSE	1341429
 CP001509.3	Genbank	gene	597333	597608	.	-	.	ID=gene-ECD_00572;Name=insA-8;gbkey=Gene;gene=insA-8;gene_biotype=protein_coding;locus_tag=ECD_00572	FALSE	1341851
 CP001509.3	Genbank	gene	597642	598403	.	-	.	ID=gene-ECD_00573;Name=dsbG;gbkey=Gene;gene=dsbG;gene_biotype=protein_coding;locus_tag=ECD_00573	FALSE	1342160
@@ -585,7 +583,7 @@ CP001509.3	Genbank	gene	607869	609401	.	-	.	ID=gene-ECD_00583;Name=citF;gbkey=Ge
 CP001509.3	Genbank	gene	609412	610320	.	-	.	ID=gene-ECD_00584;Name=citE;gbkey=Gene;gene=citE;gene_biotype=protein_coding;locus_tag=ECD_00584	FALSE	1353930
 CP001509.3	Genbank	gene	610317	610613	.	-	.	ID=gene-ECD_00585;Name=citD;gbkey=Gene;gene=citD;gene_biotype=protein_coding;locus_tag=ECD_00585	FALSE	1354835
 CP001509.3	Genbank	gene	610628	611686	.	-	.	ID=gene-ECD_00586;Name=citC;gbkey=Gene;gene=citC;gene_biotype=protein_coding;locus_tag=ECD_00586	FALSE	1355146
-CP001509.3	Genbank	mobile_genetic_element	611757	612524	.	-	.	ID=id-CP001509.3:611757..612524;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1356275
+CP001509.3	Genbank	mobile_genetic_element	611757	612524	.	-	.	ID=id-CP001509.3:611757..612524;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1356275
 CP001509.3	Genbank	gene	611772	612275	.	-	.	ID=gene-ECD_00587;Name=insB-9;gbkey=Gene;gene=insB-9;gene_biotype=protein_coding;locus_tag=ECD_00587	FALSE	1356290
 CP001509.3	Genbank	gene	612194	612469	.	-	.	ID=gene-ECD_00588;Name=insA-9;gbkey=Gene;gene=insA-9;gene_biotype=protein_coding;locus_tag=ECD_00588	FALSE	1356712
 CP001509.3	Genbank	gene	612602	614260	.	+	.	ID=gene-ECD_00589;Name=citA;gbkey=Gene;gene=citA;gene_biotype=protein_coding;locus_tag=ECD_00589	FALSE	1357120
@@ -594,7 +592,7 @@ CP001509.3	Genbank	gene	614950	616335	.	-	.	ID=gene-ECD_00591;Name=dcuC;gbkey=Ge
 CP001509.3	Genbank	gene	616923	617483	.	+	.	ID=gene-ECD_00592;Name=pagP;gbkey=Gene;gene=pagP;gene_biotype=protein_coding;locus_tag=ECD_00592	FALSE	1361441
 CP001509.3	Genbank	gene	617652	617861	.	+	.	ID=gene-ECD_00593;Name=cspE;gbkey=Gene;gene=cspE;gene_biotype=protein_coding;locus_tag=ECD_00593	FALSE	1362170
 CP001509.3	Genbank	gene	617916	618299	.	-	.	ID=gene-ECD_00594;Name=flc;gbkey=Gene;gene=flc;gene_biotype=protein_coding;locus_tag=ECD_00594	FALSE	1362434
-CP001509.3	Genbank	gene	618392	619180	.	+	.	ID=gene-ECD_00595;Name=ybeM;Note=frameshift in K-12 MG1655;gbkey=Gene;gene=ybeM;gene_biotype=protein_coding;locus_tag=ECD_00595	FALSE	1362910
+CP001509.3	Genbank	gene	618392	619180	.	+	.	ID=gene-ECD_00595;Name=ybeM;Note=frameshift_in_K-12_MG1655;gbkey=Gene;gene=ybeM;gene_biotype=protein_coding;locus_tag=ECD_00595	FALSE	1362910
 CP001509.3	Genbank	gene	619309	619512	.	+	.	ID=gene-ECD_00596;Name=tatE;gbkey=Gene;gene=tatE;gene_biotype=protein_coding;locus_tag=ECD_00596	FALSE	1363827
 CP001509.3	Genbank	gene	619613	620578	.	-	.	ID=gene-ECD_00597;Name=lipA;gbkey=Gene;gene=lipA;gene_biotype=protein_coding;locus_tag=ECD_00597	FALSE	1364131
 CP001509.3	Genbank	gene	620787	621740	.	-	.	ID=gene-ECD_00598;Name=ybeF;gbkey=Gene;gene=ybeF;gene_biotype=protein_coding;locus_tag=ECD_00598	FALSE	1365305
@@ -612,13 +610,13 @@ CP001509.3	Genbank	gene	630937	631968	.	-	.	ID=gene-ECD_00609;Name=holA;gbkey=Ge
 CP001509.3	Genbank	gene	631968	632549	.	-	.	ID=gene-ECD_00610;Name=lptE;gbkey=Gene;gene=lptE;gene_biotype=protein_coding;locus_tag=ECD_00610	FALSE	1376486
 CP001509.3	Genbank	gene	632564	635146	.	-	.	ID=gene-ECD_00611;Name=leuS;gbkey=Gene;gene=leuS;gene_biotype=protein_coding;locus_tag=ECD_00611	FALSE	1377082
 CP001509.3	Genbank	gene	635381	635863	.	+	.	ID=gene-ECD_00612;Name=ybeL;gbkey=Gene;gene=ybeL;gene_biotype=protein_coding;locus_tag=ECD_00612	FALSE	1379899
-CP001509.3	Genbank	pseudogene	635933	636910	.	-	.	ID=gene-ECD_00613;Name=ybeQ;Note=interrupted by in-frame stop%3B hypothetical protein%3B similar to b0644;gbkey=Gene;gene=ybeQ;gene_biotype=pseudogene;locus_tag=ECD_00613;pseudo=true	FALSE	1380451
+CP001509.3	Genbank	pseudogene	635933	636910	.	-	.	ID=gene-ECD_00613;Name=ybeQ;Note=interrupted_by_in-frame_stop%3B_hypothetical_protein%3B_similar_to_b0644;gbkey=Gene;gene=ybeQ;gene_biotype=pseudogene;locus_tag=ECD_00613;pseudo=true	FALSE	1380451
 CP001509.3	Genbank	gene	637074	637781	.	+	.	ID=gene-ECD_00614;Name=ybeR;gbkey=Gene;gene=ybeR;gene_biotype=protein_coding;locus_tag=ECD_00614	FALSE	1381592
 CP001509.3	Genbank	gene	638089	639228	.	+	.	ID=gene-ECD_00615;Name=djlC;gbkey=Gene;gene=djlC;gene_biotype=protein_coding;locus_tag=ECD_00615	FALSE	1382607
 CP001509.3	Genbank	gene	639288	640958	.	-	.	ID=gene-ECD_00616;Name=hscC;gbkey=Gene;gene=hscC;gene_biotype=protein_coding;locus_tag=ECD_00616	FALSE	1383806
 CP001509.3	Genbank	gene	641042	641977	.	-	.	ID=gene-ECD_00617;Name=rihA;gbkey=Gene;gene=rihA;gene_biotype=protein_coding;locus_tag=ECD_00617	FALSE	1385560
-CP001509.3	Genbank	pseudogene	642095	644266	.	-	.	ID=gene-ECD_00618;Name=gltL;Note=interrupted by IS150%3B ATP-binding protein of glutamate/aspartate transport system%3B similar to b0652;gbkey=Gene;gene=gltL;gene_biotype=pseudogene;locus_tag=ECD_00618;pseudo=true	FALSE	1386613
-CP001509.3	Genbank	mobile_genetic_element	642467	643909	.	+	.	ID=id-CP001509.3:642467..643909;gbkey=mobile_element;mobile_element_type=insertion sequence:IS150	FALSE	1386985
+CP001509.3	Genbank	pseudogene	642095	644266	.	-	.	ID=gene-ECD_00618;Name=gltL;Note=interrupted_by_IS150%3B_ATP-binding_protein_of_glutamate/aspartate_transport_system%3B_similar_to_b0652;gbkey=Gene;gene=gltL;gene_biotype=pseudogene;locus_tag=ECD_00618;pseudo=true	FALSE	1386613
+CP001509.3	Genbank	mobile_genetic_element	642467	643909	.	+	.	ID=id-CP001509.3:642467..643909;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS150	FALSE	1386985
 CP001509.3	Genbank	gene	642514	643035	.	+	.	ID=gene-ECD_00619;Name=insJ-2;gbkey=Gene;gene=insJ-2;gene_biotype=protein_coding;locus_tag=ECD_00619	FALSE	1387032
 CP001509.3	Genbank	gene	643032	643883	.	+	.	ID=gene-ECD_00620;Name=insK-2;gbkey=Gene;gene=insK-2;gene_biotype=protein_coding;locus_tag=ECD_00620	FALSE	1387550
 CP001509.3	Genbank	gene	644266	644940	.	-	.	ID=gene-ECD_00621;Name=gltK;gbkey=Gene;gene=gltK;gene_biotype=protein_coding;locus_tag=ECD_00621	FALSE	1388784
@@ -646,7 +644,7 @@ CP001509.3	Genbank	gene	671479	671772	.	-	.	ID=gene-ECD_00642;Name=ybfE;gbkey=Ge
 CP001509.3	Genbank	gene	671912	672676	.	-	.	ID=gene-ECD_00643;Name=ybfF;gbkey=Gene;gene=ybfF;gene_biotype=protein_coding;locus_tag=ECD_00643	FALSE	1416430
 CP001509.3	Genbank	gene	673432	675072	.	+	.	ID=gene-ECD_00645;Name=pgm;gbkey=Gene;gene=pgm;gene_biotype=protein_coding;locus_tag=ECD_00645	FALSE	1417950
 CP001509.3	Genbank	gene	675286	675780	.	+	.	ID=gene-ECD_00646;Name=ybfP;gbkey=Gene;gene=ybfP;gene_biotype=protein_coding;locus_tag=ECD_00646	FALSE	1419804
-CP001509.3	Genbank	gene	675821	676471	.	-	.	ID=gene-ECD_00647;Name=ybfGH;Note=separated in K-12 MG1655;gbkey=Gene;gene=ybfGH;gene_biotype=protein_coding;locus_tag=ECD_00647	TRUE	1420339
+CP001509.3	Genbank	gene	675821	676471	.	-	.	ID=gene-ECD_00647;Name=ybfGH;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=ybfGH;gene_biotype=protein_coding;locus_tag=ECD_00647	TRUE	1420339
 CP001509.3	Genbank	gene	676820	678139	.	-	.	ID=gene-ECD_00648;Name=potE;gbkey=Gene;gene=potE;gene_biotype=protein_coding;locus_tag=ECD_00648	TRUE	1421338
 CP001509.3	Genbank	gene	678136	680334	.	-	.	ID=gene-ECD_00649;Name=speF;gbkey=Gene;gene=speF;gene_biotype=protein_coding;locus_tag=ECD_00649	TRUE	1422654
 CP001509.3	Genbank	gene	680457	680714	.	+	.	ID=gene-ECD_00650;Name=ECD_00650;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00650	TRUE	1424975
@@ -664,7 +662,7 @@ CP001509.3	Genbank	gene	693173	693742	.	+	.	ID=gene-ECD_00661;Name=ybfC;gbkey=Ge
 CP001509.3	Genbank	gene	693938	694213	.	+	.	ID=gene-ECD_00662;Name=ECD_00662;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00662	FALSE	1438456
 CP001509.3	Genbank	gene	694425	694703	.	-	.	ID=gene-ECD_00663;Name=ECD_00663;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00663	FALSE	1438943
 CP001509.3	Genbank	gene	694922	695164	.	+	.	ID=gene-ECD_00664;Name=ECD_00664;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00664	FALSE	1439440
-CP001509.3	Genbank	pseudogene	695497	696633	.	+	.	ID=gene-ECD_00665;Name=yhhI-3;Note=interrupted by in-frame stop%3B predicted transposase%3B similar to b3484;gbkey=Gene;gene=yhhI-3;gene_biotype=pseudogene;locus_tag=ECD_00665;pseudo=true	FALSE	1440015
+CP001509.3	Genbank	pseudogene	695497	696633	.	+	.	ID=gene-ECD_00665;Name=yhhI-3;Note=interrupted_by_in-frame_stop%3B_predicted_transposase%3B_similar_to_b3484;gbkey=Gene;gene=yhhI-3;gene_biotype=pseudogene;locus_tag=ECD_00665;pseudo=true	FALSE	1440015
 CP001509.3	Genbank	gene	696764	697525	.	+	.	ID=gene-ECD_00666;Name=ybfD;gbkey=Gene;gene=ybfD;gene_biotype=protein_coding;locus_tag=ECD_00666	FALSE	1441282
 CP001509.3	Genbank	gene	697673	698182	.	+	.	ID=gene-ECD_00667;Name=ybgA;gbkey=Gene;gene=ybgA;gene_biotype=protein_coding;locus_tag=ECD_00667	TRUE	1442191
 CP001509.3	Genbank	gene	698179	699600	.	+	.	ID=gene-ECD_00668;Name=phr;gbkey=Gene;gene=phr;gene_biotype=protein_coding;locus_tag=ECD_00668	FALSE	1442697
@@ -714,11 +712,11 @@ CP001509.3	Genbank	gene	742290	743231	.	-	.	ID=gene-ECD_00705;Name=zitB;gbkey=Ge
 CP001509.3	Genbank	gene	743345	743725	.	-	.	ID=gene-ECD_00706;Name=ybgS;gbkey=Gene;gene=ybgS;gene_biotype=protein_coding;locus_tag=ECD_00706	FALSE	1487863
 CP001509.3	Genbank	gene	744041	745093	.	+	.	ID=gene-ECD_00707;Name=aroG;gbkey=Gene;gene=aroG;gene_biotype=protein_coding;locus_tag=ECD_00707	FALSE	1488559
 CP001509.3	Genbank	gene	745251	746003	.	-	.	ID=gene-ECD_00708;Name=gpmA;gbkey=Gene;gene=gpmA;gene_biotype=protein_coding;locus_tag=ECD_00708	FALSE	1489769
-CP001509.3	Genbank	pseudogene	746205	746810	.	-	.	ID=gene-ECD_00709;Name=galM;Note=similar to b0756%3B galactose-1-epimerase fragment;gbkey=Gene;gene=galM;gene_biotype=pseudogene;locus_tag=ECD_00709;pseudo=true	FALSE	1490723
+CP001509.3	Genbank	pseudogene	746205	746810	.	-	.	ID=gene-ECD_00709;Name=galM;Note=similar_to_b0756%3B_galactose-1-epimerase_fragment;gbkey=Gene;gene=galM;gene_biotype=pseudogene;locus_tag=ECD_00709;pseudo=true	FALSE	1490723
 CP001509.3	Genbank	gene	747066	748349	.	-	.	ID=gene-ECD_00725;Name=ybhC;gbkey=Gene;gene=ybhC;gene_biotype=protein_coding;locus_tag=ECD_00725	FALSE	1491584
-CP001509.3	Genbank	sequence_feature	748396	791335	.	+	.	ID=id-CP001509.3:748396..791335;Note=cryptic prophage DE3%3B also submitted separately as GenBank Accession Number EU078592;gbkey=misc_feature	FALSE	1492914
+CP001509.3	Genbank	sequence_feature	748396	791335	.	+	.	ID=id-CP001509.3:748396..791335;Note=cryptic_prophage_DE3%3B_also_submitted_separately_as_GenBank_Accession_Number_EU078592;gbkey=misc_feature	FALSE	1492914
 CP001509.3	Genbank	gene	748736	749818	.	+	.	ID=gene-ECD_10002;Name=lacI;gbkey=Gene;gene=lacI;gene_biotype=protein_coding;locus_tag=ECD_10002	FALSE	1493254
-CP001509.3	Genbank	pseudogene	749941	750390	.	+	.	ID=gene-ECD_10003;Name=lacZ;Note=N-terminal fragment of beta-galactosidase;gbkey=Gene;gene=lacZ;gene_biotype=pseudogene;locus_tag=ECD_10003;pseudo=true	FALSE	1494459
+CP001509.3	Genbank	pseudogene	749941	750390	.	+	.	ID=gene-ECD_10003;Name=lacZ;Note=N-terminal_fragment_of_beta-galactosidase;gbkey=Gene;gene=lacZ;gene_biotype=pseudogene;locus_tag=ECD_10003;pseudo=true	FALSE	1494459
 CP001509.3	Genbank	gene	750421	753072	.	+	.	ID=gene-ECD_10004;Name=1;gbkey=Gene;gene=1;gene_biotype=protein_coding;locus_tag=ECD_10004	FALSE	1494939
 CP001509.3	Genbank	gene	753981	754199	.	-	.	ID=gene-ECD_10005;Name=xis;gbkey=Gene;gene=xis;gene_biotype=protein_coding;locus_tag=ECD_10005	FALSE	1498499
 CP001509.3	Genbank	gene	754239	754406	.	-	.	ID=gene-ECD_10006;Name=ECD_10006;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10006	FALSE	1498757
@@ -736,7 +734,7 @@ CP001509.3	Genbank	gene	758657	759025	.	-	.	ID=gene-ECD_10017;Name=ea10;gbkey=Ge
 CP001509.3	Genbank	gene	759208	759408	.	-	.	ID=gene-ECD_10018;Name=ral;gbkey=Gene;gene=ral;gene_biotype=protein_coding;locus_tag=ECD_10018	FALSE	1503726
 CP001509.3	Genbank	gene	759392	759478	.	-	.	ID=gene-ECD_10019;Name=ECD_10019;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10019	FALSE	1503910
 CP001509.3	Genbank	gene	759487	759786	.	-	.	ID=gene-ECD_10020;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=ECD_10020	FALSE	1504005
-CP001509.3	Genbank	sequence_feature	759494	761396	.	+	.	ID=id-CP001509.3:759494..761396;Note=imm21 region;gbkey=misc_feature	FALSE	1504012
+CP001509.3	Genbank	sequence_feature	759494	761396	.	+	.	ID=id-CP001509.3:759494..761396;Note=imm21_region;gbkey=misc_feature	FALSE	1504012
 CP001509.3	Genbank	gene	760101	760751	.	-	.	ID=gene-ECD_10021;Name=C2;gbkey=Gene;gene=C2;gene_biotype=protein_coding;locus_tag=ECD_10021	FALSE	1504619
 CP001509.3	Genbank	gene	760832	761017	.	+	.	ID=gene-ECD_10022;Name=cro;gbkey=Gene;gene=cro;gene_biotype=protein_coding;locus_tag=ECD_10022	FALSE	1505350
 CP001509.3	Genbank	gene	761133	761432	.	+	.	ID=gene-ECD_10023;Name=cII;gbkey=Gene;gene=cII;gene_biotype=protein_coding;locus_tag=ECD_10023	FALSE	1505651
@@ -751,7 +749,7 @@ CP001509.3	Genbank	gene	765939	766400	.	+	.	ID=gene-ECD_10031;Name=Rz;gbkey=Gene
 CP001509.3	Genbank	gene	766432	766725	.	-	.	ID=gene-ECD_10032;Name=ECD_10032;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10032	FALSE	1510950
 CP001509.3	Genbank	gene	767015	767548	.	-	.	ID=gene-ECD_10033;Name=ECD_10033;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10033	FALSE	1511533
 CP001509.3	Genbank	gene	767711	767917	.	+	.	ID=gene-ECD_10034;Name=ECD_10034;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10034	FALSE	1512229
-CP001509.3	Genbank	sequence_feature	768476	768487	.	+	.	ID=id-CP001509.3:768476..768487;Note=cos site;gbkey=misc_feature	FALSE	1512994
+CP001509.3	Genbank	sequence_feature	768476	768487	.	+	.	ID=id-CP001509.3:768476..768487;Note=cos_site;gbkey=misc_feature	FALSE	1512994
 CP001509.3	Genbank	gene	768665	769210	.	+	.	ID=gene-ECD_10035;Name=nu1;gbkey=Gene;gene=nu1;gene_biotype=protein_coding;locus_tag=ECD_10035	FALSE	1513183
 CP001509.3	Genbank	gene	769185	771110	.	+	.	ID=gene-ECD_10036;Name=A;gbkey=Gene;gene=A;gene_biotype=protein_coding;locus_tag=ECD_10036	FALSE	1513703
 CP001509.3	Genbank	gene	771107	771313	.	+	.	ID=gene-ECD_10037;Name=W;gbkey=Gene;gene=W;gene_biotype=protein_coding;locus_tag=ECD_10037	FALSE	1515625
@@ -777,7 +775,7 @@ CP001509.3	Genbank	gene	788125	789330	.	+	.	ID=gene-ECD_10056;Name=ECD_10056;gbk
 CP001509.3	Genbank	gene	789504	789767	.	+	.	ID=gene-ECD_10057;Name=ECD_10057;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_10057	FALSE	1534022
 CP001509.3	Genbank	gene	789632	790570	.	-	.	ID=gene-ECD_10058;Name=ea59;gbkey=Gene;gene=ea59;gene_biotype=protein_coding;locus_tag=ECD_10058	FALSE	1534150
 CP001509.3	Genbank	gene	790969	791130	.	+	.	ID=gene-ECD_n04298;Name=ECD_n04298;gbkey=Gene;gene_biotype=antisense_RNA;locus_tag=ECD_n04298	FALSE	1535487
-CP001509.3	Genbank	sequence_feature	791321	791335	.	+	.	ID=id-CP001509.3:791321..791335;Note=lambda attachement site%2C right;gbkey=misc_feature	FALSE	1535839
+CP001509.3	Genbank	sequence_feature	791321	791335	.	+	.	ID=id-CP001509.3:791321..791335;Note=lambda_attachement_site%2C_right;gbkey=misc_feature	FALSE	1535839
 CP001509.3	Genbank	gene	791426	791902	.	-	.	ID=gene-ECD_00740;Name=ybhB;gbkey=Gene;gene=ybhB;gene_biotype=protein_coding;locus_tag=ECD_00740	FALSE	1535944
 CP001509.3	Genbank	gene	791961	793250	.	-	.	ID=gene-ECD_00741;Name=bioA;gbkey=Gene;gene=bioA;gene_biotype=protein_coding;locus_tag=ECD_00741	FALSE	1536479
 CP001509.3	Genbank	gene	793337	794377	.	+	.	ID=gene-ECD_00742;Name=bioB;gbkey=Gene;gene=bioB;gene_biotype=protein_coding;locus_tag=ECD_00742	FALSE	1537855
@@ -853,7 +851,7 @@ CP001509.3	Genbank	gene	869235	870050	.	-	.	ID=gene-ECD_00811;Name=ybjI;gbkey=Ge
 CP001509.3	Genbank	gene	870050	871258	.	-	.	ID=gene-ECD_00812;Name=ybjJ;gbkey=Gene;gene=ybjJ;gene_biotype=protein_coding;locus_tag=ECD_00812	FALSE	1614568
 CP001509.3	Genbank	gene	871342	871878	.	+	.	ID=gene-ECD_00813;Name=rcdA;gbkey=Gene;gene=rcdA;gene_biotype=protein_coding;locus_tag=ECD_00813	FALSE	1615860
 CP001509.3	Genbank	gene	872058	872390	.	-	.	ID=gene-ECD_00814;Name=ECD_00814;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00814	FALSE	1616576
-CP001509.3	Genbank	sequence_feature	872499	892617	.	+	.	ID=id-CP001509.3:872499..892617;Note=cryptic prophage%2C 186-like (REL606-specific);gbkey=misc_feature	FALSE	1617017
+CP001509.3	Genbank	sequence_feature	872499	892617	.	+	.	ID=id-CP001509.3:872499..892617;Note=cryptic_prophage%2C_186-like_(REL606-specific);gbkey=misc_feature	FALSE	1617017
 CP001509.3	Genbank	gene	872499	873443	.	-	.	ID=gene-ECD_00815;Name=ECD_00815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00815	FALSE	1617017
 CP001509.3	Genbank	gene	873677	873829	.	-	.	ID=gene-ECD_00816;Name=ECD_00816;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00816	FALSE	1618195
 CP001509.3	Genbank	gene	873909	874472	.	-	.	ID=gene-ECD_00817;Name=ECD_00817;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_00817	FALSE	1618427
@@ -1050,7 +1048,7 @@ CP001509.3	Genbank	gene	1077145	1078293	.	-	.	ID=gene-ECD_01015;Name=rutA;gbkey=
 CP001509.3	Genbank	gene	1078524	1079162	.	+	.	ID=gene-ECD_01016;Name=rutR;gbkey=Gene;gene=rutR;gene_biotype=protein_coding;locus_tag=ECD_01016	FALSE	1823042
 CP001509.3	Genbank	gene	1079202	1083164	.	-	.	ID=gene-ECD_01017;Name=putA;gbkey=Gene;gene=putA;gene_biotype=protein_coding;locus_tag=ECD_01017	FALSE	1823720
 CP001509.3	Genbank	gene	1083587	1085095	.	+	.	ID=gene-ECD_01018;Name=putP;gbkey=Gene;gene=putP;gene_biotype=protein_coding;locus_tag=ECD_01018	FALSE	1828105
-CP001509.3	Genbank	gene	1085629	1086468	.	+	.	ID=gene-ECD_01019;Name=efeU;Note=pseudo in K-12 MG1655;gbkey=Gene;gene=efeU;gene_biotype=protein_coding;locus_tag=ECD_01019	FALSE	1830147
+CP001509.3	Genbank	gene	1085629	1086468	.	+	.	ID=gene-ECD_01019;Name=efeU;Note=pseudo_in_K-12_MG1655;gbkey=Gene;gene=efeU;gene_biotype=protein_coding;locus_tag=ECD_01019	FALSE	1830147
 CP001509.3	Genbank	gene	1086526	1087653	.	+	.	ID=gene-ECD_01020;Name=efeO;gbkey=Gene;gene=efeO;gene_biotype=protein_coding;locus_tag=ECD_01020	FALSE	1831044
 CP001509.3	Genbank	gene	1087659	1088930	.	+	.	ID=gene-ECD_01021;Name=efeB;gbkey=Gene;gene=efeB;gene_biotype=protein_coding;locus_tag=ECD_01021	FALSE	1832177
 CP001509.3	Genbank	gene	1089275	1090339	.	+	.	ID=gene-ECD_01022;Name=phoH;gbkey=Gene;gene=phoH;gene_biotype=protein_coding;locus_tag=ECD_01022	FALSE	1833793
@@ -1059,7 +1057,7 @@ CP001509.3	Genbank	gene	1090804	1092129	.	-	.	ID=gene-ECD_01024;Name=pgaC;gbkey=
 CP001509.3	Genbank	gene	1092122	1094140	.	-	.	ID=gene-ECD_01025;Name=pgaB;gbkey=Gene;gene=pgaB;gene_biotype=protein_coding;locus_tag=ECD_01025	FALSE	1836640
 CP001509.3	Genbank	gene	1094149	1096572	.	-	.	ID=gene-ECD_01026;Name=pgaA;gbkey=Gene;gene=pgaA;gene_biotype=protein_coding;locus_tag=ECD_01026	FALSE	1838667
 CP001509.3	Genbank	gene	1097159	1098517	.	+	.	ID=gene-ECD_01027;Name=ycdT;gbkey=Gene;gene=ycdT;gene_biotype=protein_coding;locus_tag=ECD_01027	FALSE	1841677
-CP001509.3	Genbank	mobile_genetic_element	1098528	1099782	.	+	.	ID=id-CP001509.3:1098528..1099782;gbkey=mobile_element;mobile_element_type=insertion sequence:IS3	FALSE	1843046
+CP001509.3	Genbank	mobile_genetic_element	1098528	1099782	.	+	.	ID=id-CP001509.3:1098528..1099782;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS3	FALSE	1843046
 CP001509.3	Genbank	gene	1098558	1099373	.	-	.	ID=gene-ECD_01028;Name=insF-1;gbkey=Gene;gene=insF-1;gene_biotype=protein_coding;locus_tag=ECD_01028	FALSE	1843076
 CP001509.3	Genbank	gene	1099421	1099729	.	-	.	ID=gene-ECD_01029;Name=insE-1;gbkey=Gene;gene=insE-1;gene_biotype=protein_coding;locus_tag=ECD_01029	FALSE	1843939
 CP001509.3	Genbank	gene	1100131	1100218	.	-	.	ID=gene-ECD_t00024;Name=serX;gbkey=Gene;gene=serX;gene_biotype=tRNA;locus_tag=ECD_t00024	FALSE	1844649
@@ -1142,8 +1140,8 @@ CP001509.3	Genbank	gene	1176685	1177758	.	-	.	ID=gene-ECD_01111;Name=ycfT;gbkey=
 CP001509.3	Genbank	gene	1178020	1179219	.	+	.	ID=gene-ECD_01112;Name=lolC;gbkey=Gene;gene=lolC;gene_biotype=protein_coding;locus_tag=ECD_01112	FALSE	1922538
 CP001509.3	Genbank	gene	1179212	1179913	.	+	.	ID=gene-ECD_01113;Name=lolD;gbkey=Gene;gene=lolD;gene_biotype=protein_coding;locus_tag=ECD_01113	FALSE	1923730
 CP001509.3	Genbank	gene	1179913	1181157	.	+	.	ID=gene-ECD_01114;Name=lolE;gbkey=Gene;gene=lolE;gene_biotype=protein_coding;locus_tag=ECD_01114	FALSE	1924431
-CP001509.3	Genbank	pseudogene	1181186	1182874	.	+	.	ID=gene-ECD_01115;Name=ycfX;Note=interrupted by IS1%3B putative NAGC-like transcriptional regulator%3B similar to b1119;gbkey=Gene;gene=ycfX;gene_biotype=pseudogene;locus_tag=ECD_01115;pseudo=true	FALSE	1925704
-CP001509.3	Genbank	mobile_genetic_element	1181613	1182380	.	+	.	ID=id-ECD_01115;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1926131
+CP001509.3	Genbank	pseudogene	1181186	1182874	.	+	.	ID=gene-ECD_01115;Name=ycfX;Note=interrupted_by_IS1%3B_putative_NAGC-like_transcriptional_regulator%3B_similar_to_b1119;gbkey=Gene;gene=ycfX;gene_biotype=pseudogene;locus_tag=ECD_01115;pseudo=true	FALSE	1925704
+CP001509.3	Genbank	mobile_genetic_element	1181613	1182380	.	+	.	ID=id-ECD_01115;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1926131
 CP001509.3	Genbank	gene	1181668	1181943	.	+	.	ID=gene-ECD_01116;Name=insA-10;gbkey=Gene;gene=insA-10;gene_biotype=protein_coding;locus_tag=ECD_01116	FALSE	1926186
 CP001509.3	Genbank	gene	1181862	1182365	.	+	.	ID=gene-ECD_01117;Name=insB-10;gbkey=Gene;gene=insB-10;gene_biotype=protein_coding;locus_tag=ECD_01117	FALSE	1926380
 CP001509.3	Genbank	gene	1182890	1183729	.	+	.	ID=gene-ECD_01118;Name=cobB;gbkey=Gene;gene=cobB;gene_biotype=protein_coding;locus_tag=ECD_01118	FALSE	1927408
@@ -1173,7 +1171,7 @@ CP001509.3	Genbank	gene	1204528	1204794	.	+	.	ID=gene-ECD_01141;Name=ariR;gbkey=
 CP001509.3	Genbank	gene	1204907	1205155	.	+	.	ID=gene-ECD_01142;Name=ymgC;gbkey=Gene;gene=ymgC;gene_biotype=protein_coding;locus_tag=ECD_01142	FALSE	1949425
 CP001509.3	Genbank	gene	1205487	1207010	.	+	.	ID=gene-ECD_01143;Name=ycgG;gbkey=Gene;gene=ycgG;gene_biotype=protein_coding;locus_tag=ECD_01143	FALSE	1950005
 CP001509.3	Genbank	gene	1207142	1207360	.	+	.	ID=gene-ECD_01144;Name=ymgF;gbkey=Gene;gene=ymgF;gene_biotype=protein_coding;locus_tag=ECD_01144	FALSE	1951660
-CP001509.3	Genbank	pseudogene	1207760	1210381	.	+	.	ID=gene-ECD_01145;Name=ycgH;Note=interrupted by in-frame stop%3B predicted protein%3B similar to b4491;gbkey=Gene;gene=ycgH;gene_biotype=pseudogene;locus_tag=ECD_01145;pseudo=true	FALSE	1952278
+CP001509.3	Genbank	pseudogene	1207760	1210381	.	+	.	ID=gene-ECD_01145;Name=ycgH;Note=interrupted_by_in-frame_stop%3B_predicted_protein%3B_similar_to_b4491;gbkey=Gene;gene=ycgH;gene_biotype=pseudogene;locus_tag=ECD_01145;pseudo=true	FALSE	1952278
 CP001509.3	Genbank	gene	1210464	1210793	.	-	.	ID=gene-ECD_01146;Name=ymgD;gbkey=Gene;gene=ymgD;gene_biotype=protein_coding;locus_tag=ECD_01146	FALSE	1954982
 CP001509.3	Genbank	gene	1210803	1211147	.	-	.	ID=gene-ECD_01147;Name=ymgG;gbkey=Gene;gene=ymgG;gene_biotype=protein_coding;locus_tag=ECD_01147	FALSE	1955321
 CP001509.3	Genbank	gene	1211854	1212066	.	+	.	ID=gene-ECD_01148;Name=ycgI;gbkey=Gene;gene=ycgI;gene_biotype=protein_coding;locus_tag=ECD_01148	FALSE	1956372
@@ -1185,7 +1183,7 @@ CP001509.3	Genbank	gene	1215230	1215631	.	-	.	ID=gene-ECD_01153;Name=pliG;gbkey=
 CP001509.3	Genbank	gene	1215840	1216166	.	+	.	ID=gene-ECD_01154;Name=ycgL;gbkey=Gene;gene=ycgL;gene_biotype=protein_coding;locus_tag=ECD_01154	FALSE	1960358
 CP001509.3	Genbank	gene	1216238	1216897	.	+	.	ID=gene-ECD_01155;Name=ycgM;gbkey=Gene;gene=ycgM;gene_biotype=protein_coding;locus_tag=ECD_01155	FALSE	1960756
 CP001509.3	Genbank	gene	1216974	1217435	.	+	.	ID=gene-ECD_01156;Name=ycgN;gbkey=Gene;gene=ycgN;gene_biotype=protein_coding;locus_tag=ECD_01156	FALSE	1961492
-CP001509.3	Genbank	pseudogene	1217642	1218542	.	-	.	ID=gene-ECD_01157;Name=hlyE;Note=frameshift%3B hemolysin E%3B similar to b1182;gbkey=Gene;gene=hlyE;gene_biotype=pseudogene;locus_tag=ECD_01157;pseudo=true	FALSE	1962160
+CP001509.3	Genbank	pseudogene	1217642	1218542	.	-	.	ID=gene-ECD_01157;Name=hlyE;Note=frameshift%3B_hemolysin_E%3B_similar_to_b1182;gbkey=Gene;gene=hlyE;gene_biotype=pseudogene;locus_tag=ECD_01157;pseudo=true	FALSE	1962160
 CP001509.3	Genbank	gene	1218915	1219334	.	+	.	ID=gene-ECD_01158;Name=umuD;gbkey=Gene;gene=umuD;gene_biotype=protein_coding;locus_tag=ECD_01158	FALSE	1963433
 CP001509.3	Genbank	gene	1225719	1227017	.	+	.	ID=gene-ECD_01164;Name=dadA;gbkey=Gene;gene=dadA;gene_biotype=protein_coding;locus_tag=ECD_01164	FALSE	1970237
 CP001509.3	Genbank	gene	1227027	1228097	.	+	.	ID=gene-ECD_01165;Name=dadX;gbkey=Gene;gene=dadX;gene_biotype=protein_coding;locus_tag=ECD_01165	FALSE	1971545
@@ -1232,7 +1230,7 @@ CP001509.3	Genbank	gene	1268012	1271755	.	+	.	ID=gene-ECD_01202;Name=narG;gbkey=
 CP001509.3	Genbank	gene	1271752	1273290	.	+	.	ID=gene-ECD_01203;Name=narH;gbkey=Gene;gene=narH;gene_biotype=protein_coding;locus_tag=ECD_01203	TRUE	2016270
 CP001509.3	Genbank	gene	1273287	1273997	.	+	.	ID=gene-ECD_01204;Name=narJ;gbkey=Gene;gene=narJ;gene_biotype=protein_coding;locus_tag=ECD_01204	TRUE	2017805
 CP001509.3	Genbank	gene	1273997	1274674	.	+	.	ID=gene-ECD_01205;Name=narI;gbkey=Gene;gene=narI;gene_biotype=protein_coding;locus_tag=ECD_01205	TRUE	2018515
-CP001509.3	Genbank	pseudogene	1274879	1274968	.	-	.	ID=gene-ECD_01207;Name=tpr;Note=a protamine-like protein%3B similar to b1229;gbkey=Gene;gene=tpr;gene_biotype=pseudogene;locus_tag=ECD_01207;pseudo=true	TRUE	2019397
+CP001509.3	Genbank	pseudogene	1274879	1274968	.	-	.	ID=gene-ECD_01207;Name=tpr;Note=a_protamine-like_protein%3B_similar_to_b1229;gbkey=Gene;gene=tpr;gene_biotype=pseudogene;locus_tag=ECD_01207;pseudo=true	TRUE	2019397
 CP001509.3	Genbank	gene	1275036	1275120	.	-	.	ID=gene-ECD_t00025;Name=tyrV;gbkey=Gene;gene=tyrV;gene_biotype=tRNA;locus_tag=ECD_t00025	FALSE	2019554
 CP001509.3	Genbank	gene	1275330	1275414	.	-	.	ID=gene-ECD_t00026;Name=tyrT;gbkey=Gene;gene=tyrT;gene_biotype=tRNA;locus_tag=ECD_t00026	FALSE	2019848
 CP001509.3	Genbank	gene	1275574	1276416	.	-	.	ID=gene-ECD_01208;Name=purU;gbkey=Gene;gene=purU;gene_biotype=protein_coding;locus_tag=ECD_01208	FALSE	2020092
@@ -1270,8 +1268,8 @@ CP001509.3	Genbank	gene	1306976	1308538	.	-	.	ID=gene-ECD_01238;Name=trpE;gbkey=
 CP001509.3	Genbank	gene	1308630	1308674	.	-	.	ID=gene-ECD_01239;Name=trpL;gbkey=Gene;gene=trpL;gene_biotype=protein_coding;locus_tag=ECD_01239	FALSE	2053148
 CP001509.3	Genbank	gene	1308812	1309693	.	+	.	ID=gene-ECD_01240;Name=yciV;gbkey=Gene;gene=yciV;gene_biotype=protein_coding;locus_tag=ECD_01240	FALSE	2053330
 CP001509.3	Genbank	gene	1309690	1310310	.	+	.	ID=gene-ECD_01241;Name=yciO;gbkey=Gene;gene=yciO;gene_biotype=protein_coding;locus_tag=ECD_01241	FALSE	2054208
-CP001509.3	Genbank	pseudogene	1310338	1313009	.	+	.	ID=gene-ECD_01242;Name=yciQ;Note=interrupted by IS1%3B hypothetical protein%3B similar to b1268;gbkey=Gene;gene=yciQ;gene_biotype=pseudogene;locus_tag=ECD_01242;pseudo=true	FALSE	2054856
-CP001509.3	Genbank	mobile_genetic_element	1310719	1311486	.	+	.	ID=id-ECD_01242;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	2055237
+CP001509.3	Genbank	pseudogene	1310338	1313009	.	+	.	ID=gene-ECD_01242;Name=yciQ;Note=interrupted_by_IS1%3B_hypothetical_protein%3B_similar_to_b1268;gbkey=Gene;gene=yciQ;gene_biotype=pseudogene;locus_tag=ECD_01242;pseudo=true	FALSE	2054856
+CP001509.3	Genbank	mobile_genetic_element	1310719	1311486	.	+	.	ID=id-ECD_01242;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	2055237
 CP001509.3	Genbank	gene	1310774	1311049	.	+	.	ID=gene-ECD_01243;Name=insA-11;gbkey=Gene;gene=insA-11;gene_biotype=protein_coding;locus_tag=ECD_01243	FALSE	2055292
 CP001509.3	Genbank	gene	1310968	1311471	.	+	.	ID=gene-ECD_01244;Name=insB-11;gbkey=Gene;gene=insB-11;gene_biotype=protein_coding;locus_tag=ECD_01244	FALSE	2055486
 CP001509.3	Genbank	gene	1313222	1314097	.	+	.	ID=gene-ECD_01245;Name=rluB;gbkey=Gene;gene=rluB;gene_biotype=protein_coding;locus_tag=ECD_01245	FALSE	2057740
@@ -1281,7 +1279,7 @@ CP001509.3	Genbank	gene	1315702	1316751	.	+	.	ID=gene-ECD_01248;Name=sohB;gbkey=
 CP001509.3	Genbank	gene	1316787	1317038	.	-	.	ID=gene-ECD_01249;Name=yciN;gbkey=Gene;gene=yciN;gene_biotype=protein_coding;locus_tag=ECD_01249	FALSE	2061305
 CP001509.3	Genbank	gene	1317418	1320015	.	+	.	ID=gene-ECD_01250;Name=topA;gbkey=Gene;gene=topA;gene_biotype=protein_coding;locus_tag=ECD_01250	FALSE	2061936
 CP001509.3	Genbank	gene	1320225	1321199	.	+	.	ID=gene-ECD_01251;Name=cysB;gbkey=Gene;gene=cysB;gene_biotype=protein_coding;locus_tag=ECD_01251	FALSE	2064743
-CP001509.3	Genbank	pseudogene	1321530	1321828	.	+	.	ID=gene-ECD_01252;Name=yciX;Note=frameshift%3B also pseudo in K-12 MG1655%3B predicted protein%3B similar to b4522(b4574);gbkey=Gene;gene=yciX;gene_biotype=pseudogene;locus_tag=ECD_01252;pseudo=true	FALSE	2066048
+CP001509.3	Genbank	pseudogene	1321530	1321828	.	+	.	ID=gene-ECD_01252;Name=yciX;Note=frameshift%3B_also_pseudo_in_K-12_MG1655%3B_predicted_protein%3B_similar_to_b4522(b4574);gbkey=Gene;gene=yciX;gene_biotype=pseudogene;locus_tag=ECD_01252;pseudo=true	FALSE	2066048
 CP001509.3	Genbank	gene	1322201	1324876	.	+	.	ID=gene-ECD_01253;Name=acnA;gbkey=Gene;gene=acnA;gene_biotype=protein_coding;locus_tag=ECD_01253	FALSE	2066719
 CP001509.3	Genbank	gene	1324940	1325530	.	-	.	ID=gene-ECD_01254;Name=ribA;gbkey=Gene;gene=ribA;gene_biotype=protein_coding;locus_tag=ECD_01254	FALSE	2069458
 CP001509.3	Genbank	gene	1325700	1326464	.	+	.	ID=gene-ECD_01255;Name=pgpB;gbkey=Gene;gene=pgpB;gene_biotype=protein_coding;locus_tag=ECD_01255	FALSE	2070218
@@ -1333,14 +1331,14 @@ CP001509.3	Genbank	gene	1373087	1374628	.	+	.	ID=gene-ECD_01300;Name=tyrR;gbkey=
 CP001509.3	Genbank	gene	1374672	1375178	.	-	.	ID=gene-ECD_01301;Name=tpx;gbkey=Gene;gene=tpx;gene_biotype=protein_coding;locus_tag=ECD_01301	FALSE	2119190
 CP001509.3	Genbank	gene	1375297	1376262	.	+	.	ID=gene-ECD_01302;Name=ycjG;gbkey=Gene;gene=ycjG;gene_biotype=protein_coding;locus_tag=ECD_01302	FALSE	2119815
 CP001509.3	Genbank	gene	1376237	1376965	.	-	.	ID=gene-ECD_01303;Name=mpaA;gbkey=Gene;gene=mpaA;gene_biotype=protein_coding;locus_tag=ECD_01303	TRUE	2120755
-CP001509.3	Genbank	pseudogene	1377047	1377229	.	-	.	ID=gene-ECD_01304;Name=ymjC;Note=also pseudo in K-12 MG1655%3B similar to b4525%3B predicted oxidoreductase (N-ter);gbkey=Gene;gene=ymjC;gene_biotype=pseudogene;locus_tag=ECD_01304;pseudo=true	FALSE	2121565
+CP001509.3	Genbank	pseudogene	1377047	1377229	.	-	.	ID=gene-ECD_01304;Name=ymjC;Note=also_pseudo_in_K-12_MG1655%3B_similar_to_b4525%3B_predicted_oxidoreductase_(N-ter);gbkey=Gene;gene=ymjC;gene_biotype=pseudogene;locus_tag=ECD_01304;pseudo=true	FALSE	2121565
 CP001509.3	Genbank	gene	1377300	1378220	.	-	.	ID=gene-ECD_01305;Name=ycjY;gbkey=Gene;gene=ycjY;gene_biotype=protein_coding;locus_tag=ECD_01305	FALSE	2121818
 CP001509.3	Genbank	gene	1378358	1379257	.	+	.	ID=gene-ECD_01306;Name=pgrR;gbkey=Gene;gene=pgrR;gene_biotype=protein_coding;locus_tag=ECD_01306	FALSE	2122876
 CP001509.3	Genbank	gene	1379594	1381207	.	+	.	ID=gene-ECD_01307;Name=mppA;gbkey=Gene;gene=mppA;gene_biotype=protein_coding;locus_tag=ECD_01307	FALSE	2124112
 CP001509.3	Genbank	gene	1381258	1382289	.	-	.	ID=gene-ECD_01308;Name=ynaI;gbkey=Gene;gene=ynaI;gene_biotype=protein_coding;locus_tag=ECD_01308	FALSE	2125776
 CP001509.3	Genbank	gene	1382533	1382790	.	+	.	ID=gene-ECD_01309;Name=ynaJ;gbkey=Gene;gene=ynaJ;gene_biotype=protein_coding;locus_tag=ECD_01309	FALSE	2127051
 CP001509.3	Genbank	gene	1382840	1383790	.	-	.	ID=gene-ECD_01310;Name=uspE;gbkey=Gene;gene=uspE;gene_biotype=protein_coding;locus_tag=ECD_01310	FALSE	2127358
-CP001509.3	Genbank	pseudogene	1383942	1384694	.	-	.	ID=gene-ECD_01311;Name=fnr;Note=interrupted by in-frame stop codon%3B similar to b1334%3B DNA-binding transcriptional dual regulator%2C global regulator of anaerobic growth;gbkey=Gene;gene=fnr;gene_biotype=pseudogene;locus_tag=ECD_01311;pseudo=true	FALSE	2128460
+CP001509.3	Genbank	pseudogene	1383942	1384694	.	-	.	ID=gene-ECD_01311;Name=fnr;Note=interrupted_by_in-frame_stop_codon%3B_similar_to_b1334%3B_DNA-binding_transcriptional_dual_regulator%2C_global_regulator_of_anaerobic_growth;gbkey=Gene;gene=fnr;gene_biotype=pseudogene;locus_tag=ECD_01311;pseudo=true	FALSE	2128460
 CP001509.3	Genbank	gene	1384889	1385404	.	-	.	ID=gene-ECD_01312;Name=ogt;gbkey=Gene;gene=ogt;gene_biotype=protein_coding;locus_tag=ECD_01312	FALSE	2129407
 CP001509.3	Genbank	gene	1385415	1386941	.	-	.	ID=gene-ECD_01313;Name=abgT;gbkey=Gene;gene=abgT;gene_biotype=protein_coding;locus_tag=ECD_01313	FALSE	2129933
 CP001509.3	Genbank	gene	1386978	1388423	.	-	.	ID=gene-ECD_01314;Name=abgB;gbkey=Gene;gene=abgB;gene_biotype=protein_coding;locus_tag=ECD_01314	FALSE	2131496
@@ -1354,13 +1352,13 @@ CP001509.3	Genbank	gene	1394297	1394414	.	+	.	ID=gene-ECD_n04311;Name=fnrS;gbkey
 CP001509.3	Genbank	gene	1394476	1394649	.	+	.	ID=gene-ECD_n04312;Name=ECD_n04312;gbkey=Gene;gene_biotype=antisense_RNA;locus_tag=ECD_n04312	FALSE	2138994
 CP001509.3	Genbank	gene	1394679	1396052	.	+	.	ID=gene-ECD_01320;Name=dbpA;gbkey=Gene;gene=dbpA;gene_biotype=protein_coding;locus_tag=ECD_01320	FALSE	2139197
 CP001509.3	Genbank	gene	1396181	1397116	.	-	.	ID=gene-ECD_01321;Name=ttcA;gbkey=Gene;gene=ttcA;gene_biotype=protein_coding;locus_tag=ECD_01321	FALSE	2140699
-CP001509.3	Genbank	sequence_feature	1397093	1410543	.	+	.	ID=id-CP001509.3:1397093..1410543;Note=cryptic prophage%2C Rac-like;gbkey=misc_feature	FALSE	2141611
+CP001509.3	Genbank	sequence_feature	1397093	1410543	.	+	.	ID=id-CP001509.3:1397093..1410543;Note=cryptic_prophage%2C_Rac-like;gbkey=misc_feature	FALSE	2141611
 CP001509.3	Genbank	gene	1397168	1398403	.	-	.	ID=gene-ECD_01322;Name=intR;gbkey=Gene;gene=intR;gene_biotype=protein_coding;locus_tag=ECD_01322	FALSE	2141686
 CP001509.3	Genbank	gene	1398405	1398620	.	-	.	ID=gene-ECD_01323;Name=ydaQ;gbkey=Gene;gene=ydaQ;gene_biotype=protein_coding;locus_tag=ECD_01323	FALSE	2142923
 CP001509.3	Genbank	gene	1398699	1398908	.	-	.	ID=gene-ECD_01324;Name=ydaC;gbkey=Gene;gene=ydaC;gene_biotype=protein_coding;locus_tag=ECD_01324	FALSE	2143217
 CP001509.3	Genbank	gene	1398901	1399095	.	-	.	ID=gene-ECD_01325;Name=ralR;gbkey=Gene;gene=ralR;gene_biotype=protein_coding;locus_tag=ECD_01325	FALSE	2143419
 CP001509.3	Genbank	gene	1399152	1399961	.	-	.	ID=gene-ECD_01326;Name=recT;gbkey=Gene;gene=recT;gene_biotype=protein_coding;locus_tag=ECD_01326	FALSE	2143670
-CP001509.3	Genbank	pseudogene	1399954	1401053	.	-	.	ID=gene-ECD_01327;Name=recE;Note=internal deletion%3B similar to b1350%3B exonuclease VIII%2C 5' -> 3' specific dsDNA exonuclease;gbkey=Gene;gene=recE;gene_biotype=pseudogene;locus_tag=ECD_01327;pseudo=true	FALSE	2144472
+CP001509.3	Genbank	pseudogene	1399954	1401053	.	-	.	ID=gene-ECD_01327;Name=recE;Note=internal_deletion%3B_similar_to_b1350%3B_exonuclease_VIII%2C_5'_->_3'_specific_dsDNA_exonuclease;gbkey=Gene;gene=recE;gene_biotype=pseudogene;locus_tag=ECD_01327;pseudo=true	FALSE	2144472
 CP001509.3	Genbank	gene	1401155	1401430	.	-	.	ID=gene-ECD_01328;Name=racC;gbkey=Gene;gene=racC;gene_biotype=protein_coding;locus_tag=ECD_01328	FALSE	2145673
 CP001509.3	Genbank	gene	1401505	1401675	.	-	.	ID=gene-ECD_01329;Name=ydaE;gbkey=Gene;gene=ydaE;gene_biotype=protein_coding;locus_tag=ECD_01329	FALSE	2146023
 CP001509.3	Genbank	gene	1401675	1401896	.	-	.	ID=gene-ECD_01330;Name=kilR;gbkey=Gene;gene=kilR;gene_biotype=protein_coding;locus_tag=ECD_01330	FALSE	2146193
@@ -1393,7 +1391,7 @@ CP001509.3	Genbank	gene	1421439	1421765	.	+	.	ID=gene-ECD_01355;Name=ydbL;gbkey=
 CP001509.3	Genbank	gene	1421937	1422842	.	-	.	ID=gene-ECD_01356;Name=feaR;gbkey=Gene;gene=feaR;gene_biotype=protein_coding;locus_tag=ECD_01356	FALSE	2166455
 CP001509.3	Genbank	gene	1423078	1424577	.	+	.	ID=gene-ECD_01357;Name=feaB;gbkey=Gene;gene=feaB;gene_biotype=protein_coding;locus_tag=ECD_01357	FALSE	2167596
 CP001509.3	Genbank	gene	1424636	1426354	.	-	.	ID=gene-ECD_01358;Name=tynA;gbkey=Gene;gene=tynA;gene_biotype=protein_coding;locus_tag=ECD_01358	FALSE	2169154
-CP001509.3	Genbank	mobile_genetic_element	1426592	1427846	.	+	.	ID=id-CP001509.3:1426592..1427846;gbkey=mobile_element;mobile_element_type=insertion sequence:IS3	FALSE	2171110
+CP001509.3	Genbank	mobile_genetic_element	1426592	1427846	.	+	.	ID=id-CP001509.3:1426592..1427846;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS3	FALSE	2171110
 CP001509.3	Genbank	gene	1426645	1426953	.	+	.	ID=gene-ECD_01359;Name=insE-2;gbkey=Gene;gene=insE-2;gene_biotype=protein_coding;locus_tag=ECD_01359	FALSE	2171163
 CP001509.3	Genbank	gene	1426950	1427816	.	+	.	ID=gene-ECD_01360;Name=insF-2;gbkey=Gene;gene=insF-2;gene_biotype=protein_coding;locus_tag=ECD_01360	FALSE	2171468
 CP001509.3	Genbank	gene	1427834	1428367	.	+	.	ID=gene-ECD_01361;Name=ydbC;gbkey=Gene;gene=ydbC;gene_biotype=protein_coding;locus_tag=ECD_01361	FALSE	2172352
@@ -1407,7 +1405,7 @@ CP001509.3	Genbank	gene	1436345	1440247	.	+	.	ID=gene-ECD_01368;Name=hrpA;gbkey=
 CP001509.3	Genbank	gene	1440519	1441319	.	+	.	ID=gene-ECD_01369;Name=ydcF;gbkey=Gene;gene=ydcF;gene_biotype=protein_coding;locus_tag=ECD_01369	FALSE	2185037
 CP001509.3	Genbank	gene	1441516	1442955	.	+	.	ID=gene-ECD_01370;Name=aldA;gbkey=Gene;gene=aldA;gene_biotype=protein_coding;locus_tag=ECD_01370	FALSE	2186034
 CP001509.3	Genbank	gene	1442997	1443998	.	-	.	ID=gene-ECD_01371;Name=gapC;gbkey=Gene;gene=gapC;gene_biotype=protein_coding;locus_tag=ECD_01371	FALSE	2187515
-CP001509.3	Genbank	mobile_genetic_element	1444113	1444880	.	+	.	ID=id-CP001509.3:1444113..1444880;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	2188631
+CP001509.3	Genbank	mobile_genetic_element	1444113	1444880	.	+	.	ID=id-CP001509.3:1444113..1444880;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	2188631
 CP001509.3	Genbank	gene	1444168	1444443	.	+	.	ID=gene-ECD_01372;Name=insA-12;gbkey=Gene;gene=insA-12;gene_biotype=protein_coding;locus_tag=ECD_01372	FALSE	2188686
 CP001509.3	Genbank	gene	1444362	1444865	.	+	.	ID=gene-ECD_01373;Name=insB-12;gbkey=Gene;gene=insB-12;gene_biotype=protein_coding;locus_tag=ECD_01373	FALSE	2188880
 CP001509.3	Genbank	gene	1444964	1445494	.	+	.	ID=gene-ECD_01374;Name=cybB;gbkey=Gene;gene=cybB;gene_biotype=protein_coding;locus_tag=ECD_01374	FALSE	2189482
@@ -1427,7 +1425,7 @@ CP001509.3	Genbank	gene	1453531	1454511	.	-	.	ID=gene-ECD_01385;Name=ydcK;gbkey=
 CP001509.3	Genbank	gene	1454635	1455627	.	+	.	ID=gene-ECD_01386;Name=tehA;gbkey=Gene;gene=tehA;gene_biotype=protein_coding;locus_tag=ECD_01386	FALSE	2199153
 CP001509.3	Genbank	gene	1455624	1456217	.	+	.	ID=gene-ECD_01387;Name=tehB;gbkey=Gene;gene=tehB;gene_biotype=protein_coding;locus_tag=ECD_01387	FALSE	2200142
 CP001509.3	Genbank	gene	1456520	1457188	.	+	.	ID=gene-ECD_01388;Name=ydcL;gbkey=Gene;gene=ydcL;gene_biotype=protein_coding;locus_tag=ECD_01388	FALSE	2201038
-CP001509.3	Genbank	pseudogene	1457206	1457712	.	-	.	ID=gene-ECD_01389;Name=yncK;Note=interrupted by in-frame stop%3B alsp pseudo in K-12 MG1655%3B putative transposase%3B similar to b4530(b4578);gbkey=Gene;gene=yncK;gene_biotype=pseudogene;locus_tag=ECD_01389;pseudo=true	FALSE	2201724
+CP001509.3	Genbank	pseudogene	1457206	1457712	.	-	.	ID=gene-ECD_01389;Name=yncK;Note=interrupted_by_in-frame_stop%3B_alsp_pseudo_in_K-12_MG1655%3B_putative_transposase%3B_similar_to_b4530(b4578);gbkey=Gene;gene=yncK;gene_biotype=pseudogene;locus_tag=ECD_01389;pseudo=true	FALSE	2201724
 CP001509.3	Genbank	gene	1457780	1458928	.	+	.	ID=gene-ECD_01390;Name=insQ;gbkey=Gene;gene=insQ;gene_biotype=protein_coding;locus_tag=ECD_01390	FALSE	2202298
 CP001509.3	Genbank	gene	1458968	1460143	.	-	.	ID=gene-ECD_01391;Name=ydcO;gbkey=Gene;gene=ydcO;gene_biotype=protein_coding;locus_tag=ECD_01391	FALSE	2203486
 CP001509.3	Genbank	gene	1460235	1460771	.	+	.	ID=gene-ECD_01392;Name=ydcN;gbkey=Gene;gene=ydcN;gene_biotype=protein_coding;locus_tag=ECD_01392	FALSE	2204753
@@ -1462,7 +1460,7 @@ CP001509.3	Genbank	gene	1487908	1488699	.	+	.	ID=gene-ECD_01418;Name=ydcC;gbkey=
 CP001509.3	Genbank	gene	1488732	1488959	.	+	.	ID=gene-ECD_01419;Name=pptA;gbkey=Gene;gene=pptA;gene_biotype=protein_coding;locus_tag=ECD_01419	FALSE	2233250
 CP001509.3	Genbank	gene	1488963	1489532	.	-	.	ID=gene-ECD_01420;Name=yddH;gbkey=Gene;gene=yddH;gene_biotype=protein_coding;locus_tag=ECD_01420	FALSE	2233481
 CP001509.3	Genbank	gene	1489705	1490550	.	+	.	ID=gene-ECD_01421;Name=nhoA;gbkey=Gene;gene=nhoA;gene_biotype=protein_coding;locus_tag=ECD_01421	FALSE	2234223
-CP001509.3	Genbank	pseudogene	1490646	1491539	.	-	.	ID=gene-ECD_01422;Name=yddE;Note=interrupted by in-frame stop%3B hypothetical protein%3B similar to b1464;gbkey=Gene;gene=yddE;gene_biotype=pseudogene;locus_tag=ECD_01422;pseudo=true	FALSE	2235164
+CP001509.3	Genbank	pseudogene	1490646	1491539	.	-	.	ID=gene-ECD_01422;Name=yddE;Note=interrupted_by_in-frame_stop%3B_hypothetical_protein%3B_similar_to_b1464;gbkey=Gene;gene=yddE;gene_biotype=pseudogene;locus_tag=ECD_01422;pseudo=true	FALSE	2235164
 CP001509.3	Genbank	gene	1491618	1492298	.	-	.	ID=gene-ECD_01423;Name=narV;gbkey=Gene;gene=narV;gene_biotype=protein_coding;locus_tag=ECD_01423	FALSE	2236136
 CP001509.3	Genbank	gene	1492295	1492990	.	-	.	ID=gene-ECD_01424;Name=narW;gbkey=Gene;gene=narW;gene_biotype=protein_coding;locus_tag=ECD_01424	FALSE	2236813
 CP001509.3	Genbank	gene	1492990	1494534	.	-	.	ID=gene-ECD_01425;Name=narY;gbkey=Gene;gene=narY;gene_biotype=protein_coding;locus_tag=ECD_01425	FALSE	2237508
@@ -1504,12 +1502,12 @@ CP001509.3	Genbank	gene	1542301	1543215	.	-	.	ID=gene-ECD_01460;Name=ydeQ;gbkey=
 CP001509.3	Genbank	gene	1543274	1543777	.	-	.	ID=gene-ECD_01461;Name=ydeR;gbkey=Gene;gene=ydeR;gene_biotype=protein_coding;locus_tag=ECD_01461	FALSE	2271161
 CP001509.3	Genbank	gene	1543790	1544320	.	-	.	ID=gene-ECD_01462;Name=ydeS;gbkey=Gene;gene=ydeS;gene_biotype=protein_coding;locus_tag=ECD_01462	FALSE	2270645
 CP001509.3	Genbank	gene	1544334	1545482	.	-	.	ID=gene-ECD_01463;Name=ydeT;gbkey=Gene;gene=ydeT;gene_biotype=protein_coding;locus_tag=ECD_01463	FALSE	2270101
-CP001509.3	Genbank	pseudogene	1545546	1546984	.	-	.	ID=gene-ECD_01464;Name=ECD_01464;Note=frameshift%3B putative fimbrial usher protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01464;pseudo=true	FALSE	2268889
-CP001509.3	Genbank	pseudogene	1547026	1547745	.	-	.	ID=gene-ECD_01466;Name=ECD_01466;Note=interrupted by in-frame stop%3B putative fimbrial chaperone protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01466;pseudo=true	FALSE	2267409
+CP001509.3	Genbank	pseudogene	1545546	1546984	.	-	.	ID=gene-ECD_01464;Name=ECD_01464;Note=frameshift%3B_putative_fimbrial_usher_protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01464;pseudo=true	FALSE	2268889
+CP001509.3	Genbank	pseudogene	1547026	1547745	.	-	.	ID=gene-ECD_01466;Name=ECD_01466;Note=interrupted_by_in-frame_stop%3B_putative_fimbrial_chaperone_protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01466;pseudo=true	FALSE	2267409
 CP001509.3	Genbank	gene	1548097	1548633	.	-	.	ID=gene-ECD_01468;Name=yneL;gbkey=Gene;gene=yneL;gene_biotype=protein_coding;locus_tag=ECD_01468	FALSE	2266338
 CP001509.3	Genbank	gene	1548951	1550273	.	-	.	ID=gene-ECD_01469;Name=hipA;gbkey=Gene;gene=hipA;gene_biotype=protein_coding;locus_tag=ECD_01469	FALSE	2265484
 CP001509.3	Genbank	gene	1550273	1550539	.	-	.	ID=gene-ECD_01470;Name=hipB;gbkey=Gene;gene=hipB;gene_biotype=protein_coding;locus_tag=ECD_01470	FALSE	2264162
-CP001509.3	Genbank	pseudogene	1550762	1552162	.	-	.	ID=gene-ECD_01471;Name=ydeU;Note=similar to b1509%3B conserved protein;gbkey=Gene;gene=ydeU;gene_biotype=pseudogene;locus_tag=ECD_01471;pseudo=true	FALSE	2263673
+CP001509.3	Genbank	pseudogene	1550762	1552162	.	-	.	ID=gene-ECD_01471;Name=ydeU;Note=similar_to_b1509%3B_conserved_protein;gbkey=Gene;gene=ydeU;gene_biotype=pseudogene;locus_tag=ECD_01471;pseudo=true	FALSE	2263673
 CP001509.3	Genbank	gene	1552317	1553114	.	+	.	ID=gene-ECD_01472;Name=lsrD;gbkey=Gene;gene=lsrD;gene_biotype=protein_coding;locus_tag=ECD_01472	FALSE	2262118
 CP001509.3	Genbank	gene	1553126	1554148	.	+	.	ID=gene-ECD_01473;Name=lsrB;gbkey=Gene;gene=lsrB;gene_biotype=protein_coding;locus_tag=ECD_01473	FALSE	2261309
 CP001509.3	Genbank	gene	1554175	1555050	.	+	.	ID=gene-ECD_01474;Name=lsrF;gbkey=Gene;gene=lsrF;gene_biotype=protein_coding;locus_tag=ECD_01474	FALSE	2260260
@@ -1541,17 +1539,17 @@ CP001509.3	Genbank	gene	1576813	1577559	.	+	.	ID=gene-ECD_01498;Name=ydfG;gbkey=
 CP001509.3	Genbank	gene	1578511	1578714	.	+	.	ID=gene-ECD_01500;Name=ydfZ;gbkey=Gene;gene=ydfZ;gene_biotype=protein_coding;locus_tag=ECD_01500	FALSE	2235924
 CP001509.3	Genbank	gene	1578750	1580210	.	-	.	ID=gene-ECD_01501;Name=ydfI;gbkey=Gene;gene=ydfI;gene_biotype=protein_coding;locus_tag=ECD_01501	FALSE	2235685
 CP001509.3	Genbank	gene	1580299	1581582	.	-	.	ID=gene-ECD_01502;Name=ydfJ;gbkey=Gene;gene=ydfJ;gene_biotype=protein_coding;locus_tag=ECD_01502	FALSE	2234136
-CP001509.3	Genbank	sequence_feature	1581583	1597951	.	+	.	ID=id-CP001509.3:1581583..1597951;Note=cryptic prophage%2C Qin-like (KIM);gbkey=misc_feature	FALSE	2232852
+CP001509.3	Genbank	sequence_feature	1581583	1597951	.	+	.	ID=id-CP001509.3:1581583..1597951;Note=cryptic_prophage%2C_Qin-like_(KIM);gbkey=misc_feature	FALSE	2232852
 CP001509.3	Genbank	gene	1582368	1582601	.	+	.	ID=gene-ECD_01503;Name=ydfK;gbkey=Gene;gene=ydfK;gene_biotype=protein_coding;locus_tag=ECD_01503	FALSE	2232067
 CP001509.3	Genbank	gene	1582917	1583507	.	+	.	ID=gene-ECD_01504;Name=pinQ;gbkey=Gene;gene=pinQ;gene_biotype=protein_coding;locus_tag=ECD_01504	FALSE	2231518
 CP001509.3	Genbank	gene	1583735	1584028	.	-	.	ID=gene-ECD_01505;Name=ECD_01505;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01505	FALSE	2230700
 CP001509.3	Genbank	gene	1584039	1584743	.	-	.	ID=gene-ECD_01506;Name=ECD_01506;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01506	FALSE	2230396
 CP001509.3	Genbank	gene	1584753	1585034	.	-	.	ID=gene-ECD_01507;Name=ECD_01507;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01507	FALSE	2229682
 CP001509.3	Genbank	gene	1585034	1586335	.	-	.	ID=gene-ECD_01508;Name=stfR;gbkey=Gene;gene=stfR;gene_biotype=protein_coding;locus_tag=ECD_01508	FALSE	2229401
-CP001509.3	Genbank	mobile_genetic_element	1586964	1588188	.	+	.	ID=id-CP001509.3:1586964..1588188;gbkey=mobile_element;mobile_element_type=insertion sequence:IS3	FALSE	2227471
+CP001509.3	Genbank	mobile_genetic_element	1586964	1588188	.	+	.	ID=id-CP001509.3:1586964..1588188;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS3	FALSE	2227471
 CP001509.3	Genbank	gene	1586987	1587295	.	+	.	ID=gene-ECD_01524;Name=insE-4;gbkey=Gene;gene=insE-4;gene_biotype=protein_coding;locus_tag=ECD_01524	FALSE	2227448
 CP001509.3	Genbank	gene	1587292	1588158	.	+	.	ID=gene-ECD_01525;Name=insF-4;gbkey=Gene;gene=insF-4;gene_biotype=protein_coding;locus_tag=ECD_01525	FALSE	2227143
-CP001509.3	Genbank	pseudogene	1588186	1588335	.	-	.	ID=gene-ECD_01526;Name=ECD_01526;Note=putative pathogenicity island protein (N-ter fragment);gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01526;pseudo=true	FALSE	2226249
+CP001509.3	Genbank	pseudogene	1588186	1588335	.	-	.	ID=gene-ECD_01526;Name=ECD_01526;Note=putative_pathogenicity_island_protein_(N-ter_fragment);gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_01526;pseudo=true	FALSE	2226249
 CP001509.3	Genbank	gene	1588528	1589052	.	+	.	ID=gene-ECD_01527;Name=ECD_01527;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01527	FALSE	2225907
 CP001509.3	Genbank	gene	1589208	1589588	.	-	.	ID=gene-ECD_01528;Name=ECD_01528;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01528	FALSE	2225227
 CP001509.3	Genbank	gene	1589603	1590181	.	-	.	ID=gene-ECD_01529;Name=ydfU;gbkey=Gene;gene=ydfU;gene_biotype=protein_coding;locus_tag=ECD_01529	FALSE	2224832
@@ -1572,8 +1570,8 @@ CP001509.3	Genbank	gene	1595421	1595609	.	+	.	ID=gene-ECD_01543;Name=dicB;gbkey=
 CP001509.3	Genbank	gene	1595606	1595797	.	+	.	ID=gene-ECD_01544;Name=ydfD;gbkey=Gene;gene=ydfD;gene_biotype=protein_coding;locus_tag=ECD_01544	FALSE	2218829
 CP001509.3	Genbank	gene	1595891	1596397	.	+	.	ID=gene-ECD_01545;Name=ydfE;gbkey=Gene;gene=ydfE;gene_biotype=protein_coding;locus_tag=ECD_01545	FALSE	2218544
 CP001509.3	Genbank	gene	1596454	1596591	.	+	.	ID=gene-ECD_01546;Name=ECD_01546;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01546	FALSE	2217981
-CP001509.3	Genbank	pseudogene	1596644	1597905	.	+	.	ID=gene-ECD_01547;Name=intQ;Note=frameshift%3B putative transposase%3B similar to b1579;gbkey=Gene;gene=intQ;gene_biotype=pseudogene;locus_tag=ECD_01547;pseudo=true	FALSE	2217791
-CP001509.3	Genbank	pseudogene	1597925	1598035	.	-	.	ID=gene-ECD_01548;Name=ynfP;Note=similar to b4534%3B transport protein (N-ter fragment);gbkey=Gene;gene=ynfP;gene_biotype=pseudogene;locus_tag=ECD_01548;pseudo=true	FALSE	2216510
+CP001509.3	Genbank	pseudogene	1596644	1597905	.	+	.	ID=gene-ECD_01547;Name=intQ;Note=frameshift%3B_putative_transposase%3B_similar_to_b1579;gbkey=Gene;gene=intQ;gene_biotype=pseudogene;locus_tag=ECD_01547;pseudo=true	FALSE	2217791
+CP001509.3	Genbank	pseudogene	1597925	1598035	.	-	.	ID=gene-ECD_01548;Name=ynfP;Note=similar_to_b4534%3B_transport_protein_(N-ter_fragment);gbkey=Gene;gene=ynfP;gene_biotype=pseudogene;locus_tag=ECD_01548;pseudo=true	FALSE	2216510
 CP001509.3	Genbank	gene	1598093	1599112	.	-	.	ID=gene-ECD_01549;Name=rspB;gbkey=Gene;gene=rspB;gene_biotype=protein_coding;locus_tag=ECD_01549	FALSE	2216342
 CP001509.3	Genbank	gene	1599124	1600338	.	-	.	ID=gene-ECD_01550;Name=rspA;gbkey=Gene;gene=rspA;gene_biotype=protein_coding;locus_tag=ECD_01550	FALSE	2215311
 CP001509.3	Genbank	gene	1600544	1600870	.	-	.	ID=gene-ECD_01551;Name=ynfA;gbkey=Gene;gene=ynfA;gene_biotype=protein_coding;locus_tag=ECD_01551	FALSE	2213891
@@ -1685,7 +1683,7 @@ CP001509.3	Genbank	gene	1710044	1713100	.	-	.	ID=gene-ECD_01656;Name=ydiJ;gbkey=
 CP001509.3	Genbank	gene	1713489	1714601	.	+	.	ID=gene-ECD_01657;Name=ydiK;gbkey=Gene;gene=ydiK;gene_biotype=protein_coding;locus_tag=ECD_01657	FALSE	2100946
 CP001509.3	Genbank	gene	1714787	1714894	.	+	.	ID=gene-ECD_n04322;Name=rprA;gbkey=Gene;gene=rprA;gene_biotype=ncRNA;locus_tag=ECD_n04322	FALSE	2099648
 CP001509.3	Genbank	gene	1715030	1715386	.	+	.	ID=gene-ECD_01658;Name=ydiL;gbkey=Gene;gene=ydiL;gene_biotype=protein_coding;locus_tag=ECD_01658	FALSE	2099405
-CP001509.3	Genbank	pseudogene	1715519	1716699	.	+	.	ID=gene-ECD_01659;Name=ydiM;Note=frameshift%3B putative transport protein (MFS family)%3B similar to b1690;gbkey=Gene;gene=ydiM;gene_biotype=pseudogene;locus_tag=ECD_01659;pseudo=true	FALSE	2098916
+CP001509.3	Genbank	pseudogene	1715519	1716699	.	+	.	ID=gene-ECD_01659;Name=ydiM;Note=frameshift%3B_putative_transport_protein_(MFS_family)%3B_similar_to_b1690;gbkey=Gene;gene=ydiM;gene_biotype=pseudogene;locus_tag=ECD_01659;pseudo=true	FALSE	2098916
 CP001509.3	Genbank	gene	1716926	1718191	.	+	.	ID=gene-ECD_01660;Name=ydiN;gbkey=Gene;gene=ydiN;gene_biotype=protein_coding;locus_tag=ECD_01660	FALSE	2097509
 CP001509.3	Genbank	gene	1718203	1719069	.	+	.	ID=gene-ECD_01661;Name=ydiB;gbkey=Gene;gene=ydiB;gene_biotype=protein_coding;locus_tag=ECD_01661	FALSE	2096232
 CP001509.3	Genbank	gene	1719100	1719858	.	+	.	ID=gene-ECD_01662;Name=aroD;gbkey=Gene;gene=aroD;gene_biotype=protein_coding;locus_tag=ECD_01662	FALSE	2095335
@@ -1715,7 +1713,7 @@ CP001509.3	Genbank	gene	1743808	1744164	.	-	.	ID=gene-ECD_01685;Name=rplT;gbkey=
 CP001509.3	Genbank	gene	1744217	1744414	.	-	.	ID=gene-ECD_01686;Name=rpmI;gbkey=Gene;gene=rpmI;gene_biotype=protein_coding;locus_tag=ECD_01686	FALSE	2070218
 CP001509.3	Genbank	gene	1744511	1744945	.	-	.	ID=gene-ECD_01687;Name=infC;gbkey=Gene;gene=infC;gene_biotype=protein_coding;locus_tag=ECD_01687	FALSE	2069924
 CP001509.3	Genbank	gene	1745057	1746985	.	-	.	ID=gene-ECD_01688;Name=thrS;gbkey=Gene;gene=thrS;gene_biotype=protein_coding;locus_tag=ECD_01688	FALSE	2069378
-CP001509.3	Genbank	pseudogene	1747507	1749406	.	+	.	ID=gene-ECD_01689;Name=arpB;Note=frameshift%3B also pseudo in K-12 MG1655%3B hypothetical protein%3B ankyrin-repeat protein B%3B b1720(b4494);gbkey=Gene;gene=arpB;gene_biotype=pseudogene;locus_tag=ECD_01689;pseudo=true	FALSE	2066928
+CP001509.3	Genbank	pseudogene	1747507	1749406	.	+	.	ID=gene-ECD_01689;Name=arpB;Note=frameshift%3B_also_pseudo_in_K-12_MG1655%3B_hypothetical_protein%3B_ankyrin-repeat_protein_B%3B_b1720(b4494);gbkey=Gene;gene=arpB;gene_biotype=pseudogene;locus_tag=ECD_01689;pseudo=true	FALSE	2066928
 CP001509.3	Genbank	gene	1749563	1749685	.	+	.	ID=gene-ECD_01690;Name=yniD;gbkey=Gene;gene=yniD;gene_biotype=protein_coding;locus_tag=ECD_01690	FALSE	2064872
 CP001509.3	Genbank	gene	1749738	1750496	.	-	.	ID=gene-ECD_01691;Name=ydiY;gbkey=Gene;gene=ydiY;gene_biotype=protein_coding;locus_tag=ECD_01691	FALSE	2064697
 CP001509.3	Genbank	gene	1750783	1751712	.	+	.	ID=gene-ECD_01692;Name=pfkB;gbkey=Gene;gene=pfkB;gene_biotype=protein_coding;locus_tag=ECD_01692	FALSE	2063652
@@ -1746,7 +1744,7 @@ CP001509.3	Genbank	gene	1774144	1775178	.	-	.	ID=gene-ECD_01716;Name=astA;gbkey=
 CP001509.3	Genbank	gene	1775175	1776395	.	-	.	ID=gene-ECD_01717;Name=astC;gbkey=Gene;gene=astC;gene_biotype=protein_coding;locus_tag=ECD_01717	FALSE	2039260
 CP001509.3	Genbank	gene	1776841	1777647	.	+	.	ID=gene-ECD_01718;Name=xthA;gbkey=Gene;gene=xthA;gene_biotype=protein_coding;locus_tag=ECD_01718	FALSE	2037594
 CP001509.3	Genbank	gene	1777814	1778524	.	+	.	ID=gene-ECD_01719;Name=ydjX;gbkey=Gene;gene=ydjX;gene_biotype=protein_coding;locus_tag=ECD_01719	FALSE	2036621
-CP001509.3	Genbank	pseudogene	1778529	1779169	.	+	.	ID=gene-ECD_01720;Name=ydjY;Note=frameshift%3B conserved protein%2C 4Fe-4S protein%3B similar to b1751;gbkey=Gene;gene=ydjY;gene_biotype=pseudogene;locus_tag=ECD_01720;pseudo=true	FALSE	2035906
+CP001509.3	Genbank	pseudogene	1778529	1779169	.	+	.	ID=gene-ECD_01720;Name=ydjY;Note=frameshift%3B_conserved_protein%2C_4Fe-4S_protein%3B_similar_to_b1751;gbkey=Gene;gene=ydjY;gene_biotype=pseudogene;locus_tag=ECD_01720;pseudo=true	FALSE	2035906
 CP001509.3	Genbank	gene	1779184	1779891	.	+	.	ID=gene-ECD_01721;Name=ydjZ;gbkey=Gene;gene=ydjZ;gene_biotype=protein_coding;locus_tag=ECD_01721	FALSE	2035251
 CP001509.3	Genbank	gene	1779891	1780439	.	+	.	ID=gene-ECD_01722;Name=ynjA;gbkey=Gene;gene=ynjA;gene_biotype=protein_coding;locus_tag=ECD_01722	FALSE	2034544
 CP001509.3	Genbank	gene	1780449	1781615	.	+	.	ID=gene-ECD_01723;Name=ynjB;gbkey=Gene;gene=ynjB;gene_biotype=protein_coding;locus_tag=ECD_01723	FALSE	2033986
@@ -1794,7 +1792,7 @@ CP001509.3	Genbank	gene	1823150	1823248	.	+	.	ID=gene-ECD_04323;Name=yoaK;gbkey=
 CP001509.3	Genbank	gene	1823384	1823632	.	-	.	ID=gene-ECD_01764;Name=yeaQ;gbkey=Gene;gene=yeaQ;gene_biotype=protein_coding;locus_tag=ECD_01764	FALSE	1991051
 CP001509.3	Genbank	gene	1823780	1823962	.	-	.	ID=gene-ECD_01765;Name=yoaG;gbkey=Gene;gene=yoaG;gene_biotype=protein_coding;locus_tag=ECD_01765	FALSE	1990655
 CP001509.3	Genbank	gene	1823966	1824190	.	-	.	ID=gene-ECD_01766;Name=yeaR;gbkey=Gene;gene=yeaR;gene_biotype=protein_coding;locus_tag=ECD_01766	FALSE	1990469
-CP001509.3	Genbank	mobile_genetic_element	1824212	1825554	.	+	.	ID=id-CP001509.3:1824212..1825554;gbkey=mobile_element;mobile_element_type=insertion sequence:IS186	FALSE	1990223
+CP001509.3	Genbank	mobile_genetic_element	1824212	1825554	.	+	.	ID=id-CP001509.3:1824212..1825554;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS186	FALSE	1990223
 CP001509.3	Genbank	gene	1824269	1825381	.	+	.	ID=gene-ECD_01767;Name=insL-4;gbkey=Gene;gene=insL-4;gene_biotype=protein_coding;locus_tag=ECD_01767	FALSE	1990166
 CP001509.3	Genbank	gene	1825847	1826485	.	-	.	ID=gene-ECD_01768;Name=leuE;gbkey=Gene;gene=leuE;gene_biotype=protein_coding;locus_tag=ECD_01768	FALSE	1988588
 CP001509.3	Genbank	gene	1826612	1827535	.	-	.	ID=gene-ECD_01769;Name=dmlR;gbkey=Gene;gene=dmlR;gene_biotype=protein_coding;locus_tag=ECD_01769	FALSE	1987823
@@ -1913,7 +1911,7 @@ CP001509.3	Genbank	gene	1936096	1936761	.	-	.	ID=gene-ECD_01876;Name=yecA;gbkey=
 CP001509.3	Genbank	gene	1936957	1937043	.	-	.	ID=gene-ECD_t00029;Name=leuZ;gbkey=Gene;gene=leuZ;gene_biotype=tRNA;locus_tag=ECD_t00029	FALSE	1877478
 CP001509.3	Genbank	gene	1937056	1937129	.	-	.	ID=gene-ECD_t00030;Name=cysT;gbkey=Gene;gene=cysT;gene_biotype=tRNA;locus_tag=ECD_t00030	FALSE	1877379
 CP001509.3	Genbank	gene	1937183	1937258	.	-	.	ID=gene-ECD_t00031;Name=glyW;gbkey=Gene;gene=glyW;gene_biotype=tRNA;locus_tag=ECD_t00031	FALSE	1877252
-CP001509.3	Genbank	mobile_genetic_element	1940420	1941187	.	+	.	ID=id-CP001509.3:1940420..1941187;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1874015
+CP001509.3	Genbank	mobile_genetic_element	1940420	1941187	.	+	.	ID=id-CP001509.3:1940420..1941187;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1874015
 CP001509.3	Genbank	gene	1945630	1946265	.	+	.	ID=gene-ECD_01887;Name=yedZ;gbkey=Gene;gene=yedZ;gene_biotype=protein_coding;locus_tag=ECD_01887	FALSE	1868805
 CP001509.3	Genbank	gene	1946522	1947172	.	+	.	ID=gene-ECD_01888;Name=zinT;gbkey=Gene;gene=zinT;gene_biotype=protein_coding;locus_tag=ECD_01888	FALSE	1867913
 CP001509.3	Genbank	gene	1947515	1948045	.	+	.	ID=gene-ECD_01889;Name=yodB;gbkey=Gene;gene=yodB;gene_biotype=protein_coding;locus_tag=ECD_01889	FALSE	1866920
@@ -1922,7 +1920,7 @@ CP001509.3	Genbank	gene	1948615	1948704	.	-	.	ID=gene-ECD_t00032;Name=serU;gbkey
 CP001509.3	Genbank	gene	1948798	1949595	.	+	.	ID=gene-ECD_01890;Name=mtfA;gbkey=Gene;gene=mtfA;gene_biotype=protein_coding;locus_tag=ECD_01890	FALSE	1865637
 CP001509.3	Genbank	gene	1949696	1949771	.	+	.	ID=gene-ECD_t00033;Name=asnT;gbkey=Gene;gene=asnT;gene_biotype=tRNA;locus_tag=ECD_t00033	FALSE	1864739
 CP001509.3	Genbank	gene	1950010	1957161	.	+	.	ID=gene-ECD_01891;Name=yeeJ;gbkey=Gene;gene=yeeJ;gene_biotype=protein_coding;locus_tag=ECD_01891	FALSE	1864425
-CP001509.3	Genbank	pseudogene	1957423	1958475	.	-	.	ID=gene-ECD_01892;Name=yeeL;Note=interrupted by in-frame stop%3B also pseudo in K-12 MG1655%3B putative transport protein%3B similar to b1979(b4497);gbkey=Gene;gene=yeeL;gene_biotype=pseudogene;locus_tag=ECD_01892;pseudo=true	FALSE	1857012
+CP001509.3	Genbank	pseudogene	1957423	1958475	.	-	.	ID=gene-ECD_01892;Name=yeeL;Note=interrupted_by_in-frame_stop%3B_also_pseudo_in_K-12_MG1655%3B_putative_transport_protein%3B_similar_to_b1979(b4497);gbkey=Gene;gene=yeeL;gene_biotype=pseudogene;locus_tag=ECD_01892;pseudo=true	FALSE	1857012
 CP001509.3	Genbank	gene	1958790	1960106	.	+	.	ID=gene-ECD_01893;Name=shiA;gbkey=Gene;gene=shiA;gene_biotype=protein_coding;locus_tag=ECD_01893	FALSE	1855645
 CP001509.3	Genbank	gene	1960208	1961662	.	+	.	ID=gene-ECD_01894;Name=amn;gbkey=Gene;gene=amn;gene_biotype=protein_coding;locus_tag=ECD_01894	FALSE	1854227
 CP001509.3	Genbank	gene	1962005	1962721	.	+	.	ID=gene-ECD_01895;Name=yeeN;gbkey=Gene;gene=yeeN;gene_biotype=protein_coding;locus_tag=ECD_01895	FALSE	1852430
@@ -1936,9 +1934,9 @@ CP001509.3	Genbank	gene	1967539	1968471	.	-	.	ID=gene-ECD_01899;Name=ldtA;gbkey=
 CP001509.3	Genbank	gene	1968536	1969615	.	-	.	ID=gene-ECD_01900;Name=cobT;gbkey=Gene;gene=cobT;gene_biotype=protein_coding;locus_tag=ECD_01900	FALSE	1845899
 CP001509.3	Genbank	gene	1969627	1970370	.	-	.	ID=gene-ECD_01901;Name=cobS;gbkey=Gene;gene=cobS;gene_biotype=protein_coding;locus_tag=ECD_01901	FALSE	1844808
 CP001509.3	Genbank	gene	1970367	1970912	.	-	.	ID=gene-ECD_01902;Name=cobU;gbkey=Gene;gene=cobU;gene_biotype=protein_coding;locus_tag=ECD_01902	FALSE	1844068
-CP001509.3	Genbank	sequence_feature	1971307	1975275	.	+	.	ID=id-CP001509.3:1971307..1975275;Note=cryptic prophage%2C CP4-44-like;gbkey=misc_feature	FALSE	1843128
-CP001509.3	Genbank	pseudogene	1972584	1972976	.	+	.	ID=gene-ECD_01903;Name=yoeA;Note=interrupted by IS2 and C-terminal deletion%3B also pseudo in K-12 MG1655%3B similar to b1995(b4582)%3B putative hemine receptor;gbkey=Gene;gene=yoeA;gene_biotype=pseudogene;locus_tag=ECD_01903;pseudo=true	FALSE	1841851
-CP001509.3	Genbank	mobile_genetic_element	1972890	1973595	.	+	.	ID=id-CP001509.3:1972890..1973595;gbkey=mobile_element;mobile_element_type=insertion sequence:IS2	FALSE	1841545
+CP001509.3	Genbank	sequence_feature	1971307	1975275	.	+	.	ID=id-CP001509.3:1971307..1975275;Note=cryptic_prophage%2C_CP4-44-like;gbkey=misc_feature	FALSE	1843128
+CP001509.3	Genbank	pseudogene	1972584	1972976	.	+	.	ID=gene-ECD_01903;Name=yoeA;Note=interrupted_by_IS2_and_C-terminal_deletion%3B_also_pseudo_in_K-12_MG1655%3B_similar_to_b1995(b4582)%3B_putative_hemine_receptor;gbkey=Gene;gene=yoeA;gene_biotype=pseudogene;locus_tag=ECD_01903;pseudo=true	FALSE	1841851
+CP001509.3	Genbank	mobile_genetic_element	1972890	1973595	.	+	.	ID=id-CP001509.3:1972890..1973595;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS2	FALSE	1841545
 CP001509.3	Genbank	gene	1972901	1973557	.	-	.	ID=gene-ECD_01904;Name=insD;gbkey=Gene;gene=insD;gene_biotype=protein_coding;locus_tag=ECD_01904	FALSE	1841534
 CP001509.3	Genbank	gene	1973440	1973739	.	-	.	ID=gene-ECD_01906;Name=ECD_01906;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01906	FALSE	1840995
 CP001509.3	Genbank	gene	1973727	1974161	.	-	.	ID=gene-ECD_01907;Name=ECD_01907;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_01907	FALSE	1840708
@@ -1969,7 +1967,7 @@ CP001509.3	Genbank	gene	1994250	1995416	.	-	.	ID=gene-ECD_01930;Name=ugd;gbkey=G
 CP001509.3	Genbank	gene	1995664	1997070	.	-	.	ID=gene-ECD_01931;Name=gnd;gbkey=Gene;gene=gnd;gene_biotype=protein_coding;locus_tag=ECD_01931	FALSE	1818771
 CP001509.3	Genbank	gene	1997234	1998598	.	-	.	ID=gene-ECD_01932;Name=manB;gbkey=Gene;gene=manB;gene_biotype=protein_coding;locus_tag=ECD_01932	TRUE	1817201
 CP001509.3	Genbank	gene	1998632	2000056	.	-	.	ID=gene-ECD_01933;Name=manC;gbkey=Gene;gene=manC;gene_biotype=protein_coding;locus_tag=ECD_01933	TRUE	1815803
-CP001509.3	Genbank	mobile_genetic_element	2000127	2000894	.	-	.	ID=id-CP001509.3:2000127..2000894;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	TRUE	1814308
+CP001509.3	Genbank	mobile_genetic_element	2000127	2000894	.	-	.	ID=id-CP001509.3:2000127..2000894;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	TRUE	1814308
 CP001509.3	Genbank	gene	2000142	2000645	.	-	.	ID=gene-ECD_01934;Name=insB-14;gbkey=Gene;gene=insB-14;gene_biotype=protein_coding;locus_tag=ECD_01934	TRUE	1814293
 CP001509.3	Genbank	gene	2000564	2000839	.	-	.	ID=gene-ECD_01935;Name=insA-14;gbkey=Gene;gene=insA-14;gene_biotype=protein_coding;locus_tag=ECD_01935	TRUE	1813871
 CP001509.3	Genbank	gene	2000890	2001657	.	-	.	ID=gene-ECD_01936;Name=wbbD;gbkey=Gene;gene=wbbD;gene_biotype=protein_coding;locus_tag=ECD_01936	TRUE	1813545
@@ -1980,7 +1978,7 @@ CP001509.3	Genbank	gene	2004749	2005495	.	-	.	ID=gene-ECD_01940;Name=wbbA;gbkey=
 CP001509.3	Genbank	gene	2005492	2005929	.	-	.	ID=gene-ECD_01941;Name=vioB;gbkey=Gene;gene=vioB;gene_biotype=protein_coding;locus_tag=ECD_01941	FALSE	1808943
 CP001509.3	Genbank	gene	2006072	2007184	.	-	.	ID=gene-ECD_01942;Name=vioA;gbkey=Gene;gene=vioA;gene_biotype=protein_coding;locus_tag=ECD_01942	FALSE	1808363
 CP001509.3	Genbank	gene	2007194	2008621	.	-	.	ID=gene-ECD_01943;Name=wzx;gbkey=Gene;gene=wzx;gene_biotype=protein_coding;locus_tag=ECD_01943	FALSE	1807241
-CP001509.3	Genbank	gene	2008622	2009167	.	-	.	ID=gene-ECD_01944;Name=rmlC;Note=synonym: rfbC;gbkey=Gene;gene=rmlC;gene_biotype=protein_coding;locus_tag=ECD_01944	FALSE	1805813
+CP001509.3	Genbank	gene	2008622	2009167	.	-	.	ID=gene-ECD_01944;Name=rmlC;Note=synonym:_rfbC;gbkey=Gene;gene=rmlC;gene_biotype=protein_coding;locus_tag=ECD_01944	FALSE	1805813
 CP001509.3	Genbank	gene	2009172	2010050	.	-	.	ID=gene-ECD_01945;Name=rfbA;gbkey=Gene;gene=rfbA;gene_biotype=protein_coding;locus_tag=ECD_01945	FALSE	1805263
 CP001509.3	Genbank	gene	2010109	2011008	.	-	.	ID=gene-ECD_01946;Name=rfbD;gbkey=Gene;gene=rfbD;gene_biotype=protein_coding;locus_tag=ECD_01946	FALSE	1804326
 CP001509.3	Genbank	gene	2011008	2012093	.	-	.	ID=gene-ECD_01947;Name=rfbB;gbkey=Gene;gene=rfbB;gene_biotype=protein_coding;locus_tag=ECD_01947	FALSE	1803427
@@ -2031,15 +2029,15 @@ CP001509.3	Genbank	gene	2066032	2066117	.	+	.	ID=gene-ECD_n04335;Name=cyaR;gbkey
 CP001509.3	Genbank	gene	2066083	2066292	.	-	.	ID=gene-ECD_02013;Name=ECD_02013;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02013	FALSE	1748352
 CP001509.3	Genbank	gene	2066280	2066597	.	-	.	ID=gene-ECD_02014;Name=yegR;gbkey=Gene;gene=yegR;gene_biotype=protein_coding;locus_tag=ECD_02014	FALSE	1748155
 CP001509.3	Genbank	gene	2067002	2067901	.	+	.	ID=gene-ECD_02015;Name=yegS;gbkey=Gene;gene=yegS;gene_biotype=protein_coding;locus_tag=ECD_02015	FALSE	1747433
-CP001509.3	Genbank	pseudogene	2067983	2069532	.	-	.	ID=gene-ECD_02016;Name=gatR;Note=interruped by IS1%3B also pseudo in K-12 MG1655 (interrupted by IS3)%3B similar to b2089-b2090(b4498)%3B galactitol utilization operon repressor;gbkey=Gene;gene=gatR;gene_biotype=pseudogene;locus_tag=ECD_02016;pseudo=true	FALSE	1746452
-CP001509.3	Genbank	mobile_genetic_element	2068532	2069307	.	+	.	ID=id-CP001509.3:2068532..2069307;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1745903
+CP001509.3	Genbank	pseudogene	2067983	2069532	.	-	.	ID=gene-ECD_02016;Name=gatR;Note=interruped_by_IS1%3B_also_pseudo_in_K-12_MG1655_(interrupted_by_IS3)%3B_similar_to_b2089-b2090(b4498)%3B_galactitol_utilization_operon_repressor;gbkey=Gene;gene=gatR;gene_biotype=pseudogene;locus_tag=ECD_02016;pseudo=true	FALSE	1746452
+CP001509.3	Genbank	mobile_genetic_element	2068532	2069307	.	+	.	ID=id-CP001509.3:2068532..2069307;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1745903
 CP001509.3	Genbank	gene	2068587	2068862	.	+	.	ID=gene-ECD_04288;Name=insA-29;gbkey=Gene;gene=insA-29;gene_biotype=protein_coding;locus_tag=ECD_04288	FALSE	1745848
 CP001509.3	Genbank	gene	2068781	2069284	.	+	.	ID=gene-ECD_04281;Name=insB-29;gbkey=Gene;gene=insB-29;gene_biotype=protein_coding;locus_tag=ECD_04281	FALSE	1745654
 CP001509.3	Genbank	gene	2069638	2070678	.	-	.	ID=gene-ECD_02017;Name=gatD;gbkey=Gene;gene=gatD;gene_biotype=protein_coding;locus_tag=ECD_02017	FALSE	1744797
 CP001509.3	Genbank	gene	2070726	2072081	.	-	.	ID=gene-ECD_02018;Name=gatC;gbkey=Gene;gene=gatC;gene_biotype=protein_coding;locus_tag=ECD_02018	FALSE	1743709
 CP001509.3	Genbank	gene	2072085	2072369	.	-	.	ID=gene-ECD_02019;Name=gatB;gbkey=Gene;gene=gatB;gene_biotype=protein_coding;locus_tag=ECD_02019	FALSE	1742350
 CP001509.3	Genbank	gene	2072400	2072852	.	-	.	ID=gene-ECD_02020;Name=gatA;gbkey=Gene;gene=gatA;gene_biotype=protein_coding;locus_tag=ECD_02020	FALSE	1742035
-CP001509.3	Genbank	gene	2072862	2074124	.	-	.	ID=gene-ECD_02021;Name=gatZ;Note=interrupted by IS1 in REL606;gbkey=Gene;gene=gatZ;gene_biotype=protein_coding;locus_tag=ECD_02021	FALSE	1741573
+CP001509.3	Genbank	gene	2072862	2074124	.	-	.	ID=gene-ECD_02021;Name=gatZ;Note=interrupted_by_IS1_in_REL606;gbkey=Gene;gene=gatZ;gene_biotype=protein_coding;locus_tag=ECD_02021	FALSE	1741573
 CP001509.3	Genbank	gene	2074153	2075007	.	-	.	ID=gene-ECD_02024;Name=gatY;gbkey=Gene;gene=gatY;gene_biotype=protein_coding;locus_tag=ECD_02024	FALSE	1740282
 CP001509.3	Genbank	gene	2075307	2076359	.	-	.	ID=gene-ECD_02025;Name=fbaB;gbkey=Gene;gene=fbaB;gene_biotype=protein_coding;locus_tag=ECD_02025	FALSE	1739128
 CP001509.3	Genbank	gene	2076616	2077893	.	+	.	ID=gene-ECD_02026;Name=yegT;gbkey=Gene;gene=yegT;gene_biotype=protein_coding;locus_tag=ECD_02026	FALSE	1737819
@@ -2056,13 +2054,13 @@ CP001509.3	Genbank	gene	2085105	2085368	.	-	.	ID=gene-ECD_02036;Name=ECD_02036;g
 CP001509.3	Genbank	gene	2085463	2085714	.	-	.	ID=gene-ECD_02037;Name=ECD_02037;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02037	FALSE	1728972
 CP001509.3	Genbank	gene	2086051	2086449	.	+	.	ID=gene-ECD_02038;Name=ECD_02038;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02038	FALSE	1728384
 CP001509.3	Genbank	gene	2086397	2086588	.	-	.	ID=gene-ECD_02039;Name=ECD_02039;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02039	FALSE	1728038
-CP001509.3	Genbank	mobile_genetic_element	2086730	2087497	.	-	.	ID=id-CP001509.3:2086730..2087497;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1727705
+CP001509.3	Genbank	mobile_genetic_element	2086730	2087497	.	-	.	ID=id-CP001509.3:2086730..2087497;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1727705
 CP001509.3	Genbank	gene	2086745	2087248	.	-	.	ID=gene-ECD_02040;Name=insB-16;gbkey=Gene;gene=insB-16;gene_biotype=protein_coding;locus_tag=ECD_02040	FALSE	1727690
 CP001509.3	Genbank	gene	2087167	2087442	.	-	.	ID=gene-ECD_02041;Name=insA-16;gbkey=Gene;gene=insA-16;gene_biotype=protein_coding;locus_tag=ECD_02041	FALSE	1727268
 CP001509.3	Genbank	gene	2087471	2087659	.	-	.	ID=gene-ECD_02042;Name=yehE;gbkey=Gene;gene=yehE;gene_biotype=protein_coding;locus_tag=ECD_02042	FALSE	1726964
 CP001509.3	Genbank	gene	2087922	2089031	.	-	.	ID=gene-ECD_02043;Name=mrp;gbkey=Gene;gene=mrp;gene_biotype=protein_coding;locus_tag=ECD_02043	FALSE	1726513
 CP001509.3	Genbank	gene	2089163	2091196	.	+	.	ID=gene-ECD_02044;Name=metG;gbkey=Gene;gene=metG;gene_biotype=protein_coding;locus_tag=ECD_02044	FALSE	1725272
-CP001509.3	Genbank	gene	2091337	2095131	.	+	.	ID=gene-ECD_02045;Name=yehH;Note=pseudo in K-12 MG1655 (interrupted by in-frame stop and frameshift);gbkey=Gene;gene=yehH;gene_biotype=protein_coding;locus_tag=ECD_02045	FALSE	1723098
+CP001509.3	Genbank	gene	2091337	2095131	.	+	.	ID=gene-ECD_02045;Name=yehH;Note=pseudo_in_K-12_MG1655_(interrupted_by_in-frame_stop_and_frameshift);gbkey=Gene;gene=yehH;gene_biotype=protein_coding;locus_tag=ECD_02045	FALSE	1723098
 CP001509.3	Genbank	gene	2095141	2098773	.	+	.	ID=gene-ECD_02046;Name=yehI;gbkey=Gene;gene=yehI;gene_biotype=protein_coding;locus_tag=ECD_02046	FALSE	1719294
 CP001509.3	Genbank	gene	2098834	2099151	.	+	.	ID=gene-ECD_02047;Name=yehK;gbkey=Gene;gene=yehK;gene_biotype=protein_coding;locus_tag=ECD_02047	FALSE	1715601
 CP001509.3	Genbank	gene	2099458	2100546	.	+	.	ID=gene-ECD_02048;Name=yehL;gbkey=Gene;gene=yehL;gene_biotype=protein_coding;locus_tag=ECD_02048	FALSE	1714977
@@ -2085,7 +2083,7 @@ CP001509.3	Genbank	gene	2118842	2119774	.	-	.	ID=gene-ECD_02064;Name=pbpG;gbkey=
 CP001509.3	Genbank	gene	2119948	2120535	.	-	.	ID=gene-ECD_02065;Name=yohC;gbkey=Gene;gene=yohC;gene_biotype=protein_coding;locus_tag=ECD_02065	FALSE	1694487
 CP001509.3	Genbank	gene	2120705	2121283	.	+	.	ID=gene-ECD_02066;Name=yohD;gbkey=Gene;gene=yohD;gene_biotype=protein_coding;locus_tag=ECD_02066	FALSE	1693730
 CP001509.3	Genbank	gene	2121413	2122174	.	-	.	ID=gene-ECD_02067;Name=yohF;gbkey=Gene;gene=yohF;gene_biotype=protein_coding;locus_tag=ECD_02067	FALSE	1693022
-CP001509.3	Genbank	gene	2122227	2123591	.	-	.	ID=gene-ECD_02068;Name=yohGH;Note=separated in K-12 MG1655;gbkey=Gene;gene=yohGH;gene_biotype=protein_coding;locus_tag=ECD_02068	FALSE	1692208
+CP001509.3	Genbank	gene	2122227	2123591	.	-	.	ID=gene-ECD_02068;Name=yohGH;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=yohGH;gene_biotype=protein_coding;locus_tag=ECD_02068	FALSE	1692208
 CP001509.3	Genbank	gene	2123887	2123970	.	+	.	ID=gene-ECD_04336;Name=yohP;gbkey=Gene;gene=yohP;gene_biotype=protein_coding;locus_tag=ECD_04336	FALSE	1690548
 CP001509.3	Genbank	gene	2124343	2125290	.	-	.	ID=gene-ECD_02069;Name=dusC;gbkey=Gene;gene=dusC;gene_biotype=protein_coding;locus_tag=ECD_02069	FALSE	1690092
 CP001509.3	Genbank	gene	2125528	2125926	.	+	.	ID=gene-ECD_02070;Name=yohJ;gbkey=Gene;gene=yohJ;gene_biotype=protein_coding;locus_tag=ECD_02070	FALSE	1688907
@@ -2097,7 +2095,7 @@ CP001509.3	Genbank	gene	2128937	2130175	.	+	.	ID=gene-ECD_02075;Name=preT;gbkey=
 CP001509.3	Genbank	gene	2130169	2131404	.	+	.	ID=gene-ECD_02076;Name=preA;gbkey=Gene;gene=preA;gene_biotype=protein_coding;locus_tag=ECD_02076	FALSE	1684266
 CP001509.3	Genbank	gene	2131647	2132657	.	-	.	ID=gene-ECD_02077;Name=mglC;gbkey=Gene;gene=mglC;gene_biotype=protein_coding;locus_tag=ECD_02077	FALSE	1682788
 CP001509.3	Genbank	gene	2132673	2134193	.	-	.	ID=gene-ECD_02078;Name=mglA;gbkey=Gene;gene=mglA;gene_biotype=protein_coding;locus_tag=ECD_02078	FALSE	1681762
-CP001509.3	Genbank	pseudogene	2134254	2135247	.	-	.	ID=gene-ECD_02079;Name=mglB;Note=internal deletion%3B similar to b2150%3B methyl-galactoside transporter subunit;gbkey=Gene;gene=mglB;gene_biotype=pseudogene;locus_tag=ECD_02079;pseudo=true	FALSE	1680181
+CP001509.3	Genbank	pseudogene	2134254	2135247	.	-	.	ID=gene-ECD_02079;Name=mglB;Note=internal_deletion%3B_similar_to_b2150%3B_methyl-galactoside_transporter_subunit;gbkey=Gene;gene=mglB;gene_biotype=pseudogene;locus_tag=ECD_02079;pseudo=true	FALSE	1680181
 CP001509.3	Genbank	gene	2135527	2136567	.	-	.	ID=gene-ECD_02080;Name=galS;gbkey=Gene;gene=galS;gene_biotype=protein_coding;locus_tag=ECD_02080	FALSE	1678908
 CP001509.3	Genbank	gene	2136709	2137866	.	-	.	ID=gene-ECD_02081;Name=yeiB;gbkey=Gene;gene=yeiB;gene_biotype=protein_coding;locus_tag=ECD_02081	FALSE	1677726
 CP001509.3	Genbank	gene	2137883	2138551	.	-	.	ID=gene-ECD_02082;Name=folE;gbkey=Gene;gene=folE;gene_biotype=protein_coding;locus_tag=ECD_02082	FALSE	1676552
@@ -2163,7 +2161,7 @@ CP001509.3	Genbank	gene	2202456	2203106	.	-	.	ID=gene-ECD_02139;Name=alkB;gbkey=
 CP001509.3	Genbank	gene	2203106	2204170	.	-	.	ID=gene-ECD_02140;Name=ada;gbkey=Gene;gene=ada;gene_biotype=protein_coding;locus_tag=ECD_02140	FALSE	1611329
 CP001509.3	Genbank	gene	2204244	2205299	.	-	.	ID=gene-ECD_02141;Name=apbE;gbkey=Gene;gene=apbE;gene_biotype=protein_coding;locus_tag=ECD_02141	FALSE	1610191
 CP001509.3	Genbank	gene	2205411	2206346	.	-	.	ID=gene-ECD_02142;Name=ompC;gbkey=Gene;gene=ompC;gene_biotype=protein_coding;locus_tag=ECD_02142	FALSE	1609024
-CP001509.3	Genbank	mobile_genetic_element	2206401	2207168	.	-	.	ID=id-CP001509.3:2206401..2207168;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1608034
+CP001509.3	Genbank	mobile_genetic_element	2206401	2207168	.	-	.	ID=id-CP001509.3:2206401..2207168;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1608034
 CP001509.3	Genbank	gene	2206416	2206919	.	-	.	ID=gene-ECD_02143;Name=insB-17;gbkey=Gene;gene=insB-17;gene_biotype=protein_coding;locus_tag=ECD_02143	FALSE	1608019
 CP001509.3	Genbank	gene	2206838	2207113	.	-	.	ID=gene-ECD_02144;Name=insA-17;gbkey=Gene;gene=insA-17;gene_biotype=protein_coding;locus_tag=ECD_02144	FALSE	1607597
 CP001509.3	Genbank	gene	2207388	2210237	.	-	.	ID=gene-ECD_02145;Name=rcsC;gbkey=Gene;gene=rcsC;gene_biotype=protein_coding;locus_tag=ECD_02145	FALSE	1607047
@@ -2218,7 +2216,7 @@ CP001509.3	Genbank	gene	2270896	2271201	.	-	.	ID=gene-ECD_02193;Name=elaB;gbkey=
 CP001509.3	Genbank	gene	2271256	2271717	.	-	.	ID=gene-ECD_02194;Name=elaA;gbkey=Gene;gene=elaA;gene_biotype=protein_coding;locus_tag=ECD_02194	FALSE	1543179
 CP001509.3	Genbank	gene	2271782	2272699	.	+	.	ID=gene-ECD_02195;Name=rbn;gbkey=Gene;gene=rbn;gene_biotype=protein_coding;locus_tag=ECD_02195	FALSE	1542653
 CP001509.3	Genbank	gene	2272887	2274098	.	+	.	ID=gene-ECD_02196;Name=elaD;gbkey=Gene;gene=elaD;gene_biotype=protein_coding;locus_tag=ECD_02196	FALSE	1541548
-CP001509.3	Genbank	pseudogene	2274632	2275092	.	+	.	ID=gene-ECD_02197;Name=yfbL;Note=frameshift%3B putative aminopeptidase%3B similar to b2271;gbkey=Gene;gene=yfbL;gene_biotype=pseudogene;locus_tag=ECD_02197;pseudo=true	FALSE	1539803
+CP001509.3	Genbank	pseudogene	2274632	2275092	.	+	.	ID=gene-ECD_02197;Name=yfbL;Note=frameshift%3B_putative_aminopeptidase%3B_similar_to_b2271;gbkey=Gene;gene=yfbL;gene_biotype=pseudogene;locus_tag=ECD_02197;pseudo=true	FALSE	1539803
 CP001509.3	Genbank	gene	2275218	2275721	.	+	.	ID=gene-ECD_02198;Name=yfbM;gbkey=Gene;gene=yfbM;gene_biotype=protein_coding;locus_tag=ECD_02198	FALSE	1539217
 CP001509.3	Genbank	gene	2275808	2276329	.	+	.	ID=gene-ECD_02199;Name=ECD_02199;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02199	FALSE	1538627
 CP001509.3	Genbank	gene	2276326	2277165	.	+	.	ID=gene-ECD_02200;Name=ECD_02200;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02200	FALSE	1538109
@@ -2282,15 +2280,15 @@ CP001509.3	Genbank	gene	2337362	2337913	.	-	.	ID=gene-ECD_02258;Name=yfcP;gbkey=
 CP001509.3	Genbank	gene	2337910	2338389	.	-	.	ID=gene-ECD_02259;Name=yfcQ;gbkey=Gene;gene=yfcQ;gene_biotype=protein_coding;locus_tag=ECD_02259	FALSE	1476525
 CP001509.3	Genbank	gene	2338386	2338892	.	-	.	ID=gene-ECD_02260;Name=yfcR;gbkey=Gene;gene=yfcR;gene_biotype=protein_coding;locus_tag=ECD_02260	FALSE	1476049
 CP001509.3	Genbank	gene	2338909	2339661	.	-	.	ID=gene-ECD_02261;Name=yfcS;gbkey=Gene;gene=yfcS;gene_biotype=protein_coding;locus_tag=ECD_02261	FALSE	1475526
-CP001509.3	Genbank	gene	2339681	2342326	.	-	.	ID=gene-ECD_02262;Name=yfcTU;Note=separated in K-12 MG1655;gbkey=Gene;gene=yfcTU;gene_biotype=protein_coding;locus_tag=ECD_02262	FALSE	1474754
+CP001509.3	Genbank	gene	2339681	2342326	.	-	.	ID=gene-ECD_02262;Name=yfcTU;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=yfcTU;gene_biotype=protein_coding;locus_tag=ECD_02262	FALSE	1474754
 CP001509.3	Genbank	gene	2342409	2342972	.	-	.	ID=gene-ECD_02263;Name=yfcV;gbkey=Gene;gene=yfcV;gene_biotype=protein_coding;locus_tag=ECD_02263	FALSE	1472026
 CP001509.3	Genbank	gene	2343652	2344137	.	-	.	ID=gene-ECD_02264;Name=sixA;gbkey=Gene;gene=sixA;gene_biotype=protein_coding;locus_tag=ECD_02264	FALSE	1470783
 CP001509.3	Genbank	gene	2344340	2346484	.	-	.	ID=gene-ECD_02265;Name=fadJ;gbkey=Gene;gene=fadJ;gene_biotype=protein_coding;locus_tag=ECD_02265	FALSE	1470095
 CP001509.3	Genbank	gene	2346484	2347794	.	-	.	ID=gene-ECD_02266;Name=fadI;gbkey=Gene;gene=fadI;gene_biotype=protein_coding;locus_tag=ECD_02266	FALSE	1467951
 CP001509.3	Genbank	gene	2347975	2348259	.	-	.	ID=gene-ECD_02267;Name=yfcZ;gbkey=Gene;gene=yfcZ;gene_biotype=protein_coding;locus_tag=ECD_02267	FALSE	1466460
 CP001509.3	Genbank	gene	2348631	2349971	.	+	.	ID=gene-ECD_02268;Name=fadL;gbkey=Gene;gene=fadL;gene_biotype=protein_coding;locus_tag=ECD_02268	FALSE	1465804
-CP001509.3	Genbank	pseudogene	2350337	2352173	.	+	.	ID=gene-ECD_02269;Name=yfdF;Note=frameshift/interrupted by IS1%3B putative DNA modification enzyme%3B similar to b2345;gbkey=Gene;gene=yfdF;gene_biotype=pseudogene;locus_tag=ECD_02269;pseudo=true	FALSE	1464098
-CP001509.3	Genbank	mobile_genetic_element	2351103	2351870	.	-	.	ID=id-CP001509.3:2351103..2351870;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1463332
+CP001509.3	Genbank	pseudogene	2350337	2352173	.	+	.	ID=gene-ECD_02269;Name=yfdF;Note=frameshift/interrupted_by_IS1%3B_putative_DNA_modification_enzyme%3B_similar_to_b2345;gbkey=Gene;gene=yfdF;gene_biotype=pseudogene;locus_tag=ECD_02269;pseudo=true	FALSE	1464098
+CP001509.3	Genbank	mobile_genetic_element	2351103	2351870	.	-	.	ID=id-CP001509.3:2351103..2351870;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1463332
 CP001509.3	Genbank	gene	2351118	2351621	.	-	.	ID=gene-ECD_02270;Name=insB-18;gbkey=Gene;gene=insB-18;gene_biotype=protein_coding;locus_tag=ECD_02270	FALSE	1463317
 CP001509.3	Genbank	gene	2351540	2351815	.	-	.	ID=gene-ECD_02271;Name=insA-18;gbkey=Gene;gene=insA-18;gene_biotype=protein_coding;locus_tag=ECD_02271	FALSE	1462895
 CP001509.3	Genbank	gene	2352355	2353110	.	-	.	ID=gene-ECD_02272;Name=mlaA;gbkey=Gene;gene=mlaA;gene_biotype=protein_coding;locus_tag=ECD_02272	FALSE	1462080
@@ -2390,7 +2388,7 @@ CP001509.3	Genbank	gene	2464395	2464967	.	+	.	ID=gene-ECD_02371;Name=gcvR;gbkey=
 CP001509.3	Genbank	gene	2464967	2465437	.	+	.	ID=gene-ECD_02372;Name=bcp;gbkey=Gene;gene=bcp;gene_biotype=protein_coding;locus_tag=ECD_02372	FALSE	1349468
 CP001509.3	Genbank	gene	2465690	2466307	.	+	.	ID=gene-ECD_02373;Name=hyfA;gbkey=Gene;gene=hyfA;gene_biotype=protein_coding;locus_tag=ECD_02373	FALSE	1348745
 CP001509.3	Genbank	gene	2466307	2468325	.	+	.	ID=gene-ECD_02374;Name=hyfB;gbkey=Gene;gene=hyfB;gene_biotype=protein_coding;locus_tag=ECD_02374	FALSE	1348128
-CP001509.3	Genbank	pseudogene	2468336	2469282	.	+	.	ID=gene-ECD_02375;Name=hyfC;Note=frameshift%3B hydrogenase 4 membrane subunit%3B similar to b2483;gbkey=Gene;gene=hyfC;gene_biotype=pseudogene;locus_tag=ECD_02375;pseudo=true	FALSE	1346099
+CP001509.3	Genbank	pseudogene	2468336	2469282	.	+	.	ID=gene-ECD_02375;Name=hyfC;Note=frameshift%3B_hydrogenase_4_membrane_subunit%3B_similar_to_b2483;gbkey=Gene;gene=hyfC;gene_biotype=pseudogene;locus_tag=ECD_02375;pseudo=true	FALSE	1346099
 CP001509.3	Genbank	gene	2469385	2470734	.	+	.	ID=gene-ECD_02376;Name=hyfD;gbkey=Gene;gene=hyfD;gene_biotype=protein_coding;locus_tag=ECD_02376	FALSE	1345050
 CP001509.3	Genbank	gene	2470749	2471399	.	+	.	ID=gene-ECD_02377;Name=hyfE;gbkey=Gene;gene=hyfE;gene_biotype=protein_coding;locus_tag=ECD_02377	TRUE	1343686
 CP001509.3	Genbank	gene	2471404	2472984	.	+	.	ID=gene-ECD_02378;Name=hyfF;gbkey=Gene;gene=hyfF;gene_biotype=protein_coding;locus_tag=ECD_02378	TRUE	1343031
@@ -2471,8 +2469,8 @@ CP001509.3	Genbank	gene	2554598	2555311	.	-	.	ID=gene-ECD_02447;Name=yfhG;gbkey=
 CP001509.3	Genbank	gene	2555476	2556903	.	-	.	ID=gene-ECD_02448;Name=glrK;gbkey=Gene;gene=glrK;gene_biotype=protein_coding;locus_tag=ECD_02448	FALSE	1258959
 CP001509.3	Genbank	gene	2556998	2557145	.	-	.	ID=gene-ECD_n04344;Name=glmY;gbkey=Gene;gene=glmY;gene_biotype=antisense_RNA;locus_tag=ECD_n04344	FALSE	1257437
 CP001509.3	Genbank	gene	2557479	2561366	.	-	.	ID=gene-ECD_02449;Name=purL;gbkey=Gene;gene=purL;gene_biotype=protein_coding;locus_tag=ECD_02449	FALSE	1256956
-CP001509.3	Genbank	pseudogene	2561762	2563956	.	+	.	ID=gene-ECD_02450;Name=yfhD;Note=frameshift%3B putative periplasmic binding protein of transport system%3B similar to b2558;gbkey=Gene;gene=yfhD;gene_biotype=pseudogene;locus_tag=ECD_02450;pseudo=true	FALSE	1252673
-CP001509.3	Genbank	mobile_genetic_element	2563135	2563902	.	+	.	ID=id-ECD_02450;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1251300
+CP001509.3	Genbank	pseudogene	2561762	2563956	.	+	.	ID=gene-ECD_02450;Name=yfhD;Note=frameshift%3B_putative_periplasmic_binding_protein_of_transport_system%3B_similar_to_b2558;gbkey=Gene;gene=yfhD;gene_biotype=pseudogene;locus_tag=ECD_02450;pseudo=true	FALSE	1252673
+CP001509.3	Genbank	mobile_genetic_element	2563135	2563902	.	+	.	ID=id-ECD_02450;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1251300
 CP001509.3	Genbank	gene	2563190	2563465	.	+	.	ID=gene-ECD_02451;Name=insA-19;gbkey=Gene;gene=insA-19;gene_biotype=protein_coding;locus_tag=ECD_02451	FALSE	1251245
 CP001509.3	Genbank	gene	2563384	2563887	.	+	.	ID=gene-ECD_02452;Name=insB-19;gbkey=Gene;gene=insB-19;gene_biotype=protein_coding;locus_tag=ECD_02452	FALSE	1251051
 CP001509.3	Genbank	gene	2563953	2564489	.	-	.	ID=gene-ECD_02453;Name=tadA;gbkey=Gene;gene=tadA;gene_biotype=protein_coding;locus_tag=ECD_02453	FALSE	1250482
@@ -2538,12 +2536,12 @@ CP001509.3	Genbank	gene	2620410	2620700	.	-	.	ID=gene-ECD_02506;Name=ratB;gbkey=
 CP001509.3	Genbank	gene	2620690	2621166	.	-	.	ID=gene-ECD_02507;Name=ratA;gbkey=Gene;gene=ratA;gene_biotype=protein_coding;locus_tag=ECD_02507	FALSE	1193745
 CP001509.3	Genbank	gene	2621298	2621780	.	+	.	ID=gene-ECD_02508;Name=smpB;gbkey=Gene;gene=smpB;gene_biotype=protein_coding;locus_tag=ECD_02508	FALSE	1193137
 CP001509.3	Genbank	gene	2621995	2622357	.	+	.	ID=gene-ECD_n04348;Name=ssrA;gbkey=Gene;gene=ssrA;gene_biotype=tmRNA;locus_tag=ECD_n04348	FALSE	1192440
-CP001509.3	Genbank	sequence_feature	2622524	2627371	.	+	.	ID=id-CP001509.3:2622524..2627371;Note=cryptic prophage%2C CP4-57-like;gbkey=misc_feature	FALSE	1191911
+CP001509.3	Genbank	sequence_feature	2622524	2627371	.	+	.	ID=id-CP001509.3:2622524..2627371;Note=cryptic_prophage%2C_CP4-57-like;gbkey=misc_feature	FALSE	1191911
 CP001509.3	Genbank	gene	2622524	2623753	.	+	.	ID=gene-ECD_02509;Name=ECD_02509;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02509	FALSE	1191911
 CP001509.3	Genbank	gene	2624036	2625592	.	+	.	ID=gene-ECD_02510;Name=ECD_02510;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02510	FALSE	1190399
 CP001509.3	Genbank	gene	2625582	2626478	.	+	.	ID=gene-ECD_02511;Name=ECD_02511;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02511	FALSE	1188853
 CP001509.3	Genbank	gene	2626475	2627371	.	+	.	ID=gene-ECD_02512;Name=ECD_02512;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02512	FALSE	1187960
-CP001509.3	Genbank	mobile_genetic_element	2627715	2628482	.	+	.	ID=id-CP001509.3:2627715..2628482;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1186720
+CP001509.3	Genbank	mobile_genetic_element	2627715	2628482	.	+	.	ID=id-CP001509.3:2627715..2628482;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1186720
 CP001509.3	Genbank	gene	2627770	2628045	.	+	.	ID=gene-ECD_02513;Name=insA-20;gbkey=Gene;gene=insA-20;gene_biotype=protein_coding;locus_tag=ECD_02513	FALSE	1186665
 CP001509.3	Genbank	gene	2627964	2628467	.	+	.	ID=gene-ECD_02514;Name=insB-20;gbkey=Gene;gene=insB-20;gene_biotype=protein_coding;locus_tag=ECD_02514	FALSE	1186471
 CP001509.3	Genbank	gene	2628773	2629750	.	+	.	ID=gene-ECD_02515;Name=csiD;gbkey=Gene;gene=csiD;gene_biotype=protein_coding;locus_tag=ECD_02515	FALSE	1185662
@@ -2567,7 +2565,7 @@ CP001509.3	Genbank	gene	2643361	2644320	.	+	.	ID=gene-ECD_02532;Name=nrdF;gbkey=
 CP001509.3	Genbank	gene	2644674	2645876	.	+	.	ID=gene-ECD_02533;Name=proV;gbkey=Gene;gene=proV;gene_biotype=protein_coding;locus_tag=ECD_02533	FALSE	1169761
 CP001509.3	Genbank	gene	2645869	2646933	.	+	.	ID=gene-ECD_02534;Name=proW;gbkey=Gene;gene=proW;gene_biotype=protein_coding;locus_tag=ECD_02534	FALSE	1168566
 CP001509.3	Genbank	gene	2646991	2647983	.	+	.	ID=gene-ECD_02535;Name=proX;gbkey=Gene;gene=proX;gene_biotype=protein_coding;locus_tag=ECD_02535	FALSE	1167444
-CP001509.3	Genbank	gene	2648275	2649459	.	+	.	ID=gene-ECD_02536;Name=ygaX;Note=separated in K-12 MG1655;gbkey=Gene;gene=ygaX;gene_biotype=protein_coding;locus_tag=ECD_02536	FALSE	1166160
+CP001509.3	Genbank	gene	2648275	2649459	.	+	.	ID=gene-ECD_02536;Name=ygaX;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=ygaX;gene_biotype=protein_coding;locus_tag=ECD_02536	FALSE	1166160
 CP001509.3	Genbank	gene	2649583	2650320	.	+	.	ID=gene-ECD_02537;Name=ygaZ;gbkey=Gene;gene=ygaZ;gene_biotype=protein_coding;locus_tag=ECD_02537	FALSE	1164852
 CP001509.3	Genbank	gene	2650310	2650645	.	+	.	ID=gene-ECD_02538;Name=ygaH;gbkey=Gene;gene=ygaH;gene_biotype=protein_coding;locus_tag=ECD_02538	FALSE	1164125
 CP001509.3	Genbank	gene	2650736	2651266	.	+	.	ID=gene-ECD_02539;Name=mprA;gbkey=Gene;gene=mprA;gene_biotype=protein_coding;locus_tag=ECD_02539	FALSE	1163699
@@ -2641,7 +2639,7 @@ CP001509.3	Genbank	gene	2713355	2713960	.	-	.	ID=gene-ECD_02600;Name=cysC;gbkey=
 CP001509.3	Genbank	gene	2713960	2715387	.	-	.	ID=gene-ECD_02601;Name=cysN;gbkey=Gene;gene=cysN;gene_biotype=protein_coding;locus_tag=ECD_02601	FALSE	1100475
 CP001509.3	Genbank	gene	2715389	2716297	.	-	.	ID=gene-ECD_02602;Name=cysD;gbkey=Gene;gene=cysD;gene_biotype=protein_coding;locus_tag=ECD_02602	FALSE	1099046
 CP001509.3	Genbank	gene	2716549	2717586	.	+	.	ID=gene-ECD_02603;Name=iap;gbkey=Gene;gene=iap;gene_biotype=protein_coding;locus_tag=ECD_02603	FALSE	1097886
-CP001509.3	Genbank	mobile_genetic_element	2717961	2719303	.	+	.	ID=id-CP001509.3:2717961..2719303;gbkey=mobile_element;mobile_element_type=insertion sequence:IS186	FALSE	1096474
+CP001509.3	Genbank	mobile_genetic_element	2717961	2719303	.	+	.	ID=id-CP001509.3:2717961..2719303;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS186	FALSE	1096474
 CP001509.3	Genbank	gene	2718018	2719130	.	+	.	ID=gene-ECD_02604;Name=insL-5;gbkey=Gene;gene=insL-5;gene_biotype=protein_coding;locus_tag=ECD_02604	FALSE	1096417
 CP001509.3	Genbank	gene	2719516	2719570	.	+	.	ID=gene-ECD_n04350;Name=sokX;gbkey=Gene;gene=sokX;gene_biotype=ncRNA;locus_tag=ECD_n04350	FALSE	1094919
 CP001509.3	Genbank	gene	2719740	2720474	.	-	.	ID=gene-ECD_02607;Name=cysH;gbkey=Gene;gene=cysH;gene_biotype=protein_coding;locus_tag=ECD_02607	FALSE	1094695
@@ -2681,8 +2679,8 @@ CP001509.3	Genbank	gene	2760819	2762108	.	+	.	ID=gene-ECD_02641;Name=sdaC;gbkey=
 CP001509.3	Genbank	gene	2762166	2763533	.	+	.	ID=gene-ECD_02642;Name=sdaB;gbkey=Gene;gene=sdaB;gene_biotype=protein_coding;locus_tag=ECD_02642	FALSE	1052269
 CP001509.3	Genbank	gene	2763555	2764400	.	+	.	ID=gene-ECD_02643;Name=ygdG;gbkey=Gene;gene=ygdG;gene_biotype=protein_coding;locus_tag=ECD_02643	FALSE	1050880
 CP001509.3	Genbank	gene	2764455	2765606	.	-	.	ID=gene-ECD_02644;Name=fucO;gbkey=Gene;gene=fucO;gene_biotype=protein_coding;locus_tag=ECD_02644	FALSE	1049980
-CP001509.3	Genbank	pseudogene	2765631	2767055	.	-	.	ID=gene-ECD_02645;Name=fucA;Note=interrupted by IS1%3B L-fuculose-1-phosphate aldolase%3B similar to b2800;gbkey=Gene;gene=fucA;gene_biotype=pseudogene;locus_tag=ECD_02645;pseudo=true	FALSE	1048804
-CP001509.3	Genbank	mobile_genetic_element	2765848	2766615	.	-	.	ID=id-ECD_02645;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	1048587
+CP001509.3	Genbank	pseudogene	2765631	2767055	.	-	.	ID=gene-ECD_02645;Name=fucA;Note=interrupted_by_IS1%3B_L-fuculose-1-phosphate_aldolase%3B_similar_to_b2800;gbkey=Gene;gene=fucA;gene_biotype=pseudogene;locus_tag=ECD_02645;pseudo=true	FALSE	1048804
+CP001509.3	Genbank	mobile_genetic_element	2765848	2766615	.	-	.	ID=id-ECD_02645;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	1048587
 CP001509.3	Genbank	gene	2765863	2766366	.	-	.	ID=gene-ECD_02646;Name=insB-21;gbkey=Gene;gene=insB-21;gene_biotype=protein_coding;locus_tag=ECD_02646	FALSE	1048572
 CP001509.3	Genbank	gene	2766285	2766560	.	-	.	ID=gene-ECD_02647;Name=insA-21;gbkey=Gene;gene=insA-21;gene_biotype=protein_coding;locus_tag=ECD_02647	FALSE	1048150
 CP001509.3	Genbank	gene	2767188	2768132	.	-	.	ID=gene-ECD_02648;Name=ECD_02648;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_02648	FALSE	1047247
@@ -2734,15 +2732,15 @@ CP001509.3	Genbank	gene	2815919	2817181	.	-	.	ID=gene-ECD_02686;Name=lysA;gbkey=
 CP001509.3	Genbank	gene	2817303	2818238	.	+	.	ID=gene-ECD_02687;Name=lysR;gbkey=Gene;gene=lysR;gene_biotype=protein_coding;locus_tag=ECD_02687	FALSE	997132
 CP001509.3	Genbank	gene	2818225	2818917	.	-	.	ID=gene-ECD_02688;Name=ygeA;gbkey=Gene;gene=ygeA;gene_biotype=protein_coding;locus_tag=ECD_02688	FALSE	996210
 CP001509.3	Genbank	gene	2819046	2820464	.	-	.	ID=gene-ECD_02689;Name=araE;gbkey=Gene;gene=araE;gene_biotype=protein_coding;locus_tag=ECD_02689	FALSE	995389
-CP001509.3	Genbank	pseudogene	2820779	2822986	.	-	.	ID=gene-ECD_02690;Name=kduD;Note=interrupted by IS150%3B similar to b2842%3B 2-deoxy-D-gluconate 3-dehydrogenase;gbkey=Gene;gene=kduD;gene_biotype=pseudogene;locus_tag=ECD_02690;pseudo=true	FALSE	993656
-CP001509.3	Genbank	mobile_genetic_element	2820977	2822422	.	+	.	ID=id-CP001509.3:2820977..2822422;gbkey=mobile_element;mobile_element_type=insertion sequence:IS150	FALSE	993458
+CP001509.3	Genbank	pseudogene	2820779	2822986	.	-	.	ID=gene-ECD_02690;Name=kduD;Note=interrupted_by_IS150%3B_similar_to_b2842%3B_2-deoxy-D-gluconate_3-dehydrogenase;gbkey=Gene;gene=kduD;gene_biotype=pseudogene;locus_tag=ECD_02690;pseudo=true	FALSE	993656
+CP001509.3	Genbank	mobile_genetic_element	2820977	2822422	.	+	.	ID=id-CP001509.3:2820977..2822422;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS150	FALSE	993458
 CP001509.3	Genbank	gene	2821024	2821545	.	+	.	ID=gene-ECD_04282;Name=insJ-5;gbkey=Gene;gene=insJ-5;gene_biotype=protein_coding;locus_tag=ECD_04282	TRUE	993411
 CP001509.3	Genbank	gene	2821542	2822393	.	+	.	ID=gene-ECD_04283;Name=insK-5;gbkey=Gene;gene=insK-5;gene_biotype=protein_coding;locus_tag=ECD_04283	TRUE	992893
 CP001509.3	Genbank	gene	2823016	2823852	.	-	.	ID=gene-ECD_02691;Name=kduI;gbkey=Gene;gene=kduI;gene_biotype=protein_coding;locus_tag=ECD_02691	FALSE	991419
 CP001509.3	Genbank	gene	2824139	2825320	.	-	.	ID=gene-ECD_02692;Name=yqeF;gbkey=Gene;gene=yqeF;gene_biotype=protein_coding;locus_tag=ECD_02692	FALSE	990296
 CP001509.3	Genbank	gene	2825576	2826805	.	+	.	ID=gene-ECD_02693;Name=yqeG;gbkey=Gene;gene=yqeG;gene_biotype=protein_coding;locus_tag=ECD_02693	FALSE	988859
 CP001509.3	Genbank	gene	2827265	2827834	.	+	.	ID=gene-ECD_02694;Name=yqeH;gbkey=Gene;gene=yqeH;gene_biotype=protein_coding;locus_tag=ECD_02694	FALSE	987170
-CP001509.3	Genbank	mobile_genetic_element	2827819	2829073	.	+	.	ID=id-CP001509.3:2827819..2829073;gbkey=mobile_element;mobile_element_type=insertion sequence:IS3	FALSE	986616
+CP001509.3	Genbank	mobile_genetic_element	2827819	2829073	.	+	.	ID=id-CP001509.3:2827819..2829073;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS3	FALSE	986616
 CP001509.3	Genbank	gene	2827872	2828180	.	+	.	ID=gene-ECD_02695;Name=insE-5;gbkey=Gene;gene=insE-5;gene_biotype=protein_coding;locus_tag=ECD_02695	FALSE	986563
 CP001509.3	Genbank	gene	2828237	2829043	.	+	.	ID=gene-ECD_02696;Name=insF-5;gbkey=Gene;gene=insF-5;gene_biotype=protein_coding;locus_tag=ECD_02696	FALSE	986198
 CP001509.3	Genbank	gene	2829057	2829608	.	-	.	ID=gene-ECD_02697;Name=ygeQ;gbkey=Gene;gene=ygeQ;gene_biotype=protein_coding;locus_tag=ECD_02697	TRUE	985378
@@ -2774,8 +2772,8 @@ CP001509.3	Genbank	gene	2863678	2863803	.	+	.	ID=gene-ECD_04357;Name=yqfG;gbkey=
 CP001509.3	Genbank	gene	2863926	2864474	.	+	.	ID=gene-ECD_02721;Name=idi;gbkey=Gene;gene=idi;gene_biotype=protein_coding;locus_tag=ECD_02721	FALSE	950509
 CP001509.3	Genbank	gene	2864517	2866034	.	-	.	ID=gene-ECD_02722;Name=lysS;gbkey=Gene;gene=lysS;gene_biotype=protein_coding;locus_tag=ECD_02722	FALSE	949918
 CP001509.3	Genbank	gene	2866044	2867142	.	-	.	ID=gene-ECD_02723;Name=prfB;gbkey=Gene;gene=prfB;gene_biotype=protein_coding;locus_tag=ECD_02723	FALSE	948391
-CP001509.3	Genbank	CDS	2867068	2867142	.	-	0	ID=cds-ACT44540.1;Parent=gene-ECD_02723;Dbxref=NCBI_GP:ACT44540.1;Name=ACT44540.1;Note=similar to b2891;exception=ribosomal slippage;gbkey=CDS;gene=prfB;locus_tag=ECD_02723;product=peptide chain release factor RF-2;protein_id=ACT44540.1;transl_table=11	FALSE	947367
-CP001509.3	Genbank	CDS	2866044	2867066	.	-	0	ID=cds-ACT44540.1;Parent=gene-ECD_02723;Dbxref=NCBI_GP:ACT44540.1;Name=ACT44540.1;Note=similar to b2891;exception=ribosomal slippage;gbkey=CDS;gene=prfB;locus_tag=ECD_02723;product=peptide chain release factor RF-2;protein_id=ACT44540.1;transl_table=11	FALSE	948391
+CP001509.3	Genbank	CDS	2867068	2867142	.	-	0	ID=cds-ACT44540.1;Parent=gene-ECD_02723;Dbxref=NCBI_GP:ACT44540.1;Name=ACT44540.1;Note=similar_to_b2891;exception=ribosomal_slippage;gbkey=CDS;gene=prfB;locus_tag=ECD_02723;product=peptide_chain_release_factor_RF-2;protein_id=ACT44540.1;transl_table=11	FALSE	947367
+CP001509.3	Genbank	CDS	2866044	2867066	.	-	0	ID=cds-ACT44540.1;Parent=gene-ECD_02723;Dbxref=NCBI_GP:ACT44540.1;Name=ACT44540.1;Note=similar_to_b2891;exception=ribosomal_slippage;gbkey=CDS;gene=prfB;locus_tag=ECD_02723;product=peptide_chain_release_factor_RF-2;protein_id=ACT44540.1;transl_table=11	FALSE	948391
 CP001509.3	Genbank	gene	2867233	2868966	.	-	.	ID=gene-ECD_02724;Name=recJ;gbkey=Gene;gene=recJ;gene_biotype=protein_coding;locus_tag=ECD_02724	FALSE	947202
 CP001509.3	Genbank	gene	2868972	2869682	.	-	.	ID=gene-ECD_02725;Name=dsbC;gbkey=Gene;gene=dsbC;gene_biotype=protein_coding;locus_tag=ECD_02725	FALSE	945463
 CP001509.3	Genbank	gene	2869707	2870603	.	-	.	ID=gene-ECD_02726;Name=xerD;gbkey=Gene;gene=xerD;gene_biotype=protein_coding;locus_tag=ECD_02726	FALSE	944728
@@ -2850,7 +2848,7 @@ CP001509.3	Genbank	gene	2937787	2939922	.	-	.	ID=gene-ECD_02795;Name=speC;gbkey=
 CP001509.3	Genbank	gene	2940315	2941022	.	+	.	ID=gene-ECD_02796;Name=yqgA;gbkey=Gene;gene=yqgA;gene_biotype=protein_coding;locus_tag=ECD_02796	FALSE	874120
 CP001509.3	Genbank	gene	2941128	2941203	.	+	.	ID=gene-ECD_t00055;Name=pheV;gbkey=Gene;gene=pheV;gene_biotype=tRNA;locus_tag=ECD_t00055	FALSE	873307
 CP001509.3	Genbank	gene	2945057	2945182	.	-	.	ID=gene-ECD_04360;Name=ECD_04360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04360	FALSE	869378
-CP001509.3	Genbank	mobile_genetic_element	2957292	2958059	.	-	.	ID=id-CP001509.3:2957292..2958059;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	857143
+CP001509.3	Genbank	mobile_genetic_element	2957292	2958059	.	-	.	ID=id-CP001509.3:2957292..2958059;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	857143
 CP001509.3	Genbank	gene	2973824	2974633	.	-	.	ID=gene-ECD_02841;Name=pppA;gbkey=Gene;gene=pppA;gene_biotype=protein_coding;locus_tag=ECD_02841	FALSE	840611
 CP001509.3	Genbank	gene	2974797	2979350	.	-	.	ID=gene-ECD_02842;Name=sslE;gbkey=Gene;gene=sslE;gene_biotype=protein_coding;locus_tag=ECD_02842	FALSE	839638
 CP001509.3	Genbank	gene	2979836	2981518	.	-	.	ID=gene-ECD_02843;Name=glcA;gbkey=Gene;gene=glcA;gene_biotype=protein_coding;locus_tag=ECD_02843	FALSE	834599
@@ -2874,9 +2872,9 @@ CP001509.3	Genbank	gene	3008226	3008720	.	-	.	ID=gene-ECD_02869;Name=hybD;gbkey=
 CP001509.3	Genbank	gene	3008720	3010423	.	-	.	ID=gene-ECD_02870;Name=hybC;gbkey=Gene;gene=hybC;gene_biotype=protein_coding;locus_tag=ECD_02870	FALSE	805715
 CP001509.3	Genbank	gene	3010420	3011598	.	-	.	ID=gene-ECD_02871;Name=hybB;gbkey=Gene;gene=hybB;gene_biotype=protein_coding;locus_tag=ECD_02871	FALSE	804015
 CP001509.3	Genbank	gene	3011588	3012574	.	-	.	ID=gene-ECD_02872;Name=hybA;gbkey=Gene;gene=hybA;gene_biotype=protein_coding;locus_tag=ECD_02872	TRUE	802847
-CP001509.3	Genbank	gene	3012577	3013695	.	-	.	ID=gene-ECD_02873;Name=hybO;Note=frameshift in REL606;gbkey=Gene;gene=hybO;gene_biotype=protein_coding;locus_tag=ECD_02873	TRUE	801858
+CP001509.3	Genbank	gene	3012577	3013695	.	-	.	ID=gene-ECD_02873;Name=hybO;Note=frameshift_in_REL606;gbkey=Gene;gene=hybO;gene_biotype=protein_coding;locus_tag=ECD_02873	TRUE	801858
 CP001509.3	Genbank	gene	3013884	3014171	.	-	.	ID=gene-ECD_02874;Name=yghW;gbkey=Gene;gene=yghW;gene_biotype=protein_coding;locus_tag=ECD_02874	TRUE	800551
-CP001509.3	Genbank	gene	3014290	3015054	.	-	.	ID=gene-ECD_02875;Name=yghXY;Note=separated in K-12 MG1655;gbkey=Gene;gene=yghXY;gene_biotype=protein_coding;locus_tag=ECD_02875	FALSE	800145
+CP001509.3	Genbank	gene	3014290	3015054	.	-	.	ID=gene-ECD_02875;Name=yghXY;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=yghXY;gene_biotype=protein_coding;locus_tag=ECD_02875	FALSE	800145
 CP001509.3	Genbank	gene	3015334	3016374	.	+	.	ID=gene-ECD_02876;Name=gpr;gbkey=Gene;gene=gpr;gene_biotype=protein_coding;locus_tag=ECD_02876	FALSE	799101
 CP001509.3	Genbank	gene	3016414	3016908	.	-	.	ID=gene-ECD_02877;Name=yqhA;gbkey=Gene;gene=yqhA;gene_biotype=protein_coding;locus_tag=ECD_02877	FALSE	798021
 CP001509.3	Genbank	gene	3017099	3017983	.	+	.	ID=gene-ECD_02878;Name=yghA;gbkey=Gene;gene=yghA;gene_biotype=protein_coding;locus_tag=ECD_02878	FALSE	797336
@@ -3239,8 +3237,8 @@ CP001509.3	Genbank	gene	3360869	3361891	.	+	.	ID=gene-ECD_03222;Name=frlB;gbkey=
 CP001509.3	Genbank	gene	3361941	3362771	.	+	.	ID=gene-ECD_03223;Name=frlC;gbkey=Gene;gene=frlC;gene_biotype=protein_coding;locus_tag=ECD_03223	FALSE	452494
 CP001509.3	Genbank	gene	3362768	3363553	.	+	.	ID=gene-ECD_03224;Name=frlD;gbkey=Gene;gene=frlD;gene_biotype=protein_coding;locus_tag=ECD_03224	FALSE	451667
 CP001509.3	Genbank	gene	3363653	3364384	.	+	.	ID=gene-ECD_03225;Name=frlR;gbkey=Gene;gene=frlR;gene_biotype=protein_coding;locus_tag=ECD_03225	FALSE	450782
-CP001509.3	Genbank	pseudogene	3364536	3366398	.	-	.	ID=gene-ECD_03226;Name=yhfS;Note=interrupted by IS1%3B putative enzyme%3B similar to b3376;gbkey=Gene;gene=yhfS;gene_biotype=pseudogene;locus_tag=ECD_03226;pseudo=true	FALSE	449899
-CP001509.3	Genbank	mobile_genetic_element	3365158	3365925	.	-	.	ID=id-ECD_03226;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	449277
+CP001509.3	Genbank	pseudogene	3364536	3366398	.	-	.	ID=gene-ECD_03226;Name=yhfS;Note=interrupted_by_IS1%3B_putative_enzyme%3B_similar_to_b3376;gbkey=Gene;gene=yhfS;gene_biotype=pseudogene;locus_tag=ECD_03226;pseudo=true	FALSE	449899
+CP001509.3	Genbank	mobile_genetic_element	3365158	3365925	.	-	.	ID=id-ECD_03226;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	449277
 CP001509.3	Genbank	gene	3365173	3365676	.	-	.	ID=gene-ECD_03227;Name=insB-23;gbkey=Gene;gene=insB-23;gene_biotype=protein_coding;locus_tag=ECD_03227	FALSE	449262
 CP001509.3	Genbank	gene	3365595	3365870	.	-	.	ID=gene-ECD_03228;Name=insA-23;gbkey=Gene;gene=insA-23;gene_biotype=protein_coding;locus_tag=ECD_03228	FALSE	448840
 CP001509.3	Genbank	gene	3366410	3367714	.	-	.	ID=gene-ECD_03229;Name=yhfT;gbkey=Gene;gene=yhfT;gene_biotype=protein_coding;locus_tag=ECD_03229	FALSE	448025
@@ -3291,7 +3289,7 @@ CP001509.3	Genbank	gene	3420144	3420902	.	-	.	ID=gene-ECD_03274;Name=glpR;gbkey=
 CP001509.3	Genbank	gene	3420919	3421749	.	-	.	ID=gene-ECD_03275;Name=glpG;gbkey=Gene;gene=glpG;gene_biotype=protein_coding;locus_tag=ECD_03275	FALSE	393516
 CP001509.3	Genbank	gene	3421794	3422120	.	-	.	ID=gene-ECD_03276;Name=glpE;gbkey=Gene;gene=glpE;gene_biotype=protein_coding;locus_tag=ECD_03276	FALSE	392641
 CP001509.3	Genbank	gene	3422310	3423815	.	+	.	ID=gene-ECD_03277;Name=glpD;gbkey=Gene;gene=glpD;gene_biotype=protein_coding;locus_tag=ECD_03277	FALSE	392125
-CP001509.3	Genbank	pseudogene	3424031	3427156	.	-	.	ID=gene-ECD_03278;Name=yzgL;Note=interrupted by ECD_03279%3B hypothetical protein%3B similar to b3427;gbkey=Gene;gene=yzgL;gene_biotype=pseudogene;locus_tag=ECD_03278;pseudo=true	FALSE	390404
+CP001509.3	Genbank	pseudogene	3424031	3427156	.	-	.	ID=gene-ECD_03278;Name=yzgL;Note=interrupted_by_ECD_03279%3B_hypothetical_protein%3B_similar_to_b3427;gbkey=Gene;gene=yzgL;gene_biotype=pseudogene;locus_tag=ECD_03278;pseudo=true	FALSE	390404
 CP001509.3	Genbank	gene	3424633	3425625	.	-	.	ID=gene-ECD_03279;Name=ECD_03279;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03279	FALSE	389802
 CP001509.3	Genbank	gene	3427284	3429731	.	-	.	ID=gene-ECD_03280;Name=glgP;gbkey=Gene;gene=glgP;gene_biotype=protein_coding;locus_tag=ECD_03280	FALSE	387151
 CP001509.3	Genbank	gene	3429750	3431183	.	-	.	ID=gene-ECD_03281;Name=glgA;gbkey=Gene;gene=glgA;gene_biotype=protein_coding;locus_tag=ECD_03281	FALSE	384685
@@ -3346,13 +3344,13 @@ CP001509.3	Genbank	gene	3480160	3480966	.	+	.	ID=gene-ECD_03329;Name=nikE;gbkey=
 CP001509.3	Genbank	gene	3480972	3481373	.	+	.	ID=gene-ECD_03330;Name=nikR;gbkey=Gene;gene=nikR;gene_biotype=protein_coding;locus_tag=ECD_03330	TRUE	333463
 CP001509.3	Genbank	gene	3481576	3485811	.	+	.	ID=gene-ECD_03331;Name=rhsB;gbkey=Gene;gene=rhsB;gene_biotype=protein_coding;locus_tag=ECD_03331	TRUE	332859
 CP001509.3	Genbank	gene	3485783	3486166	.	+	.	ID=gene-ECD_03332;Name=yhhH;gbkey=Gene;gene=yhhH;gene_biotype=protein_coding;locus_tag=ECD_03332	FALSE	328652
-CP001509.3	Genbank	pseudogene	3486271	3486516	.	+	.	ID=gene-ECD_03333;Name=yrhC;Note=also pseudo in K-12 MG1655%3B similar to b4552%3B predicted protein fragment;gbkey=Gene;gene=yrhC;gene_biotype=pseudogene;locus_tag=ECD_03333;pseudo=true	FALSE	328164
+CP001509.3	Genbank	pseudogene	3486271	3486516	.	+	.	ID=gene-ECD_03333;Name=yrhC;Note=also_pseudo_in_K-12_MG1655%3B_similar_to_b4552%3B_predicted_protein_fragment;gbkey=Gene;gene=yrhC;gene_biotype=pseudogene;locus_tag=ECD_03333;pseudo=true	FALSE	328164
 CP001509.3	Genbank	gene	3486762	3487898	.	+	.	ID=gene-ECD_03334;Name=yhhI;gbkey=Gene;gene=yhhI;gene_biotype=protein_coding;locus_tag=ECD_03334	FALSE	327673
 CP001509.3	Genbank	gene	3488063	3489187	.	-	.	ID=gene-ECD_03335;Name=yhhJ;gbkey=Gene;gene=yhhJ;gene_biotype=protein_coding;locus_tag=ECD_03335	FALSE	326372
 CP001509.3	Genbank	gene	3489187	3491922	.	-	.	ID=gene-ECD_03336;Name=rbbA;gbkey=Gene;gene=rbbA;gene_biotype=protein_coding;locus_tag=ECD_03336	FALSE	325248
 CP001509.3	Genbank	gene	3491919	3492986	.	-	.	ID=gene-ECD_03337;Name=yhiI;gbkey=Gene;gene=yhiI;gene_biotype=protein_coding;locus_tag=ECD_03337	FALSE	322516
 CP001509.3	Genbank	gene	3493352	3494974	.	-	.	ID=gene-ECD_03338;Name=yhiJ;gbkey=Gene;gene=yhiJ;gene_biotype=protein_coding;locus_tag=ECD_03338	FALSE	321083
-CP001509.3	Genbank	gene	3495236	3496843	.	-	.	ID=gene-ECD_03339;Name=yhiKL;Note=separated in K-12 MG1655;gbkey=Gene;gene=yhiKL;gene_biotype=protein_coding;locus_tag=ECD_03339	FALSE	319199
+CP001509.3	Genbank	gene	3495236	3496843	.	-	.	ID=gene-ECD_03339;Name=yhiKL;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=yhiKL;gene_biotype=protein_coding;locus_tag=ECD_03339	FALSE	319199
 CP001509.3	Genbank	gene	3497226	3498278	.	+	.	ID=gene-ECD_03340;Name=yhiM;gbkey=Gene;gene=yhiM;gene_biotype=protein_coding;locus_tag=ECD_03340	FALSE	317209
 CP001509.3	Genbank	gene	3498593	3499795	.	-	.	ID=gene-ECD_03341;Name=yhiN;gbkey=Gene;gene=yhiN;gene_biotype=protein_coding;locus_tag=ECD_03341	FALSE	315842
 CP001509.3	Genbank	gene	3500027	3501526	.	+	.	ID=gene-ECD_03342;Name=pitA;gbkey=Gene;gene=pitA;gene_biotype=protein_coding;locus_tag=ECD_03342	FALSE	314408
@@ -3397,7 +3395,7 @@ CP001509.3	Genbank	gene	3546888	3550361	.	-	.	ID=gene-ECD_03378;Name=bcsC;gbkey=
 CP001509.3	Genbank	gene	3550343	3551449	.	-	.	ID=gene-ECD_03379;Name=bcsZ;gbkey=Gene;gene=bcsZ;gene_biotype=protein_coding;locus_tag=ECD_03379	FALSE	264092
 CP001509.3	Genbank	gene	3551456	3553795	.	-	.	ID=gene-ECD_03380;Name=bcsB;gbkey=Gene;gene=bcsB;gene_biotype=protein_coding;locus_tag=ECD_03380	FALSE	262979
 CP001509.3	Genbank	gene	3553806	3556424	.	-	.	ID=gene-ECD_03381;Name=bcsA;gbkey=Gene;gene=bcsA;gene_biotype=protein_coding;locus_tag=ECD_03381	FALSE	260629
-CP001509.3	Genbank	pseudogene	3556421	3557158	.	-	.	ID=gene-ECD_03382;Name=yhjQ;Note=similar to b3534%3B cell division protein (chromosome partitioning ATPase);gbkey=Gene;gene=yhjQ;gene_biotype=pseudogene;locus_tag=ECD_03382;pseudo=true	FALSE	258014
+CP001509.3	Genbank	pseudogene	3556421	3557158	.	-	.	ID=gene-ECD_03382;Name=yhjQ;Note=similar_to_b3534%3B_cell_division_protein_(chromosome_partitioning_ATPase);gbkey=Gene;gene=yhjQ;gene_biotype=pseudogene;locus_tag=ECD_03382;pseudo=true	FALSE	258014
 CP001509.3	Genbank	gene	3557185	3557373	.	-	.	ID=gene-ECD_03383;Name=yhjR;gbkey=Gene;gene=yhjR;gene_biotype=protein_coding;locus_tag=ECD_03383	FALSE	257250
 CP001509.3	Genbank	gene	3557646	3559217	.	+	.	ID=gene-ECD_03384;Name=bcsE;gbkey=Gene;gene=bcsE;gene_biotype=protein_coding;locus_tag=ECD_03384	FALSE	256789
 CP001509.3	Genbank	gene	3559214	3559405	.	+	.	ID=gene-ECD_03385;Name=bcsF;gbkey=Gene;gene=bcsF;gene_biotype=protein_coding;locus_tag=ECD_03385	FALSE	255221
@@ -3427,7 +3425,7 @@ CP001509.3	Genbank	gene	3580488	3581198	.	-	.	ID=gene-ECD_03404;Name=yiaF;gbkey=
 CP001509.3	Genbank	gene	3581632	3581922	.	+	.	ID=gene-ECD_03405;Name=yiaG;gbkey=Gene;gene=yiaG;gene_biotype=protein_coding;locus_tag=ECD_03405	FALSE	232803
 CP001509.3	Genbank	gene	3582203	3582415	.	+	.	ID=gene-ECD_03406;Name=cspA;gbkey=Gene;gene=cspA;gene_biotype=protein_coding;locus_tag=ECD_03406	FALSE	232232
 CP001509.3	Genbank	gene	3582602	3582754	.	-	.	ID=gene-ECD_03407;Name=hokA;gbkey=Gene;gene=hokA;gene_biotype=protein_coding;locus_tag=ECD_03407	FALSE	231833
-CP001509.3	Genbank	mobile_genetic_element	3582787	3584229	.	+	.	ID=id-CP001509.3:3582787..3584229;gbkey=mobile_element;mobile_element_type=insertion sequence:IS150	FALSE	231648
+CP001509.3	Genbank	mobile_genetic_element	3582787	3584229	.	+	.	ID=id-CP001509.3:3582787..3584229;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS150	FALSE	231648
 CP001509.3	Genbank	gene	3582834	3583355	.	+	.	ID=gene-ECD_03408;Name=insJ-4;gbkey=Gene;gene=insJ-4;gene_biotype=protein_coding;locus_tag=ECD_03408	FALSE	231601
 CP001509.3	Genbank	gene	3583352	3584203	.	+	.	ID=gene-ECD_03409;Name=insK-4;gbkey=Gene;gene=insK-4;gene_biotype=protein_coding;locus_tag=ECD_03409	FALSE	231083
 CP001509.3	Genbank	gene	3584482	3586551	.	-	.	ID=gene-ECD_03410;Name=glyS;gbkey=Gene;gene=glyS;gene_biotype=protein_coding;locus_tag=ECD_03410	FALSE	229953
@@ -3439,7 +3437,7 @@ CP001509.3	Genbank	gene	3589561	3589902	.	-	.	ID=gene-ECD_03415;Name=yiaB;gbkey=
 CP001509.3	Genbank	gene	3590071	3591525	.	-	.	ID=gene-ECD_03416;Name=xylB;gbkey=Gene;gene=xylB;gene_biotype=protein_coding;locus_tag=ECD_03416	FALSE	224364
 CP001509.3	Genbank	gene	3591597	3592919	.	-	.	ID=gene-ECD_03417;Name=xylA;gbkey=Gene;gene=xylA;gene_biotype=protein_coding;locus_tag=ECD_03417	FALSE	222838
 CP001509.3	Genbank	gene	3593285	3594277	.	+	.	ID=gene-ECD_03418;Name=xylF;gbkey=Gene;gene=xylF;gene_biotype=protein_coding;locus_tag=ECD_03418	FALSE	221150
-CP001509.3	Genbank	pseudogene	3594354	3595894	.	+	.	ID=gene-ECD_03419;Name=xylG;Note=frameshift%3B D-xylose transport protein (ABC superfamily%2C atp_bind)%3B similar to b3567;gbkey=Gene;gene=xylG;gene_biotype=pseudogene;locus_tag=ECD_03419;pseudo=true	FALSE	220081
+CP001509.3	Genbank	pseudogene	3594354	3595894	.	+	.	ID=gene-ECD_03419;Name=xylG;Note=frameshift%3B_D-xylose_transport_protein_(ABC_superfamily%2C_atp_bind)%3B_similar_to_b3567;gbkey=Gene;gene=xylG;gene_biotype=pseudogene;locus_tag=ECD_03419;pseudo=true	FALSE	220081
 CP001509.3	Genbank	gene	3595872	3597053	.	+	.	ID=gene-ECD_03420;Name=xylH;gbkey=Gene;gene=xylH;gene_biotype=protein_coding;locus_tag=ECD_03420	FALSE	218563
 CP001509.3	Genbank	gene	3597131	3598309	.	+	.	ID=gene-ECD_03421;Name=xylR;gbkey=Gene;gene=xylR;gene_biotype=protein_coding;locus_tag=ECD_03421	FALSE	217304
 CP001509.3	Genbank	gene	3598505	3599329	.	-	.	ID=gene-ECD_03422;Name=bax;gbkey=Gene;gene=bax;gene_biotype=protein_coding;locus_tag=ECD_03422	FALSE	215930
@@ -3496,22 +3494,22 @@ CP001509.3	Genbank	gene	3657302	3658261	.	+	.	ID=gene-ECD_03472;Name=yibQ;gbkey=
 CP001509.3	Genbank	gene	3658248	3659282	.	-	.	ID=gene-ECD_03473;Name=waaH;gbkey=Gene;gene=waaH;gene_biotype=protein_coding;locus_tag=ECD_03473	FALSE	156187
 CP001509.3	Genbank	gene	3659521	3660546	.	-	.	ID=gene-ECD_03474;Name=tdh;gbkey=Gene;gene=tdh;gene_biotype=protein_coding;locus_tag=ECD_03474	FALSE	154914
 CP001509.3	Genbank	gene	3660556	3661752	.	-	.	ID=gene-ECD_03475;Name=kbl;gbkey=Gene;gene=kbl;gene_biotype=protein_coding;locus_tag=ECD_03475	FALSE	153879
-CP001509.3	Genbank	gene	3661966	3662898	.	+	.	ID=gene-ECD_03476;Name=hldD;Note=synonym: rfaD;gbkey=Gene;gene=hldD;gene_biotype=protein_coding;locus_tag=ECD_03476	FALSE	152469
-CP001509.3	Genbank	gene	3662908	3663954	.	+	.	ID=gene-ECD_03477;Name=waaF;Note=synonym: rfaF;gbkey=Gene;gene=waaF;gene_biotype=protein_coding;locus_tag=ECD_03477	FALSE	151527
-CP001509.3	Genbank	gene	3663958	3664938	.	+	.	ID=gene-ECD_03478;Name=waaC;Note=synonym: rfaC;gbkey=Gene;gene=waaC;gene_biotype=protein_coding;locus_tag=ECD_03478	FALSE	150477
+CP001509.3	Genbank	gene	3661966	3662898	.	+	.	ID=gene-ECD_03476;Name=hldD;Note=synonym:_rfaD;gbkey=Gene;gene=hldD;gene_biotype=protein_coding;locus_tag=ECD_03476	FALSE	152469
+CP001509.3	Genbank	gene	3662908	3663954	.	+	.	ID=gene-ECD_03477;Name=waaF;Note=synonym:_rfaF;gbkey=Gene;gene=waaF;gene_biotype=protein_coding;locus_tag=ECD_03477	FALSE	151527
+CP001509.3	Genbank	gene	3663958	3664938	.	+	.	ID=gene-ECD_03478;Name=waaC;Note=synonym:_rfaC;gbkey=Gene;gene=waaC;gene_biotype=protein_coding;locus_tag=ECD_03478	FALSE	150477
 CP001509.3	Genbank	gene	3665008	3666261	.	-	.	ID=gene-ECD_03479;Name=waaL;gbkey=Gene;gene=waaL;gene_biotype=protein_coding;locus_tag=ECD_03479	FALSE	149427
 CP001509.3	Genbank	gene	3666307	3667290	.	-	.	ID=gene-ECD_03480;Name=waaV;gbkey=Gene;gene=waaV;gene_biotype=protein_coding;locus_tag=ECD_03480	FALSE	148128
 CP001509.3	Genbank	gene	3667375	3668400	.	-	.	ID=gene-ECD_03481;Name=waaW;gbkey=Gene;gene=waaW;gene_biotype=protein_coding;locus_tag=ECD_03481	FALSE	147060
-CP001509.3	Genbank	gene	3668426	3668974	.	-	.	ID=gene-ECD_03482;Name=waaY;Note=synonym: rfaY;gbkey=Gene;gene=waaY;gene_biotype=protein_coding;locus_tag=ECD_03482	FALSE	146009
-CP001509.3	Genbank	pseudogene	3669128	3670800	.	-	.	ID=gene-ECD_03483;Name=waaT;Note=interrupted by IS1%3B synonym: rfaJ%3B UDP-galactose:(Glucosyl) LPS alpha1%2C2-galactosyltransferase WaaT;gbkey=Gene;gene=waaT;gene_biotype=pseudogene;locus_tag=ECD_03483;pseudo=true	FALSE	145307
-CP001509.3	Genbank	mobile_genetic_element	3669633	3670400	.	-	.	ID=id-ECD_03483;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	144802
+CP001509.3	Genbank	gene	3668426	3668974	.	-	.	ID=gene-ECD_03482;Name=waaY;Note=synonym:_rfaY;gbkey=Gene;gene=waaY;gene_biotype=protein_coding;locus_tag=ECD_03482	FALSE	146009
+CP001509.3	Genbank	pseudogene	3669128	3670800	.	-	.	ID=gene-ECD_03483;Name=waaT;Note=interrupted_by_IS1%3B_synonym:_rfaJ%3B_UDP-galactose:(Glucosyl)_LPS_alpha1%2C2-galactosyltransferase_WaaT;gbkey=Gene;gene=waaT;gene_biotype=pseudogene;locus_tag=ECD_03483;pseudo=true	FALSE	145307
+CP001509.3	Genbank	mobile_genetic_element	3669633	3670400	.	-	.	ID=id-ECD_03483;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	144802
 CP001509.3	Genbank	gene	3669648	3670151	.	-	.	ID=gene-ECD_03484;Name=insB-24;gbkey=Gene;gene=insB-24;gene_biotype=protein_coding;locus_tag=ECD_03484	FALSE	144787
 CP001509.3	Genbank	gene	3670070	3670345	.	-	.	ID=gene-ECD_03485;Name=insA-24;gbkey=Gene;gene=insA-24;gene_biotype=protein_coding;locus_tag=ECD_03485	FALSE	144365
-CP001509.3	Genbank	gene	3670916	3671932	.	-	.	ID=gene-ECD_03486;Name=waaO;Note=synonym: rfaI;gbkey=Gene;gene=waaO;gene_biotype=protein_coding;locus_tag=ECD_03486	FALSE	143519
-CP001509.3	Genbank	gene	3671948	3672745	.	-	.	ID=gene-ECD_03487;Name=waaP;Note=synonym: rfaP;gbkey=Gene;gene=waaP;gene_biotype=protein_coding;locus_tag=ECD_03487	FALSE	142487
-CP001509.3	Genbank	gene	3672738	3673862	.	-	.	ID=gene-ECD_03488;Name=waaG;Note=synonym: rfaG;gbkey=Gene;gene=waaG;gene_biotype=protein_coding;locus_tag=ECD_03488	FALSE	141697
-CP001509.3	Genbank	gene	3673859	3674917	.	-	.	ID=gene-ECD_03489;Name=waaQ;Note=synonym: rfaQ;gbkey=Gene;gene=waaQ;gene_biotype=protein_coding;locus_tag=ECD_03489	FALSE	140576
-CP001509.3	Genbank	gene	3675330	3676607	.	+	.	ID=gene-ECD_03490;Name=waaA;Note=synonym: kdtA;gbkey=Gene;gene=waaA;gene_biotype=protein_coding;locus_tag=ECD_03490	FALSE	139105
+CP001509.3	Genbank	gene	3670916	3671932	.	-	.	ID=gene-ECD_03486;Name=waaO;Note=synonym:_rfaI;gbkey=Gene;gene=waaO;gene_biotype=protein_coding;locus_tag=ECD_03486	FALSE	143519
+CP001509.3	Genbank	gene	3671948	3672745	.	-	.	ID=gene-ECD_03487;Name=waaP;Note=synonym:_rfaP;gbkey=Gene;gene=waaP;gene_biotype=protein_coding;locus_tag=ECD_03487	FALSE	142487
+CP001509.3	Genbank	gene	3672738	3673862	.	-	.	ID=gene-ECD_03488;Name=waaG;Note=synonym:_rfaG;gbkey=Gene;gene=waaG;gene_biotype=protein_coding;locus_tag=ECD_03488	FALSE	141697
+CP001509.3	Genbank	gene	3673859	3674917	.	-	.	ID=gene-ECD_03489;Name=waaQ;Note=synonym:_rfaQ;gbkey=Gene;gene=waaQ;gene_biotype=protein_coding;locus_tag=ECD_03489	FALSE	140576
+CP001509.3	Genbank	gene	3675330	3676607	.	+	.	ID=gene-ECD_03490;Name=waaA;Note=synonym:_kdtA;gbkey=Gene;gene=waaA;gene_biotype=protein_coding;locus_tag=ECD_03490	FALSE	139105
 CP001509.3	Genbank	gene	3676615	3677094	.	+	.	ID=gene-ECD_03491;Name=coaD;gbkey=Gene;gene=coaD;gene_biotype=protein_coding;locus_tag=ECD_03491	FALSE	137820
 CP001509.3	Genbank	gene	3677133	3677942	.	-	.	ID=gene-ECD_03492;Name=mutM;gbkey=Gene;gene=mutM;gene_biotype=protein_coding;locus_tag=ECD_03492	FALSE	137302
 CP001509.3	Genbank	gene	3678040	3678207	.	-	.	ID=gene-ECD_03493;Name=rpmG;gbkey=Gene;gene=rpmG;gene_biotype=protein_coding;locus_tag=ECD_03493	FALSE	136395
@@ -3550,14 +3548,14 @@ CP001509.3	Genbank	gene	3714355	3714702	.	-	.	ID=gene-ECD_03524;Name=ECD_03524;g
 CP001509.3	Genbank	gene	3714819	3715157	.	-	.	ID=gene-ECD_03525;Name=ECD_03525;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03525	FALSE	99616
 CP001509.3	Genbank	gene	3715242	3715397	.	-	.	ID=gene-ECD_03526;Name=ECD_03526;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03526	FALSE	99193
 CP001509.3	Genbank	gene	3715525	3715827	.	+	.	ID=gene-ECD_03527;Name=ECD_03527;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03527	FALSE	98910
-CP001509.3	Genbank	pseudogene	3716005	3716397	.	+	.	ID=gene-ECD_03528;Name=ECD_03528;Note=interrupted by in-frame stop%3B transposase (fragment);gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_03528;pseudo=true	FALSE	98430
+CP001509.3	Genbank	pseudogene	3716005	3716397	.	+	.	ID=gene-ECD_03528;Name=ECD_03528;Note=interrupted_by_in-frame_stop%3B_transposase_(fragment);gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_03528;pseudo=true	FALSE	98430
 CP001509.3	Genbank	gene	3716394	3716648	.	-	.	ID=gene-ECD_03530;Name=ECD_03530;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03530	FALSE	98041
 CP001509.3	Genbank	gene	3716676	3720173	.	+	.	ID=gene-ECD_03531;Name=ECD_03531;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03531	FALSE	97759
 CP001509.3	Genbank	gene	3720330	3720743	.	+	.	ID=gene-ECD_03532;Name=ECD_03532;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03532	FALSE	94105
 CP001509.3	Genbank	gene	3720808	3720990	.	-	.	ID=gene-ECD_03533;Name=ECD_03533;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03533	FALSE	93627
 CP001509.3	Genbank	gene	3721033	3721179	.	-	.	ID=gene-ECD_03534;Name=ECD_03534;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03534	FALSE	93402
 CP001509.3	Genbank	gene	3721206	3721562	.	+	.	ID=gene-ECD_03535;Name=insX;gbkey=Gene;gene=insX;gene_biotype=protein_coding;locus_tag=ECD_03535	FALSE	93229
-CP001509.3	Genbank	mobile_genetic_element	3721457	3722643	.	+	.	ID=id-CP001509.3:3721457..3722643;gbkey=mobile_element;mobile_element_type=insertion sequence:IS30	FALSE	92978
+CP001509.3	Genbank	mobile_genetic_element	3721457	3722643	.	+	.	ID=id-CP001509.3:3721457..3722643;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS30	FALSE	92978
 CP001509.3	Genbank	gene	3721519	3722643	.	+	.	ID=gene-ECD_03536;Name=insI;gbkey=Gene;gene=insI;gene_biotype=protein_coding;locus_tag=ECD_03536	FALSE	92916
 CP001509.3	Genbank	gene	3722541	3722906	.	+	.	ID=gene-ECD_03537;Name=ECD_03537;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03537	FALSE	91894
 CP001509.3	Genbank	gene	3722903	3723391	.	+	.	ID=gene-ECD_03538;Name=ECD_03538;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03538	FALSE	91532
@@ -3590,8 +3588,8 @@ CP001509.3	Genbank	gene	3745278	3746771	.	-	.	ID=gene-ECD_03562;Name=yidJ;gbkey=
 CP001509.3	Genbank	gene	3746768	3748483	.	-	.	ID=gene-ECD_03563;Name=yidK;gbkey=Gene;gene=yidK;gene_biotype=protein_coding;locus_tag=ECD_03563	FALSE	67667
 CP001509.3	Genbank	gene	3748650	3749543	.	+	.	ID=gene-ECD_03564;Name=yidL;gbkey=Gene;gene=yidL;gene_biotype=protein_coding;locus_tag=ECD_03564	FALSE	65785
 CP001509.3	Genbank	gene	3749540	3750862	.	-	.	ID=gene-ECD_03565;Name=glvG;gbkey=Gene;gene=glvG;gene_biotype=protein_coding;locus_tag=ECD_03565	FALSE	64895
-CP001509.3	Genbank	gene	3750862	3752478	.	-	.	ID=gene-ECD_03566;Name=glvBC;Note=separated in K-12 MG1655;gbkey=Gene;gene=glvBC;gene_biotype=protein_coding;locus_tag=ECD_03566	FALSE	63573
-CP001509.3	Genbank	pseudogene	3752774	3753411	.	+	.	ID=gene-ECD_03567;Name=yidP;Note=frameshift%3B putative transcriptional regulator%3B similar to b3684;gbkey=Gene;gene=yidP;gene_biotype=pseudogene;locus_tag=ECD_03567;pseudo=true	FALSE	61661
+CP001509.3	Genbank	gene	3750862	3752478	.	-	.	ID=gene-ECD_03566;Name=glvBC;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=glvBC;gene_biotype=protein_coding;locus_tag=ECD_03566	FALSE	63573
+CP001509.3	Genbank	pseudogene	3752774	3753411	.	+	.	ID=gene-ECD_03567;Name=yidP;Note=frameshift%3B_putative_transcriptional_regulator%3B_similar_to_b3684;gbkey=Gene;gene=yidP;gene_biotype=pseudogene;locus_tag=ECD_03567;pseudo=true	FALSE	61661
 CP001509.3	Genbank	gene	3753408	3755069	.	-	.	ID=gene-ECD_03568;Name=yidE;gbkey=Gene;gene=yidE;gene_biotype=protein_coding;locus_tag=ECD_03568	FALSE	61027
 CP001509.3	Genbank	gene	3755265	3755693	.	-	.	ID=gene-ECD_03569;Name=ibpB;gbkey=Gene;gene=ibpB;gene_biotype=protein_coding;locus_tag=ECD_03569	FALSE	59170
 CP001509.3	Genbank	gene	3755805	3756218	.	-	.	ID=gene-ECD_03570;Name=ibpA;gbkey=Gene;gene=ibpA;gene_biotype=protein_coding;locus_tag=ECD_03570	FALSE	58630
@@ -3647,7 +3645,7 @@ CP001509.3	Genbank	gene	3808671	3809204	.	-	.	ID=gene-ECD_03619;Name=atpH;gbkey=
 CP001509.3	Genbank	gene	3809219	3809689	.	-	.	ID=gene-ECD_03620;Name=atpF;gbkey=Gene;gene=atpF;gene_biotype=protein_coding;locus_tag=ECD_03620	FALSE	5216
 CP001509.3	Genbank	gene	3809751	3809990	.	-	.	ID=gene-ECD_03621;Name=atpE;gbkey=Gene;gene=atpE;gene_biotype=protein_coding;locus_tag=ECD_03621	FALSE	4684
 CP001509.3	Genbank	gene	3810037	3810852	.	-	.	ID=gene-ECD_03622;Name=atpB;gbkey=Gene;gene=atpB;gene_biotype=protein_coding;locus_tag=ECD_03622	FALSE	4398
-CP001509.3	Genbank	gene	3811858	3812481	.	-	.	ID=gene-ECD_03624;Name=rsmG;Note=frameshift in REL606;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=ECD_03624	FALSE	2577
+CP001509.3	Genbank	gene	3811858	3812481	.	-	.	ID=gene-ECD_03624;Name=rsmG;Note=frameshift_in_REL606;gbkey=Gene;gene=rsmG;gene_biotype=protein_coding;locus_tag=ECD_03624	FALSE	2577
 CP001509.3	Genbank	gene	3812545	3814434	.	-	.	ID=gene-ECD_03625;Name=mnmG;gbkey=Gene;gene=mnmG;gene_biotype=protein_coding;locus_tag=ECD_03625	FALSE	1890
 CP001509.3	Genbank	gene	3814813	3815256	.	-	.	ID=gene-ECD_03626;Name=mioC;gbkey=Gene;gene=mioC;gene_biotype=protein_coding;locus_tag=ECD_03626	FALSE	378
 CP001509.3	Genbank	gene	3815346	3815804	.	-	.	ID=gene-ECD_03627;Name=asnC;gbkey=Gene;gene=asnC;gene_biotype=protein_coding;locus_tag=ECD_03627	FALSE	911
@@ -3655,8 +3653,8 @@ CP001509.3	Genbank	gene	3815956	3816948	.	+	.	ID=gene-ECD_03628;Name=asnA;gbkey=
 CP001509.3	Genbank	gene	3816953	3818404	.	-	.	ID=gene-ECD_03629;Name=viaA;gbkey=Gene;gene=viaA;gene_biotype=protein_coding;locus_tag=ECD_03629	FALSE	2518
 CP001509.3	Genbank	gene	3818398	3819894	.	-	.	ID=gene-ECD_03630;Name=ravA;gbkey=Gene;gene=ravA;gene_biotype=protein_coding;locus_tag=ECD_03630	FALSE	3963
 CP001509.3	Genbank	gene	3820117	3821985	.	+	.	ID=gene-ECD_03631;Name=kup;gbkey=Gene;gene=kup;gene_biotype=protein_coding;locus_tag=ECD_03631	FALSE	5682
-CP001509.3	Genbank	pseudogene	3822152	3824017	.	+	.	ID=gene-ECD_03634;Name=rbsD;Note=interrupted by IS150%3B similar to b3748%3B predicted cytoplasmic sugar-binding protein;gbkey=Gene;gene=rbsD;gene_biotype=pseudogene;locus_tag=ECD_03634;pseudo=true	FALSE	7717
-CP001509.3	Genbank	mobile_genetic_element	3822343	3823788	.	-	.	ID=id-CP001509.3:3822343..3823788;gbkey=mobile_element;mobile_element_type=insertion sequence:IS150	FALSE	7908
+CP001509.3	Genbank	pseudogene	3822152	3824017	.	+	.	ID=gene-ECD_03634;Name=rbsD;Note=interrupted_by_IS150%3B_similar_to_b3748%3B_predicted_cytoplasmic_sugar-binding_protein;gbkey=Gene;gene=rbsD;gene_biotype=pseudogene;locus_tag=ECD_03634;pseudo=true	FALSE	7717
+CP001509.3	Genbank	mobile_genetic_element	3822343	3823788	.	-	.	ID=id-CP001509.3:3822343..3823788;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS150	FALSE	7908
 CP001509.3	Genbank	gene	3822369	3823220	.	-	.	ID=gene-ECD_04284;Name=insK-6;gbkey=Gene;gene=insK-6;gene_biotype=protein_coding;locus_tag=ECD_04284	FALSE	7934
 CP001509.3	Genbank	gene	3823217	3823738	.	-	.	ID=gene-ECD_04285;Name=insJ-6;gbkey=Gene;gene=insJ-6;gene_biotype=protein_coding;locus_tag=ECD_04285	FALSE	8782
 CP001509.3	Genbank	gene	3824025	3825530	.	+	.	ID=gene-ECD_03635;Name=rbsA;gbkey=Gene;gene=rbsA;gene_biotype=protein_coding;locus_tag=ECD_03635	FALSE	9590
@@ -3685,7 +3683,7 @@ CP001509.3	Genbank	gene	3847169	3848062	.	-	.	ID=gene-ECD_03651;Name=ilvY;gbkey=
 CP001509.3	Genbank	gene	3848212	3849687	.	+	.	ID=gene-ECD_03652;Name=ilvC;gbkey=Gene;gene=ilvC;gene_biotype=protein_coding;locus_tag=ECD_03652	FALSE	33777
 CP001509.3	Genbank	gene	3849774	3850055	.	-	.	ID=gene-ECD_03653;Name=ppiC;gbkey=Gene;gene=ppiC;gene_biotype=protein_coding;locus_tag=ECD_03653	FALSE	35339
 CP001509.3	Genbank	gene	3850254	3850529	.	-	.	ID=gene-ECD_03654;Name=ECD_03654;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_03654	FALSE	35819
-CP001509.3	Genbank	pseudogene	3850484	3850702	.	-	.	ID=gene-ECD_03655;Name=yifN;Note=similar to b3777%3B conserved protein;gbkey=Gene;gene=yifN;gene_biotype=pseudogene;locus_tag=ECD_03655;pseudo=true	FALSE	36049
+CP001509.3	Genbank	pseudogene	3850484	3850702	.	-	.	ID=gene-ECD_03655;Name=yifN;Note=similar_to_b3777%3B_conserved_protein;gbkey=Gene;gene=yifN;gene_biotype=pseudogene;locus_tag=ECD_03655;pseudo=true	FALSE	36049
 CP001509.3	Genbank	gene	3850919	3852940	.	+	.	ID=gene-ECD_03656;Name=rep;gbkey=Gene;gene=rep;gene_biotype=protein_coding;locus_tag=ECD_03656	FALSE	36484
 CP001509.3	Genbank	gene	3852987	3854471	.	-	.	ID=gene-ECD_03657;Name=gpp;gbkey=Gene;gene=gpp;gene_biotype=protein_coding;locus_tag=ECD_03657	FALSE	38552
 CP001509.3	Genbank	gene	3854605	3855870	.	-	.	ID=gene-ECD_03658;Name=rhlB;gbkey=Gene;gene=rhlB;gene_biotype=protein_coding;locus_tag=ECD_03658	FALSE	40170
@@ -3895,7 +3893,7 @@ CP001509.3	Genbank	gene	4067691	4069091	.	-	.	ID=gene-ECD_03847;Name=sthA;gbkey=
 CP001509.3	Genbank	gene	4069368	4070072	.	+	.	ID=gene-ECD_03848;Name=fabR;gbkey=Gene;gene=fabR;gene_biotype=protein_coding;locus_tag=ECD_03848	FALSE	254933
 CP001509.3	Genbank	gene	4070072	4070431	.	+	.	ID=gene-ECD_03849;Name=yijD;gbkey=Gene;gene=yijD;gene_biotype=protein_coding;locus_tag=ECD_03849	FALSE	255637
 CP001509.3	Genbank	gene	4070471	4071571	.	-	.	ID=gene-ECD_03850;Name=trmA;gbkey=Gene;gene=trmA;gene_biotype=protein_coding;locus_tag=ECD_03850	FALSE	256036
-CP001509.3	Genbank	pseudogene	4071940	4073784	.	+	.	ID=gene-ECD_03851;Name=btuB;Note=interrupted by in-frame stop codon%3B similar to b3966%3B vitamin B12/cobalamin outer membrane transporter;gbkey=Gene;gene=btuB;gene_biotype=pseudogene;locus_tag=ECD_03851;pseudo=true	FALSE	257505
+CP001509.3	Genbank	pseudogene	4071940	4073784	.	+	.	ID=gene-ECD_03851;Name=btuB;Note=interrupted_by_in-frame_stop_codon%3B_similar_to_b3966%3B_vitamin_B12/cobalamin_outer_membrane_transporter;gbkey=Gene;gene=btuB;gene_biotype=pseudogene;locus_tag=ECD_03851;pseudo=true	FALSE	257505
 CP001509.3	Genbank	gene	4073729	4074586	.	+	.	ID=gene-ECD_03852;Name=murI;gbkey=Gene;gene=murI;gene_biotype=protein_coding;locus_tag=ECD_03852	FALSE	259294
 CP001509.3	Genbank	gene	4074960	4076501	.	+	.	ID=gene-ECD_r00017;Name=rrsB;gbkey=Gene;gene=rrsB;gene_biotype=rRNA;locus_tag=ECD_r00017	FALSE	260525
 CP001509.3	Genbank	gene	4076587	4076662	.	+	.	ID=gene-ECD_t00073;Name=gltT;gbkey=Gene;gene=gltT;gene_biotype=tRNA;locus_tag=ECD_t00073	FALSE	262152
@@ -3946,7 +3944,7 @@ CP001509.3	Genbank	gene	4122165	4123094	.	+	.	ID=gene-ECD_03885;Name=metA;gbkey=
 CP001509.3	Genbank	gene	4123363	4124964	.	+	.	ID=gene-ECD_03886;Name=aceB;gbkey=Gene;gene=aceB;gene_biotype=protein_coding;locus_tag=ECD_03886	FALSE	308928
 CP001509.3	Genbank	gene	4124994	4126298	.	+	.	ID=gene-ECD_03887;Name=aceA;gbkey=Gene;gene=aceA;gene_biotype=protein_coding;locus_tag=ECD_03887	FALSE	310559
 CP001509.3	Genbank	gene	4126579	4128315	.	+	.	ID=gene-ECD_03888;Name=aceK;gbkey=Gene;gene=aceK;gene_biotype=protein_coding;locus_tag=ECD_03888	FALSE	312144
-CP001509.3	Genbank	pseudogene	4128284	4129858	.	-	.	ID=gene-ECD_03889;Name=arpA;Note=interrupted by in-frame stop%3B regulator of acetyl CoA synthetase%3B ankyrin-like regulatory protein%3B similar to b4017;gbkey=Gene;gene=arpA;gene_biotype=pseudogene;locus_tag=ECD_03889;pseudo=true	FALSE	313849
+CP001509.3	Genbank	pseudogene	4128284	4129858	.	-	.	ID=gene-ECD_03889;Name=arpA;Note=interrupted_by_in-frame_stop%3B_regulator_of_acetyl_CoA_synthetase%3B_ankyrin-like_regulatory_protein%3B_similar_to_b4017;gbkey=Gene;gene=arpA;gene_biotype=pseudogene;locus_tag=ECD_03889;pseudo=true	FALSE	313849
 CP001509.3	Genbank	gene	4130175	4130999	.	-	.	ID=gene-ECD_03890;Name=iclR;gbkey=Gene;gene=iclR;gene_biotype=protein_coding;locus_tag=ECD_03890	FALSE	315740
 CP001509.3	Genbank	gene	4131199	4134882	.	+	.	ID=gene-ECD_03891;Name=metH;gbkey=Gene;gene=metH;gene_biotype=protein_coding;locus_tag=ECD_03891	FALSE	316764
 CP001509.3	Genbank	gene	4135102	4136733	.	+	.	ID=gene-ECD_03892;Name=yjbB;gbkey=Gene;gene=yjbB;gene_biotype=protein_coding;locus_tag=ECD_03892	FALSE	320667
@@ -3996,7 +3994,7 @@ CP001509.3	Genbank	gene	4184470	4184793	.	-	.	ID=gene-ECD_03934;Name=soxS;gbkey=
 CP001509.3	Genbank	gene	4184879	4185343	.	+	.	ID=gene-ECD_03935;Name=soxR;gbkey=Gene;gene=soxR;gene_biotype=protein_coding;locus_tag=ECD_03935	FALSE	370444
 CP001509.3	Genbank	gene	4185889	4187238	.	+	.	ID=gene-ECD_03936;Name=ghxP;gbkey=Gene;gene=ghxP;gene_biotype=protein_coding;locus_tag=ECD_03936	FALSE	371454
 CP001509.3	Genbank	gene	4187390	4189039	.	+	.	ID=gene-ECD_03937;Name=yjcE;gbkey=Gene;gene=yjcE;gene_biotype=protein_coding;locus_tag=ECD_03937	FALSE	372955
-CP001509.3	Genbank	pseudogene	4189193	4190486	.	-	.	ID=gene-ECD_03938;Name=yjcF;Note=frameshift%3B similar to b4066%3B hypothetical protein;gbkey=Gene;gene=yjcF;gene_biotype=pseudogene;locus_tag=ECD_03938;pseudo=true	FALSE	374758
+CP001509.3	Genbank	pseudogene	4189193	4190486	.	-	.	ID=gene-ECD_03938;Name=yjcF;Note=frameshift%3B_similar_to_b4066%3B_hypothetical_protein;gbkey=Gene;gene=yjcF;gene_biotype=pseudogene;locus_tag=ECD_03938;pseudo=true	FALSE	374758
 CP001509.3	Genbank	gene	4190664	4192313	.	-	.	ID=gene-ECD_03939;Name=actP;gbkey=Gene;gene=actP;gene_biotype=protein_coding;locus_tag=ECD_03939	FALSE	376229
 CP001509.3	Genbank	gene	4192310	4192624	.	-	.	ID=gene-ECD_03940;Name=yjcH;gbkey=Gene;gene=yjcH;gene_biotype=protein_coding;locus_tag=ECD_03940	FALSE	377875
 CP001509.3	Genbank	gene	4192825	4194783	.	-	.	ID=gene-ECD_03941;Name=acs;gbkey=Gene;gene=acs;gene_biotype=protein_coding;locus_tag=ECD_03941	FALSE	378390
@@ -4033,7 +4031,7 @@ CP001509.3	Genbank	gene	4226786	4227850	.	-	.	ID=gene-ECD_03971;Name=phnI;gbkey=
 CP001509.3	Genbank	gene	4227850	4228434	.	-	.	ID=gene-ECD_03972;Name=phnH;gbkey=Gene;gene=phnH;gene_biotype=protein_coding;locus_tag=ECD_03972	FALSE	413415
 CP001509.3	Genbank	gene	4228431	4228883	.	-	.	ID=gene-ECD_03973;Name=phnG;gbkey=Gene;gene=phnG;gene_biotype=protein_coding;locus_tag=ECD_03973	FALSE	413996
 CP001509.3	Genbank	gene	4228884	4229609	.	-	.	ID=gene-ECD_03974;Name=phnF;gbkey=Gene;gene=phnF;gene_biotype=protein_coding;locus_tag=ECD_03974	FALSE	414449
-CP001509.3	Genbank	gene	4229630	4230448	.	-	.	ID=gene-ECD_03975;Name=phnE;Note=separate in K-12 MG1655;gbkey=Gene;gene=phnE;gene_biotype=protein_coding;locus_tag=ECD_03975	FALSE	415195
+CP001509.3	Genbank	gene	4229630	4230448	.	-	.	ID=gene-ECD_03975;Name=phnE;Note=separate_in_K-12_MG1655;gbkey=Gene;gene=phnE;gene_biotype=protein_coding;locus_tag=ECD_03975	FALSE	415195
 CP001509.3	Genbank	gene	4230515	4231531	.	-	.	ID=gene-ECD_03976;Name=phnD;gbkey=Gene;gene=phnD;gene_biotype=protein_coding;locus_tag=ECD_03976	FALSE	416080
 CP001509.3	Genbank	gene	4231556	4232344	.	-	.	ID=gene-ECD_03977;Name=phnC;gbkey=Gene;gene=phnC;gene_biotype=protein_coding;locus_tag=ECD_03977	FALSE	417121
 CP001509.3	Genbank	gene	4232477	4232920	.	-	.	ID=gene-ECD_03978;Name=yjdN;gbkey=Gene;gene=yjdN;gene_biotype=protein_coding;locus_tag=ECD_03978	FALSE	418042
@@ -4055,7 +4053,7 @@ CP001509.3	Genbank	gene	4252008	4252637	.	-	.	ID=gene-ECD_03992;Name=yjdF;gbkey=
 CP001509.3	Genbank	gene	4252760	4254406	.	-	.	ID=gene-ECD_03993;Name=fumB;gbkey=Gene;gene=fumB;gene_biotype=protein_coding;locus_tag=ECD_03993	FALSE	438325
 CP001509.3	Genbank	gene	4254484	4255824	.	-	.	ID=gene-ECD_03994;Name=dcuB;gbkey=Gene;gene=dcuB;gene_biotype=protein_coding;locus_tag=ECD_03994	FALSE	440049
 CP001509.3	Genbank	gene	4256395	4257114	.	-	.	ID=gene-ECD_03995;Name=dcuR;gbkey=Gene;gene=dcuR;gene_biotype=protein_coding;locus_tag=ECD_03995	FALSE	441960
-CP001509.3	Genbank	pseudogene	4257111	4258747	.	-	.	ID=gene-ECD_03996;Name=dcuS;Note=frameshift%3B sensor of fumarate two-component regulatory system%3B b4125;gbkey=Gene;gene=dcuS;gene_biotype=pseudogene;locus_tag=ECD_03996;pseudo=true	FALSE	442676
+CP001509.3	Genbank	pseudogene	4257111	4258747	.	-	.	ID=gene-ECD_03996;Name=dcuS;Note=frameshift%3B_sensor_of_fumarate_two-component_regulatory_system%3B_b4125;gbkey=Gene;gene=dcuS;gene_biotype=pseudogene;locus_tag=ECD_03996;pseudo=true	FALSE	442676
 CP001509.3	Genbank	gene	4258928	4259158	.	+	.	ID=gene-ECD_03997;Name=yjdI;gbkey=Gene;gene=yjdI;gene_biotype=protein_coding;locus_tag=ECD_03997	FALSE	444493
 CP001509.3	Genbank	gene	4259170	4259442	.	+	.	ID=gene-ECD_03998;Name=yjdJ;gbkey=Gene;gene=yjdJ;gene_biotype=protein_coding;locus_tag=ECD_03998	FALSE	444735
 CP001509.3	Genbank	gene	4259669	4259965	.	+	.	ID=gene-ECD_03999;Name=ghoS;gbkey=Gene;gene=ghoS;gene_biotype=protein_coding;locus_tag=ECD_03999	FALSE	445234
@@ -4166,7 +4164,7 @@ CP001509.3	Genbank	gene	4366226	4367224	.	-	.	ID=gene-ECD_04100;Name=fbp;gbkey=G
 CP001509.3	Genbank	gene	4367400	4368773	.	+	.	ID=gene-ECD_04101;Name=mpl;gbkey=Gene;gene=mpl;gene_biotype=protein_coding;locus_tag=ECD_04101	FALSE	552965
 CP001509.3	Genbank	gene	4368929	4369480	.	-	.	ID=gene-ECD_04102;Name=yjgA;gbkey=Gene;gene=yjgA;gene_biotype=protein_coding;locus_tag=ECD_04102	FALSE	554494
 CP001509.3	Genbank	gene	4369575	4370927	.	+	.	ID=gene-ECD_04103;Name=pmbA;gbkey=Gene;gene=pmbA;gene_biotype=protein_coding;locus_tag=ECD_04103	FALSE	555140
-CP001509.3	Genbank	pseudogene	4371194	4371496	.	+	.	ID=gene-ECD_04104;Name=cybC;Note=similar to b4236%3B cytochrome b562;gbkey=Gene;gene=cybC;gene_biotype=pseudogene;locus_tag=ECD_04104;pseudo=true	FALSE	556759
+CP001509.3	Genbank	pseudogene	4371194	4371496	.	+	.	ID=gene-ECD_04104;Name=cybC;Note=similar_to_b4236%3B_cytochrome_b562;gbkey=Gene;gene=cybC;gene_biotype=pseudogene;locus_tag=ECD_04104;pseudo=true	FALSE	556759
 CP001509.3	Genbank	gene	4371541	4372005	.	-	.	ID=gene-ECD_04105;Name=nrdG;gbkey=Gene;gene=nrdG;gene_biotype=protein_coding;locus_tag=ECD_04105	FALSE	557106
 CP001509.3	Genbank	gene	4372164	4374302	.	-	.	ID=gene-ECD_04106;Name=nrdD;gbkey=Gene;gene=nrdD;gene_biotype=protein_coding;locus_tag=ECD_04106	FALSE	557729
 CP001509.3	Genbank	gene	4374696	4376351	.	-	.	ID=gene-ECD_04107;Name=treC;gbkey=Gene;gene=treC;gene_biotype=protein_coding;locus_tag=ECD_04107	FALSE	560261
@@ -4200,27 +4198,27 @@ CP001509.3	Genbank	gene	4404968	4405999	.	-	.	ID=gene-ECD_04133;Name=idnD;gbkey=
 CP001509.3	Genbank	gene	4406216	4406779	.	+	.	ID=gene-ECD_04134;Name=idnK;gbkey=Gene;gene=idnK;gene_biotype=protein_coding;locus_tag=ECD_04134	FALSE	591781
 CP001509.3	Genbank	gene	4406783	4407802	.	-	.	ID=gene-ECD_04135;Name=ahr;gbkey=Gene;gene=ahr;gene_biotype=protein_coding;locus_tag=ECD_04135	FALSE	592348
 CP001509.3	Genbank	gene	4407998	4408082	.	+	.	ID=gene-ECD_t00083;Name=leuX;gbkey=Gene;gene=leuX;gene_biotype=tRNA;locus_tag=ECD_t00083	FALSE	593563
-CP001509.3	Genbank	sequence_feature	4408133	4445112	.	+	.	ID=id-CP001509.3:4408133..4445112;Note=phage-like element KpLE2;gbkey=misc_feature	FALSE	593698
+CP001509.3	Genbank	sequence_feature	4408133	4445112	.	+	.	ID=id-CP001509.3:4408133..4445112;Note=phage-like_element_KpLE2;gbkey=misc_feature	FALSE	593698
 CP001509.3	Genbank	gene	4408343	4409533	.	+	.	ID=gene-ECD_04136;Name=intB;gbkey=Gene;gene=intB;gene_biotype=protein_coding;locus_tag=ECD_04136	FALSE	593908
 CP001509.3	Genbank	gene	4409856	4410191	.	+	.	ID=gene-ECD_04137;Name=yjgW;gbkey=Gene;gene=yjgW;gene_biotype=protein_coding;locus_tag=ECD_04137	FALSE	595421
-CP001509.3	Genbank	pseudogene	4409934	4411048	.	-	.	ID=gene-ECD_04138;Name=yjgX;Note=interrupted by frameshift and in-frame stop%3B also pseudo in K-12%3B similar to b4275-b4276-b4560(b4575);gbkey=Gene;gene=yjgX;gene_biotype=pseudogene;locus_tag=ECD_04138;pseudo=true	FALSE	595499
+CP001509.3	Genbank	pseudogene	4409934	4411048	.	-	.	ID=gene-ECD_04138;Name=yjgX;Note=interrupted_by_frameshift_and_in-frame_stop%3B_also_pseudo_in_K-12%3B_similar_to_b4275-b4276-b4560(b4575);gbkey=Gene;gene=yjgX;gene_biotype=pseudogene;locus_tag=ECD_04138;pseudo=true	FALSE	595499
 CP001509.3	Genbank	gene	4411517	4411846	.	+	.	ID=gene-ECD_04139;Name=yjgZ;gbkey=Gene;gene=yjgZ;gene_biotype=protein_coding;locus_tag=ECD_04139	FALSE	597082
 CP001509.3	Genbank	gene	4412189	4412332	.	+	.	ID=gene-ECD_04391;Name=ECD_04391;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04391	FALSE	597754
-CP001509.3	Genbank	mobile_genetic_element	4412347	4413772	.	-	.	ID=id-CP001509.3:4412347..4413772;gbkey=mobile_element;mobile_element_type=insertion sequence:IS4	FALSE	597912
+CP001509.3	Genbank	mobile_genetic_element	4412347	4413772	.	-	.	ID=id-CP001509.3:4412347..4413772;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS4	FALSE	597912
 CP001509.3	Genbank	gene	4412360	4413688	.	-	.	ID=gene-ECD_04140;Name=insG;gbkey=Gene;gene=insG;gene_biotype=protein_coding;locus_tag=ECD_04140	FALSE	597925
 CP001509.3	Genbank	gene	4414315	4415532	.	+	.	ID=gene-ECD_04141;Name=yjhB;gbkey=Gene;gene=yjhB;gene_biotype=protein_coding;locus_tag=ECD_04141	FALSE	599880
 CP001509.3	Genbank	gene	4415544	4416662	.	+	.	ID=gene-ECD_04142;Name=yjhC;gbkey=Gene;gene=yjhC;gene_biotype=protein_coding;locus_tag=ECD_04142	FALSE	601109
-CP001509.3	Genbank	pseudogene	4416883	4417113	.	-	.	ID=gene-ECD_04143;Name=yjhD;Note=similar to b4281%3B predicted protein;gbkey=Gene;gene=yjhD;gene_biotype=pseudogene;locus_tag=ECD_04143;pseudo=true	FALSE	602448
-CP001509.3	Genbank	pseudogene	4417118	4417366	.	+	.	ID=gene-ECD_04144;Name=yjhE;Note=similar to b4282%3B predicted membrane protein;gbkey=Gene;gene=yjhE;gene_biotype=pseudogene;locus_tag=ECD_04144;pseudo=true	FALSE	602683
+CP001509.3	Genbank	pseudogene	4416883	4417113	.	-	.	ID=gene-ECD_04143;Name=yjhD;Note=similar_to_b4281%3B_predicted_protein;gbkey=Gene;gene=yjhD;gene_biotype=pseudogene;locus_tag=ECD_04143;pseudo=true	FALSE	602448
+CP001509.3	Genbank	pseudogene	4417118	4417366	.	+	.	ID=gene-ECD_04144;Name=yjhE;Note=similar_to_b4282%3B_predicted_membrane_protein;gbkey=Gene;gene=yjhE;gene_biotype=pseudogene;locus_tag=ECD_04144;pseudo=true	FALSE	602683
 CP001509.3	Genbank	gene	4417454	4417726	.	+	.	ID=gene-ECD_04145;Name=insN;gbkey=Gene;gene=insN;gene_biotype=protein_coding;locus_tag=ECD_04145	FALSE	603019
-CP001509.3	Genbank	mobile_genetic_element	4417458	4418655	.	+	.	ID=id-CP001509.3:4417458..4418655;gbkey=mobile_element;mobile_element_type=insertion sequence:IS911	FALSE	603023
+CP001509.3	Genbank	mobile_genetic_element	4417458	4418655	.	+	.	ID=id-CP001509.3:4417458..4418655;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS911	FALSE	603023
 CP001509.3	Genbank	gene	4417782	4418621	.	+	.	ID=gene-ECD_04146;Name=ECD_04146;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04146	FALSE	603347
 CP001509.3	Genbank	gene	4418737	4419000	.	+	.	ID=gene-ECD_04147;Name=ECD_04147;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04147	FALSE	604302
 CP001509.3	Genbank	gene	4419032	4421035	.	-	.	ID=gene-ECD_04148;Name=ECD_04148;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04148	FALSE	604597
-CP001509.3	Genbank	mobile_genetic_element	4421158	4422337	.	-	.	ID=id-CP001509.3:4421158..4422337;gbkey=mobile_element;mobile_element_type=insertion sequence:IS600	FALSE	606723
+CP001509.3	Genbank	mobile_genetic_element	4421158	4422337	.	-	.	ID=id-CP001509.3:4421158..4422337;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS600	FALSE	606723
 CP001509.3	Genbank	gene	4421183	4422001	.	-	.	ID=gene-ECD_04149;Name=yis2;gbkey=Gene;gene=yis2;gene_biotype=protein_coding;locus_tag=ECD_04149	FALSE	606748
 CP001509.3	Genbank	gene	4422037	4422339	.	-	.	ID=gene-ECD_04150;Name=yis1;gbkey=Gene;gene=yis1;gene_biotype=protein_coding;locus_tag=ECD_04150	FALSE	607602
-CP001509.3	Genbank	pseudogene	4422355	4422951	.	+	.	ID=gene-ECD_04151;Name=ECD_04151;Note=similar to b4285%3B partial transposase of IS911B;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_04151;pseudo=true	FALSE	607920
+CP001509.3	Genbank	pseudogene	4422355	4422951	.	+	.	ID=gene-ECD_04151;Name=ECD_04151;Note=similar_to_b4285%3B_partial_transposase_of_IS911B;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECD_04151;pseudo=true	FALSE	607920
 CP001509.3	Genbank	gene	4423117	4423530	.	+	.	ID=gene-ECD_04152;Name=yjhV;gbkey=Gene;gene=yjhV;gene_biotype=protein_coding;locus_tag=ECD_04152	FALSE	608682
 CP001509.3	Genbank	gene	4424087	4424854	.	-	.	ID=gene-ECD_04153;Name=fecE;gbkey=Gene;gene=fecE;gene_biotype=protein_coding;locus_tag=ECD_04153	FALSE	609652
 CP001509.3	Genbank	gene	4424855	4425811	.	-	.	ID=gene-ECD_04154;Name=fecD;gbkey=Gene;gene=fecD;gene_biotype=protein_coding;locus_tag=ECD_04154	FALSE	610420
@@ -4229,11 +4227,11 @@ CP001509.3	Genbank	gene	4426803	4427705	.	-	.	ID=gene-ECD_04156;Name=fecB;gbkey=
 CP001509.3	Genbank	gene	4427750	4430074	.	-	.	ID=gene-ECD_04157;Name=fecA;gbkey=Gene;gene=fecA;gene_biotype=protein_coding;locus_tag=ECD_04157	FALSE	613315
 CP001509.3	Genbank	gene	4430161	4431114	.	-	.	ID=gene-ECD_04158;Name=fecR;gbkey=Gene;gene=fecR;gene_biotype=protein_coding;locus_tag=ECD_04158	FALSE	615726
 CP001509.3	Genbank	gene	4431111	4431632	.	-	.	ID=gene-ECD_04159;Name=fecI;gbkey=Gene;gene=fecI;gene_biotype=protein_coding;locus_tag=ECD_04159	FALSE	616676
-CP001509.3	Genbank	mobile_genetic_element	4431869	4432636	.	+	.	ID=id-CP001509.3:4431869..4432636;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	617434
+CP001509.3	Genbank	mobile_genetic_element	4431869	4432636	.	+	.	ID=id-CP001509.3:4431869..4432636;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	617434
 CP001509.3	Genbank	gene	4431924	4432199	.	+	.	ID=gene-ECD_04160;Name=insA-25;gbkey=Gene;gene=insA-25;gene_biotype=protein_coding;locus_tag=ECD_04160	FALSE	617489
-CP001509.3	Genbank	pseudogene	4432226	4432621	.	+	.	ID=gene-ECD_04161;Name=insB-25;Note=interrupted by in-frame stop%3B similar to b4563(b4576)%3B IS1 protein insB;gbkey=Gene;gene=insB-25;gene_biotype=pseudogene;locus_tag=ECD_04161;pseudo=true	FALSE	617791
+CP001509.3	Genbank	pseudogene	4432226	4432621	.	+	.	ID=gene-ECD_04161;Name=insB-25;Note=interrupted_by_in-frame_stop%3B_similar_to_b4563(b4576)%3B_IS1_protein_insB;gbkey=Gene;gene=insB-25;gene_biotype=pseudogene;locus_tag=ECD_04161;pseudo=true	FALSE	617791
 CP001509.3	Genbank	gene	4433346	4433639	.	+	.	ID=gene-ECD_04162;Name=ECD_04162;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECD_04162	FALSE	618911
-CP001509.3	Genbank	mobile_genetic_element	4433707	4434474	.	-	.	ID=id-CP001509.3:4433707..4434474;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	TRUE	619272
+CP001509.3	Genbank	mobile_genetic_element	4433707	4434474	.	-	.	ID=id-CP001509.3:4433707..4434474;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	TRUE	619272
 CP001509.3	Genbank	gene	4433722	4434225	.	-	.	ID=gene-ECD_04163;Name=insB-26;gbkey=Gene;gene=insB-26;gene_biotype=protein_coding;locus_tag=ECD_04163	TRUE	619287
 CP001509.3	Genbank	gene	4434144	4434419	.	-	.	ID=gene-ECD_04164;Name=insA-26;gbkey=Gene;gene=insA-26;gene_biotype=protein_coding;locus_tag=ECD_04164	FALSE	619709
 CP001509.3	Genbank	gene	4434609	4435391	.	-	.	ID=gene-ECD_04165;Name=sgcR;gbkey=Gene;gene=sgcR;gene_biotype=protein_coding;locus_tag=ECD_04165	FALSE	620174
@@ -4246,12 +4244,12 @@ CP001509.3	Genbank	gene	4439033	4440154	.	-	.	ID=gene-ECD_04171;Name=sgcX;gbkey=
 CP001509.3	Genbank	gene	4440940	4441686	.	-	.	ID=gene-ECD_04172;Name=yjhP;gbkey=Gene;gene=yjhP;gene_biotype=protein_coding;locus_tag=ECD_04172	FALSE	626505
 CP001509.3	Genbank	gene	4441742	4442287	.	-	.	ID=gene-ECD_04173;Name=yjhQ;gbkey=Gene;gene=yjhQ;gene_biotype=protein_coding;locus_tag=ECD_04173	FALSE	627307
 CP001509.3	Genbank	gene	4442299	4442556	.	-	.	ID=gene-ECD_04174;Name=yjhX;gbkey=Gene;gene=yjhX;gene_biotype=protein_coding;locus_tag=ECD_04174	FALSE	627864
-CP001509.3	Genbank	pseudogene	4443518	4444534	.	+	.	ID=gene-ECD_04175;Name=yjhR;Note=interrupted by in-frame stop%3B frameshift suppressor contains phospolipase D/nuclease%3B similar to b4308;gbkey=Gene;gene=yjhR;gene_biotype=pseudogene;locus_tag=ECD_04175;pseudo=true	FALSE	629083
+CP001509.3	Genbank	pseudogene	4443518	4444534	.	+	.	ID=gene-ECD_04175;Name=yjhR;Note=interrupted_by_in-frame_stop%3B_frameshift_suppressor_contains_phospolipase_D/nuclease%3B_similar_to_b4308;gbkey=Gene;gene=yjhR;gene_biotype=pseudogene;locus_tag=ECD_04175;pseudo=true	FALSE	629083
 CP001509.3	Genbank	gene	4445117	4446097	.	-	.	ID=gene-ECD_04176;Name=nanS;gbkey=Gene;gene=nanS;gene_biotype=protein_coding;locus_tag=ECD_04176	FALSE	630682
 CP001509.3	Genbank	gene	4446162	4447268	.	-	.	ID=gene-ECD_04177;Name=nanM;gbkey=Gene;gene=nanM;gene_biotype=protein_coding;locus_tag=ECD_04177	FALSE	631727
 CP001509.3	Genbank	gene	4447288	4448004	.	-	.	ID=gene-ECD_04178;Name=nanC;gbkey=Gene;gene=nanC;gene_biotype=protein_coding;locus_tag=ECD_04178	FALSE	632853
-CP001509.3	Genbank	pseudogene	4449460	4450838	.	+	.	ID=gene-ECD_04179;Name=fimB;Note=interrupted by IS1%3B recombinase involved in phase variation%3B regulator for fimA%3B similar to b4312;gbkey=Gene;gene=fimB;gene_biotype=pseudogene;locus_tag=ECD_04179;pseudo=true	FALSE	635025
-CP001509.3	Genbank	mobile_genetic_element	4449936	4450703	.	-	.	ID=id-CP001509.3:4449936..4450703;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	635501
+CP001509.3	Genbank	pseudogene	4449460	4450838	.	+	.	ID=gene-ECD_04179;Name=fimB;Note=interrupted_by_IS1%3B_recombinase_involved_in_phase_variation%3B_regulator_for_fimA%3B_similar_to_b4312;gbkey=Gene;gene=fimB;gene_biotype=pseudogene;locus_tag=ECD_04179;pseudo=true	FALSE	635025
+CP001509.3	Genbank	mobile_genetic_element	4449936	4450703	.	-	.	ID=id-CP001509.3:4449936..4450703;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	635501
 CP001509.3	Genbank	gene	4449951	4450454	.	-	.	ID=gene-ECD_04180;Name=insB-27;gbkey=Gene;gene=insB-27;gene_biotype=protein_coding;locus_tag=ECD_04180	FALSE	635516
 CP001509.3	Genbank	gene	4450373	4450648	.	-	.	ID=gene-ECD_04181;Name=insA-27;gbkey=Gene;gene=insA-27;gene_biotype=protein_coding;locus_tag=ECD_04181	FALSE	635938
 CP001509.3	Genbank	gene	4451316	4451912	.	+	.	ID=gene-ECD_04182;Name=fimE;gbkey=Gene;gene=fimE;gene_biotype=protein_coding;locus_tag=ECD_04182	FALSE	636881
@@ -4279,17 +4277,17 @@ CP001509.3	Genbank	gene	4473201	4473968	.	-	.	ID=gene-ECD_04203;Name=yjiL;gbkey=
 CP001509.3	Genbank	gene	4473978	4475129	.	-	.	ID=gene-ECD_04204;Name=yjiM;gbkey=Gene;gene=yjiM;gene_biotype=protein_coding;locus_tag=ECD_04204	FALSE	659543
 CP001509.3	Genbank	gene	4475245	4476525	.	-	.	ID=gene-ECD_04205;Name=yjiN;gbkey=Gene;gene=yjiN;gene_biotype=protein_coding;locus_tag=ECD_04205	FALSE	660810
 CP001509.3	Genbank	gene	4476566	4477798	.	-	.	ID=gene-ECD_04206;Name=mdtM;gbkey=Gene;gene=mdtM;gene_biotype=protein_coding;locus_tag=ECD_04206	FALSE	662131
-CP001509.3	Genbank	gene	4478277	4479044	.	+	.	ID=gene-ECD_04207;Name=yjiPQ;Note=separated in K-12 MG1655;gbkey=Gene;gene=yjiPQ;gene_biotype=protein_coding;locus_tag=ECD_04207	FALSE	663842
-CP001509.3	Genbank	mobile_genetic_element	4479044	4479811	.	+	.	ID=id-CP001509.3:4479044..4479811;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	664609
+CP001509.3	Genbank	gene	4478277	4479044	.	+	.	ID=gene-ECD_04207;Name=yjiPQ;Note=separated_in_K-12_MG1655;gbkey=Gene;gene=yjiPQ;gene_biotype=protein_coding;locus_tag=ECD_04207	FALSE	663842
+CP001509.3	Genbank	mobile_genetic_element	4479044	4479811	.	+	.	ID=id-CP001509.3:4479044..4479811;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	664609
 CP001509.3	Genbank	gene	4479099	4479374	.	+	.	ID=gene-ECD_04208;Name=insA-28;gbkey=Gene;gene=insA-28;gene_biotype=protein_coding;locus_tag=ECD_04208	FALSE	664664
 CP001509.3	Genbank	gene	4479293	4479796	.	+	.	ID=gene-ECD_04209;Name=insB-28;gbkey=Gene;gene=insB-28;gene_biotype=protein_coding;locus_tag=ECD_04209	FALSE	664858
-CP001509.3	Genbank	pseudogene	4479911	4483165	.	+	.	ID=gene-ECD_04210;Name=yjiV;Note=similar to b4486%3B conserved protein;gbkey=Gene;gene=yjiV;gene_biotype=pseudogene;locus_tag=ECD_04210;pseudo=true	FALSE	665476
+CP001509.3	Genbank	pseudogene	4479911	4483165	.	+	.	ID=gene-ECD_04210;Name=yjiV;Note=similar_to_b4486%3B_conserved_protein;gbkey=Gene;gene=yjiV;gene_biotype=pseudogene;locus_tag=ECD_04210;pseudo=true	FALSE	665476
 CP001509.3	Genbank	gene	4483222	4484268	.	-	.	ID=gene-ECD_04211;Name=mcrC;gbkey=Gene;gene=mcrC;gene_biotype=protein_coding;locus_tag=ECD_04211	FALSE	668787
 CP001509.3	Genbank	gene	4484268	4485647	.	-	.	ID=gene-ECD_04212;Name=mcrB;gbkey=Gene;gene=mcrB;gene_biotype=protein_coding;locus_tag=ECD_04212	FALSE	669833
 CP001509.3	Genbank	gene	4485809	4486150	.	-	.	ID=gene-ECD_04213;Name=symE;gbkey=Gene;gene=symE;gene_biotype=protein_coding;locus_tag=ECD_04213	FALSE	671374
 CP001509.3	Genbank	gene	4486145	4486221	.	+	.	ID=gene-ECD_n04393;Name=symR;gbkey=Gene;gene=symR;gene_biotype=ncRNA;locus_tag=ECD_n04393	FALSE	671710
-CP001509.3	Genbank	pseudogene	4486378	4488578	.	-	.	ID=gene-ECD_04214;Name=hsdS;Note=interrupted by IS1%3B similar to b4348%3B specificity determinant for hsdM and hsdR;gbkey=Gene;gene=hsdS;gene_biotype=pseudogene;locus_tag=ECD_04214;pseudo=true	FALSE	671943
-CP001509.3	Genbank	mobile_genetic_element	4487091	4487866	.	-	.	ID=id-ECD_04214;gbkey=mobile_element;mobile_element_type=insertion sequence:IS1	FALSE	672656
+CP001509.3	Genbank	pseudogene	4486378	4488578	.	-	.	ID=gene-ECD_04214;Name=hsdS;Note=interrupted_by_IS1%3B_similar_to_b4348%3B_specificity_determinant_for_hsdM_and_hsdR;gbkey=Gene;gene=hsdS;gene_biotype=pseudogene;locus_tag=ECD_04214;pseudo=true	FALSE	671943
+CP001509.3	Genbank	mobile_genetic_element	4487091	4487866	.	-	.	ID=id-ECD_04214;gbkey=mobile_element;mobile_element_type=insertion_sequence:IS1	FALSE	672656
 CP001509.3	Genbank	gene	4487106	4487609	.	-	.	ID=gene-ECD_04286;Name=insB-30;gbkey=Gene;gene=insB-30;gene_biotype=protein_coding;locus_tag=ECD_04286	FALSE	672671
 CP001509.3	Genbank	gene	4487528	4487755	.	-	.	ID=gene-ECD_04287;Name=insA-30;gbkey=Gene;gene=insA-30;gene_biotype=protein_coding;locus_tag=ECD_04287	FALSE	673093
 CP001509.3	Genbank	gene	4488575	4490164	.	-	.	ID=gene-ECD_04215;Name=hsdM;gbkey=Gene;gene=hsdM;gene_biotype=protein_coding;locus_tag=ECD_04215	FALSE	674140
@@ -4311,7 +4309,7 @@ CP001509.3	Genbank	gene	4507907	4509196	.	-	.	ID=gene-ECD_04230;Name=hpaG;gbkey=
 CP001509.3	Genbank	gene	4509468	4509914	.	+	.	ID=gene-ECD_04231;Name=hpaR;gbkey=Gene;gene=hpaR;gene_biotype=protein_coding;locus_tag=ECD_04231	FALSE	695033
 CP001509.3	Genbank	gene	4510033	4511688	.	+	.	ID=gene-ECD_04232;Name=tsr;gbkey=Gene;gene=tsr;gene_biotype=protein_coding;locus_tag=ECD_04232	FALSE	695598
 CP001509.3	Genbank	gene	4511737	4513098	.	-	.	ID=gene-ECD_04233;Name=lgoT;gbkey=Gene;gene=lgoT;gene_biotype=protein_coding;locus_tag=ECD_04233	FALSE	697302
-CP001509.3	Genbank	pseudogene	4513313	4514226	.	-	.	ID=gene-ECD_04234;Name=yjjM;Note=frameshift%3B putative transcriptional regulator%3B similar to b4357;gbkey=Gene;gene=yjjM;gene_biotype=pseudogene;locus_tag=ECD_04234;pseudo=true	FALSE	698878
+CP001509.3	Genbank	pseudogene	4513313	4514226	.	-	.	ID=gene-ECD_04234;Name=yjjM;Note=frameshift%3B_putative_transcriptional_regulator%3B_similar_to_b4357;gbkey=Gene;gene=yjjM;gene_biotype=pseudogene;locus_tag=ECD_04234;pseudo=true	FALSE	698878
 CP001509.3	Genbank	gene	4514365	4515387	.	+	.	ID=gene-ECD_04235;Name=lgoD;gbkey=Gene;gene=lgoD;gene_biotype=protein_coding;locus_tag=ECD_04235	FALSE	699930
 CP001509.3	Genbank	gene	4515525	4517816	.	-	.	ID=gene-ECD_04236;Name=opgB;gbkey=Gene;gene=opgB;gene_biotype=protein_coding;locus_tag=ECD_04236	FALSE	701090
 CP001509.3	Genbank	gene	4518070	4518564	.	-	.	ID=gene-ECD_04237;Name=yjjA;gbkey=Gene;gene=yjjA;gene_biotype=protein_coding;locus_tag=ECD_04237	FALSE	703635

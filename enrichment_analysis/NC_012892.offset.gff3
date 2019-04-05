@@ -1,6 +1,4 @@
-3812512
-4557041
-NC_012892.1	RefSeq	region	1	4557041	.	+	.	ID=NC_012892.1:1..4557041;Dbxref=taxon:511693;Is_circular=true;gbkey=Src;genome=genomic;mol_type=genomic DNA;strain=BL21	FALSE	744530
+NC_012892.1	RefSeq	region	1	4557041	.	+	.	ID=NC_012892.1:1..4557041;Dbxref=taxon:511693;Is_circular=true;gbkey=Src;genome=genomic;mol_type=genomic_DNA;strain=BL21	FALSE	744530
 NC_012892.1	RefSeq	gene	190	255	.	+	.	ID=gene-B21_00001;Dbxref=GeneID:8116703;Name=thrL;gbkey=Gene;gene=thrL;gene_biotype=protein_coding;locus_tag=B21_00001	FALSE	744719
 NC_012892.1	RefSeq	gene	336	2798	.	+	.	ID=gene-B21_00002;Dbxref=GeneID:8112805;Name=thrA;gbkey=Gene;gene=thrA;gene_biotype=protein_coding;locus_tag=B21_00002	FALSE	744865
 NC_012892.1	RefSeq	gene	2800	3732	.	+	.	ID=gene-B21_00003;Dbxref=GeneID:8112802;Name=thrB;gbkey=Gene;gene=thrB;gene_biotype=protein_coding;locus_tag=B21_00003	FALSE	747329
@@ -1388,7 +1386,7 @@ NC_012892.1	RefSeq	gene	1481038	1481184	.	-	.	ID=gene-B21_01424;Dbxref=GeneID:81
 NC_012892.1	RefSeq	gene	1481410	1481802	.	+	.	ID=gene-B21_01425;Dbxref=GeneID:8116141;Name=ybl66;gbkey=Gene;gene=ybl66;gene_biotype=protein_coding;locus_tag=B21_01425	FALSE	2225939
 NC_012892.1	RefSeq	gene	1481789	1485439	.	+	.	ID=gene-B21_01426;Dbxref=GeneID:8116142;Name=rhsDE;gbkey=Gene;gene=rhsDE;gene_biotype=protein_coding;locus_tag=B21_01426;partial=true;start_range=.,1481789	FALSE	2226318
 NC_012892.1	RefSeq	gene	1485423	1485905	.	+	.	ID=gene-B21_01427;Dbxref=GeneID:8113858;Name=ydcD;gbkey=Gene;gene=ydcD;gene_biotype=protein_coding;locus_tag=B21_01427	FALSE	2229952
-NC_012892.1	RefSeq	sequence_feature	1486087	1487077	.	+	.	ID=id-NC_012892.1:1486087..1487077;Note=potential frameshift: common BLAST hit: gi|209397232|ref|YP_002268846.1| putative transposase%2C IS4 family;gbkey=misc_feature	FALSE	2230616
+NC_012892.1	RefSeq	sequence_feature	1486087	1487077	.	+	.	ID=id-NC_012892.1:1486087..1487077;Note=potential_frameshift:_common_BLAST_hit:_gi|209397232|ref|YP_002268846.1|_putative_transposase%2C_IS4_family;gbkey=misc_feature	FALSE	2230616
 NC_012892.1	RefSeq	gene	1486087	1486833	.	+	.	ID=gene-B21_01428;Dbxref=GeneID:8114855;Name=yncI;gbkey=Gene;gene=yncI;gene_biotype=protein_coding;locus_tag=B21_01428	FALSE	2230616
 NC_012892.1	RefSeq	gene	1486877	1487077	.	+	.	ID=gene-B21_01429;Dbxref=GeneID:8116497;Name=yncM;gbkey=Gene;gene=yncM;gene_biotype=protein_coding;locus_tag=B21_01429	FALSE	2231406
 NC_012892.1	RefSeq	gene	1487317	1488090	.	+	.	ID=gene-B21_01430;Dbxref=GeneID:8116499;Name=ydcC;end_range=1488090,.;gbkey=Gene;gene=ydcC;gene_biotype=protein_coding;locus_tag=B21_01430;partial=true	FALSE	2231846
@@ -2714,7 +2712,7 @@ NC_012892.1	RefSeq	gene	3009624	3010802	.	-	.	ID=gene-B21_02820;Dbxref=GeneID:81
 NC_012892.1	RefSeq	gene	3010792	3011778	.	-	.	ID=gene-B21_02821;Dbxref=GeneID:8113208;Name=hybA;gbkey=Gene;gene=hybA;gene_biotype=protein_coding;locus_tag=B21_02821	FALSE	801720
 NC_012892.1	RefSeq	gene	3011781	3012899	.	-	.	ID=gene-B21_02822;Dbxref=GeneID:8113207;Name=hybO;gbkey=Gene;gene=hybO;gene_biotype=protein_coding;locus_tag=B21_02822	FALSE	800731
 NC_012892.1	RefSeq	gene	3013088	3013375	.	-	.	ID=gene-B21_02823;Dbxref=GeneID:8113214;Name=yghW;gbkey=Gene;gene=yghW;gene_biotype=protein_coding;locus_tag=B21_02823	FALSE	799424
-NC_012892.1	RefSeq	sequence_feature	3013494	3014258	.	-	.	ID=id-NC_012892.1:3013494..3014258;Note=potential frameshift: common BLAST hit: gi|218706627|ref|YP_002414146.1| putative enzyme;gbkey=misc_feature	FALSE	799018
+NC_012892.1	RefSeq	sequence_feature	3013494	3014258	.	-	.	ID=id-NC_012892.1:3013494..3014258;Note=potential_frameshift:_common_BLAST_hit:_gi|218706627|ref|YP_002414146.1|_putative_enzyme;gbkey=misc_feature	FALSE	799018
 NC_012892.1	RefSeq	gene	3013494	3013904	.	-	.	ID=gene-B21_02824;Dbxref=GeneID:8116428;Name=yghX;gbkey=Gene;gene=yghX;gene_biotype=protein_coding;locus_tag=B21_02824	FALSE	799018
 NC_012892.1	RefSeq	gene	3013911	3014258	.	-	.	ID=gene-B21_02825;Dbxref=GeneID:8116429;Name=yghY;gbkey=Gene;gene=yghY;gene_biotype=protein_coding;locus_tag=B21_02825;partial=true;start_range=.,3013911	FALSE	798601
 NC_012892.1	RefSeq	gene	3014538	3015578	.	+	.	ID=gene-B21_02826;Dbxref=GeneID:8116430;Name=yghZ;gbkey=Gene;gene=yghZ;gene_biotype=protein_coding;locus_tag=B21_02826	FALSE	797974
@@ -3390,7 +3388,7 @@ NC_012892.1	RefSeq	gene	3743356	3744849	.	-	.	ID=gene-B21_03505;Dbxref=GeneID:81
 NC_012892.1	RefSeq	gene	3744846	3746561	.	-	.	ID=gene-B21_03506;Dbxref=GeneID:8114900;Name=yidK;gbkey=Gene;gene=yidK;gene_biotype=protein_coding;locus_tag=B21_03506	FALSE	67666
 NC_012892.1	RefSeq	gene	3746698	3747621	.	+	.	ID=gene-B21_03507;Dbxref=GeneID:8114901;Name=yidL;gbkey=Gene;gene=yidL;gene_biotype=protein_coding;locus_tag=B21_03507	FALSE	65814
 NC_012892.1	RefSeq	gene	3747618	3748940	.	-	.	ID=gene-B21_03508;Dbxref=GeneID:8114902;Name=ybl173;gbkey=Gene;gene=ybl173;gene_biotype=protein_coding;locus_tag=B21_03508	FALSE	64894
-NC_012892.1	RefSeq	sequence_feature	3748940	3750556	.	-	.	ID=id-NC_012892.1:3748940..3750556;Note=potential frameshift: common BLAST hit: gi|209400134|ref|YP_002273212.1| PTS system%2C alpha-glucoside-specific IIBC component;gbkey=misc_feature	FALSE	63572
+NC_012892.1	RefSeq	sequence_feature	3748940	3750556	.	-	.	ID=id-NC_012892.1:3748940..3750556;Note=potential_frameshift:_common_BLAST_hit:_gi|209400134|ref|YP_002273212.1|_PTS_system%2C_alpha-glucoside-specific_IIBC_component;gbkey=misc_feature	FALSE	63572
 NC_012892.1	RefSeq	gene	3748940	3749425	.	-	.	ID=gene-B21_03509;Dbxref=GeneID:8116276;Name=glvB;gbkey=Gene;gene=glvB;gene_biotype=protein_coding;locus_tag=B21_03509	FALSE	63572
 NC_012892.1	RefSeq	gene	3749453	3750556	.	-	.	ID=gene-B21_03510;Dbxref=GeneID:8115660;Name=glvC;gbkey=Gene;gene=glvC;gene_biotype=protein_coding;locus_tag=B21_03510;partial=true;start_range=.,3749453	FALSE	63059
 NC_012892.1	RefSeq	pseudogene	3750852	3751489	.	+	.	ID=gene-B21_03511;Dbxref=GeneID:8115661;Name=yidP;gbkey=Gene;gene=yidP;gene_biotype=pseudogene;locus_tag=B21_03511;pseudo=true	FALSE	61660

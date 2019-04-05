@@ -1,6 +1,4 @@
-4822173
-5572075
-NC_011353.1	RefSeq	region	1	5572075	.	+	.	ID=NC_011353.1:1..5572075;Dbxref=taxon:444450;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;serovar=O157:H7;strain=EC4115	FALSE	749903
+NC_011353.1	RefSeq	region	1	5572075	.	+	.	ID=NC_011353.1:1..5572075;Dbxref=taxon:444450;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic_DNA;serovar=O157:H7;strain=EC4115	FALSE	749903
 NC_011353.1	RefSeq	gene	190	273	.	+	.	ID=gene-ECH74115_RS00550;Name=ECH74115_RS00550;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00550	FALSE	750092
 NC_011353.1	RefSeq	gene	354	2816	.	+	.	ID=gene-ECH74115_RS00555;Name=ECH74115_RS00555;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00555;old_locus_tag=ECH74115_0003	FALSE	750256
 NC_011353.1	RefSeq	gene	2818	3750	.	+	.	ID=gene-ECH74115_RS00560;Name=ECH74115_RS00560;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00560;old_locus_tag=ECH74115_0004	FALSE	752720
@@ -73,7 +71,7 @@ NC_011353.1	RefSeq	gene	76178	76942	.	+	.	ID=gene-ECH74115_RS00900;Name=ECH74115
 NC_011353.1	RefSeq	gene	77029	77727	.	-	.	ID=gene-ECH74115_RS00905;Name=ECH74115_RS00905;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00905;old_locus_tag=ECH74115_0071	FALSE	826931
 NC_011353.1	RefSeq	gene	77711	79321	.	-	.	ID=gene-ECH74115_RS00910;Name=thiP;gbkey=Gene;gene=thiP;gene_biotype=protein_coding;locus_tag=ECH74115_RS00910;old_locus_tag=ECH74115_0072	FALSE	827613
 NC_011353.1	RefSeq	gene	79297	80280	.	-	.	ID=gene-ECH74115_RS00915;Name=ECH74115_RS00915;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00915;old_locus_tag=ECH74115_0073	FALSE	829199
-NC_011353.1	cmsearch	riboswitch	80311	80410	.	-	.	ID=id-18116;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	830213
+NC_011353.1	cmsearch	riboswitch	80311	80410	.	-	.	ID=id-18116;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	830213
 NC_011353.1	RefSeq	gene	80652	81221	.	+	.	ID=gene-ECH74115_RS00920;Name=ECH74115_RS00920;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00920;old_locus_tag=ECH74115_0075	FALSE	830554
 NC_011353.1	RefSeq	gene	81450	83108	.	-	.	ID=gene-ECH74115_RS00925;Name=ECH74115_RS00925;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00925;old_locus_tag=ECH74115_0076	FALSE	831352
 NC_011353.1	RefSeq	gene	83197	83328	.	+	.	ID=gene-ECH74115_RS00930;Name=ECH74115_RS00930;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS00930	FALSE	833099
@@ -928,7 +926,7 @@ NC_011353.1	RefSeq	gene	936112	937266	.	+	.	ID=gene-ECH74115_RS05020;Name=ECH741
 NC_011353.1	RefSeq	gene	937253	938008	.	+	.	ID=gene-ECH74115_RS05025;Name=ECH74115_RS05025;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS05025;old_locus_tag=ECH74115_0925	FALSE	1687155
 NC_011353.1	RefSeq	gene	939257	941278	.	+	.	ID=gene-ECH74115_RS05035;Name=ECH74115_RS05035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS05035;old_locus_tag=ECH74115_0927	FALSE	1689159
 NC_011353.1	RefSeq	gene	941469	942377	.	-	.	ID=gene-ECH74115_RS05040;Name=ECH74115_RS05040;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS05040;old_locus_tag=ECH74115_0928	FALSE	1691371
-NC_011353.1	cmsearch	riboswitch	942642	942786	.	+	.	ID=id-18117;Dbxref=RFAM:RF01055;Note=molybdenum cofactor riboswitch;bound_moiety=molybdenum cofactor;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1692544
+NC_011353.1	cmsearch	riboswitch	942642	942786	.	+	.	ID=id-18117;Dbxref=RFAM:RF01055;Note=molybdenum_cofactor_riboswitch;bound_moiety=molybdenum_cofactor;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1692544
 NC_011353.1	RefSeq	gene	942774	943763	.	+	.	ID=gene-ECH74115_RS05050;Name=moaA;gbkey=Gene;gene=moaA;gene_biotype=protein_coding;locus_tag=ECH74115_RS05050;old_locus_tag=ECH74115_0929	FALSE	1692676
 NC_011353.1	RefSeq	gene	943785	944297	.	+	.	ID=gene-ECH74115_RS05055;Name=ECH74115_RS05055;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS05055;old_locus_tag=ECH74115_0930	FALSE	1693687
 NC_011353.1	RefSeq	gene	944300	944785	.	+	.	ID=gene-ECH74115_RS05060;Name=ECH74115_RS05060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS05060;old_locus_tag=ECH74115_0931	FALSE	1694202
@@ -3106,7 +3104,7 @@ NC_011353.1	RefSeq	gene	2852362	2853108	.	-	.	ID=gene-ECH74115_RS15575;Name=ECH7
 NC_011353.1	RefSeq	gene	2853160	2853978	.	-	.	ID=gene-ECH74115_RS15580;Name=ECH74115_RS15580;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS15580;old_locus_tag=ECH74115_3081	FALSE	1969013
 NC_011353.1	RefSeq	gene	2854043	2854843	.	-	.	ID=gene-ECH74115_RS15585;Name=ECH74115_RS15585;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS15585;old_locus_tag=ECH74115_3082	FALSE	1968130
 NC_011353.1	RefSeq	gene	2854840	2855628	.	-	.	ID=gene-ECH74115_RS15590;Name=ECH74115_RS15590;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS15590;old_locus_tag=ECH74115_3083	FALSE	1967333
-NC_011353.1	cmsearch	riboswitch	2855663	2855759	.	-	.	ID=id-18118;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1966510
+NC_011353.1	cmsearch	riboswitch	2855663	2855759	.	-	.	ID=id-18118;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1966510
 NC_011353.1	RefSeq	gene	2855962	2856201	.	+	.	ID=gene-ECH74115_RS15595;Name=ECH74115_RS15595;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS15595	FALSE	1966211
 NC_011353.1	RefSeq	pseudogene	2856336	2856609	.	-	.	ID=gene-ECH74115_RS31340;Name=ECH74115_RS31340;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECH74115_RS31340;pseudo=true	FALSE	1965837
 NC_011353.1	RefSeq	gene	2857252	2857599	.	+	.	ID=gene-ECH74115_RS15600;Name=ECH74115_RS15600;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS15600	FALSE	1964921
@@ -4025,7 +4023,7 @@ NC_011353.1	RefSeq	gene	3698307	3698912	.	-	.	ID=gene-ECH74115_RS20030;Name=ECH7
 NC_011353.1	RefSeq	gene	3698912	3700339	.	-	.	ID=gene-ECH74115_RS20035;Name=ECH74115_RS20035;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20035;old_locus_tag=ECH74115_4003	FALSE	1123261
 NC_011353.1	RefSeq	gene	3700341	3701249	.	-	.	ID=gene-ECH74115_RS20040;Name=ECH74115_RS20040;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20040;old_locus_tag=ECH74115_4004	FALSE	1121832
 NC_011353.1	RefSeq	gene	3701501	3702538	.	+	.	ID=gene-ECH74115_RS20045;Name=ECH74115_RS20045;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20045;old_locus_tag=ECH74115_4005	FALSE	1120672
-NC_011353.1	RefSeq	direct_repeat	3702620	3702832	.	+	.	ID=id-18115;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=3702681..3702710;rpt_unit_seq=cggtttatccccgctggcgcggggaacaca	FALSE	1119553
+NC_011353.1	RefSeq	direct_repeat	3702620	3702832	.	+	.	ID=id-18115;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=3702681..3702710;rpt_unit_seq=cggtttatccccgctggcgcggggaacaca	FALSE	1119553
 NC_011353.1	RefSeq	gene	3702928	3703221	.	-	.	ID=gene-ECH74115_RS20050;Name=ECH74115_RS20050;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20050;old_locus_tag=ECH74115_4007	FALSE	1119245
 NC_011353.1	RefSeq	gene	3703218	3704141	.	-	.	ID=gene-ECH74115_RS20055;Name=ECH74115_RS20055;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20055;old_locus_tag=ECH74115_4008	FALSE	1118955
 NC_011353.1	RefSeq	gene	3704138	3704788	.	-	.	ID=gene-ECH74115_RS20060;Name=ECH74115_RS20060;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS20060;old_locus_tag=ECH74115_4009	FALSE	1118035
@@ -4367,7 +4365,7 @@ NC_011353.1	RefSeq	gene	4030796	4031584	.	-	.	ID=gene-ECH74115_RS21710;Name=ECH7
 NC_011353.1	RefSeq	gene	4031727	4032500	.	+	.	ID=gene-ECH74115_RS21715;Name=ECH74115_RS21715;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21715;old_locus_tag=ECH74115_4353	FALSE	790446
 NC_011353.1	RefSeq	gene	4032558	4032752	.	-	.	ID=gene-ECH74115_RS21720;Name=ECH74115_RS21720;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21720;old_locus_tag=ECH74115_4354	FALSE	789615
 NC_011353.1	RefSeq	gene	4032990	4033643	.	-	.	ID=gene-ECH74115_RS21725;Name=ECH74115_RS21725;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21725;old_locus_tag=ECH74115_4355	FALSE	789183
-NC_011353.1	cmsearch	riboswitch	4033747	4033895	.	-	.	ID=id-18119;Dbxref=RFAM:RF00050;Note=FMN riboswitch;bound_moiety=flavin mononucleotide;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	788426
+NC_011353.1	cmsearch	riboswitch	4033747	4033895	.	-	.	ID=id-18119;Dbxref=RFAM:RF00050;Note=FMN_riboswitch;bound_moiety=flavin_mononucleotide;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	788426
 NC_011353.1	RefSeq	gene	4033957	4034316	.	+	.	ID=gene-ECH74115_RS21730;Name=ECH74115_RS21730;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21730;old_locus_tag=ECH74115_4357	FALSE	788216
 NC_011353.1	RefSeq	gene	4034351	4034551	.	-	.	ID=gene-ECH74115_RS21735;Name=ECH74115_RS21735;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21735;old_locus_tag=ECH74115_4358	FALSE	787822
 NC_011353.1	RefSeq	gene	4034820	4035434	.	+	.	ID=gene-ECH74115_RS21740;Name=ECH74115_RS21740;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS21740	FALSE	787353
@@ -5446,7 +5444,7 @@ NC_011353.1	RefSeq	gene	5072079	5073395	.	+	.	ID=gene-ECH74115_RS26970;Name=ECH7
 NC_011353.1	RefSeq	gene	5073502	5074149	.	+	.	ID=gene-ECH74115_RS26975;Name=ECH74115_RS26975;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS26975;old_locus_tag=ECH74115_5426	FALSE	251329
 NC_011353.1	RefSeq	gene	5074149	5074508	.	+	.	ID=gene-ECH74115_RS26980;Name=ECH74115_RS26980;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS26980;old_locus_tag=ECH74115_5427	FALSE	251976
 NC_011353.1	RefSeq	gene	5074548	5075648	.	-	.	ID=gene-ECH74115_RS26985;Name=ECH74115_RS26985;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS26985;old_locus_tag=ECH74115_5428	FALSE	252375
-NC_011353.1	cmsearch	riboswitch	5075762	5075952	.	+	.	ID=id-18120;Dbxref=RFAM:RF00174;Note=cobalamin riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	253589
+NC_011353.1	cmsearch	riboswitch	5075762	5075952	.	+	.	ID=id-18120;Dbxref=RFAM:RF00174;Note=cobalamin_riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	253589
 NC_011353.1	RefSeq	gene	5076017	5077861	.	+	.	ID=gene-ECH74115_RS26990;Name=ECH74115_RS26990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS26990;old_locus_tag=ECH74115_5430	FALSE	253844
 NC_011353.1	RefSeq	gene	5077806	5078663	.	+	.	ID=gene-ECH74115_RS26995;Name=ECH74115_RS26995;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS26995;old_locus_tag=ECH74115_5431	FALSE	255633
 NC_011353.1	RefSeq	gene	5078621	5078980	.	-	.	ID=gene-ECH74115_RS32095;Name=ECH74115_RS32095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS32095	FALSE	256448
@@ -5475,7 +5473,7 @@ NC_011353.1	RefSeq	gene	5104575	5104775	.	-	.	ID=gene-ECH74115_RS27120;Name=ECH7
 NC_011353.1	RefSeq	gene	5104759	5105514	.	-	.	ID=gene-ECH74115_RS27125;Name=ECH74115_RS27125;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS27125;old_locus_tag=ECH74115_5460	FALSE	282586
 NC_011353.1	RefSeq	gene	5105507	5106142	.	-	.	ID=gene-ECH74115_RS27130;Name=ECH74115_RS27130;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS27130;old_locus_tag=ECH74115_5461	FALSE	283334
 NC_011353.1	RefSeq	gene	5106142	5108037	.	-	.	ID=gene-ECH74115_RS27135;Name=ECH74115_RS27135;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS27135;old_locus_tag=ECH74115_5462	FALSE	283969
-NC_011353.1	cmsearch	riboswitch	5108118	5108218	.	-	.	ID=id-18121;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	285945
+NC_011353.1	cmsearch	riboswitch	5108118	5108218	.	-	.	ID=id-18121;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	285945
 NC_011353.1	RefSeq	gene	5108270	5108746	.	-	.	ID=gene-ECH74115_RS27140;Name=ECH74115_RS27140;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS27140;old_locus_tag=ECH74115_5464	FALSE	286097
 NC_011353.1	RefSeq	gene	5108841	5109614	.	+	.	ID=gene-ECH74115_RS27145;Name=nudC;gbkey=Gene;gene=nudC;gene_biotype=protein_coding;locus_tag=ECH74115_RS27145;old_locus_tag=ECH74115_5465	FALSE	286668
 NC_011353.1	RefSeq	gene	5109654	5110718	.	+	.	ID=gene-ECH74115_RS27150;Name=ECH74115_RS27150;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECH74115_RS27150;old_locus_tag=ECH74115_5466	FALSE	287481

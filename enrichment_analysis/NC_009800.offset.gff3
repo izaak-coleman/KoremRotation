@@ -1,6 +1,4 @@
-3952813
-4643538
-NC_009800.1	RefSeq	region	1	4643538	.	+	.	ID=NC_009800.1:1..4643538;Dbxref=taxon:331112;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;strain=HS	FALSE	690726
+NC_009800.1	RefSeq	region	1	4643538	.	+	.	ID=NC_009800.1:1..4643538;Dbxref=taxon:331112;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic_DNA;strain=HS	FALSE	690726
 NC_009800.1	RefSeq	gene	190	255	.	+	.	ID=gene-ECHS_RS00005;Name=ECHS_RS00005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00005;old_locus_tag=EcHS_A0002	FALSE	690915
 NC_009800.1	RefSeq	gene	336	2798	.	+	.	ID=gene-ECHS_RS00010;Name=ECHS_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00010;old_locus_tag=EcHS_A0003	FALSE	691061
 NC_009800.1	RefSeq	gene	2800	3732	.	+	.	ID=gene-ECHS_RS00015;Name=ECHS_RS00015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00015;old_locus_tag=EcHS_A0004	FALSE	693525
@@ -70,7 +68,7 @@ NC_009800.1	RefSeq	gene	73106	73870	.	+	.	ID=gene-ECHS_RS00335;Name=ECHS_RS00335
 NC_009800.1	RefSeq	gene	73984	74682	.	-	.	ID=gene-ECHS_RS00340;Name=ECHS_RS00340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00340;old_locus_tag=EcHS_A0070	FALSE	764709
 NC_009800.1	RefSeq	gene	74666	76276	.	-	.	ID=gene-ECHS_RS00345;Name=thiP;gbkey=Gene;gene=thiP;gene_biotype=protein_coding;locus_tag=ECHS_RS00345;old_locus_tag=EcHS_A0071	FALSE	765391
 NC_009800.1	RefSeq	gene	76252	77235	.	-	.	ID=gene-ECHS_RS00350;Name=ECHS_RS00350;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00350;old_locus_tag=EcHS_A0072	FALSE	766977
-NC_009800.1	cmsearch	riboswitch	77266	77365	.	-	.	ID=id-14156;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	767991
+NC_009800.1	cmsearch	riboswitch	77266	77365	.	-	.	ID=id-14156;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	767991
 NC_009800.1	RefSeq	gene	77399	79054	.	-	.	ID=gene-ECHS_RS00355;Name=ECHS_RS00355;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00355;old_locus_tag=EcHS_A0074	FALSE	768124
 NC_009800.1	RefSeq	gene	79143	79274	.	+	.	ID=gene-ECHS_RS00360;Name=ECHS_RS00360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00360	FALSE	769868
 NC_009800.1	RefSeq	gene	79376	80554	.	+	.	ID=gene-ECHS_RS00365;Name=ECHS_RS00365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS00365;old_locus_tag=EcHS_A0075	FALSE	770101
@@ -855,7 +853,7 @@ NC_009800.1	RefSeq	gene	838125	838880	.	+	.	ID=gene-ECHS_RS04065;Name=ECHS_RS040
 NC_009800.1	RefSeq	gene	838873	839550	.	+	.	ID=gene-ECHS_RS04070;Name=ECHS_RS04070;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04070;old_locus_tag=EcHS_A0832	FALSE	1529598
 NC_009800.1	RefSeq	gene	840129	842150	.	+	.	ID=gene-ECHS_RS04075;Name=ECHS_RS04075;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04075;old_locus_tag=EcHS_A0833	FALSE	1530854
 NC_009800.1	RefSeq	gene	842342	843250	.	-	.	ID=gene-ECHS_RS04080;Name=ECHS_RS04080;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04080;old_locus_tag=EcHS_A0834	FALSE	1533067
-NC_009800.1	cmsearch	riboswitch	843515	843659	.	+	.	ID=id-14157;Dbxref=RFAM:RF01055;Note=molybdenum cofactor riboswitch;bound_moiety=molybdenum cofactor;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1534240
+NC_009800.1	cmsearch	riboswitch	843515	843659	.	+	.	ID=id-14157;Dbxref=RFAM:RF01055;Note=molybdenum_cofactor_riboswitch;bound_moiety=molybdenum_cofactor;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1534240
 NC_009800.1	RefSeq	gene	843647	844636	.	+	.	ID=gene-ECHS_RS04090;Name=moaA;gbkey=Gene;gene=moaA;gene_biotype=protein_coding;locus_tag=ECHS_RS04090;old_locus_tag=EcHS_A0835	FALSE	1534372
 NC_009800.1	RefSeq	gene	844658	845170	.	+	.	ID=gene-ECHS_RS04095;Name=ECHS_RS04095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04095;old_locus_tag=EcHS_A0836	FALSE	1535383
 NC_009800.1	RefSeq	gene	845173	845658	.	+	.	ID=gene-ECHS_RS04100;Name=ECHS_RS04100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04100;old_locus_tag=EcHS_A0837	FALSE	1535898
@@ -1016,7 +1014,7 @@ NC_009800.1	RefSeq	gene	982600	982824	.	-	.	ID=gene-ECHS_RS04825;Name=ECHS_RS048
 NC_009800.1	RefSeq	STS	982665	982826	.	+	.	ID=id-NC_009800.1:982665..982826;Dbxref=UniSTS:55432;gbkey=STS;standard_name=L18254	FALSE	1673390
 NC_009800.1	RefSeq	gene	983147	983467	.	+	.	ID=gene-ECHS_RS04830;Name=ECHS_RS04830;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04830;old_locus_tag=EcHS_A0985	FALSE	1673872
 NC_009800.1	RefSeq	gene	983498	985774	.	+	.	ID=gene-ECHS_RS04835;Name=ECHS_RS04835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04835;old_locus_tag=EcHS_A0986	FALSE	1674223
-NC_009800.1	RefSeq	direct_repeat	985984	986188	.	+	.	ID=id-14153;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=985984..986011;rpt_unit_seq=gttcactgccgtacaggcagcttagaaa	FALSE	1676709
+NC_009800.1	RefSeq	direct_repeat	985984	986188	.	+	.	ID=id-14153;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=985984..986011;rpt_unit_seq=gttcactgccgtacaggcagcttagaaa	FALSE	1676709
 NC_009800.1	RefSeq	gene	986232	986319	.	-	.	ID=gene-ECHS_RS04840;Name=ECHS_RS04840;gbkey=Gene;gene_biotype=tRNA;locus_tag=ECHS_RS04840;old_locus_tag=EcHS_A4662	FALSE	1676957
 NC_009800.1	RefSeq	gene	986573	986791	.	-	.	ID=gene-ECHS_RS04845;Name=ECHS_RS04845;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS04845;old_locus_tag=EcHS_A0988	FALSE	1677298
 NC_009800.1	RefSeq	pseudogene	986719	987075	.	-	.	ID=gene-ECHS_RS23310;Name=ECHS_RS23310;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECHS_RS23310;pseudo=true	FALSE	1677444
@@ -2305,7 +2303,7 @@ NC_009800.1	RefSeq	gene	2224384	2225130	.	-	.	ID=gene-ECHS_RS11080;Name=ECHS_RS1
 NC_009800.1	RefSeq	gene	2225182	2226000	.	-	.	ID=gene-ECHS_RS11085;Name=ECHS_RS11085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11085;old_locus_tag=EcHS_A2238	FALSE	1727631
 NC_009800.1	RefSeq	gene	2226065	2226865	.	-	.	ID=gene-ECHS_RS11090;Name=ECHS_RS11090;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11090;old_locus_tag=EcHS_A2239	FALSE	1726748
 NC_009800.1	RefSeq	gene	2226862	2227650	.	-	.	ID=gene-ECHS_RS11095;Name=ECHS_RS11095;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11095;old_locus_tag=EcHS_A2240	FALSE	1725951
-NC_009800.1	cmsearch	riboswitch	2227685	2227781	.	-	.	ID=id-14158;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1725128
+NC_009800.1	cmsearch	riboswitch	2227685	2227781	.	-	.	ID=id-14158;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1725128
 NC_009800.1	RefSeq	gene	2227873	2228145	.	-	.	ID=gene-ECHS_RS11100;Name=ECHS_RS11100;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11100;old_locus_tag=EcHS_A2241	FALSE	1724940
 NC_009800.1	RefSeq	gene	2228266	2229090	.	+	.	ID=gene-ECHS_RS11105;Name=ECHS_RS11105;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11105;old_locus_tag=EcHS_A2242	FALSE	1724547
 NC_009800.1	RefSeq	gene	2229309	2229647	.	+	.	ID=gene-ECHS_RS11110;Name=ECHS_RS11110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS11110;old_locus_tag=EcHS_A2243	FALSE	1723504
@@ -2969,7 +2967,7 @@ NC_009800.1	RefSeq	gene	2890806	2891411	.	-	.	ID=gene-ECHS_RS14245;Name=ECHS_RS1
 NC_009800.1	RefSeq	gene	2891411	2892838	.	-	.	ID=gene-ECHS_RS14250;Name=ECHS_RS14250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14250;old_locus_tag=EcHS_A2889	FALSE	1061402
 NC_009800.1	RefSeq	gene	2892840	2893748	.	-	.	ID=gene-ECHS_RS14255;Name=ECHS_RS14255;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14255;old_locus_tag=EcHS_A2890	FALSE	1059973
 NC_009800.1	RefSeq	gene	2894000	2895037	.	+	.	ID=gene-ECHS_RS14260;Name=ECHS_RS14260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14260;old_locus_tag=EcHS_A2891	FALSE	1058813
-NC_009800.1	RefSeq	direct_repeat	2895119	2895696	.	+	.	ID=id-14154;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2895180..2895208;rpt_unit_seq=cggtttatccccgctggcgcggggaactc	FALSE	1057694
+NC_009800.1	RefSeq	direct_repeat	2895119	2895696	.	+	.	ID=id-14154;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2895180..2895208;rpt_unit_seq=cggtttatccccgctggcgcggggaactc	FALSE	1057694
 NC_009800.1	RefSeq	gene	2895802	2896086	.	-	.	ID=gene-ECHS_RS14265;Name=ECHS_RS14265;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14265	FALSE	1057011
 NC_009800.1	RefSeq	gene	2896088	2897005	.	-	.	ID=gene-ECHS_RS14270;Name=ECHS_RS14270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14270;old_locus_tag=EcHS_A2894	FALSE	1056725
 NC_009800.1	RefSeq	gene	2897021	2897620	.	-	.	ID=gene-ECHS_RS14275;Name=ECHS_RS14275;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14275;old_locus_tag=EcHS_A2895	FALSE	1055792
@@ -2992,7 +2990,7 @@ NC_009800.1	RefSeq	gene	2915196	2916650	.	-	.	ID=gene-ECHS_RS14355;Name=ECHS_RS1
 NC_009800.1	RefSeq	gene	2916720	2917505	.	-	.	ID=gene-ECHS_RS14360;Name=ECHS_RS14360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14360;old_locus_tag=EcHS_A2913	FALSE	1036093
 NC_009800.1	RefSeq	gene	2917824	2919101	.	+	.	ID=gene-ECHS_RS14365;Name=ECHS_RS14365;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14365;old_locus_tag=EcHS_A2914	FALSE	1034989
 NC_009800.1	RefSeq	gene	2919128	2920606	.	+	.	ID=gene-ECHS_RS14370;Name=ECHS_RS14370;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14370;old_locus_tag=EcHS_A2915	FALSE	1033685
-NC_009800.1	RefSeq	direct_repeat	2920652	2921839	.	+	.	ID=id-14155;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2920835..2920863;rpt_unit_seq=cggtttatccccgcaggcgcggggaactc	FALSE	1032161
+NC_009800.1	RefSeq	direct_repeat	2920652	2921839	.	+	.	ID=id-14155;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2920835..2920863;rpt_unit_seq=cggtttatccccgcaggcgcggggaactc	FALSE	1032161
 NC_009800.1	RefSeq	gene	2922179	2922850	.	-	.	ID=gene-ECHS_RS14375;Name=ECHS_RS14375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14375;old_locus_tag=EcHS_A2918	FALSE	1030634
 NC_009800.1	RefSeq	gene	2922989	2923129	.	+	.	ID=gene-ECHS_RS25085;Name=ECHS_RS25085;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS25085;old_locus_tag=EcHS_A2919	FALSE	1029824
 NC_009800.1	RefSeq	gene	2923143	2923871	.	+	.	ID=gene-ECHS_RS14385;Name=ECHS_RS14385;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS14385;old_locus_tag=EcHS_A2920	FALSE	1029670
@@ -3307,7 +3305,7 @@ NC_009800.1	RefSeq	gene	3226450	3227238	.	-	.	ID=gene-ECHS_RS15875;Name=ECHS_RS1
 NC_009800.1	RefSeq	gene	3227381	3228154	.	+	.	ID=gene-ECHS_RS15880;Name=ECHS_RS15880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15880;old_locus_tag=EcHS_A3217	FALSE	725432
 NC_009800.1	RefSeq	gene	3228212	3228406	.	-	.	ID=gene-ECHS_RS15885;Name=ECHS_RS15885;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15885;old_locus_tag=EcHS_A3218	FALSE	724601
 NC_009800.1	RefSeq	gene	3228644	3229297	.	-	.	ID=gene-ECHS_RS15890;Name=ECHS_RS15890;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15890;old_locus_tag=EcHS_A3219	FALSE	724169
-NC_009800.1	cmsearch	riboswitch	3229401	3229549	.	-	.	ID=id-14159;Dbxref=RFAM:RF00050;Note=FMN riboswitch;bound_moiety=flavin mononucleotide;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	723412
+NC_009800.1	cmsearch	riboswitch	3229401	3229549	.	-	.	ID=id-14159;Dbxref=RFAM:RF00050;Note=FMN_riboswitch;bound_moiety=flavin_mononucleotide;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	723412
 NC_009800.1	RefSeq	gene	3229611	3229961	.	+	.	ID=gene-ECHS_RS15895;Name=ECHS_RS15895;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15895;old_locus_tag=EcHS_A3220	FALSE	723202
 NC_009800.1	RefSeq	gene	3230245	3230796	.	+	.	ID=gene-ECHS_RS15900;Name=ECHS_RS15900;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15900;old_locus_tag=EcHS_A3221	FALSE	722568
 NC_009800.1	RefSeq	gene	3230856	3233357	.	+	.	ID=gene-ECHS_RS15905;Name=ECHS_RS15905;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS15905;old_locus_tag=EcHS_A3222	FALSE	721957
@@ -4308,7 +4306,7 @@ NC_009800.1	RefSeq	gene	4190564	4190683	.	+	.	ID=gene-ECHS_RS24500;Name=ECHS_RS2
 NC_009800.1	RefSeq	gene	4190790	4191437	.	+	.	ID=gene-ECHS_RS20645;Name=ECHS_RS20645;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20645;old_locus_tag=EcHS_A4197	FALSE	237977
 NC_009800.1	RefSeq	gene	4191437	4191796	.	+	.	ID=gene-ECHS_RS20650;Name=ECHS_RS20650;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20650;old_locus_tag=EcHS_A4198	FALSE	238624
 NC_009800.1	RefSeq	gene	4191836	4192936	.	-	.	ID=gene-ECHS_RS20655;Name=ECHS_RS20655;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20655;old_locus_tag=EcHS_A4199	FALSE	239023
-NC_009800.1	cmsearch	riboswitch	4193050	4193240	.	+	.	ID=id-14160;Dbxref=RFAM:RF00174;Note=cobalamin riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	240237
+NC_009800.1	cmsearch	riboswitch	4193050	4193240	.	+	.	ID=id-14160;Dbxref=RFAM:RF00174;Note=cobalamin_riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	240237
 NC_009800.1	RefSeq	gene	4193305	4195149	.	+	.	ID=gene-ECHS_RS20660;Name=ECHS_RS20660;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20660;old_locus_tag=EcHS_A4200	FALSE	240492
 NC_009800.1	RefSeq	gene	4195094	4195951	.	+	.	ID=gene-ECHS_RS20665;Name=ECHS_RS20665;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20665;old_locus_tag=EcHS_A4201	FALSE	242281
 NC_009800.1	RefSeq	gene	4196323	4197879	.	+	.	ID=gene-ECHS_RS20670;Name=ECHS_RS20670;gbkey=Gene;gene_biotype=rRNA;locus_tag=ECHS_RS20670;old_locus_tag=EcHS_A4800	FALSE	243510
@@ -4334,7 +4332,7 @@ NC_009800.1	RefSeq	gene	4222219	4222419	.	-	.	ID=gene-ECHS_RS20790;Name=ECHS_RS2
 NC_009800.1	RefSeq	gene	4222403	4223158	.	-	.	ID=gene-ECHS_RS20795;Name=ECHS_RS20795;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20795;old_locus_tag=EcHS_A4226	FALSE	269590
 NC_009800.1	RefSeq	gene	4223151	4223786	.	-	.	ID=gene-ECHS_RS20800;Name=ECHS_RS20800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20800;old_locus_tag=EcHS_A4227	FALSE	270338
 NC_009800.1	RefSeq	gene	4223786	4225681	.	-	.	ID=gene-ECHS_RS20805;Name=ECHS_RS20805;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20805;old_locus_tag=EcHS_A4228	FALSE	270973
-NC_009800.1	cmsearch	riboswitch	4225762	4225862	.	-	.	ID=id-14161;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	272949
+NC_009800.1	cmsearch	riboswitch	4225762	4225862	.	-	.	ID=id-14161;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	272949
 NC_009800.1	RefSeq	gene	4225914	4226390	.	-	.	ID=gene-ECHS_RS20810;Name=ECHS_RS20810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20810;old_locus_tag=EcHS_A4229	FALSE	273101
 NC_009800.1	RefSeq	gene	4226485	4227258	.	+	.	ID=gene-ECHS_RS20815;Name=nudC;gbkey=Gene;gene=nudC;gene_biotype=protein_coding;locus_tag=ECHS_RS20815;old_locus_tag=EcHS_A4230	FALSE	273672
 NC_009800.1	RefSeq	gene	4227298	4228362	.	+	.	ID=gene-ECHS_RS20820;Name=ECHS_RS20820;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECHS_RS20820;old_locus_tag=EcHS_A4231	FALSE	274485

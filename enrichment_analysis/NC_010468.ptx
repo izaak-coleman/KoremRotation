@@ -6,8 +6,7 @@ EcolC_0072 	CDS 	NC_010468 	77824 	79044 	- 	1221 	bifunctional phosphopantothen
 EcolC_0282 	CDS 	NC_010468 	322830 	324125 	+ 	1296 	glucose-1-phosphate adenylyltransferase 	YP_001723287 	unclonable 	2.42921e-07 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
 EcolC_0298 	CDS 	NC_010468 	347070 	348386 	- 	1317 	gluconate transporter 	YP_001723303 	unclonable 	1.71105e-07 	normal 	0.0267385 	Escherichia coli ATCC 8739 	Bacteria
 EcolC_0371 	CDS 	NC_010468 	420378 	420752 	+ 	375 	30S ribosomal protein S12 	YP_001723376 	unclonable 	8.5622e-09 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
-EcolC_0372 	CDS 	NC_010468 	420849 	421319 	+ 	471 	30S ribosomal protein S7 	YP_001723377 	unclonable 	1.27849e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
-EcolC_0373 	CDS 	NC_010468 	421416 	423530 	+ 	2115 	elongation factor G 	YP_001723378 	unclonable 	4.19107e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
+EcolC_0372 	CDS 	NC_010468 	420849 	421319 	+ 	471 	30S ribosomal protein S7 	YP_001723377 	unclonable 	1.27849e-08 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria EcolC_0373 	CDS 	NC_010468 	421416 	423530 	+ 	2115 	elongation factor G 	YP_001723378 	unclonable 	4.19107e-06 	normal 	1 	Escherichia coli ATCC 8739 	Bacteria
 EcolC_0413 	CDS 	NC_010468 	450833 	452164 	+ 	1332 	preprotein translocase subunit SecY 	YP_001723418 	hitchhiker 	1.27015e-05 	unclonable 	2.11657e-08 	Escherichia coli ATCC 8739 	Bacteria
 EcolC_0414 	CDS 	NC_010468 	452196 	452312 	+ 	117 	50S ribosomal protein L36 	YP_001723419 	hitchhiker 	5.52081e-05 	unclonable 	1.17832e-08 	Escherichia coli ATCC 8739 	Bacteria
 EcolC_0415 	CDS 	NC_010468 	452459 	452815 	+ 	357 	30S ribosomal protein S13 	YP_001723420 	hitchhiker 	0.000337677 	unclonable 	1.3853e-08 	Escherichia coli ATCC 8739 	Bacteria

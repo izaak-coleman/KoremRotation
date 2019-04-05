@@ -1,6 +1,4 @@
-4588458
-4630707
-CP001637.1	Genbank	region	1	4630707	.	+	.	ID=CP001637.1:1..4630707;Dbxref=taxon:536056;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;strain=DH1	FALSE	42250
+CP001637.1	Genbank	region	1	4630707	.	+	.	ID=CP001637.1:1..4630707;Dbxref=taxon:536056;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic_DNA;strain=DH1	FALSE	42250
 CP001637.1	Genbank	gene	33	1436	.	+	.	ID=gene-EcDH1_0001;Name=EcDH1_0001;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0001	FALSE	42282
 CP001637.1	Genbank	gene	1441	2541	.	+	.	ID=gene-EcDH1_0002;Name=EcDH1_0002;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0002	FALSE	43690
 CP001637.1	Genbank	gene	2541	3614	.	+	.	ID=gene-EcDH1_0003;Name=EcDH1_0003;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0003	FALSE	44790
@@ -667,7 +665,7 @@ CP001637.1	Genbank	gene	696348	697253	.	-	.	ID=gene-EcDH1_0655;Name=EcDH1_0655;g
 CP001637.1	Genbank	gene	697211	697576	.	-	.	ID=gene-EcDH1_0656;Name=EcDH1_0656;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0656	FALSE	739460
 CP001637.1	Genbank	gene	697798	698349	.	-	.	ID=gene-EcDH1_0657;Name=EcDH1_0657;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0657	FALSE	740047
 CP001637.1	Genbank	gene	698633	698923	.	-	.	ID=gene-EcDH1_0658;Name=EcDH1_0658;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0658	FALSE	740882
-CP001637.1	Genbank	binding_site	699045	699193	.	+	.	ID=id-CP001637.1:699045..699193;Note=FMN riboswitch (RFN element) as predicted by Rfam (RF00050)%2C score 118.94;bound_moiety=flavin mononucleotide;gbkey=misc_binding	FALSE	741294
+CP001637.1	Genbank	binding_site	699045	699193	.	+	.	ID=id-CP001637.1:699045..699193;Note=FMN_riboswitch_(RFN_element)_as_predicted_by_Rfam_(RF00050)%2C_score_118.94;bound_moiety=flavin_mononucleotide;gbkey=misc_binding	FALSE	741294
 CP001637.1	Genbank	gene	699297	699950	.	+	.	ID=gene-EcDH1_0659;Name=EcDH1_0659;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0659	FALSE	741546
 CP001637.1	Genbank	gene	700212	700382	.	+	.	ID=gene-EcDH1_0660;Name=EcDH1_0660;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0660	FALSE	742461
 CP001637.1	Genbank	gene	700440	701213	.	-	.	ID=gene-EcDH1_0661;Name=EcDH1_0661;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_0661	FALSE	742689
@@ -1043,7 +1041,7 @@ CP001637.1	Genbank	gene	1092512	1093780	.	-	.	ID=gene-EcDH1_1023;Name=EcDH1_1023
 CP001637.1	Genbank	gene	1093800	1094777	.	-	.	ID=gene-EcDH1_1024;Name=EcDH1_1024;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1024	FALSE	1136049
 CP001637.1	Genbank	pseudogene	1095113	1097365	.	-	.	ID=gene-EcDH1_1025;Name=EcDH1_1025;gbkey=Gene;gene_biotype=pseudogene;locus_tag=EcDH1_1025;pseudo=true	FALSE	1137362
 CP001637.1	Genbank	gene	1097925	1098000	.	+	.	ID=gene-EcDH1_R0025;Name=EcDH1_R0025;Note=tRNA-Met2;gbkey=Gene;gene_biotype=tRNA;locus_tag=EcDH1_R0025	FALSE	1140174
-CP001637.1	Genbank	pseudogene	1098751	1100124	.	+	.	ID=gene-EcDH1_1026;Name=EcDH1_1026;Note=conserved hypothetical protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=EcDH1_1026;pseudo=true	FALSE	1141000
+CP001637.1	Genbank	pseudogene	1098751	1100124	.	+	.	ID=gene-EcDH1_1026;Name=EcDH1_1026;Note=conserved_hypothetical_protein;gbkey=Gene;gene_biotype=pseudogene;locus_tag=EcDH1_1026;pseudo=true	FALSE	1141000
 CP001637.1	Genbank	gene	1101036	1105616	.	+	.	ID=gene-EcDH1_1028;Name=EcDH1_1028;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1028	FALSE	1143285
 CP001637.1	Genbank	gene	1105980	1106309	.	-	.	ID=gene-EcDH1_1029;Name=EcDH1_1029;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1029	FALSE	1148229
 CP001637.1	Genbank	gene	1106330	1106647	.	-	.	ID=gene-EcDH1_1030;Name=EcDH1_1030;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1030	FALSE	1148579
@@ -1576,7 +1574,7 @@ CP001637.1	Genbank	gene	1688445	1689479	.	+	.	ID=gene-EcDH1_1549;Name=EcDH1_1549
 CP001637.1	Genbank	gene	1689561	1689899	.	-	.	ID=gene-EcDH1_1550;Name=EcDH1_1550;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1550	FALSE	1731810
 CP001637.1	Genbank	gene	1690118	1690942	.	-	.	ID=gene-EcDH1_1551;Name=EcDH1_1551;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1551	FALSE	1732367
 CP001637.1	Genbank	gene	1691063	1691335	.	+	.	ID=gene-EcDH1_1552;Name=EcDH1_1552;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1552	FALSE	1733312
-CP001637.1	Genbank	binding_site	1691427	1691523	.	+	.	ID=id-CP001637.1:1691427..1691523;Note=TPP riboswitch (THI element) as predicted by Rfam (RF00059)%2C score 64.72;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	1733676
+CP001637.1	Genbank	binding_site	1691427	1691523	.	+	.	ID=id-CP001637.1:1691427..1691523;Note=TPP_riboswitch_(THI_element)_as_predicted_by_Rfam_(RF00059)%2C_score_64.72;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	1733676
 CP001637.1	Genbank	gene	1691558	1692346	.	+	.	ID=gene-EcDH1_1553;Name=EcDH1_1553;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1553	FALSE	1733807
 CP001637.1	Genbank	gene	1692343	1693143	.	+	.	ID=gene-EcDH1_1554;Name=EcDH1_1554;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1554	FALSE	1734592
 CP001637.1	Genbank	gene	1693208	1694026	.	+	.	ID=gene-EcDH1_1555;Name=EcDH1_1555;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_1555	FALSE	1735457
@@ -3553,7 +3551,7 @@ CP001637.1	Genbank	gene	3791924	3792529	.	+	.	ID=gene-EcDH1_3527;Name=EcDH1_3527
 CP001637.1	Genbank	gene	3792578	3793756	.	-	.	ID=gene-EcDH1_3528;Name=EcDH1_3528;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3528	FALSE	795880
 CP001637.1	Genbank	gene	3793858	3793989	.	-	.	ID=gene-EcDH1_3529;Name=EcDH1_3529;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3529	FALSE	794600
 CP001637.1	Genbank	pseudogene	3794078	3795733	.	+	.	ID=gene-EcDH1_3530;Name=EcDH1_3530;gbkey=Gene;gene_biotype=pseudogene;locus_tag=EcDH1_3530;pseudo=true	FALSE	794380
-CP001637.1	Genbank	binding_site	3795767	3795866	.	+	.	ID=id-CP001637.1:3795767..3795866;Note=TPP riboswitch (THI element) as predicted by Rfam (RF00059)%2C score 58.09;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	792691
+CP001637.1	Genbank	binding_site	3795767	3795866	.	+	.	ID=id-CP001637.1:3795767..3795866;Note=TPP_riboswitch_(THI_element)_as_predicted_by_Rfam_(RF00059)%2C_score_58.09;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	792691
 CP001637.1	Genbank	gene	3795897	3796880	.	+	.	ID=gene-EcDH1_3531;Name=EcDH1_3531;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3531	FALSE	792561
 CP001637.1	Genbank	gene	3796856	3798466	.	+	.	ID=gene-EcDH1_3532;Name=EcDH1_3532;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3532	FALSE	791602
 CP001637.1	Genbank	gene	3798450	3799148	.	+	.	ID=gene-EcDH1_3533;Name=EcDH1_3533;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3533	FALSE	790008
@@ -4030,7 +4028,7 @@ CP001637.1	Genbank	gene	4315009	4315680	.	-	.	ID=gene-EcDH1_3996;Name=EcDH1_3996
 CP001637.1	Genbank	gene	4315690	4316754	.	-	.	ID=gene-EcDH1_3997;Name=EcDH1_3997;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3997	FALSE	272768
 CP001637.1	Genbank	gene	4316794	4317567	.	-	.	ID=gene-EcDH1_3998;Name=EcDH1_3998;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3998	FALSE	271664
 CP001637.1	Genbank	gene	4317662	4318138	.	+	.	ID=gene-EcDH1_3999;Name=EcDH1_3999;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_3999	FALSE	270796
-CP001637.1	Genbank	binding_site	4318190	4318290	.	+	.	ID=id-CP001637.1:4318190..4318290;Note=TPP riboswitch (THI element) as predicted by Rfam (RF00059)%2C score 73.45;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	270268
+CP001637.1	Genbank	binding_site	4318190	4318290	.	+	.	ID=id-CP001637.1:4318190..4318290;Note=TPP_riboswitch_(THI_element)_as_predicted_by_Rfam_(RF00059)%2C_score_73.45;bound_moiety=thiamin/thiaminpyrophosphate;gbkey=misc_binding	FALSE	270268
 CP001637.1	Genbank	gene	4318371	4320266	.	+	.	ID=gene-EcDH1_4000;Name=EcDH1_4000;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4000	FALSE	270087
 CP001637.1	Genbank	gene	4320266	4320901	.	+	.	ID=gene-EcDH1_4001;Name=EcDH1_4001;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4001	FALSE	268192
 CP001637.1	Genbank	gene	4320894	4321649	.	+	.	ID=gene-EcDH1_4002;Name=EcDH1_4002;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4002	FALSE	267564
@@ -4058,7 +4056,7 @@ CP001637.1	Genbank	gene	4346023	4346098	.	-	.	ID=gene-EcDH1_R0097;Name=EcDH1_R00
 CP001637.1	Genbank	gene	4346275	4347804	.	-	.	ID=gene-EcDH1_R0098;Name=EcDH1_R0098;gbkey=Gene;gene_biotype=rRNA;locus_tag=EcDH1_R0098	FALSE	242183
 CP001637.1	Genbank	gene	4348185	4349042	.	-	.	ID=gene-EcDH1_4019;Name=EcDH1_4019;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4019	FALSE	240273
 CP001637.1	Genbank	gene	4348987	4350831	.	-	.	ID=gene-EcDH1_4020;Name=EcDH1_4020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4020	FALSE	239471
-CP001637.1	Genbank	binding_site	4350896	4351086	.	-	.	ID=id-CP001637.1:4350896..4351086;Note=Cobalamin riboswitch as predicted by Rfam (RF00174)%2C score 89.89;bound_moiety=adenosylcobalamin;gbkey=misc_binding	FALSE	237562
+CP001637.1	Genbank	binding_site	4350896	4351086	.	-	.	ID=id-CP001637.1:4350896..4351086;Note=Cobalamin_riboswitch_as_predicted_by_Rfam_(RF00174)%2C_score_89.89;bound_moiety=adenosylcobalamin;gbkey=misc_binding	FALSE	237562
 CP001637.1	Genbank	gene	4351200	4352300	.	+	.	ID=gene-EcDH1_4021;Name=EcDH1_4021;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4021	FALSE	237258
 CP001637.1	Genbank	gene	4352340	4352699	.	-	.	ID=gene-EcDH1_4022;Name=EcDH1_4022;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4022	FALSE	236118
 CP001637.1	Genbank	gene	4352699	4353403	.	-	.	ID=gene-EcDH1_4023;Name=EcDH1_4023;gbkey=Gene;gene_biotype=protein_coding;locus_tag=EcDH1_4023	FALSE	235759

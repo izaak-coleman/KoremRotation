@@ -1,4 +1,4 @@
-NC_010468.1	RefSeq	region	1	4746218	.	+	.	ID=NC_010468.1:1..4746218;Dbxref=ATCC:8739,taxon:481805;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;old-name=Escherichia coli C str. ATCC 8739;strain=ATCC 8739	FALSE	42242
+NC_010468.1	RefSeq	region	1	4746218	.	+	.	ID=NC_010468.1:1..4746218;Dbxref=ATCC:8739,taxon:481805;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic_DNA;old-name=Escherichia_coli_C_str._ATCC_8739;strain=ATCC_8739	FALSE	42242
 NC_010468.1	RefSeq	gene	48	1451	.	+	.	ID=gene-ECOLC_RS00005;Name=dnaA;gbkey=Gene;gene=dnaA;gene_biotype=protein_coding;locus_tag=ECOLC_RS00005;old_locus_tag=EcolC_0001	FALSE	42289
 NC_010468.1	RefSeq	gene	1456	2556	.	+	.	ID=gene-ECOLC_RS00010;Name=ECOLC_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS00010;old_locus_tag=EcolC_0002	FALSE	43697
 NC_010468.1	RefSeq	gene	2556	3629	.	+	.	ID=gene-ECOLC_RS00015;Name=ECOLC_RS00015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS00015;old_locus_tag=EcolC_0003	FALSE	44797
@@ -724,7 +724,7 @@ NC_010468.1	RefSeq	gene	705276	706025	.	-	.	ID=gene-ECOLC_RS03465;Name=ECOLC_RS0
 NC_010468.1	RefSeq	gene	706047	708545	.	-	.	ID=gene-ECOLC_RS03470;Name=ECOLC_RS03470;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03470;old_locus_tag=EcolC_0653	FALSE	748288
 NC_010468.1	RefSeq	gene	708605	709156	.	-	.	ID=gene-ECOLC_RS03475;Name=ECOLC_RS03475;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03475;old_locus_tag=EcolC_0654	FALSE	750846
 NC_010468.1	RefSeq	gene	709440	709790	.	-	.	ID=gene-ECOLC_RS03480;Name=ECOLC_RS03480;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03480;old_locus_tag=EcolC_0655	FALSE	751681
-NC_010468.1	cmsearch	riboswitch	709852	710000	.	+	.	ID=id-14366;Dbxref=RFAM:RF00050;Note=FMN riboswitch;bound_moiety=flavin mononucleotide;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	752093
+NC_010468.1	cmsearch	riboswitch	709852	710000	.	+	.	ID=id-14366;Dbxref=RFAM:RF00050;Note=FMN_riboswitch;bound_moiety=flavin_mononucleotide;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	752093
 NC_010468.1	RefSeq	gene	710104	710757	.	+	.	ID=gene-ECOLC_RS03485;Name=ECOLC_RS03485;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03485;old_locus_tag=EcolC_0656	FALSE	752345
 NC_010468.1	RefSeq	gene	710995	711189	.	+	.	ID=gene-ECOLC_RS03490;Name=ECOLC_RS03490;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03490;old_locus_tag=EcolC_0657	FALSE	753236
 NC_010468.1	RefSeq	gene	711247	712020	.	-	.	ID=gene-ECOLC_RS03495;Name=ECOLC_RS03495;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS03495;old_locus_tag=EcolC_0658	FALSE	753488
@@ -1038,9 +1038,9 @@ NC_010468.1	RefSeq	gene	1011040	1012677	.	+	.	ID=gene-ECOLC_RS04985;Name=pyrG;gb
 NC_010468.1	RefSeq	gene	1012765	1014063	.	+	.	ID=gene-ECOLC_RS04990;Name=ECOLC_RS04990;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS04990;old_locus_tag=EcolC_0933	FALSE	1055006
 NC_010468.1	RefSeq	gene	1014123	1014995	.	-	.	ID=gene-ECOLC_RS04995;Name=ECOLC_RS04995;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS04995;old_locus_tag=EcolC_0934	FALSE	1056364
 NC_010468.1	RefSeq	pseudogene	1015009	1015150	.	-	.	ID=gene-ECOLC_RS23760;Name=ECOLC_RS23760;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECOLC_RS23760;pseudo=true	FALSE	1057250
-NC_010468.1	RefSeq	direct_repeat	1016299	1017060	.	+	.	ID=id-14362;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1016299..1016327;rpt_unit_seq=gagttccccgcgccagcggggataaaccg	FALSE	1058540
+NC_010468.1	RefSeq	direct_repeat	1016299	1017060	.	+	.	ID=id-14362;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1016299..1016327;rpt_unit_seq=gagttccccgcgccagcggggataaaccg	FALSE	1058540
 NC_010468.1	RefSeq	gene	1017271	1018383	.	-	.	ID=gene-ECOLC_RS05005;Name=ECOLC_RS05005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05005;old_locus_tag=EcolC_0936	FALSE	1059512
-NC_010468.1	RefSeq	direct_repeat	1018445	1019386	.	+	.	ID=id-14363;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1018445..1018471;rpt_unit_seq=gttccccgcgccagcggggataaaccg	FALSE	1060686
+NC_010468.1	RefSeq	direct_repeat	1018445	1019386	.	+	.	ID=id-14363;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1018445..1018471;rpt_unit_seq=gttccccgcgccagcggggataaaccg	FALSE	1060686
 NC_010468.1	RefSeq	gene	1020025	1021503	.	-	.	ID=gene-ECOLC_RS05010;Name=ECOLC_RS05010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05010;old_locus_tag=EcolC_0937	FALSE	1062266
 NC_010468.1	RefSeq	gene	1021530	1022807	.	-	.	ID=gene-ECOLC_RS05015;Name=ECOLC_RS05015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05015;old_locus_tag=EcolC_0938	FALSE	1063771
 NC_010468.1	RefSeq	gene	1023126	1023911	.	+	.	ID=gene-ECOLC_RS05020;Name=ECOLC_RS05020;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05020;old_locus_tag=EcolC_0939	FALSE	1065367
@@ -1064,7 +1064,7 @@ NC_010468.1	RefSeq	gene	1042351	1043025	.	+	.	ID=gene-ECOLC_RS05100;Name=ECOLC_R
 NC_010468.1	RefSeq	gene	1043012	1043611	.	+	.	ID=gene-ECOLC_RS05105;Name=ECOLC_RS05105;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05105;old_locus_tag=EcolC_0956	FALSE	1085253
 NC_010468.1	RefSeq	gene	1043627	1044544	.	+	.	ID=gene-ECOLC_RS05110;Name=ECOLC_RS05110;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05110;old_locus_tag=EcolC_0957	FALSE	1085868
 NC_010468.1	RefSeq	gene	1044546	1044830	.	+	.	ID=gene-ECOLC_RS05115;Name=ECOLC_RS05115;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05115;old_locus_tag=EcolC_0958	FALSE	1086787
-NC_010468.1	RefSeq	direct_repeat	1044936	1046245	.	+	.	ID=id-14364;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1044936..1044964;rpt_unit_seq=gagttccccgcgccagcggggataaaccg	FALSE	1087177
+NC_010468.1	RefSeq	direct_repeat	1044936	1046245	.	+	.	ID=id-14364;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=1044936..1044964;rpt_unit_seq=gagttccccgcgccagcggggataaaccg	FALSE	1087177
 NC_010468.1	RefSeq	gene	1046266	1047303	.	-	.	ID=gene-ECOLC_RS05120;Name=ECOLC_RS05120;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05120;old_locus_tag=EcolC_0959	FALSE	1088507
 NC_010468.1	RefSeq	gene	1047555	1048463	.	+	.	ID=gene-ECOLC_RS05125;Name=ECOLC_RS05125;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05125;old_locus_tag=EcolC_0960	FALSE	1089796
 NC_010468.1	RefSeq	gene	1048465	1049892	.	+	.	ID=gene-ECOLC_RS05130;Name=ECOLC_RS05130;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS05130;old_locus_tag=EcolC_0961	FALSE	1090706
@@ -1704,7 +1704,7 @@ NC_010468.1	RefSeq	gene	1706583	1707617	.	+	.	ID=gene-ECOLC_RS08240;Name=ECOLC_R
 NC_010468.1	RefSeq	gene	1707699	1708037	.	-	.	ID=gene-ECOLC_RS08245;Name=ECOLC_RS08245;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08245;old_locus_tag=EcolC_1540	FALSE	1749940
 NC_010468.1	RefSeq	gene	1708256	1709080	.	-	.	ID=gene-ECOLC_RS08250;Name=ECOLC_RS08250;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08250;old_locus_tag=EcolC_1541	FALSE	1750497
 NC_010468.1	RefSeq	gene	1709201	1709473	.	+	.	ID=gene-ECOLC_RS08255;Name=ECOLC_RS08255;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08255;old_locus_tag=EcolC_1542	FALSE	1751442
-NC_010468.1	cmsearch	riboswitch	1709565	1709661	.	+	.	ID=id-14367;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1751806
+NC_010468.1	cmsearch	riboswitch	1709565	1709661	.	+	.	ID=id-14367;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1751806
 NC_010468.1	RefSeq	gene	1709696	1710484	.	+	.	ID=gene-ECOLC_RS08260;Name=ECOLC_RS08260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08260;old_locus_tag=EcolC_1543	FALSE	1751937
 NC_010468.1	RefSeq	gene	1710481	1711281	.	+	.	ID=gene-ECOLC_RS08265;Name=ECOLC_RS08265;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08265;old_locus_tag=EcolC_1544	FALSE	1752722
 NC_010468.1	RefSeq	gene	1711346	1712164	.	+	.	ID=gene-ECOLC_RS08270;Name=ECOLC_RS08270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS08270;old_locus_tag=EcolC_1545	FALSE	1753587
@@ -2990,7 +2990,7 @@ NC_010468.1	RefSeq	gene	2982922	2983626	.	+	.	ID=gene-ECOLC_RS14555;Name=ECOLC_R
 NC_010468.1	RefSeq	pseudogene	2983627	2983983	.	+	.	ID=gene-ECOLC_RS24450;Name=ECOLC_RS24450;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECOLC_RS24450;pseudo=true	FALSE	1720350
 NC_010468.1	RefSeq	gene	2983911	2984129	.	+	.	ID=gene-ECOLC_RS14560;Name=ECOLC_RS14560;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS14560;old_locus_tag=EcolC_2712	FALSE	1720066
 NC_010468.1	RefSeq	gene	2984383	2984470	.	+	.	ID=gene-ECOLC_RS14565;Name=ECOLC_RS14565;gbkey=Gene;gene_biotype=tRNA;locus_tag=ECOLC_RS14565;old_locus_tag=EcolC_R0066	FALSE	1719594
-NC_010468.1	RefSeq	direct_repeat	2984513	2984718	.	+	.	ID=id-14365;gbkey=repeat_region;inference=COORDINATES: alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2984569..2984596;rpt_unit_seq=tttctaagctgcctgtacggcagtgaac	FALSE	1719464
+NC_010468.1	RefSeq	direct_repeat	2984513	2984718	.	+	.	ID=id-14365;gbkey=repeat_region;inference=COORDINATES:_alignment:pilercr:v1.02;rpt_family=CRISPR;rpt_type=direct;rpt_unit_range=2984569..2984596;rpt_unit_seq=tttctaagctgcctgtacggcagtgaac	FALSE	1719464
 NC_010468.1	RefSeq	pseudogene	2984927	2986813	.	-	.	ID=gene-ECOLC_RS14570;Name=ECOLC_RS14570;end_range=2986813,.;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECOLC_RS14570;partial=true;pseudo=true	FALSE	1719050
 NC_010468.1	RefSeq	pseudogene	2986831	2987528	.	-	.	ID=gene-ECOLC_RS14575;Name=ECOLC_RS14575;gbkey=Gene;gene_biotype=pseudogene;locus_tag=ECOLC_RS14575;pseudo=true	TRUE	1717146
 NC_010468.1	RefSeq	gene	2987579	2987980	.	-	.	ID=gene-ECOLC_RS14580;Name=ECOLC_RS14580;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS14580	FALSE	1716398
@@ -3155,7 +3155,7 @@ NC_010468.1	RefSeq	gene	3127108	3127353	.	-	.	ID=gene-ECOLC_RS15335;Name=moaD;gb
 NC_010468.1	RefSeq	gene	3127346	3127831	.	-	.	ID=gene-ECOLC_RS15340;Name=ECOLC_RS15340;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS15340;old_locus_tag=EcolC_2860	FALSE	1576631
 NC_010468.1	RefSeq	gene	3127834	3128346	.	-	.	ID=gene-ECOLC_RS15345;Name=ECOLC_RS15345;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS15345;old_locus_tag=EcolC_2861	FALSE	1576143
 NC_010468.1	RefSeq	gene	3128368	3129357	.	-	.	ID=gene-ECOLC_RS15350;Name=moaA;gbkey=Gene;gene=moaA;gene_biotype=protein_coding;locus_tag=ECOLC_RS15350;old_locus_tag=EcolC_2862	FALSE	1575609
-NC_010468.1	cmsearch	riboswitch	3129345	3129489	.	-	.	ID=id-14368;Dbxref=RFAM:RF01055;Note=molybdenum cofactor riboswitch;bound_moiety=molybdenum cofactor;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1574632
+NC_010468.1	cmsearch	riboswitch	3129345	3129489	.	-	.	ID=id-14368;Dbxref=RFAM:RF01055;Note=molybdenum_cofactor_riboswitch;bound_moiety=molybdenum_cofactor;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	1574632
 NC_010468.1	RefSeq	gene	3129754	3130662	.	+	.	ID=gene-ECOLC_RS15360;Name=ECOLC_RS15360;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS15360;old_locus_tag=EcolC_2863	FALSE	1574223
 NC_010468.1	RefSeq	gene	3134124	3134879	.	-	.	ID=gene-ECOLC_RS15375;Name=ECOLC_RS15375;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS15375;old_locus_tag=EcolC_2866	FALSE	1569853
 NC_010468.1	RefSeq	gene	3134866	3136020	.	-	.	ID=gene-ECOLC_RS15380;Name=ECOLC_RS15380;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS15380;old_locus_tag=EcolC_2867	FALSE	1569111
@@ -3963,7 +3963,7 @@ NC_010468.1	RefSeq	gene	3920128	3920733	.	+	.	ID=gene-ECOLC_RS19250;Name=ECOLC_R
 NC_010468.1	RefSeq	gene	3920782	3921960	.	-	.	ID=gene-ECOLC_RS19255;Name=ECOLC_RS19255;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS19255;old_locus_tag=EcolC_3587	FALSE	783195
 NC_010468.1	RefSeq	gene	3922062	3922193	.	-	.	ID=gene-ECOLC_RS19260;Name=ECOLC_RS19260;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS19260	FALSE	781915
 NC_010468.1	RefSeq	gene	3922282	3923937	.	+	.	ID=gene-ECOLC_RS19265;Name=ECOLC_RS19265;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS19265;old_locus_tag=EcolC_3588	FALSE	781695
-NC_010468.1	cmsearch	riboswitch	3923971	3924070	.	+	.	ID=id-14369;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	780006
+NC_010468.1	cmsearch	riboswitch	3923971	3924070	.	+	.	ID=id-14369;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	780006
 NC_010468.1	RefSeq	gene	3924101	3925084	.	+	.	ID=gene-ECOLC_RS19270;Name=ECOLC_RS19270;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS19270;old_locus_tag=EcolC_3589	FALSE	779876
 NC_010468.1	RefSeq	gene	3925060	3926670	.	+	.	ID=gene-ECOLC_RS19275;Name=thiP;gbkey=Gene;gene=thiP;gene_biotype=protein_coding;locus_tag=ECOLC_RS19275;old_locus_tag=EcolC_3590	FALSE	778917
 NC_010468.1	RefSeq	gene	3926654	3927352	.	+	.	ID=gene-ECOLC_RS19280;Name=ECOLC_RS19280;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS19280;old_locus_tag=EcolC_3591	FALSE	777323
@@ -4445,7 +4445,7 @@ NC_010468.1	RefSeq	gene	4433787	4434458	.	-	.	ID=gene-ECOLC_RS21660;Name=ECOLC_R
 NC_010468.1	RefSeq	gene	4434468	4435532	.	-	.	ID=gene-ECOLC_RS21665;Name=ECOLC_RS21665;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21665;old_locus_tag=EcolC_4028	FALSE	269509
 NC_010468.1	RefSeq	gene	4435572	4436345	.	-	.	ID=gene-ECOLC_RS21670;Name=nudC;gbkey=Gene;gene=nudC;gene_biotype=protein_coding;locus_tag=ECOLC_RS21670;old_locus_tag=EcolC_4029	FALSE	268405
 NC_010468.1	RefSeq	gene	4436440	4436916	.	+	.	ID=gene-ECOLC_RS21675;Name=ECOLC_RS21675;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21675;old_locus_tag=EcolC_4030	FALSE	267537
-NC_010468.1	cmsearch	riboswitch	4436969	4437069	.	+	.	ID=id-14370;Dbxref=RFAM:RF00059;Note=TPP riboswitch;bound_moiety=thiamine pyrophosphate;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	267008
+NC_010468.1	cmsearch	riboswitch	4436969	4437069	.	+	.	ID=id-14370;Dbxref=RFAM:RF00059;Note=TPP_riboswitch;bound_moiety=thiamine_pyrophosphate;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	267008
 NC_010468.1	RefSeq	gene	4437150	4439045	.	+	.	ID=gene-ECOLC_RS21680;Name=ECOLC_RS21680;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21680;old_locus_tag=EcolC_4031	FALSE	266827
 NC_010468.1	RefSeq	gene	4439045	4439680	.	+	.	ID=gene-ECOLC_RS21685;Name=ECOLC_RS21685;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21685;old_locus_tag=EcolC_4032	FALSE	264932
 NC_010468.1	RefSeq	gene	4439673	4440428	.	+	.	ID=gene-ECOLC_RS21690;Name=ECOLC_RS21690;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21690;old_locus_tag=EcolC_4033	FALSE	264304
@@ -4478,7 +4478,7 @@ NC_010468.1	RefSeq	gene	4463713	4463788	.	-	.	ID=gene-ECOLC_RS21805;Name=ECOLC_R
 NC_010468.1	RefSeq	gene	4463862	4465417	.	-	.	ID=gene-ECOLC_RS21810;Name=ECOLC_RS21810;gbkey=Gene;gene_biotype=rRNA;locus_tag=ECOLC_RS21810;old_locus_tag=EcolC_R0113	FALSE	240115
 NC_010468.1	RefSeq	gene	4465789	4466646	.	-	.	ID=gene-ECOLC_RS21815;Name=ECOLC_RS21815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21815;old_locus_tag=EcolC_4049	FALSE	238188
 NC_010468.1	RefSeq	gene	4466591	4468435	.	-	.	ID=gene-ECOLC_RS21820;Name=ECOLC_RS21820;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21820;old_locus_tag=EcolC_4050	FALSE	237386
-NC_010468.1	cmsearch	riboswitch	4468500	4468690	.	-	.	ID=id-14371;Dbxref=RFAM:RF00174;Note=cobalamin riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES: profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	235477
+NC_010468.1	cmsearch	riboswitch	4468500	4468690	.	-	.	ID=id-14371;Dbxref=RFAM:RF00174;Note=cobalamin_riboswitch;bound_moiety=adenosylcobalamin;gbkey=regulatory;inference=COORDINATES:_profile:INFERNAL:1.1.1;regulatory_class=riboswitch	FALSE	235477
 NC_010468.1	RefSeq	gene	4468804	4469904	.	+	.	ID=gene-ECOLC_RS21825;Name=ECOLC_RS21825;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21825;old_locus_tag=EcolC_4051	FALSE	235173
 NC_010468.1	RefSeq	gene	4469944	4470303	.	-	.	ID=gene-ECOLC_RS21830;Name=ECOLC_RS21830;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21830;old_locus_tag=EcolC_4052	FALSE	234033
 NC_010468.1	RefSeq	gene	4470303	4470950	.	-	.	ID=gene-ECOLC_RS21835;Name=ECOLC_RS21835;gbkey=Gene;gene_biotype=protein_coding;locus_tag=ECOLC_RS21835;old_locus_tag=EcolC_4053	FALSE	233674
