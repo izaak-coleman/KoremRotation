@@ -1,3 +1,4 @@
+setwd("~/Documents/PhD/rotations/KoremRotation/enrichment_analysis/")
 library(ggplot2)
 library(grid)
 library(gridExtra)
@@ -34,3 +35,17 @@ grid.arrange(
   top = textGrob("Distribution of genes lethal at high copy number."),
   left = textGrob("Position with respect to Ori (bp)", rot=90),
   bottom= textGrob("PanDaTox (TRUE) non-PanDaTox(FALSE)"))
+
+
+# perform wilcoxon rank sum test to see if PanDaTox genes are significantly
+# greater than non-pandatox genes
+sink('wilcoxon_results.txt')
+wilcox.test(data_CP001509$V11  ~ data_CP001509$V10, alternative="less")
+wilcox.test(data_CP001637$V11  ~ data_CP001637$V10, alternative="less")
+wilcox.test(data_NC_009800$V11 ~ data_NC_009800$V10, alternative="less")
+wilcox.test(data_NC_009801$V11 ~ data_NC_009801$V10, alternative="less")
+wilcox.test(data_NC_010468$V11 ~ data_NC_010468$V10, alternative="less")
+wilcox.test(data_NC_010498$V11 ~ data_NC_010498$V10, alternative="less")
+wilcox.test(data_NC_011353$V11 ~ data_NC_011353$V10, alternative="less")
+wilcox.test(data_NC_012892$V11 ~ data_NC_012892$V10, alternative="less")
+sink()

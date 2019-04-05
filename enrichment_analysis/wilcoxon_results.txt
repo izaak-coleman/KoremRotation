@@ -1,0 +1,56 @@
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data_CP001509$V11 by data_CP001509$V10
+W = 291166, p-value = 0.5519
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data_CP001637$V11 by data_CP001637$V10
+W = 127495, p-value = 0.1026
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data_NC_009800$V11 by data_NC_009800$V10
+W = 90022, p-value = 0.06485
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction ***
+
+data:  data_NC_009801$V11 by data_NC_009801$V10
+W = 187646, p-value = 0.003827
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data_NC_010468$V11 by data_NC_010468$V10
+W = 260333.5, p-value = 0.05246
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction ***
+
+data:  data_NC_010498$V11 by data_NC_010498$V10
+W = 122061, p-value = 3.409e-07
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction ***
+
+data:  data_NC_011353$V11 by data_NC_011353$V10
+W = 209964, p-value = 0.02616
+alternative hypothesis: true location shift is less than 0
+
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data_NC_012892$V11 by data_NC_012892$V10
+W = 242872, p-value = 0.4616
+alternative hypothesis: true location shift is less than 0
+
