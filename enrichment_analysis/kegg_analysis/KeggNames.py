@@ -1,4 +1,5 @@
 import collections
+
 KeggNames = collections.namedtuple('KeggNames', [
 'ENTRY',
 'NAME',
@@ -40,3 +41,4 @@ keggnames = KeggNames(
 'AUTHORS',
 'TITLE',
 'JOURNAL')
+
