@@ -1,9 +1,10 @@
 import csv
+from recordclass import recordclass
 import collections
 import sys
 import re
 
-DoriC = collections.namedtuple('DoriC', ['position', 'refseq', 'id'])
+DoriC = collections.namedtuple('DoriC', 'position refseq id')
 
 def catch(func, handle=lambda e : e, *args, **kwargs):
   try:

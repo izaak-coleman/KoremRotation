@@ -1,8 +1,8 @@
-import collections
+from recordclass import recordclass
 import sys
 import re
 
-Assembly = collections.namedtuple('Assembly', ['filename', 'assembly', 'refseq', 'length','contigs'])
+Assembly = recordclass('Assembly', 'filename assembly refseq length contigs')
 
 def get_assembly_info(assembly_data):
   with open(assembly_data) as f:
@@ -19,7 +19,7 @@ def get_assembly_info(assembly_data):
     entry = ''.join(entry) + '#'
     assembly = get_assembly(entry)
     contigs = get_contigs(entry)
-    contigs = sorted([(contig, int(length)) for contig, length in contigs], key=lambda x : x[1])
+    contigs = sorted([(contig, int(length)) for contig, length in contigs], key=lambda x : x[1],reverse=True)
     assemblies.append(Assembly(filename, assembly, '', -1, contigs))
   return assemblies
 
