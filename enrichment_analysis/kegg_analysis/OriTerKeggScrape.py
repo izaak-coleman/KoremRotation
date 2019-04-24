@@ -34,7 +34,10 @@ class Organism:
     self.strain_name      = strain_name      # e.g Homo sapiens (human)
     self.taxa_string      = taxa_string      # e.g Eukaryotes;Animals;Vertebrates;Mammals
     self.annotated_gff = []
+    self.refseq = ''
+    self.genbank = ''
     self.get_metadata()
+    self.doric = ''
 
 
   def in_taxonomic_group(self, group):
@@ -65,78 +68,38 @@ class Organism:
         if available); and ncbi taxonomy"""
     entry = self.get_genome_entry_from_kegg()
     # Make regex engine
-    match = lambda a, b : re.findall(rf'{a}\s+(\S.*)\n',b)[0]
-    log = open(self.kegg_genome_id + '_failed_metadata_retrieval.log','w')
+    match = lambda a, b : re.findall(rf'{a}\s+(\S.*)\n',b)
     # Resolve basic metadata
-    try:
-      self.genome_length = int(match(kn.LENGTH, entry))
-      if self.kegg_organism_id == None:
-        self.kegg_organism_id = match(kn.NAME, entry).split(',')[0]
-      if self.strain_name == None:
-        self.strain_name = match(kn.DEFINITION, entry)
-      if self.taxa_string == None:
-        self.taxa_string = match(kn.LINEAGE, entry)
+    self.genome_length = match(kn.LENGTH, entry)
+    if len(self.genome_length) > 0:
+      self.genome_length = int(self.genome_length[0])
+    if self.kegg_organism_id == None:
+      if len(self.organism_id) > 0:
+        self.organism_id = self.organism_id[0]
+      self.kegg_organism_id = match(kn.NAME, entry).split(',')[0]
 
-      self.assembly = match(kn.DATA_SOURCE, entry)
+    if self.strain_name == None:
+      self.strain_name = match(kn.DEFINITION, entry)
+      if len(self.strain_name) > 0:
+        self.strain_name = self.strain_name[0]
+    if self.taxa_string == None:
+      self.taxa_string = match(kn.LINEAGE, entry)
+      if len(self.taxa_string) > 0:
+        self.taxa_string= self.taxa_string[0]
+
+    self.assembly = match(kn.DATA_SOURCE, entry)
+    if len(self.assembly) > 0:
+      self.assembly = self.assembly[0]
       self.assembly = re.findall('Assembly:([\.\w]+)', self.assembly)[0]
-      # Attempt to determine the Refseq sequence id used for this kegg organism
-      seq = match(kn.SEQUENCE, entry)
-      if seq[0:2] == 'RS':
-        self.rs_id, self.gb_id = re.findall(r'RS:(\S+)\s+\(GB:(\S+)\)',seq)[0]
-      if seq[0:2] == 'GB':
-        self.gb_id = re.findall(r'GB:(\S+)',seq)[0]
-        self.rs_id = search_ncbi_for_refseq_id(self.gb_id)
-    except:
-      log.write(entry)
-    log.close()
-
-  def generate_index(self, gff, field):
-    match = lambda a,b : re.findall(rf'[^\w]{a}=([\w]+)',b)
-    d = dict()
-    for index, line in enumerate(gff):
-      tag = match(field, line)
-      if len(tag) == 1:
-        d[tag[0]] = index
-    return d
-
-  def set_gff_filename(self, file_name):
-    self.gff_filename = file_name
-
-  def kegg_annotate_gff(self):
-    """Adds KEGG pathway, Ontology and other annotations to gff"""
-    if len(self.annotated_gff) == 0:
-      with gzip.open(self.gff_filename, 'rb') as f:
-        gff = f.read().decode('utf-8').split('\n')
-        gff.pop()
-        gff = [g for g in gff if g[0] != '#']
-        gff = [g for g in gff if (g.split('\t')[2] == 'gene' and g.split('\t')[0] == 'NC_002663.1')]
-        self.annotated_gff = gff
-
-    old_tag_idx = self.generate_index(gff, 'old_locus_tag')
-    tag_idx = self.generate_index(gff, 'locus_tag')
-    annotations = self.get_kegg_gene_annotations('pathway')
-    remove_header = lambda x : re.findall(r'.*:(.*)',x)[0]
-
-    log = open(self.kegg_genome_id + '_failed_kegg_annotation.log','w')
-    for gene_id, kegg_anno in annotations:
-      gene_id = remove_header(gene_id)
-      idx = old_tag_idx.get(gene_id, -1) 
-      if idx == -1:
-        idx = tag_idx.get(gene_id, -1)
-      if idx == -1:
-        log.write(gene_id + '\n')
-        continue
-      self.annotated_gff[idx] += '\t' + kegg_anno
-    log.close()
-
-  def write_annotated_gff(self):
-    data = [(int(e.split('\t')[3]),e) for e in self.annotated_gff]
-    data = sorted(data, key=lambda x: x[0])
-    self.annotated_gff = [e for _,e in data]
-    with gzip.open(self.gff_filename, 'wb') as f:
-      f.write('\n'.join(self.annotated_gff))
-
-
+    # Attempt to determine the Refseq sequence id used for this kegg organism
+    seq = match(kn.SEQUENCE, entry)
+    if len(seq) > 0:
+      seq = seq[0]
+    if seq[0:2] == 'RS':
+      self.refseq, self.genbank = re.findall(r'RS:(\S+)\s+\(GB:(\S+)\)',seq)[0]
+    if seq[0:2] == 'GB':
+      self.genbank = re.findall(r'GB:(\S+)',seq)[0]
+      self.refseq = self.search_ncbi_for_refseq_id(self.genbank)
     
   def get_kegg_gene_annotations(self, annotation):
     url = f'http://rest.kegg.jp/link/{annotation}/{self.kegg_genome_id}'
@@ -145,33 +108,58 @@ class Organism:
     data.pop()
     return data
 
-  def set_ori_info(self, tubic_entry):
-    """Parses the tubic_entry and extracts relevant info to make self. Ori object."""
-    pass
-
 
 def main():
-  olist = get_kegg_organism_list()
-  olist = [org for org in olist if 'Bacteria' in org.split('\t')[3]]
-  # Generator produces an Organism for each organism in kegg in relevant taxanomic rank
-  #orgs = (Organism(*org.split('\t')) 
-  #            for org in olist
-  #            if ('Bacteria' in Organism(*org.split('\t')).taxa_string))
-
-  pmu = [e for e in olist if 'pmu' in e.split('\t')[1]][0]
-  pmu = Organism(*pmu.split('\t'))
-  pmu.set_gff_filename('../doric10/gffs/gff/GCF_000006825.1_ASM682v1_genomic.gff.gz')
-  pmu.kegg_annotate_gff()
-  print('\n'.join(pmu.annotated_gff))
-
-
-
+  pass
 
 if __name__ == '__main__':
   main()
 
 
 # to do
-# 1. Fix kegg_annotate_gff such that files are filtered for ncbi refseq
-# 2. Figure out the actual main.py pipeline. this will help to determine when Organism knows what
-# 3. Switch to use of assemblies instead of relying on ncbi refseq this seems to fail in many cases
+
+#  def generate_index(self, gff, field):
+#    match = lambda a,b : re.findall(rf'[^\w]{a}=([\w]+)',b)
+#    d = dict()
+#    for index, line in enumerate(gff):
+#      tag = match(field, line)
+#      if len(tag) == 1:
+#        d[tag[0]] = index
+#    return d
+#
+#  def set_gff_filename(self, file_name):
+#    self.gff_filename = file_name
+#
+#  def kegg_annotate_gff(self):
+#    """Adds KEGG pathway, Ontology and other annotations to gff"""
+#    if len(self.annotated_gff) == 0:
+#      with gzip.open(self.gff_filename, 'rb') as f:
+#        gff = f.read().decode('utf-8').split('\n')
+#        gff.pop()
+#        gff = [g for g in gff if g[0] != '#']
+#        gff = [g for g in gff if (g.split('\t')[2] == 'gene' and g.split('\t')[0] == 'NC_002663.1')]
+#        self.annotated_gff = gff
+#
+#    old_tag_idx = self.generate_index(gff, 'old_locus_tag')
+#    tag_idx = self.generate_index(gff, 'locus_tag')
+#    annotations = self.get_kegg_gene_annotations('pathway')
+#    remove_header = lambda x : re.findall(r'.*:(.*)',x)[0]
+#
+#    log = open(self.kegg_genome_id + '_failed_kegg_annotation.log','w')
+#    for gene_id, kegg_anno in annotations:
+#      gene_id = remove_header(gene_id)
+#      idx = old_tag_idx.get(gene_id, -1) 
+#      if idx == -1:
+#        idx = tag_idx.get(gene_id, -1)
+#      if idx == -1:
+#        log.write(gene_id + '\n')
+#        continue
+#      self.annotated_gff[idx] += '\t' + kegg_anno
+#    log.close()
+#
+#  def write_annotated_gff(self):
+#    data = [(int(e.split('\t')[3]),e) for e in self.annotated_gff]
+#    data = sorted(data, key=lambda x: x[0])
+#    self.annotated_gff = [e for _,e in data]
+#    with gzip.open(self.gff_filename, 'wb') as f:
+#      f.write('\n'.join(self.annotated_gff))

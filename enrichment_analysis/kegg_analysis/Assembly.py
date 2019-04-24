@@ -4,7 +4,7 @@ import re
 
 Assembly = recordclass('Assembly', 'filename assembly refseq length contigs')
 
-def get_assembly_info(assembly_data):
+def get_entries(assembly_data):
   with open(assembly_data) as f:
     data = [l.strip() for l in f]
   delimiters = [i for i in range(0, len(data)) if 'gff.gz' == data[i][-6:]]
@@ -20,7 +20,7 @@ def get_assembly_info(assembly_data):
     assembly = get_assembly(entry)
     contigs = get_contigs(entry)
     contigs = sorted([(contig, int(length)) for contig, length in contigs], key=lambda x : x[1],reverse=True)
-    assemblies.append(Assembly(filename, assembly, '', -1, contigs))
+    assemblies.append(Assembly(filename, assembly[0], '', -1, contigs))
   return assemblies
 
 def main():
