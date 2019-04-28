@@ -1,4 +1,5 @@
 import os
+import sys
 import urllib.request
 import itertools as it
 import re
@@ -12,8 +13,9 @@ import time
 PATHWAY  = 'pathway'
 
 PICKLE_STORE = './pickles/'
-def pickle_organism(org):
-  with bz2.BZ2File(f'{org.refseq}.pickle.bz2','wb') as f:
+ASM_PATH = './assemblies/'
+def pickle_organism(org,pickle_name):
+  with bz2.BZ2File(pickle_name,'wb') as f:
     pickle.dump(org,f)
 
 def unpickle_organism(filename):
@@ -29,14 +31,14 @@ def get_kegg_sym_instances(kegg_sym):
     return sorted([remove_hdr(kegg.split('\t')[0]) for kegg in all_kegg_syms])
 
 
-def linear_dist(ori, genome_length, feature_pos): 
+def linear_distance(ori, genome_length, feature_pos): 
   ter = (ori + genome_length/2.0) % genome_length
   if feature_pos > ter:
     return abs(ori - feature_pos)
   else:
     return genome_length - (ori - feature_pos)
 
-def log_dist(ori, genome_length, feature_pos): 
+def log_distance(ori, genome_length, feature_pos): 
   ter = (ori + genome_length/2.0) % genome_length
   if feature_pos > ter:
     return abs(ori - feature_pos)
@@ -45,9 +47,9 @@ def log_dist(ori, genome_length, feature_pos):
 
 class Organism:
 
-  def __init__(self, ori_id, gcf, refseq, kegg_gn, ori_pos, asm_file, kegg_sym,genome_length):
+  def __init__(self, ori_id, asm_id, refseq, kegg_gn, ori_pos, asm_file, kegg_sym,genome_length):
     self.ori_id = ori_id
-    self.gcf = gcf
+    self.asm_id = asm_id
     self.refseq = refseq
     self.kegg_gn = kegg_gn
     self.ori_pos = int(ori_pos)
@@ -60,6 +62,7 @@ class Organism:
 
 
   def get_position_vec(self):
+    print(f'Building position vec for {self.kegg_gn}.')
     with gzip.open(self.asm_file,'r') as f:
       asm = f.read().decode('utf-8').split('\n')
       asm.pop()
@@ -67,6 +70,7 @@ class Organism:
     return np.array([int(elem[3]) for elem in asm if elem[2] == 'gene' and elem[0] == self.refseq])
 
   def get_kegg_index(self):
+    print(f'Building kegg index for {self.kegg_gn}.')
     # Download all genes for kegg organism along with the relevant kegg_sym.
     url = f'http://rest.kegg.jp/link/{self.kegg_sym}/{self.kegg_gn}'
     kegg_tag_idx = urllib.request.urlopen(url).read().decode('utf-8').split('\n')
@@ -109,14 +113,14 @@ class Organism:
       kegg_index[kegg] = sorted(list(indices))
     return kegg_index
  
-  def compute_analysis_vector(self, ori, all_kegg_syms, dist, summary):
+  def compute_analysis_vector(self, ori, kegg_syms, dist, summary):
     """For each possible kegg symbol generates a summary statistic for the
        distance from ori for each gene assigned to the symbol. """
-    analysis_vec = np.full(len(all_kegg_syms), -1, dtype='float64')
+    analysis_vec = np.full(len(kegg_syms), -1, dtype='float64')
     # vectorise the input distance function
     vec_dist = np.vectorize(lambda n : dist(self.ori_pos, self.genome_length, n))
-    for i in range(0, len(all_kegg_syms)):
-      kegg_sym = all_kegg_syms[i]
+    for i in range(0, len(kegg_syms)):
+      kegg_sym = kegg_syms[i]
       if kegg_sym not in self.kegg_index:
         continue
       indices = self.kegg_index[kegg_sym]
@@ -141,32 +145,54 @@ def main():
   # If Organism has previously been generated and pickled, load pickle
   # rather than re-downloading from kegg.
   organisms = list()
-  for elem in organism_list:
-    pickle_name = PICKLE_STORE + elem[2] + f'.{sys.argv[2]}' + '.pickle'
+  for ori_id, asm_id, refseq, hit, kegg_gn, ori_pos, fname, genome_length in organism_list:
+    pickle_name = PICKLE_STORE + refseq + f'.{sys.argv[2]}' + '.pickle.bz2'
     if os.path.isfile(pickle_name): 
       organisms.append(unpickle_organism(pickle_name))
     else:
-      org = Organism(ORGANISM_INPUT)
+      org = Organism(ori_id = ori_id,
+        asm_id = asm_id,
+        refseq = refseq,
+        kegg_gn = kegg_gn,
+        ori_pos = ori_pos,
+        asm_file = ASM_PATH + fname,
+        kegg_sym = kegg_sym,
+        genome_length = genome_length
+      )
       organisms.append(org)
-      pickle_organism(org)
+      pickle_organism(org,pickle_name)
 
-  # Download all the kegg symbols instances for the kegg symbol of interest.
-  # e.g if looking at kegg pathways, download all possible pathways
-  kegg_sym_instances = get_kegg_sym_instances(kegg_sym)
+  for org in organisms:
+    key, val = list(org.kegg_index.items())[1]
+    print(f'{org.kegg_gn} {org.asm_id} {key}')
+    print(f'{org.positions_vec[val]}')
 
-  # dist_matrix is size |organisms| X |all_kegg_symbols|. 
-  # Entry i,j contains the distance (summary statistic) of all genes
-  # of kegg_symbol j from species i to ori in species i.
-  dims = (len(organisms), len(kegg_sym_instances))
-  dist_matrix = np.zeros(dim, dtype='float64')
-
-  # Compute the real variance of the distance of each kegg symbol from ori in 
-  # all strains
-  for idx, org in enumerate(organisms):
-    dist_matrix[idx] = org.compute_analysis_vector(COMPUTE_ANAL_VEC_INPUT)
-  real_variance = np.apply_along_axis(np.var, axis=0, dist_matrix)
-
-  # Begin permutation analysis
+#
+#  # Download all the kegg symbols instances for the kegg symbol of interest.
+#  # e.g if looking at kegg pathways, download all possible pathways
+#  kegg_sym_instances = get_kegg_sym_instances(kegg_sym)
+#
+#
+#  # Begin analysis. 
+#
+#  # dist_matrix is size |organisms| X |all_kegg_symbols|. 
+#  # Entry i,j contains the distance (summary statistic) of all genes
+#  # of kegg_symbol j from species i to ori in species i.
+#  dims = (len(organisms), len(kegg_sym_instances))
+#  dist_matrix = np.zeros(dim, dtype='float64')
+#
+#  # Compute the real variance of the distance of each kegg symbol from ori in 
+#  # all strains
+#  for idx, org in enumerate(organisms):
+#    dist_matrix[idx] = org.compute_analysis_vector(ori=org.ori_pos,
+#      kegg_syms=kegg_sym_instances,
+#      dist=linear_distance,
+#      np.median
+#    )
+#  print(dist_matrix)
+#  real_variance = np.apply_along_axis(np.var, axis=0, dist_matrix)
+#
+#  # Begin permutation analysis
 
   
 
@@ -185,3 +211,7 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+
+
+
