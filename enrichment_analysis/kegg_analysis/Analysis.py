@@ -11,9 +11,12 @@ import time
 
 
 PATHWAY  = 'pathway'
-
 PICKLE_STORE = './pickles/'
 ASM_PATH = './assemblies/'
+
+START = 3
+END = 4
+
 def pickle_organism(org,pickle_name):
   with bz2.BZ2File(pickle_name,'wb') as f:
     pickle.dump(org,f)
@@ -34,19 +37,15 @@ def get_kegg_sym_instances(kegg_sym):
 
 
 def linear_distance(ori, genome_length, feature_pos): 
-  ter = (ori + genome_length/2.0) % genome_length
-  if feature_pos > ter:
-    return abs(ori - feature_pos)
-  else:
-    return genome_length - (ori - feature_pos)
+  if abs(feature_pos - ori) < (genome_length / 2.0):
+    return abs(feature_pos - ori)
+  return genome_length - abs(feature_pos - ori)
 
 def normalized_linear_distance(ori, genome_length, feature_pos): 
   """ Normalise along the Ori-Ter axis. Ori =0 , Ter = 1"""
-  ter = (ori + genome_length/2.0) % genome_length
-  if feature_pos > ter:
-    return abs(ori - feature_pos) / float(genome_length / 2.0)
-  else:
-    return (genome_length - (ori - feature_pos)) / float(genome_length / 2.0)
+  if abs(feature_pos - ori) < (genome_length / 2.0):
+    return abs(feature_pos - ori) / (genome_length / 2.0)
+  return (genome_length - abs(feature_pos - ori)) / (genome_length / 2.0)
 
 def log_distance(ori, genome_length, feature_pos): 
   ter = (ori + genome_length/2.0) % genome_length
@@ -67,21 +66,23 @@ class Organism:
     self.kegg_sym = kegg_sym
     self.genome_length = int(genome_length)
 
-    self.position_vec = self.get_position_vec()
-    self.dist_from_ori = np.full(len(self.position_vec),0)
-    for i,p in enumerate(self.position_vec):
+    self.position_vec_start = self.get_position_vec(START)
+    self.position_vec_end   = self.get_position_vec(END)
+    self.dist_from_ori = np.full(len(self.position_vec_start),0)
+    for i,p in enumerate(self.position_vec_start):
       self.dist_from_ori[i] = linear_distance(self.ori_pos, self.genome_length, p)
       
-    self.norm_position_vec = self.normalize_position_vec()
+    self.norm_position_vec_start = self.normalize_position_vec(START)
+    self.norm_position_vec_end   = self.normalize_position_vec(END)
     self.kegg_index = self.get_kegg_index()
 
 
-  def get_position_vec(self):
+  def get_position_vec(self, pos):
     with gzip.open(self.asm_file,'r') as f:
       asm = f.read().decode('utf-8').split('\n')
       asm.pop()
       asm = [l.split('\t') for l in asm if l[0] != '#']
-    return np.array([int(elem[3]) for elem in asm if elem[2] == 'gene' and elem[0] == self.refseq])
+    return np.array([int(elem[pos]) for elem in asm if elem[2] == 'gene' and elem[0] == self.refseq])
 
   def get_kegg_index(self):
     # Download all genes for kegg organism along with the relevant kegg_sym.
@@ -140,22 +141,51 @@ class Organism:
       if len(indices) == 0:
         continue
       distances = vec_dist(self.position_vec[indices])
-      #print('%s: %s' % (kegg_sym, ', '.join([str(d) for d in sorted(distances)])))
       analysis_vec[i] = summary(distances) 
     return analysis_vec
 
-  def normalize_position_vec(self):
+  def normalize_position_vec(self, pos):
     """ Normalize the entire positions vector along Ori Ter axis"""
     vec_dist = np.vectorize(lambda n : normalized_linear_distance(self.ori_pos, self.genome_length, n))
-    return vec_dist(self.position_vec)
+    if pos == START:
+      return vec_dist(self.position_vec_start)
+    return vec_dist(self.position_vec_end)
+
+  def compute_bin_vector(self, increment, kegg_to_vec):
+    """Computes a boolean vector of length |all kegg syms| which has value
+      True at the correct kegg symbol position if a gene within the bin
+      is annotated with the kegg symbol. """
+
+    # Associated each kegg symbol in the organism with its list of normalised
+    # start and end positions for each associated gene.
+    kegg_to_starts = {kegg_sym : self.norm_position_vec_start[self.kegg_index[kegg_sym]] for kegg_sym in self.kegg_index.keys()}
+    kegg_to_ends = {kegg_sym : self.norm_position_vec_end[self.kegg_index[kegg_sym]] for kegg_sym in self.kegg_index.keys()}
+
+    # initialise matrix of bin vectors. dims = |bins| X |kegg_symbols|
+    dims = (int(1/increment),len(kegg_to_vec.keys()))
+    bin_vectors = np.zeros(dims,dtype=bool)
+
+    # begin loop through bins
+    bv_idx = 0
+    for bin_start in np.arange(0,1,increment):
+      bin_end = bin_start + increment
+      for kegg_sym in self.kegg_index.keys():
+        start_pos = kegg_to_starts[kegg_sym]
+        end_pos   = kegg_to_ends[kegg_sym]
+        if (np.any( ((bin_start <= start_pos) & (start_pos < bin_end)) |
+           ((bin_start <= end_pos) & (end_pos < bin_end)) |
+           ((start_pos <= bin_start) & (bin_end <= end_pos)))):
+          bin_vectors[bv_idx][kegg_to_vec[int(kegg_sym)]] = True
+      bv_idx += 1
+    return bin_vectors
 
   def n_kegg_syms_in_bin(self, start, increment):
     count = 0
-    for kegg_sym in kegg_index.keys():
-      positions = self.norm_position_vec[self.kegg_index[kegg_sym]]
-      if np.any(start <= positions) and np.any(positions < (start + increment)):
+    for kegg_sym in self.kegg_index.keys():
+      positions = self.norm_position_vec_start[self.kegg_index[kegg_sym]]
+      if np.any((start <= positions) & (positions < (start + increment))):
         count += 1
-    return
+    return count
       
 
 
@@ -175,7 +205,7 @@ def main():
   # If Organism has previously been generated and pickled, load pickle
   # rather than re-downloading from kegg.
   organisms = list()
-  for ori_id, asm_id, refseq, hit, kegg_gn, ori_pos, fname, genome_length in organism_list[:1]:
+  for ori_id, asm_id, refseq, hit, kegg_gn, ori_pos, fname, genome_length in organism_list[:10]:
     pickle_name = PICKLE_STORE + refseq + f'.{sys.argv[2]}' + '.pickle.bz2'
     if os.path.isfile(pickle_name): 
       organisms.append(unpickle_organism(pickle_name))
@@ -196,13 +226,22 @@ def main():
         print(f'Failed to scrape {kegg_gn} {refseq} {asm_id}')
         continue
 
+  kegg_sym_instances = get_kegg_sym_instances(kegg_sym)
+  kegg_to_vec = {int(kegg_sym):i for i, kegg_sym in enumerate(kegg_sym_instances)}
+  inc = 0.001
+  # compute np array to store each bin matrix
+  dims = (len(organisms), int(1/inc), len(kegg_sym_instances))
+  org_matrices = np.zeros(dims, dtype=bool)
+  for i, org in enumerate(organisms):
+    print(f'computing matrix for {org.kegg_gn}')
+    org_matrices[i] = org.compute_bin_vector(inc, kegg_to_vec)
 
-  org = organisms[0]
-  print(org.ori_pos)
-  print(org.genome_length)
-  print(org.position_vec)
-  print(org.norm_position_vec)
-  print(org.dist_from_ori)
+  for vec in org_matrices[0]:
+    print(vec)
+
+##for i in range(0,len(org.position_vec)):
+
+#    print(f'{org.position_vec[i]} {org.dist_from_ori[i]} {org.norm_position_vec[i]}')
 
 
 #  # Download all the kegg symbols instances for the kegg symbol of interest.
