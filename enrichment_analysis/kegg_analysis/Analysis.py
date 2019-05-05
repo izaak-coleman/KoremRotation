@@ -9,6 +9,7 @@ import pickle
 import bz2
 import time
 from sklearn.metrics import jaccard_similarity_score
+import scipy.stats as stats
 
 
 PATHWAY  = 'pathway'
@@ -50,6 +51,13 @@ def normalized_linear_distance(ori, genome_length, feature_pos):
     return abs(feature_pos - ori) / (genome_length / 2.0)
   return (genome_length - abs(feature_pos - ori)) / (genome_length / 2.0)
 
+def normalized_log_distance(ori, genome_length, feature_pos):
+# First, compute linear distance
+  if abs(feature_pos - ori) < (genome_length / 2.0):
+    return np.log2(abs(feature_pos - ori)) / np.log2(genome_length / 2.0)
+  return np.log2(genome_length - abs(feature_pos - ori)) / np.log2(genome_length / 2.0)
+
+
 def log_distance(ori, genome_length, feature_pos): 
   ter = (ori + genome_length/2.0) % genome_length
   if feature_pos > ter:
@@ -69,6 +77,8 @@ class Organism:
     self.kegg_sym = kegg_sym
     self.genome_length = int(genome_length)
     self.discard_org = False
+    self.gene_tags = dict()
+    self.old_gene_tags = dict()
 
     self.position_vec_start = self.get_position_vec(START)
     self.position_vec_end   = self.get_position_vec(END)
@@ -108,7 +118,6 @@ class Organism:
     asm.pop()
     asm = [l.split('\t') for l in asm if l[0] != '#']
     asm = ['\t'.join(elem) for elem in asm if elem[2] == 'gene' and elem[0] == self.refseq] 
-    self.gene_tags, self.old_gene_tags = dict(), dict()
     get_tag = lambda a,b : re.findall(rf'[^\w]{a}=([\w]+)',b)
     for idx in range(0, len(asm)):
       line = asm[idx]
@@ -140,10 +149,10 @@ class Organism:
         self.discard_org = True
     return kegg_index
  
-  def compute_analysis_vector(self, ori, kegg_syms, dist, summary):
+  def compute_distance_vector(self, ori, kegg_syms, dist, summary):
     """For each possible kegg symbol generates a summary statistic for the
        distance from ori for each gene assigned to the symbol. """
-    analysis_vec = np.full(len(kegg_syms), -1, dtype='float64')
+    distance_vec = np.full(len(kegg_syms), -1, dtype='float64')
     # vectorise the input distance function
     vec_dist = np.vectorize(lambda n : dist(ori, self.genome_length, n))
     for i in range(0, len(kegg_syms)):
@@ -153,9 +162,9 @@ class Organism:
       indices = self.kegg_index[kegg_sym]
       if len(indices) == 0:
         continue
-      distances = vec_dist(self.position_vec[indices])
-      analysis_vec[i] = summary(distances) 
-    return analysis_vec
+      distances = vec_dist(self.position_vec_start[indices])
+      distance_vec[i] = summary(distances) 
+    return distance_vec 
 
   def normalize_position_vec(self, pos):
     """ Normalize the entire positions vector along Ori Ter axis"""
@@ -203,11 +212,12 @@ class Organism:
 
 
 def main():
-  if len(sys.argv) != 3:
-    print("Usage: <exe> <organism_list> <kegg_sym_of_interest>")
+  if len(sys.argv) != 4:
+    print("Usage: <exe> <organism_list> <kegg_sym_of_interest> <house_keeping_gene_list>")
     sys.exit()
   organism_list = sys.argv[1]
   kegg_sym      = sys.argv[2]
+  house_keeping = sys.argv[3]
 
   # Parse organism list
   with open(organism_list) as f:
@@ -217,10 +227,10 @@ def main():
   # If Organism has previously been generated and pickled, load pickle
   # rather than re-downloading from kegg.
   organisms = list()
+  print('Loading data')
   for ori_id, asm_id, refseq, hit, kegg_gn, ori_pos, fname, genome_length in organism_list:
     sys.stdout.flush()
     pickle_name = PICKLE_STORE + refseq + f'.{sys.argv[2]}' + '.pickle.bz2'
-    print(f'loading {refseq}')
     if os.path.isfile(pickle_name): 
       organisms.append(unpickle_organism(pickle_name))
     else:
@@ -240,7 +250,7 @@ def main():
         print(e)
         print(f'Failed to scrape {kegg_gn} {refseq} {asm_id}')
         continue
-
+  print('Filtering organisms')
   # Discard organisms whom enough kegg symbols could not be assigned to their genome
   organisms = [o for o in organisms if o.discard_org == False]
 
@@ -249,17 +259,21 @@ def main():
   # and the gene_name is the name of the ith housekeeping gene in k
   hkg_names = list()
   hkg_files = list()
+  remove_sp_name = lambda x : re.findall(r'[a-z]:(.*)',x)[0]
   with open(house_keeping) as f:
     hkg_files = [l.strip() for l in f]
     for hkg_file in hkg_files:
       with open(hkg_file) as f:
         dump = [l.strip().split(',') for l in f]
-        hkg_names.append({kegg_genome: gene_name for kegg_genome, gene_name in dump})
+        hkg_names.append({kegg_genome: remove_sp_name(gene_name) for kegg_genome, gene_name in dump})
 
   intersect = set(hkg_names[0].keys())
   for d in hkg_names:
-    intersect.intersection(set(d.keys()))
+    intersect = intersect.intersection(set(d.keys()))
+  # Make organisms and hkg dictionaries contain only the intersection
   organisms = [o for o in organisms if o.kegg_gn in intersect]
+  for i,d  in enumerate(hkg_names):
+    hkg_names[i] = {k:v for k,v in d.items() if k in intersect}
 
   # Download all the kegg symbols instances for the kegg symbol of interest.
   # e.g if looking at kegg pathways, download all possible pathways
@@ -270,59 +284,75 @@ def main():
   # dist_matrix is size |organisms| X |all_kegg_symbols|. 
   # Entry i,j contains the distance (summary statistic) of all genes
   # of kegg_symbol j from species i to ori in species i.
+  print('computing real var')
   ori_vec  = [o.ori_pos for o in organisms]
-  dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_linear_distance, np.median, ori_vec)
+  dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_log_distance, np.median, ori_vec)
 
   # Compute the variance of the median distance from Ori to each KEGG group across 
   # all strains
   real_variance = compute_variance(dist_matrix, len(kegg_sym_instances))
 
   # Begin variance analysis for each house keeping gene
-  dims = (len(kg_names), len(kegg_sym_instances))
-  hkg_variance = np.full(dims, -1)
+  dims = (len(hkg_names), len(kegg_sym_instances))
+  hkg_variance = np.full(dims, -1, dtype='float64')
   for i, hkg_name_dict in enumerate(hkg_names):
-    # or old gene tag!
+    print(f'computing {hkg_files[i]}')
     position_vec = list()
     for o in organisms:
-      index = o.gene_tag.get(hkg_name_dict[o.kegg_gn], -1)
+      index = o.gene_tags.get(hkg_name_dict[o.kegg_gn], -1)
       if index == -1:
-        index = o.gene_tag.get(hkg_name_dict[o.kegg_gn],-1)
+        index = o.old_gene_tags.get(hkg_name_dict[o.kegg_gn],-1)
       if index == -1:
         position_vec.append(-1)
       else:
         # set the "origin" to be the start of the housekeeping gene
-        position_vec.append(o.position_vector[index])
+        position_vec.append(o.position_vec_start[index])
     # Compute dist matrix using housekeeping genes as origin
-    dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_linear_distances, np.median, position_vec)
+    dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_log_distance, np.median, position_vec)
     # Compute variance
     hkg_variance[i] = compute_variance(dist_matrix, len(kegg_sym_instances))
 
+  # Perform mann-whitney u tests
+  # Against all housekeeping genes
+  all_hkg_vars = hkg_variance.ravel()
+  print('real vs all house keeping genes')
+  print(f'two-sided, {stats.mannwhitneyu(real_variance, all_hkg_vars, alternative="two-sided")}')
+  print(f'less, {stats.mannwhitneyu(real_variance, all_hkg_vars, alternative="less")}')
+  print(f'greater, {stats.mannwhitneyu(real_variance, all_hkg_vars, alternative="greater")}')
+
+ # Against each house keeping gene
+  print('real vs each house keeping gene')
+  for i, hkg_var in enumerate(hkg_variance):
+    print(hkg_files[i])
+    print(f'two-sided, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="two-sided")}')
+    print(f'less, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="less")}')
+    print(f'greater, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="greater")}')
+
+
 def compute_variance(dist_matrix, col_len):
   filter_nulls = lambda x : x[x != -1]
-  var_vec = np.full(len(kegg_sym_instances), -1)
+  var_vec = np.full(col_len, -1, dtype='float64')
   for i in range(0,col_len):
-    try:
-      var_vec[i] = np.var(filter_nulls(dist_matrix[:i]))
-    except:
-      # occurs if filter_nulls feeds empty list to np.var()
+    values = filter_nulls(dist_matrix[:,i])
+    if len(values) == 0:
+    # occurs if filter_nulls feeds empty list to np.var()
       var_vec[i] = -1
+    else:
+      var_vec[i] = np.var(values)
   return var_vec
 
 
-def compute_dist_matrix(organisms, kegg_sym_instances, dist, summary, ori_vec)
+def compute_dist_matrix(organisms, kegg_sym_instances, dist, summary, ori_vec):
   dims = (len(organisms), len(kegg_sym_instances))
   dist_matrix = np.zeros(dims, dtype='float64')
 
-  # Compute the real variance of the distance of each kegg symbol from ori in 
-  # all strains
   for idx, org in enumerate(organisms):
-
     if ori_vec[idx] == -1:
     # Then we failed to find the housekeeping gene for this strain, therefore
     # set its dist vect to -1 so it is skipped when computing variance
       dist_matrix[idx] = np.full(len(kegg_sym_instances), -1)
     else:
-      dist_matrix[idx] = org.compute_analysis_vector(ori=ori_vec[idx],
+      dist_matrix[idx] = org.compute_distance_vector(ori=ori_vec[idx],
         kegg_syms=kegg_sym_instances,
         dist=normalized_linear_distance,
         summary=np.median
@@ -346,44 +376,44 @@ if __name__ == '__main__':
   main()
 
 
-def jaccard_computation(organisms,kegg_sym_instances)
-  # compute np array to store each bin matrix
-  kegg_to_vec = {int(kegg_sym):i for i, kegg_sym in enumerate(kegg_sym_instances)}
-  dims = (len(organisms), int(1/INC), len(kegg_sym_instances))
-  org_matrices = np.zeros(dims, dtype=bool)
-  print('Computing real jaccard_indices')
-  results = open('results.csv','w')
-  for i, org in enumerate(organisms):
-    org_matrices[i] = org.compute_bin_vector(INC, kegg_to_vec)
-  and_reduce = np.bitwise_and.reduce(org_matrices,axis=0)
-  or_reduce = np.bitwise_or.reduce(org_matrices,axis=0)
-
-  for i in range(0, int(1/INC)):
-    results.write(f'real,{i},{(float(np.sum(and_reduce[i])) / np.sum(or_reduce[i]))}\n')
-  np.set_printoptions(threshold=sys.maxsize)
-  for it in range(0, 200):
-    # Permute positions
-    print(f'iteration {it}')
-    print('Randomizing genome locations')
-    for o in organisms:
-      o.norm_position_vec_start, o.norm_position_vec_end =  shuffle_in_unison(o.norm_position_vec_start, o.norm_position_vec_end)
-    print('Computing jaccard on randomized positions')
-    org_matrices = np.zeros(dims, dtype=bool)
-    for i, org in enumerate(organisms):
-      org_matrices[i] = org.compute_bin_vector(INC, kegg_to_vec)
-    and_reduce = np.bitwise_and.reduce(org_matrices,axis=0)
-    or_reduce = np.bitwise_or.reduce(org_matrices,axis=0)
-
-    for i in range(0, int(1/INC)):
-      results.write(f'rand,{i},{(float(np.sum(and_reduce[i])) / np.sum(or_reduce[i]))}\n')
-  results.close()
-
-def shuffle_in_unison(a, b):
-  assert len(a) == len(b)
-  shuffled_a = np.empty(a.shape, dtype=a.dtype)
-  shuffled_b = np.empty(b.shape, dtype=b.dtype)
-  permutation = np.random.permutation(len(a))
-  for old_index, new_index in enumerate(permutation):
-      shuffled_a[new_index] = a[old_index]
-      shuffled_b[new_index] = b[old_index]
-  return shuffled_a, shuffled_b
+#def jaccard_computation(organisms,kegg_sym_instances):
+#  # compute np array to store each bin matrix
+#  kegg_to_vec = {int(kegg_sym):i for i, kegg_sym in enumerate(kegg_sym_instances)}
+#  dims = (len(organisms), int(1/INC), len(kegg_sym_instances))
+#  org_matrices = np.zeros(dims, dtype=bool)
+#  print('Computing real jaccard_indices')
+#  results = open('results.csv','w')
+#  for i, org in enumerate(organisms):
+#    org_matrices[i] = org.compute_bin_vector(INC, kegg_to_vec)
+#  and_reduce = np.bitwise_and.reduce(org_matrices,axis=0)
+#  or_reduce = np.bitwise_or.reduce(org_matrices,axis=0)
+#
+#  for i in range(0, int(1/INC)):
+#    results.write(f'real,{i},{(float(np.sum(and_reduce[i])) / np.sum(or_reduce[i]))}\n')
+#  np.set_printoptions(threshold=sys.maxsize)
+#  for it in range(0, 200):
+#    # Permute positions
+#    print(f'iteration {it}')
+#    print('Randomizing genome locations')
+#    for o in organisms:
+#      o.norm_position_vec_start, o.norm_position_vec_end =  shuffle_in_unison(o.norm_position_vec_start, o.norm_position_vec_end)
+#    print('Computing jaccard on randomized positions')
+#    org_matrices = np.zeros(dims, dtype=bool)
+#    for i, org in enumerate(organisms):
+#      org_matrices[i] = org.compute_bin_vector(INC, kegg_to_vec)
+#    and_reduce = np.bitwise_and.reduce(org_matrices,axis=0)
+#    or_reduce = np.bitwise_or.reduce(org_matrices,axis=0)
+#
+#    for i in range(0, int(1/INC)):
+#      results.write(f'rand,{i},{(float(np.sum(and_reduce[i])) / np.sum(or_reduce[i]))}\n')
+#  results.close()
+#
+#def shuffle_in_unison(a, b):
+#  assert len(a) == len(b)
+#  shuffled_a = np.empty(a.shape, dtype=a.dtype)
+#  shuffled_b = np.empty(b.shape, dtype=b.dtype)
+#  permutation = np.random.permutation(len(a))
+#  for old_index, new_index in enumerate(permutation):
+#      shuffled_a[new_index] = a[old_index]
+#      shuffled_b[new_index] = b[old_index]
+#  return shuffled_a, shuffled_b
