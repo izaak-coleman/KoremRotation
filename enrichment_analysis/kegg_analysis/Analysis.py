@@ -10,6 +10,8 @@ import bz2
 import time
 from sklearn.metrics import jaccard_similarity_score
 import scipy.stats as stats
+import matplotlib.pyplot as plt
+np.seterr(all='raise')
 
 
 PATHWAY  = 'pathway'
@@ -21,6 +23,25 @@ END = 4
 MIN_LABELLING = 0.9
 INC = 0.25
 np.random.seed()
+
+def make_histogram(x, y, n_bins, title, x_name, y_name, xlab):
+  plt.hist(x, n_bins, range=(0,max(np.max(x), np.max(y))), alpha=0.5, label=x_name, edgecolor='black',color='green')
+  plt.hist(y, n_bins, range=(0,max(np.max(x), np.max(y))), alpha=0.5, label=y_name, edgecolor='black',color='blue')
+  plt.legend(loc='upper right')
+  plt.title(title)
+  plt.xlabel(xlab)
+  plt.savefig(title.replace(' ', '_')+ '.pdf')
+
+def pickle_vec(vec,pickle_name):
+  with bz2.BZ2File(pickle_name,'wb') as f:
+    pickle.dump(vec,f)
+
+def unpickle_vec(filename):
+  with bz2.open(filename,'rb') as f:
+    vec = pickle.load(f)
+    return vec
+
+
 def pickle_organism(org,pickle_name):
   with bz2.BZ2File(pickle_name,'wb') as f:
     pickle.dump(org,f)
@@ -30,6 +51,17 @@ def unpickle_organism(filename):
     org = pickle.load(f)
     org.genome_length = int(org.genome_length)
     return org
+
+def safe_log2(value):
+  try:
+    if value == 0:
+      return 0
+    else:
+      return np.log2(value)
+  except Exception as e:
+    print(value)
+    return 0
+
 
 def get_kegg_sym_instances(kegg_sym):
     url = f'http://rest.kegg.jp/list/{kegg_sym}'
@@ -49,13 +81,11 @@ def normalized_linear_distance(ori, genome_length, feature_pos):
   """ Normalise along the Ori-Ter axis. Ori =0 , Ter = 1"""
   if abs(feature_pos - ori) < (genome_length / 2.0):
     return abs(feature_pos - ori) / (genome_length / 2.0)
-  return (genome_length - abs(feature_pos - ori)) / (genome_length / 2.0)
-
+  return (genome_length - abs(feature_pos - ori)) / (genome_length / 2.0) 
 def normalized_log_distance(ori, genome_length, feature_pos):
-# First, compute linear distance
   if abs(feature_pos - ori) < (genome_length / 2.0):
-    return np.log2(abs(feature_pos - ori)) / np.log2(genome_length / 2.0)
-  return np.log2(genome_length - abs(feature_pos - ori)) / np.log2(genome_length / 2.0)
+    return safe_log2(abs(feature_pos - ori)) / safe_log2(genome_length / 2.0)
+  return safe_log2(genome_length - abs(feature_pos - ori)) / safe_log2(genome_length / 2.0)
 
 
 def log_distance(ori, genome_length, feature_pos): 
@@ -286,7 +316,7 @@ def main():
   # of kegg_symbol j from species i to ori in species i.
   print('computing real var')
   ori_vec  = [o.ori_pos for o in organisms]
-  dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_log_distance, np.median, ori_vec)
+  dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_linear_distance, np.median, ori_vec)
 
   # Compute the variance of the median distance from Ori to each KEGG group across 
   # all strains
@@ -308,13 +338,17 @@ def main():
         # set the "origin" to be the start of the housekeeping gene
         position_vec.append(o.position_vec_start[index])
     # Compute dist matrix using housekeeping genes as origin
-    dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_log_distance, np.median, position_vec)
+    dist_matrix = compute_dist_matrix(organisms, kegg_sym_instances, normalized_linear_distance, np.median, position_vec)
     # Compute variance
     hkg_variance[i] = compute_variance(dist_matrix, len(kegg_sym_instances))
+
 
   # Perform mann-whitney u tests
   # Against all housekeeping genes
   all_hkg_vars = hkg_variance.ravel()
+  # remove null entries
+  real_variance = real_variance[real_variance != -1]
+  all_hkg_vars = all_hkg_vars[all_hkg_vars != -1]
   print('real vs all house keeping genes')
   print(f'two-sided, {stats.mannwhitneyu(real_variance, all_hkg_vars, alternative="two-sided")}')
   print(f'less, {stats.mannwhitneyu(real_variance, all_hkg_vars, alternative="less")}')
@@ -324,9 +358,15 @@ def main():
   print('real vs each house keeping gene')
   for i, hkg_var in enumerate(hkg_variance):
     print(hkg_files[i])
-    print(f'two-sided, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="two-sided")}')
-    print(f'less, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="less")}')
-    print(f'greater, {stats.mannwhitneyu(real_variance, hkg_variance[i], alternative="greater")}')
+    hkg_var = hkg_var[hkg_var != -1]
+    print(f'two-sided, {stats.mannwhitneyu(real_variance, hkg_var, alternative="two-sided")}')
+    print(f'less, {stats.mannwhitneyu(real_variance, hkg_var, alternative="less")}')
+    print(f'greater, {stats.mannwhitneyu(real_variance, hkg_var, alternative="greater")}')
+
+  # Plot histogram
+  make_histogram(real_variance, all_hkg_vars, n_bins=50, title='Variance of linear distances', x_name='Ori', y_name='Housekeeping', xlab='Variance')
+
+
 
 
 def compute_variance(dist_matrix, col_len):
@@ -354,7 +394,7 @@ def compute_dist_matrix(organisms, kegg_sym_instances, dist, summary, ori_vec):
     else:
       dist_matrix[idx] = org.compute_distance_vector(ori=ori_vec[idx],
         kegg_syms=kegg_sym_instances,
-        dist=normalized_linear_distance,
+        dist=dist,
         summary=np.median
       )
   return dist_matrix
