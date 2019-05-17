@@ -2,6 +2,9 @@
 # email: izaak.coleman1@gmail.com
 import string
 import random
+import subprocess
+import json
+
 __version__ = 0.1
 class QueryMantis:
   """Queries a Mantis data structure given a set of queries and parses into an
@@ -34,6 +37,15 @@ class QueryMantis:
     # Run mantis query
     output_file = [random.choice(alphanums) for i in range(0, 15)] + '.mantis.json'
     cmd = f'{self.mantis_exec} query -1 -j -p {self.mantis_ds} -o {output_file} {query_file}'
+    result = subprocess.run([cmd], stdout=subprocess.PIPE).decode('utf-8')
+    
+    # Parse query file into list of json object
+    # Return list as 2-tuples where a pair of tuples represents the
+    # forward and reverse query of an extension 
+    with open(output_file, 'r') as f:
+      q_results = f.read()
+    q_results =  json.loads(q_results)
+    return zip(q_results[0::2], q_results[1::2])
       
 
 
