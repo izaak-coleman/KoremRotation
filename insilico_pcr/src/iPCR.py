@@ -4,9 +4,12 @@
 __version__ = 0.1
 
 import Extension
-import QueryMantis as qm
+import QueryMantis
 
 ALPHA = 'ACGT'
+
+def extensions_incomplete(extensions):
+ return any([e.extending for e in extensions])
 
 def run(*args):
   """Recovers a set of exact matching sequences present in a list of sequence databases between two probes, p1 and p2
@@ -15,6 +18,7 @@ def run(*args):
   p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch = args
 
   # Initialize QueryMantis for querying
+  qm = QueryMantis.QueryMantis(mantis_exec, mantis_ds)
   qm.set_exec_path(mantis_exec)
   qm.set_ds_path(mantis_ds)
 
@@ -27,12 +31,10 @@ def run(*args):
   # HANGOVER HELP: note further, update extensions is going to handle branching of Extensions, keeping track of databases
   # HANGOVER HELP: and when an extensions has terminated (max extension reached, or reached a p2*)
   extensions = list()
-  qm.add_queries([p1])
-  extensions = update_extensions(extensions, qm.query())
+  extensions = update_extensions(extensions, qm.query([p1]))
 
   # Begin forward extension (recover p1 + sigma^k + p2*)
   while extensions_incomplete(extensions):
-  # HANGOVER HELP: extensions_incomplete is going to check if at least one Extension.extending remains true
     queries = list()
     for e in extensions:
       queries = queries + [e.extension + char for char in ALPHA]

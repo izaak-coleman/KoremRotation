@@ -40,14 +40,3 @@ def main():
   # Run iPCR module, which will return a list of Extension objects.
   extensions = iPCR.run(p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch)
 
-
-
-
-
-
-
-
-
-
-
-
