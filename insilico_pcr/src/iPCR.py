@@ -46,11 +46,23 @@ def update_extensions(extensions, q_results):
       extensions[i].extending = False
       continue
 
-    # If, for some databases in the extensions set of databases prior to the
+    # If, for some databases in the extension's set of databases prior to the
     # query, none of the current queries hit the database, then duplicated
     # the extension, set its database list to the databases that satisfy the
     # the condition, and then terminate it. (For these databases, termination
     # by lack of extendable sequence occured. 
+    unhit_dbs = set()
+    for db in extensions[i].databases.keys():
+      db_hit = [True for fwd, rev in q_result 
+                     if db in fwd['res'].keys() or db in rev['res'].keys()]
+      if not any(db_hit):
+        unhit_dbs.add(db)
+    if len(unhit_dbs) !=  0:
+      ext_duplicate = extensions[i]
+      ext_duplicated.databases = {k:v for k, v in extensions[i].items() if k in unhit_dbs}
+      ext_duplicated.extending = False
+      extensions.append(ext_duplicated)
+        
 
 def run(*args):
   """Recovers a set of exact matching sequences present in a list of sequence databases between two probes, p1 and p2

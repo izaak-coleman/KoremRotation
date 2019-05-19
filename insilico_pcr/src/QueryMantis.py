@@ -46,8 +46,6 @@ class QueryMantis:
       q_results = f.read()
     q_results =  json.loads(q_results)
     return zip(q_results[0::2], q_results[1::2])
-      
-
 
   def rc(self, query):
     """Returns the reverse complement of query"""
