@@ -8,6 +8,8 @@ class Extend(object): pass
 class Forward(Extend): pass
 class Backward(Extend): pass
 
+ALPHA = 'ACGT'
+
 class Extension:
   """Encodes a sequence present in one or more fastq databases.
      
@@ -21,10 +23,12 @@ class Extension:
     self.extension = probe # initialise the extension
     self.databases = dict() # Will store a dictionary of k = database_id, v = U_q(p1) - U_m(p1) invariant for database
     self.init_probe_len = len(probe) # required to cut probe from self.extension for backward extension
+    self.hit_p1 = False
+    self.hit_p2 = False
 
   def extend(self, base, direction):
     """self.extension will be extended in the forward direction (towards p2) as request by iPCR."""
-    if base not in 'ATCG':
+    if base not in ALPHA:
       raise Exception(f"input base {base} is not a valid base to extend Extension, base must be [ATCG]")
     if direction == Forward:
       self.extension = self.extension + base
