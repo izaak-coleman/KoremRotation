@@ -10,7 +10,6 @@ ALPHA = 'ACGT'
 DUMMY_QUERY = 'A'*32
 
 # Keys to access q_result of four bases
-A, C, G, T = 0, 1, 2, 3
 FWD, REV = 0, 1
 
 # set the default length of the maximum extension to 1MBp
@@ -34,7 +33,7 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
        - Increments extensions by a single base according to current round of querying.
        - Adds a new Extension duplicate to list if a branching evernt occurs.
        - Updates each Extension with the databases it currently exactly matches
-       - Terminates extensions if max extension reached, or a p2* reached, or no
+       - Terminates extensions if max extension reached, or a probe* reached, or no
          database hits were found for the current round of extension.  
      """
   for i, q_result in enumerate(chunk_list(q_results, 4)):
@@ -74,8 +73,8 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
    for fwd, rev in q_result:
      hit_dbs = dict() # List of databases for which extension.extension + ALPHA[base] was found
      for db, uniq_kmers in ext_old.items():
-       if ( (db in fwd['res'].keys() and fwd['res'][k] == uniq_kmers[FWD]) or
-            (db in rev['res'].keys() and rev['res'][k] == uniq_kmers[REV]) ):
+       if ( (db in fwd['res'].keys() and fwd['res'][db] == uniq_kmers[FWD]) or
+            (db in rev['res'].keys() and rev['res'][db] == uniq_kmers[REV]) ):
        # If the query "extension.extension + ALPHA[base]" hit database db, 
        # where p1 + sigma^k = extension.extension + ALPHA[base] and 
        # sigma^k is an exact match, record the database in hit_dbs
@@ -99,19 +98,19 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
      # Move to next base
      base += 1
      
-def terminate_extension(extension, p2, mismatch_threshold, max_extension, direction):
+def terminate_extension(extension, probe, mismatch_threshold, max_extension, direction):
   """Check whether an extension should be terminated due to it reaching the maximum 
-     allowed extension or its last |p2| character matching p2 with some allowed 
+     allowed extension or its last |probe| character matching probe with some allowed 
      mismatch threshold. Returns True if termination required."""
   if len(extension) > max_extension:
     return True
   mismatches = 0
-  suffix = extension.extension[-len(p2):]
-  for a, b in zip(suffix, p2):
+  suffix = extension.extension[-len(probe):]
+  for a, b in zip(suffix, probe):
     if a != b:
       mismatches += 1
   if mismatches < mismatch_threshold:
-  # Then, we have hit a probe*, so terminate extension
+  # Then we have hit a probe*, so terminate extension
     if direction = extn.Forward:
       extension.hit_p2 = True
     else:
@@ -121,8 +120,8 @@ def terminate_extension(extension, p2, mismatch_threshold, max_extension, direct
 
   
 def run(*args):
-  """Recovers a set of exact matching sequences present in a list of sequence databases between two probes, p1 and p2
-     and their close variants (p1*, p2*)."""
+  """Recovers a set of exact matching sequences present in a list of sequence 
+     databases between two probes, p1 and p2 and their close variants (p1*, p2*)."""
   # Unpack args, expected order is as follows.
   p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch = args
 
