@@ -23,6 +23,7 @@ class Extension:
     self.extension = probe # initialise the extension
     self.databases = dict() # Will store a dictionary of k = database_id, v = U_q(p1) - U_m(p1) invariant for database
     self.init_probe_len = len(probe) # required to cut probe from self.extension for backward extension
+    self.extending = True
     self.hit_p1 = False
     self.hit_p2 = False
 
