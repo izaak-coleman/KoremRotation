@@ -13,8 +13,6 @@ ALPHA = 'ACGT'
 DUMMY_QUERY = 'A'*32
 KEY_ERR = -1
 
-# Keys to access q_result of four bases
-FWD, REV = 0, 1
 
 # set the default length of the maximum extension to 1MBp
 max_extension = 1000000
@@ -35,26 +33,21 @@ def initialize_extensions(q_result, probe):
   """Parses the result from the probe query into a list containing the first Extension object."""
   init_ext = extn.Extension(probe) 
 
-  # Extract the forward and reverse databasenames from q_result
-  fwd, rev = q_result.pop()
-  dbs = set([db for db in fwd['res'].keys()])
-  dbs.union( set([db for db in rev['res'].keys()]) )
+  # Extract databasenames from the initial query
+  init_query = q_result.pop()
+  dbs = [db for db in init_query['res'].keys()]
 
   # Add dbs to extension
   for db in dbs: 
     # Get the number of uniq kmers in query and found in mantis
-    query_fwd_kmer_count = fwd['num_kmers']
-    query_rev_kmer_count = rev['num_kmers']
-    mantis_fwd_kmer_count = fwd['res'].get(db, KEY_ERR)
-    mantis_rev_kmer_count = rev['res'].get(db, KEY_ERR)
+    query_kmer_count = init_query['num_kmers']
+    mantis_kmer_count = init_query['res'].get(db, KEY_ERR)
 
-    # Compute U_q(Q) - U_m(Q) invariants for forward and reverse
-    fwd_invariant, rev_invariant = -1, -1
-    if mantis_fwd_kmer_count != -1:
-      fwd_invariant = query_fwd_kmer_count - mantis_fwd_kmer_count
-    if mantis_rev_kmer_count != -1:
-      rev_invariant = query_rev_kmer_count - mantis_rev_kmer_count
-    init_ext.databases[db] = (fwd_invariant, rev_invariant)
+    # Compute U_q(Q) - U_m(Q) invariant
+    invariant = -1
+    if mantis_kmer_count != -1:
+      invariant = query_kmer_count - mantis_kmer_count
+    init_ext.databases[db] = invariant
 
   return [init_ext]
 
@@ -71,9 +64,9 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
   for i, q_result in enumerate(chunk_list(q_results, 4)):
     if not extensions[i].extending: 
       continue
-  # If none of the eight queries ( {A,T,C,G} x {Fwd, RevComp} ) hit a database
+  # If none of the queries ( {A,T,C,G} ) hit a database
   # terminate the extension and move to the next extension
-    if sum([len(fwd['res']) + len(rev['res']) for fwd, rev in q_result]) == 0:
+    if sum([len(query['res']) for query in q_result]) == 0:
       extensions[i].extending = False
       continue
 
@@ -84,8 +77,7 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
   # by lack of extendable sequence occured). 
     unhit_dbs = set()
     for db in extensions[i].databases.keys():
-      db_hit = [True for fwd, rev in q_result 
-                     if db in fwd['res'].keys() or db in rev['res'].keys()]
+      db_hit = [True for query in q_result if db in query['res'].keys()]
       if not any(db_hit):
         unhit_dbs.add(db)
     if len(unhit_dbs) !=  0:
@@ -102,19 +94,18 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     mutated_inplace = False
     ext_old = extensions[i] 
     base = -1 # Keeps track of which base must be added to extension
-    for fwd, rev in q_result:
+    for query in q_result:
       base += 1
       hit_dbs = dict() # List of databases for which extension.extension + ALPHA[base] was found
       for db, invariant in ext_old.databases.items():
-        if ( (db in fwd['res'].keys() and (fwd['res'][db] - fwd['num_kmers'])  == invariant[FWD]) or
-             (db in rev['res'].keys() and (rev['res'][db] - rev['num_kmers'])  == invariant[REV]) ):
+        if (db in query['res'].keys() and (query['res'][db] - query['num_kmers']) == invariant):
         # If the query "extension.extension + ALPHA[base]" hit database db, 
         # where p1 + sigma^k = extension.extension + ALPHA[base] and 
         # sigma^k is an exact match, record the database in hit_dbs
           hit_dbs[db] = invariant
 
-      # Then the search failed to hit a db and maintain the invariant. Hence, an 
-      # exact match was not found, so continue.
+      # If the search failed to hit a db and maintain the invariant an exact match
+      # was not found, so continue.
       if len(hit_dbs) == 0: 
         continue
       if not mutated_inplace: 
