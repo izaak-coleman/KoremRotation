@@ -3,6 +3,7 @@
 import subprocess
 import json
 import os
+import timeit
 
 __version__ = 0.1
 class QueryMantis:
@@ -15,6 +16,7 @@ class QueryMantis:
     self.mantis_ds = mantis_ds
     self.query_file = query_file
     self.result_file = result_file
+    self.mantis_q_time = 0.0
     if os.path.isfile(mantis_exec) == False or os.path.isdir(mantis_ds) == False:
       raise Exception("Either the supplied mantis executable path or mantis data structure path does not exist")
     self.complement = {'A':'T', 'C':'G', 'G':'C', 'T':'A'}
@@ -37,7 +39,10 @@ class QueryMantis:
 
     # Run mantis query
     cmd = f'{self.mantis_exec} query -1 -j -p {self.mantis_ds} -o {self.result_file} {self.query_file}'
+    start = timeit.timeit()
     result = subprocess.run(cmd, stdout=subprocess.PIPE, shell=True)
+    end = timeit.timeit()
+    self.mantis_q_time += end - start
 #    print(result.stdout.decode('utf-8'))
     
     # Parse query file into list of json object

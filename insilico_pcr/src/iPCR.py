@@ -133,7 +133,6 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
         if terminate_extension(ext_duplicate, probe, mismatch_threshold, direction):
           ext_duplicate.extending = False
         extensions.append(ext_duplicate)
-
   return extensions
      
 def terminate_extension(extension, probe, mismatch_threshold, direction):
@@ -184,18 +183,17 @@ def run(*args):
   extensions = initialize_extensions(qm.query([p1]), p1)
 
   # Begin forward extension (recover p1 + sigma^k + p2*)
-  rounds = 15
   while extensions_incomplete(extensions):
-    if rounds == 0: break
     queries = list()
     for e in extensions:
       queries = queries + [e.extension + char if e.extending else DUMMY_QUERY for char in ALPHA]
     extensions = update_extensions(extensions, qm.query(queries), p2, max_p2_mismatch, extn.Forward)
-    rounds -= 1
   print(p1)
+  print(f'n extensions {len(extensions)}')
   print(extensions[0].extension)
   for k, v in extensions[0].databases.items():
     print(f'db {k}, invariants {v}')
+  print(f'Mantis query time: {qm.mantis_q_time}')
 #
 #  # Begin backward extension
 #  for e in extensions:
