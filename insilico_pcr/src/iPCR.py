@@ -183,13 +183,12 @@ def run(*args):
   extensions = initialize_extensions(qm.query([p1]), p1)
 
   # Begin forward extension (recover p1 + sigma^k + p2*)
-  while extensions_incomplete(extensions):
+ while extensions_incomplete(extensions):
     queries = list()
     for e in extensions:
       queries = queries + [e.extension + char if e.extending else DUMMY_QUERY for char in ALPHA]
     extensions = update_extensions(extensions, qm.query(queries), p2, max_p2_mismatch, extn.Forward)
   print(p1)
-  print(f'n extensions {len(extensions)}')
   print(extensions[0].extension)
   for k, v in extensions[0].databases.items():
     print(f'db {k}, invariants {v}')
