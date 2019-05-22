@@ -25,9 +25,6 @@ class QueryMantis:
   def query(self, q_list):
     """Queries query list q_list against a Mantis data structure and returns
        an object containing the query results."""
-    # DEBUG
-    for q in q_list:
-      print(q)
 
     # Write queries to query file. Use random string for query filename
     # in case multiple jobs run in parallel
