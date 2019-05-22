@@ -5,6 +5,9 @@ __version__ = 0.1
 
 import Extension as extn
 import QueryMantis
+import random
+import string
+import os
 
 ALPHA = 'ACGT'
 DUMMY_QUERY = 'A'*32
@@ -153,6 +156,19 @@ def terminate_extension(extension, probe, mismatch_threshold, direction):
     return True
   return False # keep truckin'
 
+def generate_filenames():
+  """Generates a unique pair of filenames for mantis query file and mantis results file
+     used by QueryMantis."""
+  alphanums = string.ascii_uppercase + string.digits
+  query_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.query_file'
+  result_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.mantis.json'
+  while (query_file[:15] == result_file[:15] or 
+         os.path.isfile(query_file) or 
+         os.path.isfile(result_file)):
+    query_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.query_file'
+    result_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.mantis.json'
+  return query_file, result_file
+
   
 def run(*args):
   """Recovers a set of exact matching sequences present in a list of sequence 
@@ -161,13 +177,14 @@ def run(*args):
   p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch = args
 
   # Initialize QueryMantis for querying
-  qm = QueryMantis.QueryMantis(mantis_exec, mantis_ds)
+  query_file, result_file = generate_filenames()
+  qm = QueryMantis.QueryMantis(mantis_exec, mantis_ds, query_file, result_file)
 
   # Run the initializing extension, which is just a query search for p1
   extensions = initialize_extensions(qm.query([p1]), p1)
 
   # Begin forward extension (recover p1 + sigma^k + p2*)
-  rounds = 2
+  rounds = 15
   while extensions_incomplete(extensions):
     if rounds == 0: break
     queries = list()
@@ -175,7 +192,7 @@ def run(*args):
       queries = queries + [e.extension + char if e.extending else DUMMY_QUERY for char in ALPHA]
     extensions = update_extensions(extensions, qm.query(queries), p2, max_p2_mismatch, extn.Forward)
     rounds -= 1
-
+  print(p1)
   print(extensions[0].extension)
   for k, v in extensions[0].databases.items():
     print(f'db {k}, invariants {v}')
