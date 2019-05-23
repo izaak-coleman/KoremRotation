@@ -66,8 +66,7 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     # Determine which databases listed in extensions[i] failed to 
     # exactly match this round of queries. 
     unhit_dbs = set()
-    for db in extensions[i].databases.items():
-      db_hit = [True for query in q_result if db in query['res'].keys()]
+    for db, invariant in extensions[i].databases.items():
       db_hit = [True  for query in q_result if 
                       db in query['res'].keys() and 
                       (query['res'][db] - query['num_kmers']) == invariant]
@@ -77,6 +76,7 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     if len(unhit_dbs) == len(extensions[i].databases):
     # Then all databases did not contain an exact match for any query
     # Accordingly, terminate extensions[i]
+      print(f'extensions {i} failed to match any databases')
       extensions[i].extending = False
       continue
 
@@ -88,6 +88,8 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
       ext_duplicate = copy(extensions[i])
       ext_duplicated.databases = {k:v for k, v in extensions[i].items() if k in unhit_dbs}
       ext_duplicated.extending = False
+      print(f'the following databases failed to match extension {i}')
+      print(ext_duplicated.databases)
       extensions.append(ext_duplicated)
 
   # For the databases that had an exact match against one of the queries
@@ -119,6 +121,8 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
         # BRANCH the extension: Two different variants were found during this extension.
         # Hence, a new extension must be added. A dupilcate of the original extension
         # is therefore made, extended with the new variant and added to the list of extensions
+        print(ALPHA[base])
+        print(q_result)
         ext_duplicate = copy(ext_old)
         ext_duplicate.databases = hit_dbs
         ext_duplicate.extend(ALPHA[base], direction)
@@ -160,6 +164,14 @@ def generate_filenames():
     result_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.mantis.json'
   return query_file, result_file
 
+def generate_probe_list(edit_dist, probe):
+  probe_list = [probe[:i] + 'ATCG'[j] + probe[i+1:] for i in range(0, len(probe)) for j in range(0, 4)]
+  all_probes = set(probe_list)
+  if (edit_dist - 1) > 0:
+    for p in probe_list:
+      all_probes = all_probes.union(generate_probe_list(edit_dist-1, p))
+  return sorted(list(all_probes))
+
   
 def run(*args):
   """Recovers a set of exact matching sequences present in a list of sequence 
@@ -180,9 +192,10 @@ def run(*args):
     for e in extensions:
       queries = queries + [e.extension + char if e.extending else DUMMY_QUERY for char in ALPHA]
     extensions = update_extensions(extensions, qm.query(queries), p2, max_p2_mismatch, extn.Forward)
-    print(len(extensions))
     for i, e in enumerate(extensions):
+      print(e.databases)
       print(f'extension {i}: {e.extension}')
+    break
   print(p1)
   print(f'Mantis query time: {qm.mantis_q_time}')
 #
