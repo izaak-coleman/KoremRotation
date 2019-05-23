@@ -4,8 +4,11 @@ import subprocess
 import json
 import os
 import timeit
+import re
 
 __version__ = 0.1
+
+ILLEGAL_REGEX = r'{(\n,)+\n}'
 class QueryMantis:
   """Queries a Mantis data structure given a set of queries and parses into an
      object-based format. """
@@ -20,6 +23,20 @@ class QueryMantis:
     if os.path.isfile(mantis_exec) == False or os.path.isdir(mantis_ds) == False:
       raise Exception("Either the supplied mantis executable path or mantis data structure path does not exist")
     self.complement = {'A':'T', 'C':'G', 'G':'C', 'T':'A'}
+
+  def parse_query_file(self):
+    """Parse Mantis output json into a json object. 
+    
+       Mantis' json output is syntactically illegal with respect to 
+       python's json library, specifically, when the query is not hit, 
+       the database list under ['res'] has illegal synatix. The illegal
+       synatix is replaced with appropriate synatix.  """
+
+    with open(self.result_file, 'r') as f:
+      q_results = f.read()
+      q_results = re.sub(ILLEGAL_REGEX, '{}', q_results)
+      return json.loads(q_results)
+     
    
 
   def query(self, q_list):
@@ -40,8 +57,6 @@ class QueryMantis:
 #    print(result.stdout.decode('utf-8'))
     
     # Parse query file into list of json object
-    with open(self.result_file, 'r') as f:
-      q_results = f.read()
-    return json.loads(q_results)
+    return self.parse_query_file()
 
 

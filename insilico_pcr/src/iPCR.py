@@ -63,37 +63,38 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
          database hits were found for the current round of extension.  
      """
   for i, q_result in enumerate(chunk_list(q_results, 4)):
-    if not extensions[i].extending: 
-      continue
-  # If none of the queries ( {A,T,C,G} ) hit a database
-  # terminate the extension and move to the next extension
-  # BUG: SHOULD BE IF FOR EACH QUERY NO VARIANT IS MAINTAINED
-    if sum([len(query['res']) for query in q_result]) == 0:
+    # Determine which databases listed in extensions[i] failed to 
+    # exactly match this round of queries. 
+    unhit_dbs = set()
+    for db in extensions[i].databases.items():
+      db_hit = [True for query in q_result if db in query['res'].keys()]
+      db_hit = [True  for query in q_result if 
+                      db in query['res'].keys() and 
+                      (query['res'][db] - query['num_kmers']) == invariant]
+      if not any(db_hit):
+        unhit_dbs.add(db)
+
+    if len(unhit_dbs) == len(extensions[i].databases):
+    # Then all databases did not contain an exact match for any query
+    # Accordingly, terminate extensions[i]
       extensions[i].extending = False
       continue
 
-  # If, for some databases in the extension's set of databases prior to the
-  # query, none of the current queries hit the database, then duplicated
-  # the extension, set its database list to the databases that satisfy the
-  # the condition, and then terminate it. (For these databases, termination
-  # by lack of extendable sequence occured). 
-  # BUG: SHOULD ADD TO UNHIT_DB IF, FOR EACH QUERY, NO VARIANT IS MAINTAINED
-    unhit_dbs = set()
-    for db in extensions[i].databases.keys():
-      db_hit = [True for query in q_result if db in query['res'].keys()]
-      if not any(db_hit):
-        unhit_dbs.add(db)
     if len(unhit_dbs) !=  0:
+    # Then one or more (but not all) database did not contain an exact 
+    # match for any query. Accordingly, duplicate extensions[i], set its
+    # database list to the extensions that did not exact match any query
+    # and terminate it. 
       ext_duplicate = copy(extensions[i])
       ext_duplicated.databases = {k:v for k, v in extensions[i].items() if k in unhit_dbs}
       ext_duplicated.extending = False
       extensions.append(ext_duplicated)
 
-  # Begin extending the extension by a single base. 
+  # For the databases that had an exact match against one of the queries
+  # extend extensions[i] appropriately.
 
-  # To avoid increasing complexity, perform the first extension inplace,
-  # directly modifying extensions[i]. Make proceeding modifications 
-  # from an original copy of extensions[i] (ext_old)
+  # To avoid O(n) pop(), the first extension is in place (directly
+  # modifying extensions[i]). 
     mutated_inplace = False
     ext_old = copy(extensions[i])
     base = -1 # Keeps track of which base must be added to extension
@@ -102,17 +103,13 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
       hit_dbs = dict() # List of databases for which extension.extension + ALPHA[base] was found
       for db, invariant in ext_old.databases.items():
         if (db in query['res'].keys() and (query['res'][db] - query['num_kmers']) == invariant):
-        # If the query "extension.extension + ALPHA[base]" hit database db, 
-        # where p1 + sigma^k = extension.extension + ALPHA[base] and 
-        # sigma^k is an exact match, record the database in hit_dbs
+          # Database had an exact match against this query.
           hit_dbs[db] = invariant
 
-      # If the search failed to hit a db and maintain the invariant an exact match
-      # was not found, so continue.
       if len(hit_dbs) == 0: 
+      # No databases exactly matched with the current query, so continue.
         continue
       if not mutated_inplace: 
-        # Then directly extend extensions[i]
         extensions[i].databases = hit_dbs
         extensions[i].extend(ALPHA[base], direction)
         if terminate_extension(extensions[i], probe, mismatch_threshold, direction):
