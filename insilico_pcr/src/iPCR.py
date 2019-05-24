@@ -30,8 +30,10 @@ def chunk_list(l, n):
     for i in range(0, len(l), n):
         yield l[i:i + n]
 
-def initialize_extensions(q_result, probe):
+def initialize_extensions(q_results, probe_list):
   """Parses the result from the probe query into a list containing the first Extension object."""
+  for q_result, probe in zip(q_results, probe_list):
+    
   init_ext = extn.Extension(probe) 
 
   # Extract databasenames from the initial query
@@ -165,7 +167,8 @@ def generate_filenames():
   return query_file, result_file
 
 def generate_probe_list(edit_dist, probe):
-  probe_list = [probe[:i] + 'ATCG'[j] + probe[i+1:] for i in range(0, len(probe)) for j in range(0, 4)]
+  """Returns a list of all sequences with edit distance from probe <= edit_dist."""
+  probe_list = [probe[:i] + ALPHA[j] + probe[i+1:] for i in range(0, len(probe)) for j in range(0, 4)]
   all_probes = set(probe_list)
   if (edit_dist - 1) > 0:
     for p in probe_list:
