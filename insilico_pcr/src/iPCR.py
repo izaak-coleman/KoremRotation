@@ -32,27 +32,26 @@ def chunk_list(l, n):
 
 def initialize_extensions(q_results, probe_list):
   """Parses the result from the probe query into a list containing the first Extension object."""
+
+  # List of Extensions, each of which begins with a probe p1*.
+  initial_extensions = list()
   for q_result, probe in zip(q_results, probe_list):
+  # Initialize a potential extension from the probe.
+    ext = extn.Extension(probe)
+    for db, num_kmers_hit_in_db in q_result['res'].items():
+      if num_kmers_hit_in_db == q_result['num_kmers']:
+      # If the current probe exactly matched database db, then
+      # add the database db to the extension's set of databases.
+        ext.databases.add(db)
     
-  init_ext = extn.Extension(probe) 
-
-  # Extract databasenames from the initial query
-  init_query = q_result.pop()
-  dbs = [db for db in init_query['res'].keys()]
-
-  # Add dbs to extension
-  for db in dbs: 
-    # Get the number of uniq kmers in query and found in mantis
-    query_kmer_count = init_query['num_kmers']
-    mantis_kmer_count = init_query['res'].get(db, KEY_ERR)
-
-    # Compute U_q(Q) - U_m(Q) invariant
-    invariant = -1
-    if mantis_kmer_count != -1:
-      invariant = query_kmer_count - mantis_kmer_count
-    init_ext.databases[db] = invariant
-
-  return [init_ext]
+    if len(ext.databases) == 0:
+    # If the current probe failed to exactly match any database
+    # the extension is invalid, so continue without appending
+    # to initial_extensions.
+      continue
+    # Otherwise, append.
+    initial_extensions.append(ext)
+  return initial_extensions
 
 def update_extensions(extensions, q_results, probe, mismatch_threshold, direction):
   """Updates the list of extensions according the current round of querying.
@@ -68,10 +67,10 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     # Determine which databases listed in extensions[i] failed to 
     # exactly match this round of queries. 
     unhit_dbs = set()
-    for db, invariant in extensions[i].databases.items():
-      db_hit = [True  for query in q_result if 
-                      db in query['res'].keys() and 
-                      (query['res'][db] - query['num_kmers']) == invariant]
+    for db in extensions[i].databases:
+      db_hit = [True for query in q_result if 
+                db in query['res'] and 
+                query['res'][db] == query['num_kmers']]
       if not any(db_hit):
         unhit_dbs.add(db)
 
@@ -88,7 +87,7 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     # database list to the extensions that did not exact match any query
     # and terminate it. 
       ext_duplicate = copy(extensions[i])
-      ext_duplicated.databases = {k:v for k, v in extensions[i].items() if k in unhit_dbs}
+      ext_duplicated.databases = set([db for db in extensions[i].databases if db in unhit_dbs])
       ext_duplicated.extending = False
       print(f'the following databases failed to match extension {i}')
       print(ext_duplicated.databases)
@@ -104,11 +103,11 @@ def update_extensions(extensions, q_results, probe, mismatch_threshold, directio
     base = -1 # Keeps track of which base must be added to extension
     for query in q_result:
       base += 1
-      hit_dbs = dict() # List of databases for which extension.extension + ALPHA[base] was found
-      for db, invariant in ext_old.databases.items():
-        if (db in query['res'].keys() and (query['res'][db] - query['num_kmers']) == invariant):
+      hit_dbs = set() # Set of databases for which extension.extension + ALPHA[base] was found
+      for db in ext_old.databases:
+        if (db in query['res'] and query['res'][db] == query['num_kmers']):
           # Database had an exact match against this query.
-          hit_dbs[db] = invariant
+          hit_dbs.add(db)
 
       if len(hit_dbs) == 0: 
       # No databases exactly matched with the current query, so continue.
@@ -166,16 +165,15 @@ def generate_filenames():
     result_file = ''.join([random.choice(alphanums) for i in range(0, 15)]) + '.mantis.json'
   return query_file, result_file
 
-def generate_probe_list(edit_dist, probe):
-  """Returns a list of all sequences with edit distance from probe <= edit_dist."""
-  probe_list = [probe[:i] + ALPHA[j] + probe[i+1:] for i in range(0, len(probe)) for j in range(0, 4)]
-  all_probes = set(probe_list)
-  if (edit_dist - 1) > 0:
+def build_probe_list(edit_dist, probe):
+  """Builds a list of p1* probes, of edit distance <= edit_dist from probe."""
+  all_probes = set([probe])
+  if edit_dist > 0:
+    probe_list = [probe[:i] + ALPHA[j] + probe[i+1:] for i in range(0, len(probe)) for j in range(0, 4)]
     for p in probe_list:
-      all_probes = all_probes.union(generate_probe_list(edit_dist-1, p))
+      all_probes = all_probes.union(build_probe_list(edit_dist-1, p))
   return sorted(list(all_probes))
 
-  
 def run(*args):
   """Recovers a set of exact matching sequences present in a list of sequence 
      databases between two probes, p1 and p2 and their close variants (p1*, p2*)."""
@@ -186,8 +184,11 @@ def run(*args):
   query_file, result_file = generate_filenames()
   qm = QueryMantis.QueryMantis(mantis_exec, mantis_ds, query_file, result_file)
 
-  # Run the initializing extension, which is just a query search for p1
-  extensions = initialize_extensions(qm.query([p1]), p1)
+  # Genrate the initial extensions: List of Extension objects 
+  # begining with some p1* that is an edit distance <= max_p1_mismatch
+  # from p1.
+  p1_probe_list = build_probe_list(max_p1_mismatch, p1)
+  extensions = initialize_extensions(qm.query(p1_probe_list), p1_probe_list)
 
   # Begin forward extension (recover p1 + sigma^k + p2*)
   while extensions_incomplete(extensions):
@@ -198,21 +199,9 @@ def run(*args):
     for i, e in enumerate(extensions):
       print(e.databases)
       print(f'extension {i}: {e.extension}')
-    break
   print(p1)
   print(f'Mantis query time: {qm.mantis_q_time}')
-#
-#  # Begin backward extension
-#  for e in extensions:
-#    e.cut_initializing_probe()
-#    e.extending = True
-#  count_down = len(p1)
-#  while count_down > 0:
-#    queries = list()
-#    for e in extensions:
-#      queries = queries + [char + e.extension if e.extending else DUMMY_QUERY for char in ALPHA]
-#    extensions = update_extensions(extensions, qm.query(queries), p1, max_p1_mismatch, extn.Backward)
-#  
-#  # Extension process complete, return extensions
+
+  # Extension process complete, return extensions
   return extensions
   

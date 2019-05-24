@@ -21,7 +21,7 @@ class Extension:
   def __init__(self, probe):
     """probe: An extension of an Extension object begins with an intial probe."""
     self.extension = probe # initialise the extension
-    self.databases = dict() # Will store a dictionary of k = database_id, v = U_q(p1) - U_m(p1) invariant for database
+    self.databases = set() # Will store a set of databases, each of which contains an exact match of the Extension
     self.init_probe_len = len(probe) # required to cut probe from self.extension for backward extension
     self.extending = True
     self.hit_p1 = False

@@ -8,7 +8,7 @@ import re
 
 __version__ = 0.1
 
-ILLEGAL_REGEX = r'{(\n,)+\n}'
+ILLEGAL_REGEX = r'{(\n,)+'
 class QueryMantis:
   """Queries a Mantis data structure given a set of queries and parses into an
      object-based format. """
@@ -34,10 +34,8 @@ class QueryMantis:
 
     with open(self.result_file, 'r') as f:
       q_results = f.read()
-      q_results = re.sub(ILLEGAL_REGEX, '{}', q_results)
+      q_results = re.sub(ILLEGAL_REGEX, '{', q_results)
       return json.loads(q_results)
-     
-   
 
   def query(self, q_list):
     """Queries query list q_list against a Mantis data structure and returns
