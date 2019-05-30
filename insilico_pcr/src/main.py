@@ -57,7 +57,7 @@ def main():
   # Run iPCR module, which will return a list of Extension objects.
   iPCR.set_max_extension(max_extension)
   start = timeit.timeit()
-  extensions = iPCR.run(p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch)
+  dbg = iPCR.run(p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch)
   end = timeit.timeit()
   print(end - start)
 if __name__ == '__main__':

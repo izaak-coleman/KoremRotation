@@ -5,10 +5,21 @@ import json
 import os
 import timeit
 import re
+import collections
 
 __version__ = 0.1
 
 ILLEGAL_REGEX = r'{(\n,)+'
+
+class QueryResult(collections.UserDict):
+  """Stores the Mantis json object as a dictionary, and adds to the
+     dictionary a query key value pair. """
+  def __init__(self, query_dict, query_string):
+    self.data = query_dict 
+    self['query'] = query_string
+
+  
+ 
 class QueryMantis:
   """Queries a Mantis data structure given a set of queries and parses into an
      object-based format. """
@@ -52,9 +63,8 @@ class QueryMantis:
     result = subprocess.run(cmd, stdout=subprocess.PIPE, shell=True)
     end = timeit.timeit()
     self.mantis_q_time += end - start
-#    print(result.stdout.decode('utf-8'))
     
-    # Parse query file into list of json object
-    return self.parse_query_file()
-
+    # Parse query file into a list of QueryResult objects.
+    return [QueryResult(json_obj, query) for json_obj, query in zip(self.parse_query_file(), q_list)]
+    
 
