@@ -35,3 +35,13 @@ class DBG:
        of an edge. """
     if len(sequence) != self.k + 1: raise Exception(f'edge {sequence} is not of length {self.k + 1} (k + 1)')
     return (sequence[:self.k], sequence[1:])
+
+  def render(self, fname):
+    """Renders the dbg into a PDF format."""
+    g = Digraph()
+    for edge, meta in seld.edges.items():
+      dbs, freq = meta
+      p, s = edge[:self.k], edge[1:]
+      for i in range(0, freq):
+        g.edge(p,s)
+    g.render(fname) 

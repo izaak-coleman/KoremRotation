@@ -14,8 +14,18 @@ ALPHA = 'ACGT'
 DUMMY_QUERY = 'A'*32
 KEY_ERR = -1
 
+
 # set the default length of the maximum extension to 1MBp
 max_extension = 1000000
+
+# db dict maps each database in the mantis structure to a 
+# unique integer.
+db_dict =  dict()
+
+def set_db_dict(db_file):
+  with open(db_file) as f:
+    dbs = [l.strip() for l in f]
+  db_dict = {db:idx for idx, db in enumerate(dbs)}
 
 def add_probe_to_dbg(dbg, query_results, db_dict)
   """Constructs a De Brujin graph from the queried p1* or p2* probes that
@@ -124,7 +134,7 @@ def run(*args):
   # p1* probes)
   edges = set()
   for q_res in p1_query_results:
-     if any([True for num_kmers_in_db in q_res['res'].values() if num_kmers_in_db == q_res['num_kmers']):
+     if exact_match(q_res):
      # If some database exactly matches the queried probe, then add its last kmer to extensions.
        query_str = q_res['query']
        edges.add(query_str[-(k+1):])
