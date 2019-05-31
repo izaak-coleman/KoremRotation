@@ -21,7 +21,7 @@ class DBG:
        If the suffix of the edge (prefix, suffix) is present in the De Brujin graph, 
        add_edge returns false."""
     
-    prefix, suffix = (edge[:self.k], edge[1:])
+    prefix, suffix = self.get_nodes(edge)
     self.nodes.add(prefix)
     self.nodes.add(suffix)
     if edge in self.edges:
@@ -30,18 +30,23 @@ class DBG:
     else:
       self.edges[edge] = (set(dbs), 1)
 
-  def get_nodes(self, sequence)
+  def get_nodes(self, sequence):
     """Takes a sequence and splits it into the prefix and suffix node
        of an edge. """
-    if len(sequence) != self.k + 1: raise Exception(f'edge {sequence} is not of length {self.k + 1} (k + 1)')
+    if len(sequence) != self.k + 1: 
+      raise Exception(f'edge {sequence} is not of length {self.k + 1} (k + 1)')
     return (sequence[:self.k], sequence[1:])
 
   def render(self, fname):
     """Renders the dbg into a PDF format."""
     g = Digraph()
-    for edge, meta in seld.edges.items():
+    for edge, meta in self.edges.items():
       dbs, freq = meta
       p, s = edge[:self.k], edge[1:]
       for i in range(0, freq):
-        g.edge(p,s)
+        g.edge(p, s, label = s[-1])
     g.render(fname) 
+
+  def abbreviate(self, seq):
+    if len(seq) > 6:
+      return seq[:3] + '...' + seq[-3:]

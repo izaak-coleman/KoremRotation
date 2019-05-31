@@ -18,13 +18,13 @@ def check_input_validity(input_params):
   # Ensure correct number if input args
   max_extension = -1
   if len(input_params) == N_INPUT_PARAMS:
-    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, db_file = input_params
+    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k = input_params
   elif len(input_params) == N_INPUT_PARAMS + OPTIONAL: 
-    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, db_file, max_extension = input_params
+    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension = input_params
   else:
     msg = "Usage: <exe> <p1> <p2> <path/to/mantis/executable> " +\
           "<path/to/mantis/data/datastructure> <max p1 mismatches> "+\
-          "<max p2 mismatches> <max_extension (optional)"
+          "<max p2 mismatches> <k> <max_extension (optional)"
     raise Exception(msg)
 
   # Correctly set input arg types
@@ -47,24 +47,30 @@ def check_input_validity(input_params):
   if os.path.isfile(mantis_exec) == False or os.path.isdir(mantis_ds) == False:
     raise Exception("Either the supplied mantis executable path or mantis data structure path does not exist. Check paths are valid.")
 
-  # Check .lst file exists
-  if os.path.isfile(db_file) == False:
-    raise Exception(f'{db_file} does not exist. Please check filename / path is valid')
+  # Check k is an integer 
+  try:
+    k = int(k)
+  except ValueError as e:
+    print(f'{k} is not an integer.')
+    sys.exit()
 
-  return p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, db_file, max_extension
+  if len(p1) < k + 1 or len(p2) < k + 1:
+    raise Exception(f'p1 and p2 must have length >= {k + 1}. Current lengths: p1 {len(p1)}, p2 {len(p2)}')
+  return p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension
 
 def main():
   '''Assembles the genome between a pair of probes p1, p2 from a 
      set of sequencing databases, returning any non-SNP variant sequences. '''
   # Check input validity
-  p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, db_file, max_extension = check_input_validity(sys.argv)
+  p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension = check_input_validity(sys.argv)
   
-  # Run iPCR module, which will return a list of Extension objects.
-  iPCR.set_max_extension(max_extension)
-  iPCR.set_db_dict(db_file)
+  # Initialize iPCR instance.
   start = timeit.timeit()
-  dbg = iPCR.run(p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch)
-  dbg.render('testing_dbg.pdf')
+  ipcr = iPCR.iPCR(p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension)
+  # Run iPCR. Constructed De Bruijn graph output. 
+  dbg = ipcr.run()
+  # Write De Bruijn graph.
+  dbg.render('testing_dbg.gv')
   end = timeit.timeit()
   print(end - start)
 if __name__ == '__main__':
