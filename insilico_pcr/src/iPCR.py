@@ -52,16 +52,18 @@ class iPCR:
     """Returns True if query exactly matches at least one database."""
     return any([True for num_kmers_in_db in q_res['res'].values() if num_kmers_in_db == q_res['num_kmers']])
         
-  def update_dbg(self, query_results, p2, max_p2_mismatch, dbg, db_dict):
+  def update_dbg(self, query_results, dbg, db_dict):
     """Updates the De Bruijn graph by adding a set of edges that exactly
        match at least one database in the supplied Mantis data structure."""
     # Each queried edge that exactly matches at least one database will
     # be stored and returned (for the next update round).
     exact_matching_edges = list()
+    prior_edges = len(query_results) / 4
    
     # Iterate through queried edges and add exact matching edges to dbg
     for q_res in query_results:
       if not self.exact_match(q_res):
+        print(q_res['query'])
         continue
   
       # Determine whether the edge has made a loop. 
@@ -88,7 +90,9 @@ class iPCR:
         continue
       # Otherwise, add the edge to exact matching edges
       exact_matching_edges.append(edge)
-  
+    if prior_edges != len(exact_matching_edges):
+      print(prior_edges)
+      print(f'reduction in edges: {exact_matching_edges}')
     return exact_matching_edges
   
   def generate_filenames(self):
@@ -145,17 +149,11 @@ class iPCR:
   
     # Begin De Brujin graph construction.
     while len(edges) > 0:
-      print(edges)
-      print(dbg.nodes)
-      print()
-      print()
-      print()
-      print()
-      print()
       # Generate new set of edges to query. For each exact matching edge of the
       # previous iteration, generate four new edges of form edge[1:] + {A, T, C, G}. 
+      print(f'prior edges: {edges}')
       edges = [e[1:] + base for e in edges for base in ALPHA]
-      edges = self.update_dbg(qm.query(edges), self.p2, self.max_p2_mismatch, dbg, self.db_dict)
+      edges = self.update_dbg(qm.query(edges), dbg, self.db_dict)
   
     # Construction complete.
     return dbg

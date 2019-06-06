@@ -71,6 +71,8 @@ def main():
   dbg = ipcr.run()
   # Write De Bruijn graph.
   dbg.render('testing_dbg.gv')
+  dbg.compress()
+  dbg.render('testing_dbg.cmp.gv')
   end = timeit.timeit()
   print(end - start)
 if __name__ == '__main__':
