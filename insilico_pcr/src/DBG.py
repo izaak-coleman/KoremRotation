@@ -17,7 +17,7 @@ class DBG:
 
   def __init__(self, k):
     self.nodes = set()
-    self.edges = dict() # k = edge, v = (set of dbs, frequency)
+    self.edges = dict() # k = edge, v = [set of dbs, frequency]
     self.k = int(k)
     self.compressed = False
 
@@ -32,10 +32,10 @@ class DBG:
     self.nodes.add(prefix)
     self.nodes.add(suffix)
     if edge in self.edges:
-      self.edges[edge][DBS].add(dbs)
+      self.edges[edge][DBS] = self.edges[edge][DBS].union(set(dbs))
       self.edges[edge][FREQ] += 1
     else:
-      self.edges[edge] = (set(dbs), 1)
+      self.edges[edge] = [set(dbs), 1]
 
   def get_nodes(self, sequence):
     """Takes a sequence and splits it into the prefix and suffix node
@@ -45,12 +45,6 @@ class DBG:
     return (sequence[:self.k], sequence[1:])
 
   def render(self, fname):
-    print("EDGES FROM RENDER")
-    for edge in self.edges:
-      print(edge)
-    print("NODES FROM RENDER")
-    for node in self.nodes:
-      print(node)
     """Renders the dbg into a PDF format."""
     g = Digraph()
     if not self.compressed:
@@ -100,29 +94,6 @@ class DBG:
             unconnected = False
       if unconnected:
         self.edges.add((DUMMY_NODE, unitig))
-
-#    # Compress each unitig in the dbg
-#    for unitig_path in unitigs:
-#      # Reconstruct all the edges from the unitig node
-#      # and then remove each edge and their corresponding
-#      # nodes from the dbg 
-#      edges = [unitig_path[i] + unitig_path[i+1][-1] for i in range(0, len(unitig_path)-1)]
-#      for edge in edges:
-#        del self.edges[edge]
-#      for node in unitig_path:
-#        self.nodes.remove(node)
-#      ## Add unitig node to dbg
-#      unitig = unitig_path[0] + ''.join([node[-1] for node in unitig_path[1:]])
-#      self.nodes.add(unitig)
-#      # Remove all remaining edges between unitig_path[0], unitig_path[1] and rest of dbg
-#      # then connect the unitig node with its in/out-adjacent nodes.
-#      in_unitig_nodes, out_unitig_nodes = self.get_adjacent(unitig_path[0], IN), self.get_adjacent(unitig_path[-1], OUT)
-#      for node in in_unitig_nodes:
-#        del self.edges[node + unitig[self.k-1]]
-#        self.edges[node[0] + unitig] =  (UNDEFINED, UNDEFINED)
-#      for node in out_unitig_nodes:
-#        del self.edges[unitig[-self.k] + node]
-#        self.edges[unitig + node[-1]] = (UNDEFINED, UNDEFINED)
 
   def get_unitig(self, node):
     """Finds the unitig of a node."""

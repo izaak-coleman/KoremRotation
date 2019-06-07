@@ -11,20 +11,20 @@ import timeit
 __version__ = 0.1
 
 ALPHA = {'A','C','G','T'}
-N_INPUT_PARAMS = 8
+N_INPUT_PARAMS = 9
 OPTIONAL = 1
 
 def check_input_validity(input_params):
   # Ensure correct number if input args
   max_extension = -1
   if len(input_params) == N_INPUT_PARAMS:
-    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k = input_params
+    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, dbg_fname = input_params
   elif len(input_params) == N_INPUT_PARAMS + OPTIONAL: 
-    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension = input_params
+    _, p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, dbg_fname, max_extension = input_params
   else:
     msg = "Usage: <exe> <p1> <p2> <path/to/mantis/executable> " +\
           "<path/to/mantis/data/datastructure> <max p1 mismatches> "+\
-          "<max p2 mismatches> <k> <max_extension (optional)"
+          "<max p2 mismatches> <k> <dbg pdf filename> <max_extension (optional)>"
     raise Exception(msg)
 
   # Correctly set input arg types
@@ -56,13 +56,13 @@ def check_input_validity(input_params):
 
   if len(p1) < k + 1 or len(p2) < k + 1:
     raise Exception(f'p1 and p2 must have length >= {k + 1}. Current lengths: p1 {len(p1)}, p2 {len(p2)}')
-  return p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension
+  return p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, dbg_fname, max_extension
 
 def main():
   '''Assembles the genome between a pair of probes p1, p2 from a 
      set of sequencing databases, returning any non-SNP variant sequences. '''
   # Check input validity
-  p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, max_extension = check_input_validity(sys.argv)
+  p1, p2, mantis_exec, mantis_ds, max_p1_mismatch, max_p2_mismatch, k, dbg_fname, max_extension = check_input_validity(sys.argv)
   
   # Initialize iPCR instance.
   start = timeit.timeit()
@@ -70,9 +70,9 @@ def main():
   # Run iPCR. Constructed De Bruijn graph output. 
   dbg = ipcr.run()
   # Write De Bruijn graph.
-  dbg.render('testing_dbg.gv')
+  dbg.render(dbg_fname + '.gv')
   dbg.compress()
-  dbg.render('testing_dbg.cmp.gv')
+  dbg.render(dbg_fname + '.gv.cmp')
   end = timeit.timeit()
   print(end - start)
 if __name__ == '__main__':

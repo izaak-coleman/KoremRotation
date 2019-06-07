@@ -42,7 +42,7 @@ class iPCR:
       if not self.exact_match(q_res):
         continue
       # Otherwise, add the exact matching probe to the dbg
-      dbs = set([db_dict[key] for key in q_res['res'].keys()])
+      dbs = [db_dict[db] for db in q_res['res'].keys() if q_res['num_kmers'] == q_res['res'][db]]
       probe = q_res['query']
       edges = [probe[i:i+(dbg.k+1)] for i in range(0, len(probe) - dbg.k)] # (k+1) not k because edge not node
       for edge in edges:
@@ -63,7 +63,6 @@ class iPCR:
     # Iterate through queried edges and add exact matching edges to dbg
     for q_res in query_results:
       if not self.exact_match(q_res):
-        print(q_res['query'])
         continue
   
       # Determine whether the edge has made a loop. 
@@ -75,7 +74,7 @@ class iPCR:
         suffix_previously_present = True
   
       # Add edge (and nodes)
-      dbs = [self.db_dict[db] for db in q_res['res'].keys()]
+      dbs = [self.db_dict[db] for db in q_res['res'].keys() if q_res['num_kmers'] == q_res['res'][db]]
       dbg.add_edge(q_res['query'], dbs)
   
       # If the suffix was already present, 
@@ -90,9 +89,6 @@ class iPCR:
         continue
       # Otherwise, add the edge to exact matching edges
       exact_matching_edges.append(edge)
-    if prior_edges != len(exact_matching_edges):
-      print(prior_edges)
-      print(f'reduction in edges: {exact_matching_edges}')
     return exact_matching_edges
   
   def generate_filenames(self):
