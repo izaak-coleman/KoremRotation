@@ -8,6 +8,8 @@ DBS = 0
 FREQ = 1
 IN, OUT = 0, 1
 UNDEFINED = 1
+ALPHA = 'ACGT'
+DUMMY_NODE = ''
 
 class DBG: 
   """Stores a python-based De Bruijn graph implementation that allows building
@@ -17,6 +19,7 @@ class DBG:
     self.nodes = set()
     self.edges = dict() # k = edge, v = (set of dbs, frequency)
     self.k = int(k)
+    self.compressed = False
 
 
   def add_edge(self, edge, dbs):
@@ -50,11 +53,15 @@ class DBG:
       print(node)
     """Renders the dbg into a PDF format."""
     g = Digraph()
-    for edge, meta in self.edges.items():
-      dbs, freq = meta
-      p, s = edge[:self.k], edge[1:]
-      for i in range(0, freq):
-        g.edge(p, s, label = s[-1])
+    if not self.compressed:
+      for edge, meta in self.edges.items():
+        dbs, freq = meta
+        p, s = edge[:self.k], edge[1:]
+        for i in range(0, freq):
+          g.edge(p, s, label = s[-1])
+    else:
+      for p, s in self.edges:
+        g.edge(p, s, label = s[self.k-1])
     g.render(fname) 
 
   def abbreviate(self, seq):
@@ -62,6 +69,7 @@ class DBG:
       return seq[:3] + '...' + seq[-3:]
 
   def compress(self):
+    self.compressed = True
     """Compresses the De Bruijn graph, replacing unitig paths with single nodes. """
     # Construct all unitigs of length > 1. 
     # A unitig is path of nodes v_1, ..., v_n, where indegree(v_i) = outdegree(v_i) = 1 
@@ -70,46 +78,68 @@ class DBG:
     unitigs = set()
     for node in self.nodes:
       unitig_path = self.get_unitig(node)
-      if len(unitig_path) > 1:
-        unitigs.add(tuple(unitig_path))
+      unitigs.add(tuple(unitig_path))
 
-    # Compress each unitig in the dbg
+    # Delete all nodes and edges from graph
+    # and rebuild compressed dbg from unitigs
+    self.nodes, self.edges = set(), set()
     for unitig_path in unitigs:
-      # Reconstruct all the edges from the unitig node
-      # and then remove each edge and their corresponding
-      # nodes from the dbg 
-      edges = [unitig_path[i] + unitig_path[i+1][-1] for i in range(0, len(unitig_path) - self.k)]
-      for edge in edges:
-        del self.edges[edge]
-      for node in unitig_path:
-        self.nodes.remove(node)
-      # Add unitig node to dbg
       unitig = unitig_path[0] + ''.join([node[-1] for node in unitig_path[1:]])
       self.nodes.add(unitig)
-      print(f'unitig {unitig}')
-      # Remove all remaining edges between unitig_path[0], unitig_path[1] and rest of dbg
-      # then connect the unitig node with its in/out-adjacent nodes.
-      in_unitig_nodes, out_unitig_nodes = self.get_adjacent(unitig_path[0], IN), self.get_adjacent(unitig_path[-1], OUT)
-      for node in in_unitig_nodes:
-        del self.edges[node + unitig[self.k-1]]
-        self.edges[node[0] + unitig] =  (UNDEFINED, UNDEFINED)
-      for node in out_unitig_nodes:
-        del self.edges[unitig[-self.k] + node]
-        self.edges[unitig + node[-1]] = (UNDEFINED, UNDEFINED)
+    for unitig_path in unitigs:
+      unitig = unitig_path[0] + ''.join([node[-1] for node in unitig_path[1:]])
+      prefix, suffix = unitig[:self.k-1], unitig[-(self.k-1):]
+      unconnected = True
+      for node in self.nodes:
+        for base in ALPHA:
+          if   node.startswith(suffix + base):
+            self.edges.add( (unitig, node) )
+            unconnected = False
+          elif node.endswith(base + prefix):
+            self.edges.add( (node, unitig) )
+            unconnected = False
+      if unconnected:
+        self.edges.add((DUMMY_NODE, unitig))
+
+#    # Compress each unitig in the dbg
+#    for unitig_path in unitigs:
+#      # Reconstruct all the edges from the unitig node
+#      # and then remove each edge and their corresponding
+#      # nodes from the dbg 
+#      edges = [unitig_path[i] + unitig_path[i+1][-1] for i in range(0, len(unitig_path)-1)]
+#      for edge in edges:
+#        del self.edges[edge]
+#      for node in unitig_path:
+#        self.nodes.remove(node)
+#      ## Add unitig node to dbg
+#      unitig = unitig_path[0] + ''.join([node[-1] for node in unitig_path[1:]])
+#      self.nodes.add(unitig)
+#      # Remove all remaining edges between unitig_path[0], unitig_path[1] and rest of dbg
+#      # then connect the unitig node with its in/out-adjacent nodes.
+#      in_unitig_nodes, out_unitig_nodes = self.get_adjacent(unitig_path[0], IN), self.get_adjacent(unitig_path[-1], OUT)
+#      for node in in_unitig_nodes:
+#        del self.edges[node + unitig[self.k-1]]
+#        self.edges[node[0] + unitig] =  (UNDEFINED, UNDEFINED)
+#      for node in out_unitig_nodes:
+#        del self.edges[unitig[-self.k] + node]
+#        self.edges[unitig + node[-1]] = (UNDEFINED, UNDEFINED)
 
   def get_unitig(self, node):
     """Finds the unitig of a node."""
     in_adj, out_adj = self.get_adjacent(node, IN), self.get_adjacent(node, OUT)
     if len(in_adj) == 1 and len(out_adj) == 1:
       return self.extend_unitig(in_adj[0], IN) + [node] + self.extend_unitig(out_adj[0], OUT)
+    elif len(in_adj) == 1:
+      return self.extend_unitig(in_adj[0], IN) + [node]
+    elif len(out_adj) == 1:
+      return [node] + self.extend_unitig(out_adj[0], OUT)
     return [node]
 
   def get_adjacent(self, node, direction):
-    ALPHA = 'ACGT'
     if direction == IN:
-      return [c + node[:-1] for c in ALPHA if (c + node[:-1])  in self.nodes]
+      return [c + node[:-1] for c in ALPHA if (c + node[:-1]) in self.nodes]
     else: # direction == OUT
-      return [node[1:] + c  for c in ALPHA if (node[1:] + c)   in self.nodes]
+      return [node[1:] + c  for c in ALPHA if (node[1:] + c)  in self.nodes]
 
   def extend_unitig(self, node, direction):
     in_nodes, out_nodes = self.get_adjacent(node, IN), self.get_adjacent(node, OUT)
