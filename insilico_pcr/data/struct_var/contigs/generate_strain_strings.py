@@ -16,8 +16,8 @@ def main():
     with gzip.open(sys.argv[2] + contig_id + '.fasta.gz', 'r') as f:
       fa = [l.strip().decode('utf-8') for l in f]
       fa.pop(0)
-    with open(strain + '.fasta', 'a') as g:
-      g.write('\n'.join(fa))
+    with open(strain + '.concat', 'a') as g:
+      g.write(''.join(fa))
 
 
 if __name__ == '__main__':
