@@ -9,7 +9,8 @@ import collections
 
 __version__ = 0.1
 
-ILLEGAL_REGEX = r'{(\n,)+'
+ILLEGAL_REGEX_1 = r'{(\n,)+'
+ILLEGAL_REGEX_2 = r'([0-9]),\n}'
 
 class QueryResult(collections.UserDict):
   """Stores the Mantis json object as a dictionary, and adds to the
@@ -45,7 +46,8 @@ class QueryMantis:
 
     with open(self.result_file, 'r') as f:
       q_results = f.read()
-      q_results = re.sub(ILLEGAL_REGEX, '{', q_results)
+      q_results = re.sub(ILLEGAL_REGEX_1, '{', q_results)
+      q_results = re.sub(ILLEGAL_REGEX_2, r'\1}', data)
       return json.loads(q_results)
 
   def query(self, q_list):

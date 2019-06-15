@@ -150,6 +150,7 @@ class iPCR:
       print(f'prior edges: {edges}')
       edges = [e[1:] + base for e in edges for base in ALPHA]
       edges = self.update_dbg(qm.query(edges), dbg, self.db_dict)
+      sys.stdout.flush()
   
     # Construction complete.
     return dbg
