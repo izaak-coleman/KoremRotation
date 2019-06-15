@@ -47,7 +47,7 @@ class QueryMantis:
     with open(self.result_file, 'r') as f:
       q_results = f.read()
       q_results = re.sub(ILLEGAL_REGEX_1, '{', q_results)
-      q_results = re.sub(ILLEGAL_REGEX_2, r'\1}', data)
+      q_results = re.sub(ILLEGAL_REGEX_2, r'\1}', q_results)
       return json.loads(q_results)
 
   def query(self, q_list):
