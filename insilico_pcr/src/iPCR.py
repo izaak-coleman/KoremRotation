@@ -9,6 +9,7 @@ import string
 import os
 import sys
 import DBG
+import psutil
 
 ALPHA = 'ACGT'
 DUMMY_QUERY = 'A'*32
@@ -28,6 +29,12 @@ class iPCR:
     self.k = k
     self.max_extension = max_extension
     self.db_dict = self.set_db_dict(mantis_ds)
+
+    # Spawn Mantis process in query mode
+    # Create the query file (empty) to pass mantis is_file checks
+    query_file, result_file = self.generate_filenames()
+    self.qm = QueryMantis.QueryMantis(self.mantis_exec, self.mantis_ds, query_file, result_file)
+
 
   def set_db_dict(self, mantis_ds):
     lst_file = mantis_ds + 'sampleid.lst'
@@ -116,9 +123,6 @@ class iPCR:
   def run(self):
     """Reconstructs a coloured De Bruijn graph from a list of sequence 
        databases between two probes, p1 and p2 and their close variants (p1*, p2*)."""
-    # Initialize QueryMantis for querying
-    query_file, result_file = self.generate_filenames()
-    qm = QueryMantis.QueryMantis(self.mantis_exec, self.mantis_ds, query_file, result_file)
   
     # Initialize De Bruijn graph by adding all edges from p1* and p2* probes
     # that match p1 and p2 probes within an edit distance of max_p1_mismatch, 
@@ -126,11 +130,11 @@ class iPCR:
     dbg = DBG.DBG(self.k)
     # Add p1* probes 
     p1_probe_list = self.build_probe_list(self.max_p1_mismatch, self.p1)
-    p1_query_results = qm.query(p1_probe_list)
+    p1_query_results = self.qm.query(p1_probe_list)
     self.add_probe_to_dbg(dbg, p1_query_results, self.db_dict)
     # Add p2* probes
     p2_probe_list = self.build_probe_list(self.max_p2_mismatch, self.p2)
-    p2_query_results = qm.query(p2_probe_list)
+    p2_query_results = self.qm.query(p2_probe_list)
     self.add_probe_to_dbg(dbg, p2_query_results, self.db_dict)
   
     # Generate the set of edges from which the Dr Bruijn graph
@@ -149,10 +153,11 @@ class iPCR:
       # previous iteration, generate four new edges of form edge[1:] + {A, T, C, G}. 
       print(f'prior edges: {edges}')
       edges = [e[1:] + base for e in edges for base in ALPHA]
-      edges = self.update_dbg(qm.query(edges), dbg, self.db_dict)
+      edges = self.update_dbg(self.qm.query(edges), dbg, self.db_dict)
       sys.stdout.flush()
   
     # Construction complete.
+    self.qm.terminate()
     return dbg
 
 #def extensions_incomplete(extensions):
