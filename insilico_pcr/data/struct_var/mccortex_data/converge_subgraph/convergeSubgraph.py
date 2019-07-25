@@ -5,6 +5,12 @@ import os
 import subprocess
 from cortexpy.graph.parser.random_access import RandomAccess
 
+# Cluster submission imports
+from time import sleep
+from logging_setup import sethandlers
+from qp import qp
+import logging
+from Utils import shell_command
 le, lo = str(), str()
 memory, threads = 4, 1
 MONO = '.mono.ctx'
@@ -39,6 +45,15 @@ def parse_input(argv):
     print("Usage: <exe> <mccortex_exe> <seed.fa> <ctx_list> <subgraph_name> <distance> <convergence_ratio> <log_file> <mem> <threads>")
     sys.exit(1)
   mp, seed, ctx_file, subg, d, c, l, m, t = sys.argv[1:]
+  print(f'Mcortex exe {mp}',
+        f'Seed {seed}',
+        f'Subgraph name {subg}',
+        f'CTX file list {ctx_file}',
+        f'Distance {d}',
+        f'Convergence {c}',
+        f'Logs {l}',
+        f'Memory {m}',
+        f'Threads {t}',)
   if not os.path.isfile(seed):
     print("Seed kmer file invalid.")
     sys.exit()
@@ -69,31 +84,71 @@ def get_num_records(ctx):
   return graph.n_records
 
 
-def not_converged(prev_n_records, curr_n_records, convergence_ratio):
+def converged(prev_n_records, curr_n_records, convergence_ratio):
   """Check to see whether the records have converged"""
   return (float(prev_n_records) / curr_n_records) >= convergence_ratio
 
 
-def init_monochrome_graph(mccortex_path, mono_graph):
+def init_monochrome_graph(mccortex_exe, mono_ctx):
   """Constructs an empty monochrome graph (.ctx)."""
   # Make empty fasta.
   run_subprocess("touch init.fa")
 
   # Make empty monochrome .ctx.
-  run_subprocess(mccortex_exe + f" build -k 31 -f -m {memory}G --sample {MONO} --seq2 init.fa:init.fa {mono_graph}")
+  run_subprocess(mccortex_exe + f" build -k 31 -f -m {memory}G --sample mono --seq2 init.fa:init.fa {mono_ctx}")
 
   # Clean up.
   run_subprocess(f'rm init.fa')
 
-def extract_subgraph(mccortex_exe, mono_ctx, ctx_list, seed, dist):
+def full_join_cluster(ctx, mono_ctx, memory):
+  cmd = (mccortex_exe + f" join -f -m {memory}G --out {ctx}.merged 0:{mono_ctx} 0:{ctx}")
+  shell_command(cmd)
+
+
+def extract_mono_subgraph(mccortex_exe, mono_ctx, ctx_list, subgraph, seed, dist, init=False, parallel_type='thread'):
+  """Merges kmer data from the .ctx's in ctx_list into a single monochrome
+     subgraph (defined by seed and dist)."""
+
+  # If not the initial monochrome subgraph extraction, join mono_ctx to
+  # each sample-specific .ctx by threading or qsub
+  if parallel_type == 'thread' and not init:
+    pass
+
+  elif parallel_type == 'qsub' and not init:
+    with qp(jobname='FullCTXJoin', qworker='/ifs/scratch/c2b2/korem/ic2465/shared/common/qworker.py', mem_def='32G',
+            time_def='1:0:0', remote=True, remote_user='ic2465', remote_pass=pwd,
+            remote_cwd='/ifs/scratch/c2b2/korem/ic2465',
+            remote_cwd_smb_path='/home/local/ARCS/ic2465/cluster/ifs/scratch/c2b2/korem/ic2465') as q:
+
+      waiton = [q.method(full_join_cluster, (ctx, mono_ctx, memory,)) for ctx in ctx_list]
+      # Nothing of interest returned from the full_join_cluster
+      for t in waiton:
+        q.waitforresult(t)
+
+    ctx_list = [f"{ctx}.merged" for ctx in ctx_list]
+
+  # Extract sample-specific subgraphs
+  for ctx in ctx_list:
+    run_subprocess(mccortex_exe + f" subgraph -f -m {memory}G -t {threads}" +
+                   f" -d {dist} --out {ctx}.{subgraph}.ctx --seq {seed} {ctx}")
+
+  # Join sample specific subgraphs into new mono_ctx
+  subgraphs = [f"{ctx}.{subgraph}.ctx" for ctx in ctx_list]
+  run_subprocess(mccortex_exe + f" join -f -m {memory}G --out {mono_ctx} {' '.join([f'0:{s}' for s in subgraphs])}")
+
+  # Clean up
+  run_subprocess(f"rm {' '.join(subgraphs)}")
+  if not init:
+    run_subprocess(f"rm {' '.join(ctx_list)}")
+
+def extract_mono_subgraph(mccortex_exe, mono_ctx, ctx_list, seed, dist):
   """Merges kmer data from the .ctx's in ctx_list into a single monochrome
      subgraph (defined by seed and dist)"""
 
   # Merge each ctx into the monochrome subgraph. 
   for ctx in ctx_list:
     run_subprocess(mccortex_exe + f" join -f -m {memory}G --out {mono_ctx}.merged {mono_ctx} 0:{ctx}")
-    sys.exit()
-    run_subprocess(mcorrted_exe + f" subgraph -f -m {memory}G -t {threads} -d {dist} --out {mono_ctx} --seq {seed} {mono_ctx}.merged")
+    run_subprocess(mccortex_exe + f" subgraph -f -m {memory}G -t {threads} -d {dist} --out {mono_ctx} --seq {seed} {mono_ctx}.merged")
 
   # Clean up. 
   run_subprocess(f'rm {mono_ctx}.merged')
@@ -104,17 +159,17 @@ def extract_coloured_subgraphs(mccortex_exe, mono_ctx, subgraph_name, ctx_list):
   # --intersect {mono_ctx} writes only the kmers in each .ctx that are contained in 
   # mono_ctx but keeps the coverage/edge information in the .ctx
   for ctx in ctx_list:
-    run_subprocess(mccortex_exe + f" join -f -m {memory}G  --intersect {mono_ctx} --out {ctx[:-4]}.{subgraph_name}.ctx {ctx}")
+    run_subprocess(mccortex_exe + f" join -f -m {memory}G  --intersect {mono_ctx} --out {ctx[:-4]}.{subgraph_name} {ctx}")
 
   # Clean up. 
-  run_subprocess(f'rm {mono_ctx}')
+  #run_subprocess(f'rm {mono_ctx}')
 
 def merge_coloured_subgraphs(mccortex_exe, ctx_list, subgraph_name):
   """Merges single-sample-coloured subgraphs into a single multicoloured .ctx"""
-  subgraphs = ' '.join([f'{[ctx[:-4]}.{subgraph_name}.ctx' for ctx in ctx_list])
-  run_subprocess(mccortex_exe, f" join -f -m {memory}G --out {subgraph_name}.ctx {subgraphs}")
+  subgraphs = ' '.join([f'{ctx[:-4]}.{subgraph_name}' for ctx in ctx_list])
+  run_subprocess(mccortex_exe + f" join -f -m {memory}G --out {subgraph_name} {subgraphs}")
   # Clean up. 
-  run_subprocess(f'rm {subgraphs}')
+  #run_subprocess(f'rm {subgraphs}')
   
 def main():
   """Build a coloured De Bruijn subgraph from multiple single colour .ctx files. 
@@ -123,37 +178,37 @@ def main():
      string as the center of the subgraph. Will iterate mccortex31 join commands over between
      the subgraph and each .ctx until the number of kmers added between each round converges. """
 
-  mccortex_path, seed, ctx_list, subgraph_name, distance, convergence_ratio  = parse_input(sys.argv)
+  mccortex_exe, seed, ctx_list, subgraph_name, distance, convergence_ratio  = parse_input(sys.argv)
 
-  # Initialize the monochrome .ctx file.
+  ## Initialize the monochrome .ctx file.
   write_out("Initializing empty monochrome subgraph.\n")
   mono_ctx = subgraph_name[:-4] + MONO
-  init_monochrome_graph(mccortex_path, mono_ctx)
+  init_monochrome_graph(mccortex_exe, mono_ctx)
   prev_num_records = get_num_records(mono_ctx)
 
   # Perform initial round of subgraph extraction.
-  write_out("Performing round 1 of monochrome subgraph extraction.\n")
-  extract_mono_subgraph(mccortex_path, mono_ctx, ctx_list, seed, distance)
-  curr_num_records = get_num_records(mono_subgraph)
+  print("Performing round 1 of monochrome subgraph extraction.\n")
+  extract_mono_subgraph(mccortex_exe, mono_ctx, ctx_list, seed, distance)
+  curr_num_records = get_num_records(mono_ctx)
+  print(f'After round 1 of subgraph extraction: \n prev_kmer / curr_kmer = {float(prev_num_records) / curr_num_records}.\n')
   print(prev_num_records) 
   print(curr_num_records) 
-  sys.exit()
   iter_count = 2
-  while not_converged(prev_records, curr_records, convergence_ratio):
-    write_out(f"Performing round {iter_count} of subgraph extraction.\n")
-    prev_records = curr_records
-    extract_mono_subgraph(mccortex_path, mono_ctx, ctx_list, seed, distance)
-    curr_records = get_num_records(mono_ctx)
+  while not converged(prev_num_records, curr_num_records, convergence_ratio):
+    print(f"Performing round {iter_count} of subgraph extraction.\n")
+    prev_num_records = curr_num_records
+    extract_mono_subgraph(mccortex_exe, mono_ctx, ctx_list, seed, distance)
+    curr_num_records = get_num_records(mono_ctx)
+    print(f'After round {iter_count} of subgraph extraction: \n prev_kmer / curr_kmer = {float(prev_num_records) / curr_num_records}.\n')
+    print(prev_num_records) 
+    print(curr_num_records) 
     iter_count += 1
-    write_out(f'After round {iter_count} of subgraph extraction: \n prev_kmer / curr_kmer = {float(prev_n_records) / curr_n_records}.\n')
 
   # Extract single-sample-coloured subgraphs. 
-  extract_coloured_subgraphs(mccortex_path, mono_ctx, subgraph_name, ctx_list)
+  extract_coloured_subgraphs(mccortex_exe, mono_ctx, subgraph_name, ctx_list)
 
   # Merge single-sample-coloured subgraphs. 
-  merge_coloured_subgraphs(mccortex_path, ctx_list, subgraph_name)
-
-  # Done!
+  merge_coloured_subgraphs(mccortex_exe, ctx_list, subgraph_name)
 
 if __name__ == '__main__':
   main()
